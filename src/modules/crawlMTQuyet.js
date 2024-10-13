@@ -1,45 +1,9 @@
 const puppeteer = require("puppeteer");
+const minimal_args = require("../constant/minimalArgs");
 
-const minimal_args = [
-  "--disable-speech-api",
-  "--disable-background-networking",
-  "--disable-background-timer-throttling",
-  "--disable-backgrounding-occluded-windows",
-  "--disable-breakpad",
-  "--disable-client-side-phishing-detection",
-  "--disable-component-update",
-  "--disable-default-apps",
-  "--disable-dev-shm-usage",
-  "--disable-domain-reliability",
-  "--disable-extensions",
-  "--disable-features=AudioServiceOutOfProcess",
-  "--disable-hang-monitor",
-  "--disable-ipc-flooding-protection",
-  "--disable-notifications",
-  "--disable-offer-store-unmasked-wallet-cards",
-  "--disable-popup-blocking",
-  "--disable-print-preview",
-  "--disable-prompt-on-repost",
-  "--disable-renderer-backgrounding",
-  "--disable-setuid-sandbox",
-  "--disable-sync",
-  "--hide-scrollbars",
-  "--ignore-gpu-blacklist",
-  "--metrics-recording-only",
-  "--mute-audio",
-  "--no-default-browser-check",
-  "--no-first-run",
-  "--no-pings",
-  "--no-sandbox",
-  "--no-zygote",
-  "--password-store=basic",
-  "--use-gl=swiftshader",
-  "--use-mock-keychain",
-];
-
-(async () => {
-  
-  const browser = await puppeteer.launch({ // khởi chạy trình duyệt với các tùy chọn
+const crawlMTQuyet = async () => {
+  const browser = await puppeteer.launch({
+    // khởi chạy trình duyệt với các tùy chọn
     headless: false, // có giao diện
     args: minimal_args, // danh sách tùy chọn tối ưu
   });
@@ -47,7 +11,8 @@ const minimal_args = [
 
   await page.setViewport({ width: 1000, height: 700 }); // kích thước view
 
-  await page.goto("https://qldt.ptit.edu.vn/#/home", { // điều hướng tới qldt
+  await page.goto("https://qldt.ptit.edu.vn/#/home", {
+    // điều hướng tới qldt
     waitUntil: "networkidle2", // chờ trang đã tải gần hoàn chỉnh
     timeout: 30000,
   });
@@ -58,7 +23,8 @@ const minimal_args = [
   await page.waitForSelector("input[name='password']");
   await page.type("input[name='password']", "B21dccn680@31133.slink0");
 
-  await Promise.all([ // đồng thời làm 2 việc
+  await Promise.all([
+    // đồng thời làm 2 việc
     page.click("button[class='btn btn-primary mb-1 ng-star-inserted']"), // nhấn nút
     page.waitForNavigation({ waitUntil: "networkidle2" }), // chờ trang tải xong
   ]);
@@ -73,7 +39,8 @@ const minimal_args = [
   // Hàm để crawl dữ liệu từ bảng
   async function crawlTableData() {
     await page.waitForSelector("#excel-table tbody tr", { visible: true });
-    const tableData = await page.evaluate(() => { // puppeteer sử dụng js để giao tiếp với page
+    const tableData = await page.evaluate(() => {
+      // puppeteer sử dụng js để giao tiếp với page
       const rows = document.querySelectorAll("#excel-table tbody tr"); // Chọn tất cả các hàng trong bảng
       const data = [];
 
@@ -101,7 +68,8 @@ const minimal_args = [
   // Hàm kiểm tra và chuyển sang trang tiếp theo
   async function goToNextPage() {
     // Kiểm tra nếu nút "Trang tiếp theo" có tồn tại
-    const isNextButtonDisabled = await page.evaluate(() => { // puppeteer dùng js để thao tác với page
+    const isNextButtonDisabled = await page.evaluate(() => {
+      // puppeteer dùng js để thao tác với page
       const nextButton = document.querySelector(".pagination-next"); // lấy button để kiểm tra class
       if (nextButton) {
         return nextButton.classList.contains("disabled"); // Trả về true nếu có class "disabled"
@@ -132,4 +100,6 @@ const minimal_args = [
   console.log(JSON.stringify(allTableData, null, 2)); // Hiển thị toàn bộ dữ liệu đã crawl dạng json
 
   await browser.close();
-})();
+};
+
+module.exports = crawlMTQuyet;

@@ -1,43 +1,7 @@
 const puppeteer = require("puppeteer");
+const minimal_args = require("../constant/minimalArgs");
 
-const minimal_args = [
-  "--disable-speech-api", // 	Disables the Web Speech API (both speech recognition and synthesis)
-  "--disable-background-networking", // Disable several subsystems which run network requests in the background. This is for use 									  // when doing network performance testing to avoid noise in the measurements. ↪
-  "--disable-background-timer-throttling", // Disable task throttling of timer tasks from background pages. ↪
-  "--disable-backgrounding-occluded-windows",
-  "--disable-breakpad",
-  "--disable-client-side-phishing-detection",
-  "--disable-component-update",
-  "--disable-default-apps",
-  "--disable-dev-shm-usage",
-  "--disable-domain-reliability",
-  "--disable-extensions",
-  "--disable-features=AudioServiceOutOfProcess",
-  "--disable-hang-monitor",
-  "--disable-ipc-flooding-protection",
-  "--disable-notifications",
-  "--disable-offer-store-unmasked-wallet-cards",
-  "--disable-popup-blocking",
-  "--disable-print-preview",
-  "--disable-prompt-on-repost",
-  "--disable-renderer-backgrounding",
-  "--disable-setuid-sandbox",
-  "--disable-sync",
-  "--hide-scrollbars",
-  "--ignore-gpu-blacklist",
-  "--metrics-recording-only",
-  "--mute-audio",
-  "--no-default-browser-check",
-  "--no-first-run",
-  "--no-pings",
-  "--no-sandbox",
-  "--no-zygote",
-  "--password-store=basic",
-  "--use-gl=swiftshader",
-  "--use-mock-keychain",
-];
-
-(async () => {
+const crawlAllCTDT = async () => {
   const browser = await puppeteer.launch({
     headless: false,
     args: minimal_args,
@@ -175,26 +139,29 @@ const minimal_args = [
   console.log(JSON.stringify(tableData, null, 2));
 
   await browser.close();
-})();
+};
 
 // Hàm crawl thông tin tiết thành phần
 async function crawlTietThanhPhan(page, index) {
   // Click vào icon tiết thành phần
   await page.evaluate((index) => {
-    const rows = document.querySelectorAll('#excel-table tbody tr');
-    const icon = rows[index].querySelector('td i');
+    const rows = document.querySelectorAll("#excel-table tbody tr");
+    const icon = rows[index].querySelector("td i");
     if (icon) {
       icon.click(); // Click để mở popup
     }
   }, index);
 
   // Chờ popup hiện ra hoặc popup cảnh báo hiện ra
-  await new Promise(resolve => setTimeout(resolve, 2000)); // Chờ popup
+  await new Promise((resolve) => setTimeout(resolve, 2000)); // Chờ popup
 
   // Kiểm tra nếu có thông báo "Môn học không có tiết thành phần"
   const isNoTietThanhPhan = await page.evaluate(() => {
-    const toastMessage = document.querySelector('.toast-message');
-    if (toastMessage && toastMessage.innerText.includes('Môn học không có tiết thành phần')) {
+    const toastMessage = document.querySelector(".toast-message");
+    if (
+      toastMessage &&
+      toastMessage.innerText.includes("Môn học không có tiết thành phần")
+    ) {
       return true;
     }
     return false;
@@ -202,25 +169,27 @@ async function crawlTietThanhPhan(page, index) {
 
   if (isNoTietThanhPhan) {
     console.log(`Môn học không có tiết thành phần`);
-    
+
     // Đóng popup cảnh báo
     await page.evaluate(() => {
-      const closeButton = document.querySelector('.toast-close-button');
+      const closeButton = document.querySelector(".toast-close-button");
       if (closeButton) {
         closeButton.click(); // Click vào nút đóng của popup cảnh báo
       }
     });
 
-    return 'Không có tiết thành phần'; // Trả về thông báo
+    return "Không có tiết thành phần"; // Trả về thông báo
   } else {
     // Nếu không có cảnh báo, lấy thông tin tiết thành phần từ popup
     const tietThanhPhanData = await page.evaluate(() => {
-      const rows = document.querySelectorAll('.modal-content tbody tr');
+      const rows = document.querySelectorAll(".modal-content tbody tr");
       const tietThanhPhan = [];
 
-      rows.forEach(row => {
-        const tenThanhPhan = row.querySelector('td:nth-child(2)')?.innerText?.trim();
-        const soTiet = row.querySelector('td:nth-child(3)')?.innerText?.trim();
+      rows.forEach((row) => {
+        const tenThanhPhan = row
+          .querySelector("td:nth-child(2)")
+          ?.innerText?.trim();
+        const soTiet = row.querySelector("td:nth-child(3)")?.innerText?.trim();
         if (tenThanhPhan && soTiet) {
           tietThanhPhan.push({ tenThanhPhan, soTiet });
         }
@@ -231,14 +200,16 @@ async function crawlTietThanhPhan(page, index) {
 
     // Đóng popup sau khi lấy thông tin
     await page.evaluate(() => {
-      const closeButton = document.querySelector('.modal-footer button');
+      const closeButton = document.querySelector(".modal-footer button");
       if (closeButton) {
         closeButton.click(); // Click vào nút đóng
       }
     });
 
-    await new Promise(resolve => setTimeout(resolve, 1000)); // Chờ popup đóng
+    await new Promise((resolve) => setTimeout(resolve, 1000)); // Chờ popup đóng
 
     return tietThanhPhanData; // Trả về dữ liệu tiết thành phần
   }
 }
+
+module.exports = crawlAllCTDT;

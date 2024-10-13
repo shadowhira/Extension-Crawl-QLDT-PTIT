@@ -1,43 +1,7 @@
 const puppeteer = require("puppeteer");
+const minimal_args = require("../constant/minimalArgs");
 
-const minimal_args = [
-  "--disable-speech-api",
-  "--disable-background-networking",
-  "--disable-background-timer-throttling",
-  "--disable-backgrounding-occluded-windows",
-  "--disable-breakpad",
-  "--disable-client-side-phishing-detection",
-  "--disable-component-update",
-  "--disable-default-apps",
-  "--disable-dev-shm-usage",
-  "--disable-domain-reliability",
-  "--disable-extensions",
-  "--disable-features=AudioServiceOutOfProcess",
-  "--disable-hang-monitor",
-  "--disable-ipc-flooding-protection",
-  "--disable-notifications",
-  "--disable-offer-store-unmasked-wallet-cards",
-  "--disable-popup-blocking",
-  "--disable-print-preview",
-  "--disable-prompt-on-repost",
-  "--disable-renderer-backgrounding",
-  "--disable-setuid-sandbox",
-  "--disable-sync",
-  "--hide-scrollbars",
-  "--ignore-gpu-blacklist",
-  "--metrics-recording-only",
-  "--mute-audio",
-  "--no-default-browser-check",
-  "--no-first-run",
-  "--no-pings",
-  "--no-sandbox",
-  "--no-zygote",
-  "--password-store=basic",
-  "--use-gl=swiftshader",
-  "--use-mock-keychain",
-];
-
-(async () => {
+const crawlXemHocPhi = async () => {
   const browser = await puppeteer.launch({
     headless: false, // có giao diện
     args: minimal_args,
@@ -110,10 +74,10 @@ const minimal_args = [
   for (let i = 0; i < options.length; i++) {
     const option = options[i];
     console.log(`Chọn tùy chọn: ${option}`);
-  
+
     // Mở lại combobox
     await page.click(".ng-select");
-  
+
     // Chọn tùy chọn bằng cách so sánh với văn bản
     await page.evaluate((optionLabel) => {
       const optionElements = document.querySelectorAll(
@@ -125,13 +89,13 @@ const minimal_args = [
         }
       });
     }, option);
-  
+
     await new Promise((resolve) => setTimeout(resolve, 2000)); // Chờ trang cập nhật bảng
-  
+
     // Khởi tạo biến để lưu dữ liệu bảng
     let tableData = [];
     let tablesData = [];
-  
+
     // Crawl dữ liệu từ bảng mới cập nhật
     console.log("Chờ bảng dữ liệu xuất hiện...");
     if (i === 0) {
@@ -158,17 +122,17 @@ const minimal_args = [
         return data;
       });
     }
-  
+
     if (i > 0) {
       // Crawl dữ liệu từ các bảng theo class
       tablesData = await page.evaluate(() => {
         const data = [];
         const tables = document.querySelectorAll("table.table");
-  
+
         tables.forEach((table, tableIndex) => {
           const tableData = [];
           const rows = table.querySelectorAll("tbody tr");
-  
+
           rows.forEach((row) => {
             const cells = row.querySelectorAll("td");
             const rowData = Array.from(cells).map((cell) =>
@@ -176,25 +140,29 @@ const minimal_args = [
             );
             tableData.push(rowData);
           });
-  
+
           data.push({ tableIndex: tableIndex + 1, rows: tableData });
         });
-  
+
         return data;
       });
     }
-  
+
     // Đẩy dữ liệu vào allTableData theo tùy chọn
-    console.log(`Dữ liệu cho tùy chọn: ${option}`, i === 0 ? tableData : tablesData);
+    console.log(
+      `Dữ liệu cho tùy chọn: ${option}`,
+      i === 0 ? tableData : tablesData
+    );
     allTableData.push({
       option: option,
       data: i === 0 ? tableData : tablesData,
     });
   }
-  
 
   // Hiển thị hoặc lưu toàn bộ dữ liệu đã crawl từ tất cả các kỳ học
   console.log(JSON.stringify(allTableData, null, 2));
 
   await browser.close();
-})();
+};
+
+module.exports = crawlXemHocPhi;
