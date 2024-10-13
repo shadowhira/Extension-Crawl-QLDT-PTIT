@@ -14,3 +14,7 @@
 
 ## Công nghệ lựa chọn:
 * Puppeteer - Node.js
+
+## Tiến độ:
+* Tuần 1 (2/10): Crawl static page
+* Tuần 2 (9/10): Crawl dynamic page
