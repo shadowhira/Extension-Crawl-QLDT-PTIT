@@ -1,0 +1,245 @@
+const puppeteer = require("puppeteer");
+const fs = require("fs");
+require('dotenv').config(); // Đảm bảo dòng này nằm ở đầu file
+
+const PASSWORD = process.env.QLDT_PASSWORD;
+const USERNAME = process.env.QLDT_USERNAME;
+
+const crawlDKMH = async () => {
+  const browser = await puppeteer.launch({
+    headless: false, // Để false để dễ quan sát quá trình thực hiện
+  });
+
+  const page = await browser.newPage();
+  await page.setViewport({ width: 1280, height: 800 });
+ 
+  // Truy cập vào trang đăng nhập
+  await page.goto("https://qldt.ptit.edu.vn/#/home", {
+    waitUntil: "networkidle2",
+  });
+
+  // Đợi form đăng nhập xuất hiện và điền thông tin
+  await page.waitForSelector("input[name='username']");
+  await page.type("input[name='username']", USERNAME); // Thay bằng username thực
+  await page.type("input[name='password']", PASSWORD); // Thay bằng password thực
+
+  // Click vào nút đăng nhập và đợi trang chuyển hướng
+  await Promise.all([
+    page.click("button[class='btn btn-primary mb-1 ng-star-inserted']"),
+    page.waitForNavigation({ waitUntil: "networkidle2" }),
+  ]);
+
+  console.log("Đăng nhập thành công...");
+
+  // Chuyển đến trang "Đăng ký môn học"
+  console.log("Đi đến trang 'Đăng ký môn học'...");
+  await page.waitForSelector("a#WEB_DKMH", { visible: true });
+  await new Promise((resolve) => setTimeout(resolve, 2000));
+  await page.click("a#WEB_DKMH");
+
+  // Chờ combobox xuất hiện
+  await page.waitForSelector(
+    ".ng-select.ng-select-single.ng-untouched.ng-pristine.ng-valid"
+  );
+
+  await new Promise((resolve) => setTimeout(resolve, 2000)); // Chờ một chút để đảm bảo combobox đã được tải đầy đủ
+
+  await page.click(
+    ".ng-select.ng-select-single.ng-untouched.ng-pristine.ng-valid"
+  );
+
+  // Chờ dropdown hiển thị và crawl tất cả các options từ combobox
+  await page.waitForSelector(".ng-dropdown-panel .ng-option");
+  const options = await page.evaluate(() => {
+    const optionElements = document.querySelectorAll(
+      ".ng-dropdown-panel .ng-option"
+    );
+    const optionsData = Array.from(optionElements).map((option) =>
+      option.innerText.trim()
+    );
+    return optionsData;
+  });
+
+  // Quét tất cả các options và hiển thị kết quả
+  console.log("Tất cả các tùy chọn trong combobox:", options);
+
+  if (options.length === 0) {
+    console.error("Không có lựa chọn nào trong combobox!");
+    await browser.close();
+    return; // Thoát nếu không có tùy chọn
+  }
+
+  // Khởi tạo biến để lưu dữ liệu bảng
+  const allTableData = [];
+
+  for (let i = 0; i < options.length; i++) {
+    const option = options[i];
+    console.log(`Chọn tùy chọn: ${option}`);
+
+    // Mở lại combobox
+    await page.click(".ng-select.ng-select-single");
+
+    // Chọn tùy chọn bằng cách so sánh với văn bản
+    await page.evaluate((optionLabel) => {
+      const optionElements = document.querySelectorAll(
+        ".ng-dropdown-panel .ng-option"
+      );
+      optionElements.forEach((option) => {
+        if (option.innerText.trim() === optionLabel) {
+          option.click(); // Nhấn vào tùy chọn có văn bản khớp với optionLabel
+        }
+      });
+    }, option);
+
+    await new Promise((resolve) => setTimeout(resolve, 2000)); // Chờ để cập nhật giao diện
+
+    if (option === 'Lọc theo khoa quản lý môn học' ||
+        option === 'Lọc theo lớp' ||
+        option === 'Lọc theo môn học') {
+      console.log(
+        `Tùy chọn "${options[i]}" đã chọn. Combobox thứ hai đã xuất hiện.`
+      );
+
+      await page.click(".ng-select.ng-select-searchable");
+
+      // Quét tất cả các tùy chọn trong combobox thứ hai
+      const secondOptions = await page.evaluate(() => {
+        const optionElements = document.querySelectorAll(
+          ".ng-dropdown-panel .ng-option"
+        );
+        const optionsData = Array.from(optionElements).map((option) =>
+          option.innerText.trim()
+        );
+        return optionsData;
+      });
+      console.log("Tất cả các options trong Combox2: ", secondOptions);
+
+      for (let j = 0; j < secondOptions.length; j++) {
+        const secondOption = secondOptions[j];
+        console.log(`Chọn tùy chọn thứ hai: ${secondOption}`);
+
+        // Mở lại combobox thứ hai
+        await page.click(".ng-select.ng-select-searchable");
+
+        // Chọn tùy chọn trong combobox thứ hai
+        await page.evaluate((secondOptionLabel) => {
+          const optionElements = document.querySelectorAll(
+            ".ng-dropdown-panel .ng-option"
+          );
+          optionElements.forEach((option) => {
+            if (option.innerText.trim() === secondOptionLabel) {
+              option.click(); // Nhấn vào tùy chọn có văn bản khớp với secondOptionLabel
+            }
+          });
+        }, secondOption);
+
+        await new Promise((resolve) => setTimeout(resolve, 2000)); // Chờ để cập nhật giao diện
+
+        // Crawl dữ liệu từ bảng mới cập nhật
+        console.log("Chờ bảng dữ liệu xuất hiện...");
+        await page.waitForSelector(
+          "table.table-sm.table-hover.table-bordered.mb-0 tbody tr",
+          { visible: true }
+        );
+        await new Promise((resolve) => setTimeout(resolve, 2000)); // Chờ trang cập nhật bảng
+
+        const tableData = await page.evaluate(() => {
+          const rows = document.querySelectorAll(
+            "table.table-sm.table-hover.table-bordered.mb-0 tbody tr"
+          );
+          const data = [];
+          rows.forEach((row) => {
+            const cells = row.querySelectorAll("td");
+            if (cells.length > 0) {
+              const rowData = {
+                ma_mh: cells[1]?.innerText?.trim(),
+                ten_mon_hoc: cells[2]?.innerText?.trim(),
+                nhom: cells[3]?.innerText?.trim(),
+                to: cells[4]?.innerText?.trim(),
+                so_tc: cells[5]?.innerText?.trim(),
+                lop: cells[6]?.innerText?.trim(),
+                so_luong: cells[7]?.innerText?.trim(),
+                con_lai: cells[8]?.innerText?.trim(),
+                thoi_khoa_bieu: cells[9]?.innerText?.trim(),
+              };
+              data.push(rowData);
+            }
+          });
+          return data;
+        });
+
+        // Đẩy dữ liệu vào allTableData theo tùy chọn
+        console.log(
+          `Dữ liệu cho tùy chọn "${option}" và "${secondOption}":`,
+          tableData
+        );
+        allTableData.push({
+          option: option,
+          secondOption: secondOption,
+          data: tableData,
+        });
+      }
+    } else {
+      console.log(
+        `Tùy chọn "${options[i]}" đã chọn. Combobox thứ hai không xuất hiện.`
+      );
+
+      // Crawl dữ liệu từ bảng cho tùy chọn không có combobox thứ hai
+      console.log("Chờ bảng dữ liệu xuất hiện...");
+      await page.waitForSelector(
+        "table.table-sm.table-hover.table-bordered.mb-0 tbody tr",
+        { visible: true }
+      );
+      await new Promise((resolve) => setTimeout(resolve, 2000)); // Chờ trang cập nhật bảng
+
+      const tableData = await page.evaluate(() => {
+        const rows = document.querySelectorAll(
+          "table.table-sm.table-hover.table-bordered.mb-0 tbody tr"
+        );
+        const data = [];
+        rows.forEach((row) => {
+          const cells = row.querySelectorAll("td");
+          if (cells.length > 0) {
+            const rowData = {
+              ma_mh: cells[1]?.innerText?.trim(),
+              ten_mon_hoc: cells[2]?.innerText?.trim(),
+              nhom: cells[3]?.innerText?.trim(),
+              to: cells[4]?.innerText?.trim(),
+              so_tc: cells[5]?.innerText?.trim(),
+              lop: cells[6]?.innerText?.trim(),
+              so_luong: cells[7]?.innerText?.trim(),
+              con_lai: cells[8]?.innerText?.trim(),
+              thoi_khoa_bieu: cells[9]?.innerText?.trim(),
+            };
+            data.push(rowData);
+          }
+        });
+        return data;
+      });
+
+      // Đẩy dữ liệu vào allTableData cho tùy chọn không có combobox thứ hai
+      console.log(`Dữ liệu cho tùy chọn "${option}":`, tableData);
+      allTableData.push({
+        option: option,
+        secondOption: null, // Không có tùy chọn thứ hai
+        data: tableData,
+      });
+    }
+  }
+
+  // Hiển thị hoặc lưu toàn bộ dữ liệu đã crawl từ tất cả các kỳ học
+  // console.log(JSON.stringify(allTableData, null, 2));
+  
+  //Ghi dữ liệu vào file JSON
+  fs.writeFile('allTableData.json', JSON.stringify(allTableData, null, 2), (err) => {
+    if (err) {
+      console.error("Không thể ghi file:", err);
+    } else {
+      console.log("Dữ liệu đã được lưu vào file allTableData.json");
+    }
+  });
+
+  await browser.close();
+};
+
+module.exports = crawlDKMH;

@@ -1,5 +1,9 @@
 const puppeteer = require("puppeteer");
 const minimal_args = require("../constant/minimalArgs");
+require('dotenv').config(); 
+
+const PASSWORD = process.env.QLDT_PASSWORD;
+const USERNAME = process.env.QLDT_USERNAME;
 
 const crawlXemHocPhi = async () => {
   const browser = await puppeteer.launch({
@@ -18,10 +22,10 @@ const crawlXemHocPhi = async () => {
 
   console.log("Chờ trường đăng nhập xuất hiện...");
   await page.waitForSelector("input[name='username']");
-  await page.type("input[name='username']", "b21dccn680");
+  await page.type("input[name='username']", USERNAME);
 
   await page.waitForSelector("input[name='password']");
-  await page.type("input[name='password']", "B21dccn680@31133.slink0");
+  await page.type("input[name='password']", PASSWORD);
 
   console.log("Đăng nhập...");
   await Promise.all([

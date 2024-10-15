@@ -1,5 +1,9 @@
 const puppeteer = require("puppeteer");
 const minimal_args = require("../constant/minimalArgs");
+require('dotenv').config(); 
+
+const PASSWORD = process.env.QLDT_PASSWORD;
+const USERNAME = process.env.QLDT_USERNAME;
 
 const crawlMTQuyet = async () => {
   const browser = await puppeteer.launch({
@@ -18,10 +22,10 @@ const crawlMTQuyet = async () => {
   });
 
   await page.waitForSelector("input[name='username']"); // chờ thằng này hiển thị
-  await page.type("input[name='username']", "b21dccn680"); // nhập giá trị vào selector
+  await page.type("input[name='username']", USERNAME); // nhập giá trị vào selector
 
   await page.waitForSelector("input[name='password']");
-  await page.type("input[name='password']", "B21dccn680@31133.slink0");
+  await page.type("input[name='password']", PASSWORD);
 
   await Promise.all([
     // đồng thời làm 2 việc
