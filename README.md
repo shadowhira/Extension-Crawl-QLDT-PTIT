@@ -18,3 +18,12 @@
 ## Tiến độ:
 * Tuần 1 (2/10): Crawl static page
 * Tuần 2 (9/10): Crawl dynamic page
+* Tuần 3 (16/10): Optimize crawl module, add app cli
+
+## Chạy ứng dụng:
+* Cài Node environtment
+* Cài node_module: npm i
+* Tạo biến môi trường lưu tài khoản mật khẩu: 
+** Đặt trong file .env
+** Dạng dữ liệu: QLDT_USERNAME="MSV", QLDT_PASSWORD="password"
+* Chạy ứng dụng: node index.js
