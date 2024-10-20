@@ -132,22 +132,46 @@ const crawlXemHocPhi = async () => {
       tablesData = await page.evaluate(() => {
         const data = [];
         const tables = document.querySelectorAll("table.table");
-
+      
         tables.forEach((table, tableIndex) => {
           const tableData = [];
           const rows = table.querySelectorAll("tbody tr");
-
+      
           rows.forEach((row) => {
             const cells = row.querySelectorAll("td");
-            const rowData = Array.from(cells).map((cell) =>
-              cell.innerText.trim()
-            );
-            tableData.push(rowData);
+            const rowData = Array.from(cells).map((cell) => cell.innerText.trim());
+      
+            // Thêm key vào từng dòng dữ liệu tùy theo tableIndex
+            let formattedRow;
+            if (tableIndex + 1 === 1) {
+              formattedRow = {
+                stt: rowData[0],
+                maMonHoc: rowData[1],
+                dienGiai: rowData[2],
+                hocLai: rowData[3],
+                soTCHP: rowData[4],
+                soTien: rowData[5],
+                mienGiam: rowData[6],
+                phaiThu: rowData[7],
+              };
+            } else if (tableIndex + 1 === 2) {
+              formattedRow = {
+                stt: rowData[0],
+                maMonHoc: rowData[1],
+                dienGiai: rowData[2],
+                daThu: rowData[3],
+              };
+            } else {
+              // Đối với các tableIndex khác không có yêu cầu đặc biệt
+              formattedRow = rowData;
+            }
+      
+            tableData.push(formattedRow);
           });
-
+      
           data.push({ tableIndex: tableIndex + 1, rows: tableData });
         });
-
+      
         return data;
       });
     }

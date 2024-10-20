@@ -1,0 +1,802 @@
+[
+  {
+    "stt": "1",
+    "maMonDangKy": "BSA1304",
+    "tenMonDangKy": "Đàm phán kinh doanh",
+    "maMonYeuCau": "BSA1443",
+    "tenMonYeuCau": "Thực tập",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "2",
+    "maMonDangKy": "BSA1305",
+    "tenMonDangKy": "Đạo đức kinh doanh và văn hóa doanh nghiệp",
+    "maMonYeuCau": "BSA1443",
+    "tenMonYeuCau": "Thực tập",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "3",
+    "maMonDangKy": "BSA1334",
+    "tenMonDangKy": "Quản trị thương hiệu",
+    "maMonYeuCau": "BSA1443",
+    "tenMonYeuCau": "Thực tập",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "4",
+    "maMonDangKy": "BSA1444",
+    "tenMonDangKy": "Khóa luận tốt nghiệp",
+    "maMonYeuCau": "BSA1443",
+    "tenMonYeuCau": "Thực tập",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "5",
+    "maMonDangKy": "BSA1462",
+    "tenMonDangKy": "Truyền thông thương hiệu trong môi trường trực tuyến",
+    "maMonYeuCau": "BSA1443",
+    "tenMonYeuCau": "Thực tập",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "6",
+    "maMonDangKy": "BSA1463",
+    "tenMonDangKy": "Chính phủ điện tử",
+    "maMonYeuCau": "BSA1443",
+    "tenMonYeuCau": "Thực tập",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "7",
+    "maMonDangKy": "BSA1468",
+    "tenMonDangKy": "Quản trị đổi mới sáng tạo",
+    "maMonYeuCau": "BSA1443",
+    "tenMonYeuCau": "Thực tập",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "8",
+    "maMonDangKy": "BSA2018",
+    "tenMonDangKy": "Khóa luận tốt nghiệp",
+    "maMonYeuCau": "BSA1443",
+    "tenMonYeuCau": "Thực tập",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "9",
+    "maMonDangKy": "ELE1437",
+    "tenMonDangKy": "Đồ án tốt nghiệp",
+    "maMonYeuCau": "ELE2019",
+    "tenMonYeuCau": "Thực tập tốt nghiệp",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "10",
+    "maMonDangKy": "ELE1438",
+    "tenMonDangKy": "Xử lý tín hiệu trong hệ thống truyền thông",
+    "maMonYeuCau": "ELE1436",
+    "tenMonYeuCau": "Thực tập",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "11",
+    "maMonDangKy": "ELE1439",
+    "tenMonDangKy": "Xây dựng hệ thống số",
+    "maMonYeuCau": "ELE1436",
+    "tenMonYeuCau": "Thực tập",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "12",
+    "maMonDangKy": "ELE1497",
+    "tenMonDangKy": "Xây dựng hệ thống số",
+    "maMonYeuCau": "ELE2019",
+    "tenMonYeuCau": "Thực tập tốt nghiệp",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "13",
+    "maMonDangKy": "ELE1498",
+    "tenMonDangKy": "Xử lý tín hiệu trong hệ thống truyền thông",
+    "maMonYeuCau": "ELE2019",
+    "tenMonYeuCau": "Thực tập tốt nghiệp",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "14",
+    "maMonDangKy": "EPT1416",
+    "tenMonDangKy": "Khóa luận tốt nghiệp",
+    "maMonYeuCau": "EPT1415",
+    "tenMonYeuCau": "Thực tập",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "15",
+    "maMonDangKy": "FIA1405",
+    "tenMonDangKy": "Kế toán công",
+    "maMonYeuCau": "FIA1428",
+    "tenMonYeuCau": "Thực tập tốt nghiệp",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "16",
+    "maMonDangKy": "FIA1406",
+    "tenMonDangKy": "Kế toán doanh nghiệp bảo hiểm",
+    "maMonYeuCau": "FIA1428",
+    "tenMonYeuCau": "Thực tập tốt nghiệp",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "17",
+    "maMonDangKy": "FIA1408",
+    "tenMonDangKy": "Kế toán ngân hàng thương mại",
+    "maMonYeuCau": "FIA1428",
+    "tenMonYeuCau": "Thực tập tốt nghiệp",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "18",
+    "maMonDangKy": "FIA1429",
+    "tenMonDangKy": "Khóa luận tốt nghiệp",
+    "maMonYeuCau": "FIA1428",
+    "tenMonYeuCau": "Thực tập tốt nghiệp",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "19",
+    "maMonDangKy": "FIA1435",
+    "tenMonDangKy": "Kế toán doanh nghiệp BCVT",
+    "maMonYeuCau": "FIA1428",
+    "tenMonYeuCau": "Thực tập tốt nghiệp",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "20",
+    "maMonDangKy": "FIA1436",
+    "tenMonDangKy": "Kế toán doanh nghiệp vận tải",
+    "maMonYeuCau": "FIA1428",
+    "tenMonYeuCau": "Thực tập tốt nghiệp",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "21",
+    "maMonDangKy": "FIA1437",
+    "tenMonDangKy": "Kế toán doanh nghiệp du lịch",
+    "maMonYeuCau": "FIA1428",
+    "tenMonYeuCau": "Thực tập tốt nghiệp",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "22",
+    "maMonDangKy": "INT14100",
+    "tenMonDangKy": "An ninh mạng",
+    "maMonYeuCau": "INT2019",
+    "tenMonYeuCau": "Thực tập tốt nghiệp",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "23",
+    "maMonDangKy": "INT14100M",
+    "tenMonDangKy": "Chuyên đề an ninh mạng",
+    "maMonYeuCau": "INA2019",
+    "tenMonYeuCau": "Thực tập tốt nghiệp",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "24",
+    "maMonDangKy": "INT14103",
+    "tenMonDangKy": "Kỹ thuật lập trình hướng đối tượng",
+    "maMonYeuCau": "INT2019",
+    "tenMonYeuCau": "Thực tập tốt nghiệp",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "25",
+    "maMonDangKy": "INT14104",
+    "tenMonDangKy": "Phân tích thiết kế đảm bảo chất lượng phần mềm",
+    "maMonYeuCau": "INT2019",
+    "tenMonYeuCau": "Thực tập tốt nghiệp",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "26",
+    "maMonDangKy": "INT1497",
+    "tenMonDangKy": "Phát triển hệ thống dựa trên tri thức",
+    "maMonYeuCau": "INT2019",
+    "tenMonYeuCau": "Thực tập tốt nghiệp",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "27",
+    "maMonDangKy": "INT1497M",
+    "tenMonDangKy": "Phát triển các hệ thống dựa trên tri thức",
+    "maMonYeuCau": "INT2019",
+    "tenMonYeuCau": "Thực tập tốt nghiệp",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "28",
+    "maMonDangKy": "INT1498",
+    "tenMonDangKy": "Phát triển ứng dụng phân tán",
+    "maMonYeuCau": "INT2019",
+    "tenMonYeuCau": "Thực tập tốt nghiệp",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "29",
+    "maMonDangKy": "INT1499",
+    "tenMonDangKy": "An toàn phần mềm",
+    "maMonYeuCau": "INT2019",
+    "tenMonYeuCau": "Thực tập tốt nghiệp",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "30",
+    "maMonDangKy": "INT1499M",
+    "tenMonDangKy": "Chuyên đề an toàn phần mềm",
+    "maMonYeuCau": "INA2019",
+    "tenMonYeuCau": "Thực tập tốt nghiệp",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "31",
+    "maMonDangKy": "MAR1419",
+    "tenMonDangKy": "Truyền thông nội bộ trong tổ chức",
+    "maMonYeuCau": "EPT1415",
+    "tenMonYeuCau": "Thực tập",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "32",
+    "maMonDangKy": "MAR1419",
+    "tenMonDangKy": "Truyền thông nội bộ trong tổ chức",
+    "maMonYeuCau": "MAR1445",
+    "tenMonYeuCau": "Thực tập tốt nghiệp",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "33",
+    "maMonDangKy": "MAR1421",
+    "tenMonDangKy": "Marketing dựa trên giá trị",
+    "maMonYeuCau": "EPT1415",
+    "tenMonYeuCau": "Thực tập",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "34",
+    "maMonDangKy": "MAR1421",
+    "tenMonDangKy": "Marketing dựa trên giá trị",
+    "maMonYeuCau": "MAR1445",
+    "tenMonYeuCau": "Thực tập tốt nghiệp",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "35",
+    "maMonDangKy": "MAR1440",
+    "tenMonDangKy": "Quản trị quan hệ khách hàng",
+    "maMonYeuCau": "EPT1415",
+    "tenMonYeuCau": "Thực tập",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "36",
+    "maMonDangKy": "MAR1440",
+    "tenMonDangKy": "Quản trị quan hệ khách hàng",
+    "maMonYeuCau": "MAR1445",
+    "tenMonYeuCau": "Thực tập tốt nghiệp",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "37",
+    "maMonDangKy": "MAR1446",
+    "tenMonDangKy": "Khoá luận tốt nghiệp",
+    "maMonYeuCau": "MAR1445",
+    "tenMonYeuCau": "Thực tập tốt nghiệp",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "38",
+    "maMonDangKy": "MUL1487",
+    "tenMonDangKy": "Phóng sự truyền hình",
+    "maMonYeuCau": "CDT1433",
+    "tenMonYeuCau": "Thực tập",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "39",
+    "maMonDangKy": "MUL1488",
+    "tenMonDangKy": "Báo mạng điện tử",
+    "maMonYeuCau": "CDT1433",
+    "tenMonYeuCau": "Thực tập",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "40",
+    "maMonDangKy": "MUL2016",
+    "tenMonDangKy": "Khóa luận tốt nghiệp",
+    "maMonYeuCau": "CDT1433",
+    "tenMonYeuCau": "Thực tập",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "41",
+    "maMonDangKy": "BSA1304",
+    "tenMonDangKy": "Đàm phán kinh doanh",
+    "maMonYeuCau": "BSA1443",
+    "tenMonYeuCau": "Thực tập",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "42",
+    "maMonDangKy": "BSA1305",
+    "tenMonDangKy": "Đạo đức kinh doanh và văn hóa doanh nghiệp",
+    "maMonYeuCau": "BSA1443",
+    "tenMonYeuCau": "Thực tập",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "43",
+    "maMonDangKy": "BSA1334",
+    "tenMonDangKy": "Quản trị thương hiệu",
+    "maMonYeuCau": "BSA1443",
+    "tenMonYeuCau": "Thực tập",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "44",
+    "maMonDangKy": "BSA1444",
+    "tenMonDangKy": "Khóa luận tốt nghiệp",
+    "maMonYeuCau": "BSA1443",
+    "tenMonYeuCau": "Thực tập",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "45",
+    "maMonDangKy": "BSA1462",
+    "tenMonDangKy": "Truyền thông thương hiệu trong môi trường trực tuyến",
+    "maMonYeuCau": "BSA1443",
+    "tenMonYeuCau": "Thực tập",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "46",
+    "maMonDangKy": "BSA1463",
+    "tenMonDangKy": "Chính phủ điện tử",
+    "maMonYeuCau": "BSA1443",
+    "tenMonYeuCau": "Thực tập",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "47",
+    "maMonDangKy": "BSA1468",
+    "tenMonDangKy": "Quản trị đổi mới sáng tạo",
+    "maMonYeuCau": "BSA1443",
+    "tenMonYeuCau": "Thực tập",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "48",
+    "maMonDangKy": "BSA2018",
+    "tenMonDangKy": "Khóa luận tốt nghiệp",
+    "maMonYeuCau": "BSA1443",
+    "tenMonYeuCau": "Thực tập",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "49",
+    "maMonDangKy": "ELE1437",
+    "tenMonDangKy": "Đồ án tốt nghiệp",
+    "maMonYeuCau": "ELE2019",
+    "tenMonYeuCau": "Thực tập tốt nghiệp",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "50",
+    "maMonDangKy": "ELE1438",
+    "tenMonDangKy": "Xử lý tín hiệu trong hệ thống truyền thông",
+    "maMonYeuCau": "ELE1436",
+    "tenMonYeuCau": "Thực tập",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "51",
+    "maMonDangKy": "ELE1439",
+    "tenMonDangKy": "Xây dựng hệ thống số",
+    "maMonYeuCau": "ELE1436",
+    "tenMonYeuCau": "Thực tập",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "52",
+    "maMonDangKy": "ELE1497",
+    "tenMonDangKy": "Xây dựng hệ thống số",
+    "maMonYeuCau": "ELE2019",
+    "tenMonYeuCau": "Thực tập tốt nghiệp",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "53",
+    "maMonDangKy": "ELE1498",
+    "tenMonDangKy": "Xử lý tín hiệu trong hệ thống truyền thông",
+    "maMonYeuCau": "ELE2019",
+    "tenMonYeuCau": "Thực tập tốt nghiệp",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "54",
+    "maMonDangKy": "EPT1416",
+    "tenMonDangKy": "Khóa luận tốt nghiệp",
+    "maMonYeuCau": "EPT1415",
+    "tenMonYeuCau": "Thực tập",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "55",
+    "maMonDangKy": "FIA1405",
+    "tenMonDangKy": "Kế toán công",
+    "maMonYeuCau": "FIA1428",
+    "tenMonYeuCau": "Thực tập tốt nghiệp",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "56",
+    "maMonDangKy": "FIA1406",
+    "tenMonDangKy": "Kế toán doanh nghiệp bảo hiểm",
+    "maMonYeuCau": "FIA1428",
+    "tenMonYeuCau": "Thực tập tốt nghiệp",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "57",
+    "maMonDangKy": "FIA1408",
+    "tenMonDangKy": "Kế toán ngân hàng thương mại",
+    "maMonYeuCau": "FIA1428",
+    "tenMonYeuCau": "Thực tập tốt nghiệp",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "58",
+    "maMonDangKy": "FIA1429",
+    "tenMonDangKy": "Khóa luận tốt nghiệp",
+    "maMonYeuCau": "FIA1428",
+    "tenMonYeuCau": "Thực tập tốt nghiệp",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "59",
+    "maMonDangKy": "FIA1435",
+    "tenMonDangKy": "Kế toán doanh nghiệp BCVT",
+    "maMonYeuCau": "FIA1428",
+    "tenMonYeuCau": "Thực tập tốt nghiệp",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "60",
+    "maMonDangKy": "FIA1436",
+    "tenMonDangKy": "Kế toán doanh nghiệp vận tải",
+    "maMonYeuCau": "FIA1428",
+    "tenMonYeuCau": "Thực tập tốt nghiệp",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "61",
+    "maMonDangKy": "FIA1437",
+    "tenMonDangKy": "Kế toán doanh nghiệp du lịch",
+    "maMonYeuCau": "FIA1428",
+    "tenMonYeuCau": "Thực tập tốt nghiệp",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "62",
+    "maMonDangKy": "INT14100",
+    "tenMonDangKy": "An ninh mạng",
+    "maMonYeuCau": "INT2019",
+    "tenMonYeuCau": "Thực tập tốt nghiệp",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "63",
+    "maMonDangKy": "INT14100M",
+    "tenMonDangKy": "Chuyên đề an ninh mạng",
+    "maMonYeuCau": "INA2019",
+    "tenMonYeuCau": "Thực tập tốt nghiệp",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "64",
+    "maMonDangKy": "INT14103",
+    "tenMonDangKy": "Kỹ thuật lập trình hướng đối tượng",
+    "maMonYeuCau": "INT2019",
+    "tenMonYeuCau": "Thực tập tốt nghiệp",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "65",
+    "maMonDangKy": "INT14104",
+    "tenMonDangKy": "Phân tích thiết kế đảm bảo chất lượng phần mềm",
+    "maMonYeuCau": "INT2019",
+    "tenMonYeuCau": "Thực tập tốt nghiệp",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "66",
+    "maMonDangKy": "INT1497",
+    "tenMonDangKy": "Phát triển hệ thống dựa trên tri thức",
+    "maMonYeuCau": "INT2019",
+    "tenMonYeuCau": "Thực tập tốt nghiệp",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "67",
+    "maMonDangKy": "INT1497M",
+    "tenMonDangKy": "Phát triển các hệ thống dựa trên tri thức",
+    "maMonYeuCau": "INT2019",
+    "tenMonYeuCau": "Thực tập tốt nghiệp",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "68",
+    "maMonDangKy": "INT1498",
+    "tenMonDangKy": "Phát triển ứng dụng phân tán",
+    "maMonYeuCau": "INT2019",
+    "tenMonYeuCau": "Thực tập tốt nghiệp",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "69",
+    "maMonDangKy": "INT1499",
+    "tenMonDangKy": "An toàn phần mềm",
+    "maMonYeuCau": "INT2019",
+    "tenMonYeuCau": "Thực tập tốt nghiệp",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "70",
+    "maMonDangKy": "INT1499M",
+    "tenMonDangKy": "Chuyên đề an toàn phần mềm",
+    "maMonYeuCau": "INA2019",
+    "tenMonYeuCau": "Thực tập tốt nghiệp",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "71",
+    "maMonDangKy": "MAR1419",
+    "tenMonDangKy": "Truyền thông nội bộ trong tổ chức",
+    "maMonYeuCau": "EPT1415",
+    "tenMonYeuCau": "Thực tập",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "72",
+    "maMonDangKy": "MAR1419",
+    "tenMonDangKy": "Truyền thông nội bộ trong tổ chức",
+    "maMonYeuCau": "MAR1445",
+    "tenMonYeuCau": "Thực tập tốt nghiệp",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "73",
+    "maMonDangKy": "MAR1421",
+    "tenMonDangKy": "Marketing dựa trên giá trị",
+    "maMonYeuCau": "EPT1415",
+    "tenMonYeuCau": "Thực tập",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "74",
+    "maMonDangKy": "MAR1421",
+    "tenMonDangKy": "Marketing dựa trên giá trị",
+    "maMonYeuCau": "MAR1445",
+    "tenMonYeuCau": "Thực tập tốt nghiệp",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "75",
+    "maMonDangKy": "MAR1440",
+    "tenMonDangKy": "Quản trị quan hệ khách hàng",
+    "maMonYeuCau": "EPT1415",
+    "tenMonYeuCau": "Thực tập",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "76",
+    "maMonDangKy": "MAR1440",
+    "tenMonDangKy": "Quản trị quan hệ khách hàng",
+    "maMonYeuCau": "MAR1445",
+    "tenMonYeuCau": "Thực tập tốt nghiệp",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "77",
+    "maMonDangKy": "MAR1446",
+    "tenMonDangKy": "Khoá luận tốt nghiệp",
+    "maMonYeuCau": "MAR1445",
+    "tenMonYeuCau": "Thực tập tốt nghiệp",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "78",
+    "maMonDangKy": "MUL1487",
+    "tenMonDangKy": "Phóng sự truyền hình",
+    "maMonYeuCau": "CDT1433",
+    "tenMonYeuCau": "Thực tập",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "79",
+    "maMonDangKy": "MUL1488",
+    "tenMonDangKy": "Báo mạng điện tử",
+    "maMonYeuCau": "CDT1433",
+    "tenMonYeuCau": "Thực tập",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  },
+  {
+    "stt": "80",
+    "maMonDangKy": "MUL2016",
+    "tenMonDangKy": "Khóa luận tốt nghiệp",
+    "maMonYeuCau": "CDT1433",
+    "tenMonYeuCau": "Thực tập",
+    "heDaoTao": "",
+    "nganh": "",
+    "khoi": ""
+  }
+]
