@@ -1,37 +1,28 @@
+const crawlHoaDon = require("./src/modules/crawlHoaDon");
+
 const inquirer = require('inquirer');
+const fs = require('fs');
+const readline = require('readline');
+require('dotenv').config(); // Đọc thông tin từ file .env
 
-// Các hàm crawl (chưa triển khai, chỉ có comment)
-const crawlAllData = async () => {
-  console.log('Đang crawl toàn bộ dữ liệu...');
-  // logic crawl toàn bộ dữ liệu
-};
-
-const crawlTKB = async () => {
-  console.log('Đang lấy TKB...');
-  // logic crawl thời khóa biểu
-};
-
-const crawlHocPhi = async () => {
-  console.log('Đang lấy học phí...');
-  // logic crawl học phí
-};
-
-const crawlMTQuyet = async () => {
-  console.log('Đang lấy môn học trong kỳ...');
-  // logic crawl môn trong kỳ học
-};
-
-const crawlHoaDon = async () => {
-  console.log('Đang lấy hóa đơn...');
-  // logic crawl hóa đơn
+// Hàm cập nhật file .env
+const updateEnvFile = (username, password) => {
+  const envContent = `QLDT_USERNAME=${username}\nQLDT_PASSWORD=${password}`;
+  fs.writeFileSync('.env', envContent, 'utf8');
+  console.log('Thông tin tài khoản đã được cập nhật vào file .env');
 };
 
 // Hàm hỏi tài khoản và mật khẩu
 const askCredentials = async () => {
-  return await inquirer.prompt([
+  const credentials = await inquirer.prompt([
     { type: 'input', name: 'username', message: 'Nhập tài khoản:' },
     { type: 'password', name: 'password', message: 'Nhập mật khẩu:', mask: '*' }
   ]);
+
+  // Cập nhật .env với tài khoản mới
+  updateEnvFile(credentials.username, credentials.password);
+
+  return credentials;
 };
 
 // Menu chọn tính năng hệ thống
@@ -41,31 +32,30 @@ const systemFeaturesMenu = async () => {
     name: 'feature',
     message: 'Chọn tính năng muốn thực hiện:',
     choices: [
-      'Xem TKB',
-      'Xem lịch học hôm nay',
-      'Xem học phí',
-      'Xem các môn học trong kỳ học',
       'Xem hóa đơn'
     ]
   });
 
   switch (feature) {
-    case 'Xem TKB':
-    case 'Xem lịch học hôm nay':
-      await crawlTKB();
-      break;
-    case 'Xem học phí':
-      await crawlHocPhi();
-      break;
-    case 'Xem các môn học trong kỳ học':
-      await crawlMTQuyet();
-      break;
     case 'Xem hóa đơn':
       await crawlHoaDon();
       break;
     default:
       console.error('Tính năng không hợp lệ!');
   }
+};
+
+// Hàm này sẽ chờ người dùng nhấn phím Enter để giữ terminal mở
+const waitForExit = () => {
+  const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+  });
+
+  rl.question('Nhấn Enter để thoát...', () => {
+    rl.close();
+    process.exit(0); // Thoát chương trình khi người dùng nhấn Enter
+  });
 };
 
 // Menu chính của chương trình
@@ -76,20 +66,19 @@ const mainMenu = async () => {
       name: 'action',
       message: 'Xin chào, đây là crawler QLDT PTIT\nBạn muốn làm gì?',
       choices: [
-        'Crawl toàn bộ dữ liệu',
-        'Thực hiện tính năng hệ thống',
-        'Thoát'
+        'Crawl dữ liệu',
       ]
     });
 
-    if (action === 'Crawl toàn bộ dữ liệu') {
+    if (action === 'Crawl dữ liệu') {
       const credentials = await askCredentials();
       console.log(`Tài khoản: ${credentials.username} - Bắt đầu crawl dữ liệu...`);
-      await crawlAllData();
-    } else if (action === 'Thực hiện tính năng hệ thống') {
-      const credentials = await askCredentials();
-      console.log(`Tài khoản: ${credentials.username} - Đăng nhập thành công!`);
+
+      // Hiển thị menu tính năng sau khi nhập tài khoản và mật khẩu
       await systemFeaturesMenu();
+
+      // Giữ terminal mở sau khi hiển thị dữ liệu
+      waitForExit();
     } else {
       console.log('Tạm biệt!');
       process.exit(0);
