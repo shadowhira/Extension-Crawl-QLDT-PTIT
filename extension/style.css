@@ -1,0 +1,61 @@
+/* Đặt toàn bộ popup ở giữa */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: #f4f4f9;
+  margin: 0;
+  width: 300px;
+  overflow: scroll;
+}
+
+/* Tiêu đề */
+h1 {
+  font-size: 18px;
+  color: #333;
+  margin: 0 0 10px;
+  text-align: center;
+}
+
+.output {
+  color: brown;
+}
+
+/* Ô input */
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Nút bấm */
+button {
+  width: 100%;
+  padding: 20px;
+  color: #fff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Kết quả */
+#output {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #555;
+  word-wrap: break-word;
+  text-align: center;
+}
