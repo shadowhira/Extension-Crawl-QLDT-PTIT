@@ -3,6 +3,7 @@ const express = require('express');
 const app = express();
 const PORT = 3000;
 
+app.use(express.json()); // Để parse JSON từ body request
 // Route đơn giản
 app.get('/', (req, res) => {
   res.send('Hello, Express!');

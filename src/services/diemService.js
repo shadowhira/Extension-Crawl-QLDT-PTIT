@@ -8,7 +8,7 @@ const { login } = require('../modules/loginModule'); // Import hàm đăng nhậ
 const {getGrades} = require('../modules/crawlDiem'); // Import hàm lấy điểm
 
 // Khởi tạo browser và thực hiện các thao tác
-async function crawlDiem() {
+async function crawlDiem(username, password) {
   const browser = await pt.launch({
     headless: false,
     args: minimal_args,
@@ -33,7 +33,7 @@ async function crawlDiem() {
   await page.goto('https://qldt.ptit.edu.vn/#/home', { waitUntil: 'networkidle2', timeout: 60000 });
 
   // Gọi hàm đăng nhập từ module loginModule
-  await login(page);
+  await login(page, username, password);
 
   // Gọi hàm để lấy điểm
   await getGrades(page); // Gọi hàm từ module lấy điểm

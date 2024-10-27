@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const logoutButton = document.getElementById('logout-button');
 
   // Kiểm tra trạng thái đăng nhập
-  chrome.storage.local.get('isLoggedIn', (result) => {
+  chrome.storage.local.get(['isLoggedIn', 'username', 'password'], (result) => {
     if (result.isLoggedIn) {
       showFeatureSection();
     } else {
@@ -21,18 +21,20 @@ document.addEventListener('DOMContentLoaded', () => {
     const username = usernameInput.value;
     const password = passwordInput.value;
 
-    if (username === 'admin' && password === '123456') {
-      chrome.storage.local.set({ isLoggedIn: true }, () => {
+    // Kiểm tra xem tài khoản và mật khẩu có hợp lệ không (có thể tùy chỉnh điều kiện này)
+    if (username && password) {
+      chrome.storage.local.set({ isLoggedIn: true, username, password }, () => {
         showFeatureSection();
       });
     } else {
       loginError.style.display = 'block';
+      loginError.textContent = 'Sai tên đăng nhập hoặc mật khẩu';
     }
   });
 
   // Xử lý đăng xuất
   logoutButton.addEventListener('click', () => {
-    chrome.storage.local.set({ isLoggedIn: false }, () => {
+    chrome.storage.local.set({ isLoggedIn: false, username: null, password: null }, () => {
       showLoginSection();
     });
   });
@@ -41,6 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function showFeatureSection() {
     loginSection.style.display = 'none';
     featureSection.style.display = 'block';
+    loginError.style.display = 'none';
   }
 
   // Hiển thị form đăng nhập
@@ -57,7 +60,19 @@ document.addEventListener('DOMContentLoaded', () => {
       'Feature 3': 'http://localhost:3000/api/hoc-phi'
     };
 
-    fetch(apiMap[feature])
+    // Lấy username và password từ storage để gửi cùng yêu cầu API
+    chrome.storage.local.get(['username', 'password'], (result) => {
+      if (!result.username || !result.password) {
+        alert("Bạn cần đăng nhập lại.");
+        showLoginSection();
+        return;
+      }
+
+      fetch(apiMap[feature], {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ username: result.username, password: result.password })
+      })
       .then(response => response.json())
       .then(data => {
         displayData(data, feature);
@@ -66,6 +81,7 @@ document.addEventListener('DOMContentLoaded', () => {
         console.error("Lỗi khi gọi API:", error);
         alert("Không thể lấy dữ liệu từ server.");
       });
+    });
   }
 
   // Hàm hiển thị dữ liệu
