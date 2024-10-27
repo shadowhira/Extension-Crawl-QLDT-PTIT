@@ -125,4 +125,4 @@ const crawlCTDT = async (page) => {
   }
 };
 
-module.exports = crawlCTDT;
+module.exports = {crawlCTDT};

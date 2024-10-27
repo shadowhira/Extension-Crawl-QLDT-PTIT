@@ -8,4 +8,5 @@ router.use("/tkb-tuan", require("./xemTKBTuanRoute"))
 router.use("/tkb-hoc-ky", require("./xemTKBHocKyRoute"))
 router.use("/hoa-don", require("./xemHoaDonRoute"))
 router.use("/mon-tien-quyet", require("./xemMonTienQuyetRoute"))
+router.use("/ctdt", require("./xemCTDTRoute"))
 module.exports = router;
