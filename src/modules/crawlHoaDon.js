@@ -39,4 +39,4 @@ const crawlHoaDon = async (page) => {
   console.log(data); // In dữ liệu đã crawl được
 };
 
-module.exports = crawlHoaDon;
+module.exports = {crawlHoaDon};

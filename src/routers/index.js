@@ -5,4 +5,5 @@ router.use("/lich-thi", require("./lichThiRoute"))
 router.use("/xem-diem", require("./xemDiemRoute"))
 router.use("/hoc-phi", require("./hocPhiRoute"))
 router.use("/tkb-tuan", require("./xemTKBTuanRoute"))
+router.use("/hoa-don", require("./xemHoaDonRoute"))
 module.exports = router;
