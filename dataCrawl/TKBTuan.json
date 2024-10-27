@@ -1,0 +1,1743 @@
+{
+  "Học kỳ 1 Năm học 2024-2025": [
+    {
+      "week": "Tuần 1 [từ ngày 12/08/2024 đến ngày 18/08/2024]",
+      "schedule": {
+        "Thứ 2": [
+          "Không có môn học nào."
+        ],
+        "Thứ 3": [
+          "Không có môn học nào."
+        ],
+        "Thứ 4": [
+          {
+            "period": "Tiết 1",
+            "time": "07:00",
+            "subject": "Lập trình mạng (INT1433)",
+            "Nhóm": "05",
+            "Phòng": "305-A3-305-A3(HN)",
+            "GV": "Đặng Ngọc Hùng"
+          },
+          {
+            "period": "Tiết 9",
+            "time": "15:00",
+            "subject": "IoT và ứng dụng (INT14149)",
+            "Nhóm": "06",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Nguyễn Quốc Uy"
+          },
+          {
+            "period": "Tiết 10",
+            "time": "16:00",
+            "subject": "IoT và ứng dụng (INT14149)",
+            "Nhóm": "06",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Nguyễn Quốc Uy"
+          }
+        ],
+        "Thứ 5": [
+          "Không có môn học nào."
+        ],
+        "Thứ 6": [
+          {
+            "period": "Tiết 1",
+            "time": "07:00",
+            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
+            "Nhóm": "09",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Trần Đình Quế"
+          },
+          {
+            "period": "Tiết 3",
+            "time": "09:00",
+            "subject": "Phương pháp luận nghiên cứu khoa học (SKD1108)",
+            "Nhóm": "18",
+            "Phòng": "201B-A3-201B-A3(HN)",
+            "GV": "Trần Thị Tuyết Nhung"
+          },
+          {
+            "period": "Tiết 9",
+            "time": "15:00",
+            "subject": "Quản lý dự án phần mềm (INT1450)",
+            "Nhóm": "10",
+            "Phòng": "401-A2-401-A2(HN)",
+            "GV": "Đào Ngọc Phong"
+          },
+          {
+            "period": "Tiết 10",
+            "time": "16:00",
+            "subject": "Quản lý dự án phần mềm (INT1450)",
+            "Nhóm": "10",
+            "Phòng": "401-A2-401-A2(HN)",
+            "GV": "Đào Ngọc Phong"
+          }
+        ],
+        "Thứ 7": [
+          {
+            "period": "Tiết 3",
+            "time": "09:00",
+            "subject": "Xử lý ảnh (INT13146)",
+            "Nhóm": "06",
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Trương Minh Đức"
+          },
+          {
+            "period": "Tiết 7",
+            "time": "13:00",
+            "subject": "Nhập môn khoa học dữ liệu (INT14150)",
+            "Nhóm": "05",
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Đinh Xuân Trường"
+          }
+        ],
+        "Chủ Nhật": [
+          "Không có môn học nào."
+        ]
+      }
+    },
+    {
+      "week": "Tuần 2 [từ ngày 19/08/2024 đến ngày 25/08/2024]",
+      "schedule": {
+        "Thứ 2": [
+          "Không có môn học nào."
+        ],
+        "Thứ 3": [
+          "Không có môn học nào."
+        ],
+        "Thứ 4": [
+          {
+            "period": "Tiết 1",
+            "time": "07:00",
+            "subject": "Lập trình mạng (INT1433)",
+            "Nhóm": "05",
+            "Phòng": "305-A3-305-A3(HN)",
+            "GV": "Đặng Ngọc Hùng"
+          },
+          {
+            "period": "Tiết 9",
+            "time": "15:00",
+            "subject": "IoT và ứng dụng (INT14149)",
+            "Nhóm": "06",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Nguyễn Quốc Uy"
+          },
+          {
+            "period": "Tiết 10",
+            "time": "16:00",
+            "subject": "IoT và ứng dụng (INT14149)",
+            "Nhóm": "06",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Nguyễn Quốc Uy"
+          }
+        ],
+        "Thứ 5": [
+          "Không có môn học nào."
+        ],
+        "Thứ 6": [
+          {
+            "period": "Tiết 1",
+            "time": "07:00",
+            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
+            "Nhóm": "09",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Trần Đình Quế"
+          },
+          {
+            "period": "Tiết 3",
+            "time": "09:00",
+            "subject": "Phương pháp luận nghiên cứu khoa học (SKD1108)",
+            "Nhóm": "18",
+            "Phòng": "201B-A3-201B-A3(HN)",
+            "GV": "Trần Thị Tuyết Nhung"
+          },
+          {
+            "period": "Tiết 9",
+            "time": "15:00",
+            "subject": "Quản lý dự án phần mềm (INT1450)",
+            "Nhóm": "10",
+            "Phòng": "401-A2-401-A2(HN)",
+            "GV": "Đào Ngọc Phong"
+          },
+          {
+            "period": "Tiết 10",
+            "time": "16:00",
+            "subject": "Quản lý dự án phần mềm (INT1450)",
+            "Nhóm": "10",
+            "Phòng": "401-A2-401-A2(HN)",
+            "GV": "Đào Ngọc Phong"
+          }
+        ],
+        "Thứ 7": [
+          {
+            "period": "Tiết 3",
+            "time": "09:00",
+            "subject": "Xử lý ảnh (INT13146)",
+            "Nhóm": "06",
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Trương Minh Đức"
+          },
+          {
+            "period": "Tiết 7",
+            "time": "13:00",
+            "subject": "Nhập môn khoa học dữ liệu (INT14150)",
+            "Nhóm": "05",
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Đinh Xuân Trường"
+          }
+        ],
+        "Chủ Nhật": [
+          "Không có môn học nào."
+        ]
+      }
+    },
+    {
+      "week": "Tuần 3 [từ ngày 26/08/2024 đến ngày 01/09/2024]",
+      "schedule": {
+        "Thứ 2": [
+          "Không có môn học nào."
+        ],
+        "Thứ 3": [
+          "Không có môn học nào."
+        ],
+        "Thứ 4": [
+          {
+            "period": "Tiết 1",
+            "time": "07:00",
+            "subject": "Lập trình mạng (INT1433)",
+            "Nhóm": "05",
+            "Phòng": "305-A3-305-A3(HN)",
+            "GV": "Đặng Ngọc Hùng"
+          },
+          {
+            "period": "Tiết 9",
+            "time": "15:00",
+            "subject": "IoT và ứng dụng (INT14149)",
+            "Nhóm": "06",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Nguyễn Quốc Uy"
+          },
+          {
+            "period": "Tiết 10",
+            "time": "16:00",
+            "subject": "IoT và ứng dụng (INT14149)",
+            "Nhóm": "06",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Nguyễn Quốc Uy"
+          }
+        ],
+        "Thứ 5": [
+          "Không có môn học nào."
+        ],
+        "Thứ 6": [
+          {
+            "period": "Tiết 1",
+            "time": "07:00",
+            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
+            "Nhóm": "09",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Trần Đình Quế"
+          },
+          {
+            "period": "Tiết 3",
+            "time": "09:00",
+            "subject": "Phương pháp luận nghiên cứu khoa học (SKD1108)",
+            "Nhóm": "18",
+            "Phòng": "201B-A3-201B-A3(HN)",
+            "GV": "Trần Thị Tuyết Nhung"
+          },
+          {
+            "period": "Tiết 9",
+            "time": "15:00",
+            "subject": "Quản lý dự án phần mềm (INT1450)",
+            "Nhóm": "10",
+            "Phòng": "401-A2-401-A2(HN)",
+            "GV": "Đào Ngọc Phong"
+          },
+          {
+            "period": "Tiết 10",
+            "time": "16:00",
+            "subject": "Quản lý dự án phần mềm (INT1450)",
+            "Nhóm": "10",
+            "Phòng": "401-A2-401-A2(HN)",
+            "GV": "Đào Ngọc Phong"
+          }
+        ],
+        "Thứ 7": [
+          "Không có môn học nào."
+        ],
+        "Chủ Nhật": [
+          "Không có môn học nào."
+        ]
+      }
+    },
+    {
+      "week": "Tuần 4 [từ ngày 02/09/2024 đến ngày 08/09/2024]",
+      "schedule": {
+        "Thứ 2": [
+          "Không có môn học nào."
+        ],
+        "Thứ 3": [
+          "Không có môn học nào."
+        ],
+        "Thứ 4": [
+          {
+            "period": "Tiết 1",
+            "time": "07:00",
+            "subject": "Lập trình mạng (INT1433)",
+            "Nhóm": "05",
+            "Phòng": "305-A3-305-A3(HN)",
+            "GV": "Đặng Ngọc Hùng"
+          },
+          {
+            "period": "Tiết 9",
+            "time": "15:00",
+            "subject": "IoT và ứng dụng (INT14149)",
+            "Nhóm": "06",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Nguyễn Quốc Uy"
+          },
+          {
+            "period": "Tiết 10",
+            "time": "16:00",
+            "subject": "IoT và ứng dụng (INT14149)",
+            "Nhóm": "06",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Nguyễn Quốc Uy"
+          }
+        ],
+        "Thứ 5": [
+          "Không có môn học nào."
+        ],
+        "Thứ 6": [
+          {
+            "period": "Tiết 1",
+            "time": "07:00",
+            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
+            "Nhóm": "09",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Trần Đình Quế"
+          },
+          {
+            "period": "Tiết 9",
+            "time": "15:00",
+            "subject": "Quản lý dự án phần mềm (INT1450)",
+            "Nhóm": "10",
+            "Phòng": "401-A2-401-A2(HN)",
+            "GV": "Đào Ngọc Phong"
+          },
+          {
+            "period": "Tiết 10",
+            "time": "16:00",
+            "subject": "Quản lý dự án phần mềm (INT1450)",
+            "Nhóm": "10",
+            "Phòng": "401-A2-401-A2(HN)",
+            "GV": "Đào Ngọc Phong"
+          }
+        ],
+        "Thứ 7": [
+          {
+            "period": "Tiết 7",
+            "time": "13:00",
+            "subject": "Nhập môn khoa học dữ liệu (INT14150)",
+            "Nhóm": "05",
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Đinh Xuân Trường"
+          }
+        ],
+        "Chủ Nhật": [
+          "Không có môn học nào."
+        ]
+      }
+    },
+    {
+      "week": "Tuần 5 [từ ngày 09/09/2024 đến ngày 15/09/2024]",
+      "schedule": {
+        "Thứ 2": [
+          "Không có môn học nào."
+        ],
+        "Thứ 3": [
+          "Không có môn học nào."
+        ],
+        "Thứ 4": [
+          {
+            "period": "Tiết 1",
+            "time": "07:00",
+            "subject": "Lập trình mạng (INT1433)",
+            "Nhóm": "05",
+            "Phòng": "305-A3-305-A3(HN)",
+            "GV": "Đặng Ngọc Hùng"
+          },
+          {
+            "period": "Tiết 9",
+            "time": "15:00",
+            "subject": "IoT và ứng dụng (INT14149)",
+            "Nhóm": "06",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Nguyễn Quốc Uy"
+          },
+          {
+            "period": "Tiết 10",
+            "time": "16:00",
+            "subject": "IoT và ứng dụng (INT14149)",
+            "Nhóm": "06",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Nguyễn Quốc Uy"
+          }
+        ],
+        "Thứ 5": [
+          "Không có môn học nào."
+        ],
+        "Thứ 6": [
+          {
+            "period": "Tiết 1",
+            "time": "07:00",
+            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
+            "Nhóm": "09",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Trần Đình Quế"
+          },
+          {
+            "period": "Tiết 3",
+            "time": "09:00",
+            "subject": "Phương pháp luận nghiên cứu khoa học (SKD1108)",
+            "Nhóm": "18",
+            "Phòng": "201B-A3-201B-A3(HN)",
+            "GV": "Trần Thị Tuyết Nhung"
+          },
+          {
+            "period": "Tiết 9",
+            "time": "15:00",
+            "subject": "Quản lý dự án phần mềm (INT1450)",
+            "Nhóm": "10",
+            "Phòng": "401-A2-401-A2(HN)",
+            "GV": "Đào Ngọc Phong"
+          },
+          {
+            "period": "Tiết 10",
+            "time": "16:00",
+            "subject": "Quản lý dự án phần mềm (INT1450)",
+            "Nhóm": "10",
+            "Phòng": "401-A2-401-A2(HN)",
+            "GV": "Đào Ngọc Phong"
+          },
+          {
+            "period": "Tiết 12",
+            "time": "18:00",
+            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
+            "Nhóm": "09",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Trần Đình Quế"
+          }
+        ],
+        "Thứ 7": [
+          {
+            "period": "Tiết 3",
+            "time": "09:00",
+            "subject": "Xử lý ảnh (INT13146)",
+            "Nhóm": "06",
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Trương Minh Đức"
+          },
+          {
+            "period": "Tiết 7",
+            "time": "13:00",
+            "subject": "Nhập môn khoa học dữ liệu (INT14150)",
+            "Nhóm": "05",
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Đinh Xuân Trường"
+          }
+        ],
+        "Chủ Nhật": [
+          "Không có môn học nào."
+        ]
+      }
+    },
+    {
+      "week": "Tuần 6 [từ ngày 16/09/2024 đến ngày 22/09/2024]",
+      "schedule": {
+        "Thứ 2": [
+          "Không có môn học nào."
+        ],
+        "Thứ 3": [
+          "Không có môn học nào."
+        ],
+        "Thứ 4": [
+          {
+            "period": "Tiết 1",
+            "time": "07:00",
+            "subject": "Lập trình mạng (INT1433)",
+            "Nhóm": "05",
+            "Phòng": "305-A3-305-A3(HN)",
+            "GV": "Đặng Ngọc Hùng"
+          },
+          {
+            "period": "Tiết 9",
+            "time": "15:00",
+            "subject": "IoT và ứng dụng (INT14149)",
+            "Nhóm": "06",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Nguyễn Quốc Uy"
+          },
+          {
+            "period": "Tiết 10",
+            "time": "16:00",
+            "subject": "IoT và ứng dụng (INT14149)",
+            "Nhóm": "06",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Nguyễn Quốc Uy"
+          }
+        ],
+        "Thứ 5": [
+          "Không có môn học nào."
+        ],
+        "Thứ 6": [
+          {
+            "period": "Tiết 1",
+            "time": "07:00",
+            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
+            "Nhóm": "09",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Trần Đình Quế"
+          },
+          {
+            "period": "Tiết 3",
+            "time": "09:00",
+            "subject": "Phương pháp luận nghiên cứu khoa học (SKD1108)",
+            "Nhóm": "18",
+            "Phòng": "201B-A3-201B-A3(HN)",
+            "GV": "Trần Thị Tuyết Nhung"
+          },
+          {
+            "period": "Tiết 9",
+            "time": "15:00",
+            "subject": "Quản lý dự án phần mềm (INT1450)",
+            "Nhóm": "10",
+            "Phòng": "401-A2-401-A2(HN)",
+            "GV": "Đào Ngọc Phong"
+          },
+          {
+            "period": "Tiết 10",
+            "time": "16:00",
+            "subject": "Quản lý dự án phần mềm (INT1450)",
+            "Nhóm": "10",
+            "Phòng": "401-A2-401-A2(HN)",
+            "GV": "Đào Ngọc Phong"
+          },
+          {
+            "period": "Tiết 12",
+            "time": "18:00",
+            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
+            "Nhóm": "09",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Trần Đình Quế"
+          }
+        ],
+        "Thứ 7": [
+          {
+            "period": "Tiết 3",
+            "time": "09:00",
+            "subject": "Xử lý ảnh (INT13146)",
+            "Nhóm": "06",
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Trương Minh Đức"
+          },
+          {
+            "period": "Tiết 7",
+            "time": "13:00",
+            "subject": "Nhập môn khoa học dữ liệu (INT14150)",
+            "Nhóm": "05",
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Đinh Xuân Trường"
+          }
+        ],
+        "Chủ Nhật": [
+          "Không có môn học nào."
+        ]
+      }
+    },
+    {
+      "week": "Tuần 7 [từ ngày 23/09/2024 đến ngày 29/09/2024]",
+      "schedule": {
+        "Thứ 2": [
+          "Không có môn học nào."
+        ],
+        "Thứ 3": [
+          "Không có môn học nào."
+        ],
+        "Thứ 4": [
+          {
+            "period": "Tiết 1",
+            "time": "07:00",
+            "subject": "Lập trình mạng (INT1433)",
+            "Nhóm": "05",
+            "Phòng": "305-A3-305-A3(HN)",
+            "GV": "Đặng Ngọc Hùng"
+          },
+          {
+            "period": "Tiết 10",
+            "time": "16:00",
+            "subject": "IoT và ứng dụng (INT14149)",
+            "Nhóm": "06",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Nguyễn Quốc Uy"
+          }
+        ],
+        "Thứ 5": [
+          {
+            "period": "Tiết 6",
+            "time": "12:00",
+            "subject": "IoT và ứng dụng (INT14149)",
+            "Nhóm": "06",
+            "Phòng": "604-A3-604-A3(HN)",
+            "GV": "Nguyễn Đức Việt"
+          }
+        ],
+        "Thứ 6": [
+          {
+            "period": "Tiết 1",
+            "time": "07:00",
+            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
+            "Nhóm": "09",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Trần Đình Quế"
+          },
+          {
+            "period": "Tiết 10",
+            "time": "16:00",
+            "subject": "Quản lý dự án phần mềm (INT1450)",
+            "Nhóm": "10",
+            "Phòng": "401-A2-401-A2(HN)",
+            "GV": "Đào Ngọc Phong"
+          }
+        ],
+        "Thứ 7": [
+          {
+            "period": "Tiết 13",
+            "time": "19:00",
+            "subject": "Xử lý ảnh (INT13146)",
+            "Nhóm": "06",
+            "Phòng": "8888888818-Phòng học 18",
+            "GV": "Trương Minh Đức"
+          }
+        ],
+        "Chủ Nhật": [
+          "Không có môn học nào."
+        ]
+      }
+    },
+    {
+      "week": "Tuần 8 [từ ngày 30/09/2024 đến ngày 06/10/2024]",
+      "schedule": {
+        "Thứ 2": [
+          "Không có môn học nào."
+        ],
+        "Thứ 3": [
+          "Không có môn học nào."
+        ],
+        "Thứ 4": [
+          {
+            "period": "Tiết 1",
+            "time": "07:00",
+            "subject": "Lập trình mạng (INT1433)",
+            "Nhóm": "05",
+            "Phòng": "305-A3-305-A3(HN)",
+            "GV": "Đặng Ngọc Hùng"
+          },
+          {
+            "period": "Tiết 9",
+            "time": "15:00",
+            "subject": "IoT và ứng dụng (INT14149)",
+            "Nhóm": "06",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Nguyễn Quốc Uy"
+          },
+          {
+            "period": "Tiết 10",
+            "time": "16:00",
+            "subject": "IoT và ứng dụng (INT14149)",
+            "Nhóm": "06",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Nguyễn Quốc Uy"
+          }
+        ],
+        "Thứ 5": [
+          "Không có môn học nào."
+        ],
+        "Thứ 6": [
+          {
+            "period": "Tiết 1",
+            "time": "07:00",
+            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
+            "Nhóm": "09",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Trần Đình Quế"
+          },
+          {
+            "period": "Tiết 3",
+            "time": "09:00",
+            "subject": "Phương pháp luận nghiên cứu khoa học (SKD1108)",
+            "Nhóm": "18",
+            "Phòng": "201B-A3-201B-A3(HN)",
+            "GV": "Trần Thị Tuyết Nhung"
+          },
+          {
+            "period": "Tiết 9",
+            "time": "15:00",
+            "subject": "Quản lý dự án phần mềm (INT1450)",
+            "Nhóm": "10",
+            "Phòng": "401-A2-401-A2(HN)",
+            "GV": "Đào Ngọc Phong"
+          },
+          {
+            "period": "Tiết 10",
+            "time": "16:00",
+            "subject": "Quản lý dự án phần mềm (INT1450)",
+            "Nhóm": "10",
+            "Phòng": "401-A2-401-A2(HN)",
+            "GV": "Đào Ngọc Phong"
+          }
+        ],
+        "Thứ 7": [
+          {
+            "period": "Tiết 3",
+            "time": "09:00",
+            "subject": "Xử lý ảnh (INT13146)",
+            "Nhóm": "06",
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Trương Minh Đức"
+          },
+          {
+            "period": "Tiết 7",
+            "time": "13:00",
+            "subject": "Nhập môn khoa học dữ liệu (INT14150)",
+            "Nhóm": "05",
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Đinh Xuân Trường"
+          },
+          {
+            "period": "Tiết 13",
+            "time": "19:00",
+            "subject": "Xử lý ảnh (INT13146)",
+            "Nhóm": "06",
+            "Phòng": "8888888818-Phòng học 18",
+            "GV": "Trương Minh Đức"
+          }
+        ],
+        "Chủ Nhật": [
+          "Không có môn học nào."
+        ]
+      }
+    },
+    {
+      "week": "Tuần 9 [từ ngày 07/10/2024 đến ngày 13/10/2024]",
+      "schedule": {
+        "Thứ 2": [
+          "Không có môn học nào."
+        ],
+        "Thứ 3": [
+          "Không có môn học nào."
+        ],
+        "Thứ 4": [
+          {
+            "period": "Tiết 1",
+            "time": "07:00",
+            "subject": "Lập trình mạng (INT1433)",
+            "Nhóm": "05",
+            "Phòng": "305-A3-305-A3(HN)",
+            "GV": "Đặng Ngọc Hùng"
+          },
+          {
+            "period": "Tiết 3",
+            "time": "09:00",
+            "subject": "Lập trình mạng (INT1433)",
+            "Nhóm": "05",
+            "Phòng": "305-A3-305-A3(HN)",
+            "GV": "Đặng Ngọc Hùng"
+          },
+          {
+            "period": "Tiết 10",
+            "time": "16:00",
+            "subject": "IoT và ứng dụng (INT14149)",
+            "Nhóm": "06",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Nguyễn Quốc Uy"
+          }
+        ],
+        "Thứ 5": [
+          "Không có môn học nào."
+        ],
+        "Thứ 6": [
+          {
+            "period": "Tiết 1",
+            "time": "07:00",
+            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
+            "Nhóm": "09",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Trần Đình Quế"
+          },
+          {
+            "period": "Tiết 3",
+            "time": "09:00",
+            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
+            "Nhóm": "09",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Trần Đình Quế"
+          },
+          {
+            "period": "Tiết 4",
+            "time": "10:00",
+            "subject": "Phương pháp luận nghiên cứu khoa học (SKD1108)",
+            "Nhóm": "18",
+            "Phòng": "201B-A3-201B-A3(HN)",
+            "GV": "Trần Thị Tuyết Nhung"
+          },
+          {
+            "period": "Tiết 10",
+            "time": "16:00",
+            "subject": "Quản lý dự án phần mềm (INT1450)",
+            "Nhóm": "10",
+            "Phòng": "401-A2-401-A2(HN)",
+            "GV": "Đào Ngọc Phong"
+          }
+        ],
+        "Thứ 7": [
+          {
+            "period": "Tiết 3",
+            "time": "09:00",
+            "subject": "Xử lý ảnh (INT13146)",
+            "Nhóm": "06",
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Trương Minh Đức"
+          },
+          {
+            "period": "Tiết 4",
+            "time": "10:00",
+            "subject": "Xử lý ảnh (INT13146)",
+            "Nhóm": "06",
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Trương Minh Đức"
+          },
+          {
+            "period": "Tiết 7",
+            "time": "13:00",
+            "subject": "Nhập môn khoa học dữ liệu (INT14150)",
+            "Nhóm": "05",
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Đinh Xuân Trường"
+          },
+          {
+            "period": "Tiết 13",
+            "time": "19:00",
+            "subject": "Nhập môn khoa học dữ liệu (INT14150)",
+            "Nhóm": "05",
+            "Phòng": "8888888810-Phòng học 10",
+            "GV": "Đinh Xuân Trường"
+          }
+        ],
+        "Chủ Nhật": [
+          "Không có môn học nào."
+        ]
+      }
+    },
+    {
+      "week": "Tuần 10 [từ ngày 14/10/2024 đến ngày 20/10/2024]",
+      "schedule": {
+        "Thứ 2": [
+          "Không có môn học nào."
+        ],
+        "Thứ 3": [
+          "Không có môn học nào."
+        ],
+        "Thứ 4": [
+          {
+            "period": "Tiết 1",
+            "time": "07:00",
+            "subject": "Lập trình mạng (INT1433)",
+            "Nhóm": "05",
+            "Phòng": "305-A3-305-A3(HN)",
+            "GV": "Đặng Ngọc Hùng"
+          },
+          {
+            "period": "Tiết 10",
+            "time": "16:00",
+            "subject": "IoT và ứng dụng (INT14149)",
+            "Nhóm": "06",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Nguyễn Quốc Uy"
+          }
+        ],
+        "Thứ 5": [
+          {
+            "period": "Tiết 6",
+            "time": "12:00",
+            "subject": "IoT và ứng dụng (INT14149)",
+            "Nhóm": "06",
+            "Phòng": "604-A3-604-A3(HN)",
+            "GV": "Nguyễn Đức Việt"
+          }
+        ],
+        "Thứ 6": [
+          {
+            "period": "Tiết 1",
+            "time": "07:00",
+            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
+            "Nhóm": "09",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Trần Đình Quế"
+          },
+          {
+            "period": "Tiết 10",
+            "time": "16:00",
+            "subject": "Quản lý dự án phần mềm (INT1450)",
+            "Nhóm": "10",
+            "Phòng": "401-A2-401-A2(HN)",
+            "GV": "Đào Ngọc Phong"
+          }
+        ],
+        "Thứ 7": [
+          {
+            "period": "Tiết 13",
+            "time": "19:00",
+            "subject": "Nhập môn khoa học dữ liệu (INT14150)",
+            "Nhóm": "05",
+            "Phòng": "8888888810-Phòng học 10",
+            "GV": "Đinh Xuân Trường"
+          }
+        ],
+        "Chủ Nhật": [
+          "Không có môn học nào."
+        ]
+      }
+    },
+    {
+      "week": "Tuần 11 [từ ngày 21/10/2024 đến ngày 27/10/2024]",
+      "schedule": {
+        "Thứ 2": [
+          "Không có môn học nào."
+        ],
+        "Thứ 3": [
+          "Không có môn học nào."
+        ],
+        "Thứ 4": [
+          {
+            "period": "Tiết 1",
+            "time": "07:00",
+            "subject": "Lập trình mạng (INT1433)",
+            "Nhóm": "05",
+            "Phòng": "305-A3-305-A3(HN)",
+            "GV": "Đặng Ngọc Hùng"
+          },
+          {
+            "period": "Tiết 3",
+            "time": "09:00",
+            "subject": "Lập trình mạng (INT1433)",
+            "Nhóm": "05",
+            "Phòng": "305-A3-305-A3(HN)",
+            "GV": "Đặng Ngọc Hùng"
+          },
+          {
+            "period": "Tiết 10",
+            "time": "16:00",
+            "subject": "IoT và ứng dụng (INT14149)",
+            "Nhóm": "06",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Nguyễn Quốc Uy"
+          }
+        ],
+        "Thứ 5": [
+          "Không có môn học nào."
+        ],
+        "Thứ 6": [
+          {
+            "period": "Tiết 1",
+            "time": "07:00",
+            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
+            "Nhóm": "09",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Trần Đình Quế"
+          },
+          {
+            "period": "Tiết 3",
+            "time": "09:00",
+            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
+            "Nhóm": "09",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Trần Đình Quế"
+          },
+          {
+            "period": "Tiết 4",
+            "time": "10:00",
+            "subject": "Phương pháp luận nghiên cứu khoa học (SKD1108)",
+            "Nhóm": "18",
+            "Phòng": "201B-A3-201B-A3(HN)",
+            "GV": "Trần Thị Tuyết Nhung"
+          },
+          {
+            "period": "Tiết 10",
+            "time": "16:00",
+            "subject": "Quản lý dự án phần mềm (INT1450)",
+            "Nhóm": "10",
+            "Phòng": "401-A2-401-A2(HN)",
+            "GV": "Đào Ngọc Phong"
+          }
+        ],
+        "Thứ 7": [
+          {
+            "period": "Tiết 4",
+            "time": "10:00",
+            "subject": "Xử lý ảnh (INT13146)",
+            "Nhóm": "06",
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Trương Minh Đức"
+          },
+          {
+            "period": "Tiết 7",
+            "time": "13:00",
+            "subject": "Nhập môn khoa học dữ liệu (INT14150)",
+            "Nhóm": "05",
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Đinh Xuân Trường"
+          },
+          {
+            "period": "Tiết 9",
+            "time": "15:00",
+            "subject": "Nhập môn khoa học dữ liệu (INT14150)",
+            "Nhóm": "05",
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Đinh Xuân Trường"
+          }
+        ],
+        "Chủ Nhật": [
+          "Không có môn học nào."
+        ]
+      }
+    },
+    {
+      "week": "Tuần 12 [từ ngày 28/10/2024 đến ngày 03/11/2024]",
+      "schedule": {
+        "Thứ 2": [
+          "Không có môn học nào."
+        ],
+        "Thứ 3": [
+          "Không có môn học nào."
+        ],
+        "Thứ 4": [
+          {
+            "period": "Tiết 1",
+            "time": "07:00",
+            "subject": "Lập trình mạng (INT1433)",
+            "Nhóm": "05",
+            "Phòng": "305-A3-305-A3(HN)",
+            "GV": "Đặng Ngọc Hùng"
+          },
+          {
+            "period": "Tiết 3",
+            "time": "09:00",
+            "subject": "Lập trình mạng (INT1433)",
+            "Nhóm": "05",
+            "Phòng": "305-A3-305-A3(HN)",
+            "GV": "Đặng Ngọc Hùng"
+          },
+          {
+            "period": "Tiết 10",
+            "time": "16:00",
+            "subject": "IoT và ứng dụng (INT14149)",
+            "Nhóm": "06",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Nguyễn Quốc Uy"
+          }
+        ],
+        "Thứ 5": [
+          "Không có môn học nào."
+        ],
+        "Thứ 6": [
+          {
+            "period": "Tiết 1",
+            "time": "07:00",
+            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
+            "Nhóm": "09",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Trần Đình Quế"
+          },
+          {
+            "period": "Tiết 3",
+            "time": "09:00",
+            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
+            "Nhóm": "09",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Trần Đình Quế"
+          },
+          {
+            "period": "Tiết 4",
+            "time": "10:00",
+            "subject": "Phương pháp luận nghiên cứu khoa học (SKD1108)",
+            "Nhóm": "18",
+            "Phòng": "201B-A3-201B-A3(HN)",
+            "GV": "Trần Thị Tuyết Nhung"
+          }
+        ],
+        "Thứ 7": [
+          {
+            "period": "Tiết 4",
+            "time": "10:00",
+            "subject": "Xử lý ảnh (INT13146)",
+            "Nhóm": "06",
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Trương Minh Đức"
+          },
+          {
+            "period": "Tiết 7",
+            "time": "13:00",
+            "subject": "Nhập môn khoa học dữ liệu (INT14150)",
+            "Nhóm": "05",
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Đinh Xuân Trường"
+          },
+          {
+            "period": "Tiết 9",
+            "time": "15:00",
+            "subject": "Nhập môn khoa học dữ liệu (INT14150)",
+            "Nhóm": "05",
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Đinh Xuân Trường"
+          }
+        ],
+        "Chủ Nhật": [
+          "Không có môn học nào."
+        ]
+      }
+    },
+    {
+      "week": "Tuần 13 [từ ngày 04/11/2024 đến ngày 10/11/2024]",
+      "schedule": {
+        "Thứ 2": [
+          "Không có môn học nào."
+        ],
+        "Thứ 3": [
+          "Không có môn học nào."
+        ],
+        "Thứ 4": [
+          {
+            "period": "Tiết 1",
+            "time": "07:00",
+            "subject": "Lập trình mạng (INT1433)",
+            "Nhóm": "05",
+            "Phòng": "305-A3-305-A3(HN)",
+            "GV": "Đặng Ngọc Hùng"
+          },
+          {
+            "period": "Tiết 3",
+            "time": "09:00",
+            "subject": "Lập trình mạng (INT1433)",
+            "Nhóm": "05",
+            "Phòng": "305-A3-305-A3(HN)",
+            "GV": "Đặng Ngọc Hùng"
+          },
+          {
+            "period": "Tiết 10",
+            "time": "16:00",
+            "subject": "IoT và ứng dụng (INT14149)",
+            "Nhóm": "06",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Nguyễn Quốc Uy"
+          }
+        ],
+        "Thứ 5": [
+          {
+            "period": "Tiết 6",
+            "time": "12:00",
+            "subject": "IoT và ứng dụng (INT14149)",
+            "Nhóm": "06",
+            "Phòng": "604-A3-604-A3(HN)",
+            "GV": "Nguyễn Đức Việt"
+          }
+        ],
+        "Thứ 6": [
+          {
+            "period": "Tiết 1",
+            "time": "07:00",
+            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
+            "Nhóm": "09",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Trần Đình Quế"
+          },
+          {
+            "period": "Tiết 3",
+            "time": "09:00",
+            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
+            "Nhóm": "09",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Trần Đình Quế"
+          }
+        ],
+        "Thứ 7": [
+          {
+            "period": "Tiết 4",
+            "time": "10:00",
+            "subject": "Xử lý ảnh (INT13146)",
+            "Nhóm": "06",
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Trương Minh Đức"
+          }
+        ],
+        "Chủ Nhật": [
+          "Không có môn học nào."
+        ]
+      }
+    },
+    {
+      "week": "Tuần 14 [từ ngày 11/11/2024 đến ngày 17/11/2024]",
+      "schedule": {
+        "Thứ 2": [
+          "Không có môn học nào."
+        ],
+        "Thứ 3": [
+          "Không có môn học nào."
+        ],
+        "Thứ 4": [
+          {
+            "period": "Tiết 1",
+            "time": "07:00",
+            "subject": "Lập trình mạng (INT1433)",
+            "Nhóm": "05",
+            "Phòng": "305-A3-305-A3(HN)",
+            "GV": "Đặng Ngọc Hùng"
+          },
+          {
+            "period": "Tiết 3",
+            "time": "09:00",
+            "subject": "Lập trình mạng (INT1433)",
+            "Nhóm": "05",
+            "Phòng": "305-A3-305-A3(HN)",
+            "GV": "Đặng Ngọc Hùng"
+          },
+          {
+            "period": "Tiết 10",
+            "time": "16:00",
+            "subject": "IoT và ứng dụng (INT14149)",
+            "Nhóm": "06",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Nguyễn Quốc Uy"
+          }
+        ],
+        "Thứ 5": [
+          "Không có môn học nào."
+        ],
+        "Thứ 6": [
+          {
+            "period": "Tiết 1",
+            "time": "07:00",
+            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
+            "Nhóm": "09",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Trần Đình Quế"
+          },
+          {
+            "period": "Tiết 3",
+            "time": "09:00",
+            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
+            "Nhóm": "09",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Trần Đình Quế"
+          }
+        ],
+        "Thứ 7": [
+          {
+            "period": "Tiết 4",
+            "time": "10:00",
+            "subject": "Xử lý ảnh (INT13146)",
+            "Nhóm": "06",
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Trương Minh Đức"
+          },
+          {
+            "period": "Tiết 7",
+            "time": "13:00",
+            "subject": "Nhập môn khoa học dữ liệu (INT14150)",
+            "Nhóm": "05",
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Đinh Xuân Trường"
+          },
+          {
+            "period": "Tiết 9",
+            "time": "15:00",
+            "subject": "Nhập môn khoa học dữ liệu (INT14150)",
+            "Nhóm": "05",
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Đinh Xuân Trường"
+          }
+        ],
+        "Chủ Nhật": [
+          "Không có môn học nào."
+        ]
+      }
+    },
+    {
+      "week": "Tuần 15 [từ ngày 18/11/2024 đến ngày 24/11/2024]",
+      "schedule": {
+        "Thứ 2": [
+          "Không có môn học nào."
+        ],
+        "Thứ 3": [
+          "Không có môn học nào."
+        ],
+        "Thứ 4": [
+          "Không có môn học nào."
+        ],
+        "Thứ 5": [
+          "Không có môn học nào."
+        ],
+        "Thứ 6": [
+          {
+            "period": "Tiết 1",
+            "time": "07:00",
+            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
+            "Nhóm": "09",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Trần Đình Quế"
+          },
+          {
+            "period": "Tiết 3",
+            "time": "09:00",
+            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
+            "Nhóm": "09",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Trần Đình Quế"
+          }
+        ],
+        "Thứ 7": [
+          {
+            "period": "Tiết 4",
+            "time": "10:00",
+            "subject": "Xử lý ảnh (INT13146)",
+            "Nhóm": "06",
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Trương Minh Đức"
+          },
+          {
+            "period": "Tiết 7",
+            "time": "13:00",
+            "subject": "Nhập môn khoa học dữ liệu (INT14150)",
+            "Nhóm": "05",
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Đinh Xuân Trường"
+          },
+          {
+            "period": "Tiết 9",
+            "time": "15:00",
+            "subject": "Nhập môn khoa học dữ liệu (INT14150)",
+            "Nhóm": "05",
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Đinh Xuân Trường"
+          }
+        ],
+        "Chủ Nhật": [
+          "Không có môn học nào."
+        ]
+      }
+    },
+    {
+      "week": "Tuần 16 [từ ngày 25/11/2024 đến ngày 01/12/2024]",
+      "schedule": {
+        "Thứ 2": [
+          "Không có môn học nào."
+        ],
+        "Thứ 3": [
+          "Không có môn học nào."
+        ],
+        "Thứ 4": [
+          {
+            "period": "Tiết 1",
+            "time": "07:00",
+            "subject": "Lập trình mạng (INT1433)",
+            "Nhóm": "05",
+            "Phòng": "305-A3-305-A3(HN)",
+            "GV": "Đặng Ngọc Hùng"
+          },
+          {
+            "period": "Tiết 3",
+            "time": "09:00",
+            "subject": "Lập trình mạng (INT1433)",
+            "Nhóm": "05",
+            "Phòng": "305-A3-305-A3(HN)",
+            "GV": "Đặng Ngọc Hùng"
+          },
+          {
+            "period": "Tiết 10",
+            "time": "16:00",
+            "subject": "IoT và ứng dụng (INT14149)",
+            "Nhóm": "06",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Nguyễn Quốc Uy"
+          }
+        ],
+        "Thứ 5": [
+          "Không có môn học nào."
+        ],
+        "Thứ 6": [
+          {
+            "period": "Tiết 1",
+            "time": "07:00",
+            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
+            "Nhóm": "09",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Trần Đình Quế"
+          },
+          {
+            "period": "Tiết 3",
+            "time": "09:00",
+            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
+            "Nhóm": "09",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Trần Đình Quế"
+          }
+        ],
+        "Thứ 7": [
+          {
+            "period": "Tiết 4",
+            "time": "10:00",
+            "subject": "Xử lý ảnh (INT13146)",
+            "Nhóm": "06",
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Trương Minh Đức"
+          },
+          {
+            "period": "Tiết 7",
+            "time": "13:00",
+            "subject": "Nhập môn khoa học dữ liệu (INT14150)",
+            "Nhóm": "05",
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Đinh Xuân Trường"
+          },
+          {
+            "period": "Tiết 9",
+            "time": "15:00",
+            "subject": "Nhập môn khoa học dữ liệu (INT14150)",
+            "Nhóm": "05",
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Đinh Xuân Trường"
+          }
+        ],
+        "Chủ Nhật": [
+          "Không có môn học nào."
+        ]
+      }
+    },
+    {
+      "week": "Tuần 17 [từ ngày 02/12/2024 đến ngày 08/12/2024]",
+      "schedule": {
+        "Thứ 2": [
+          "Không có môn học nào."
+        ],
+        "Thứ 3": [
+          "Không có môn học nào."
+        ],
+        "Thứ 4": [
+          {
+            "period": "Tiết 3",
+            "time": "09:00",
+            "subject": "Lập trình mạng (INT1433)",
+            "Nhóm": "05",
+            "Phòng": "305-A3-305-A3(HN)",
+            "GV": "Đặng Ngọc Hùng"
+          }
+        ],
+        "Thứ 5": [
+          "Không có môn học nào."
+        ],
+        "Thứ 6": [
+          "Không có môn học nào."
+        ],
+        "Thứ 7": [
+          {
+            "period": "Tiết 4",
+            "time": "10:00",
+            "subject": "Xử lý ảnh (INT13146)",
+            "Nhóm": "06",
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Trương Minh Đức"
+          },
+          {
+            "period": "Tiết 7",
+            "time": "13:00",
+            "subject": "Nhập môn khoa học dữ liệu (INT14150)",
+            "Nhóm": "05",
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Đinh Xuân Trường"
+          },
+          {
+            "period": "Tiết 9",
+            "time": "15:00",
+            "subject": "Nhập môn khoa học dữ liệu (INT14150)",
+            "Nhóm": "05",
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Đinh Xuân Trường"
+          }
+        ],
+        "Chủ Nhật": [
+          "Không có môn học nào."
+        ]
+      }
+    },
+    {
+      "week": "Tuần 18 [từ ngày 09/12/2024 đến ngày 15/12/2024]",
+      "schedule": {
+        "Thứ 2": [
+          "Không có môn học nào."
+        ],
+        "Thứ 3": [
+          "Không có môn học nào."
+        ],
+        "Thứ 4": [
+          "Không có môn học nào."
+        ],
+        "Thứ 5": [
+          "Không có môn học nào."
+        ],
+        "Thứ 6": [
+          "Không có môn học nào."
+        ],
+        "Thứ 7": [
+          "Không có môn học nào."
+        ],
+        "Chủ Nhật": [
+          "Không có môn học nào."
+        ]
+      }
+    },
+    {
+      "week": "Tuần 19 [từ ngày 16/12/2024 đến ngày 22/12/2024]",
+      "schedule": {
+        "Thứ 2": [
+          "Không có môn học nào."
+        ],
+        "Thứ 3": [
+          "Không có môn học nào."
+        ],
+        "Thứ 4": [
+          "Không có môn học nào."
+        ],
+        "Thứ 5": [
+          "Không có môn học nào."
+        ],
+        "Thứ 6": [
+          "Không có môn học nào."
+        ],
+        "Thứ 7": [
+          "Không có môn học nào."
+        ],
+        "Chủ Nhật": [
+          "Không có môn học nào."
+        ]
+      }
+    },
+    {
+      "week": "Tuần 20 [từ ngày 23/12/2024 đến ngày 29/12/2024]",
+      "schedule": {
+        "Thứ 2": [
+          "Không có môn học nào."
+        ],
+        "Thứ 3": [
+          "Không có môn học nào."
+        ],
+        "Thứ 4": [
+          "Không có môn học nào."
+        ],
+        "Thứ 5": [
+          "Không có môn học nào."
+        ],
+        "Thứ 6": [
+          "Không có môn học nào."
+        ],
+        "Thứ 7": [
+          "Không có môn học nào."
+        ],
+        "Chủ Nhật": [
+          "Không có môn học nào."
+        ]
+      }
+    },
+    {
+      "week": "Tuần 21 [từ ngày 30/12/2024 đến ngày 05/01/2025]",
+      "schedule": {
+        "Thứ 2": [
+          "Không có môn học nào."
+        ],
+        "Thứ 3": [
+          "Không có môn học nào."
+        ],
+        "Thứ 4": [
+          "Không có môn học nào."
+        ],
+        "Thứ 5": [
+          "Không có môn học nào."
+        ],
+        "Thứ 6": [
+          "Không có môn học nào."
+        ],
+        "Thứ 7": [
+          "Không có môn học nào."
+        ],
+        "Chủ Nhật": [
+          "Không có môn học nào."
+        ]
+      }
+    },
+    {
+      "week": "Tuần 22 [từ ngày 06/01/2025 đến ngày 12/01/2025]",
+      "schedule": {
+        "Thứ 2": [
+          "Không có môn học nào."
+        ],
+        "Thứ 3": [
+          "Không có môn học nào."
+        ],
+        "Thứ 4": [
+          "Không có môn học nào."
+        ],
+        "Thứ 5": [
+          "Không có môn học nào."
+        ],
+        "Thứ 6": [
+          "Không có môn học nào."
+        ],
+        "Thứ 7": [
+          "Không có môn học nào."
+        ],
+        "Chủ Nhật": [
+          "Không có môn học nào."
+        ]
+      }
+    },
+    {
+      "week": "Tuần 23 [từ ngày 13/01/2025 đến ngày 19/01/2025]",
+      "schedule": {
+        "Thứ 2": [
+          "Không có môn học nào."
+        ],
+        "Thứ 3": [
+          "Không có môn học nào."
+        ],
+        "Thứ 4": [
+          "Không có môn học nào."
+        ],
+        "Thứ 5": [
+          "Không có môn học nào."
+        ],
+        "Thứ 6": [
+          "Không có môn học nào."
+        ],
+        "Thứ 7": [
+          "Không có môn học nào."
+        ],
+        "Chủ Nhật": [
+          "Không có môn học nào."
+        ]
+      }
+    },
+    {
+      "week": "Tuần 24 [từ ngày 20/01/2025 đến ngày 26/01/2025]",
+      "schedule": {
+        "Thứ 2": [
+          "Không có môn học nào."
+        ],
+        "Thứ 3": [
+          "Không có môn học nào."
+        ],
+        "Thứ 4": [
+          "Không có môn học nào."
+        ],
+        "Thứ 5": [
+          "Không có môn học nào."
+        ],
+        "Thứ 6": [
+          "Không có môn học nào."
+        ],
+        "Thứ 7": [
+          "Không có môn học nào."
+        ],
+        "Chủ Nhật": [
+          "Không có môn học nào."
+        ]
+      }
+    },
+    {
+      "week": "Tuần 25 [từ ngày 27/01/2025 đến ngày 02/02/2025]",
+      "schedule": {
+        "Thứ 2": [
+          "Không có môn học nào."
+        ],
+        "Thứ 3": [
+          "Không có môn học nào."
+        ],
+        "Thứ 4": [
+          "Không có môn học nào."
+        ],
+        "Thứ 5": [
+          "Không có môn học nào."
+        ],
+        "Thứ 6": [
+          "Không có môn học nào."
+        ],
+        "Thứ 7": [
+          "Không có môn học nào."
+        ],
+        "Chủ Nhật": [
+          "Không có môn học nào."
+        ]
+      }
+    },
+    {
+      "week": "Tuần 26 [từ ngày 03/02/2025 đến ngày 09/02/2025]",
+      "schedule": {
+        "Thứ 2": [
+          "Không có môn học nào."
+        ],
+        "Thứ 3": [
+          "Không có môn học nào."
+        ],
+        "Thứ 4": [
+          "Không có môn học nào."
+        ],
+        "Thứ 5": [
+          "Không có môn học nào."
+        ],
+        "Thứ 6": [
+          "Không có môn học nào."
+        ],
+        "Thứ 7": [
+          "Không có môn học nào."
+        ],
+        "Chủ Nhật": [
+          "Không có môn học nào."
+        ]
+      }
+    },
+    {
+      "week": "Tuần 27 [từ ngày 10/02/2025 đến ngày 16/02/2025]",
+      "schedule": {
+        "Thứ 2": [
+          "Không có môn học nào."
+        ],
+        "Thứ 3": [
+          "Không có môn học nào."
+        ],
+        "Thứ 4": [
+          "Không có môn học nào."
+        ],
+        "Thứ 5": [
+          "Không có môn học nào."
+        ],
+        "Thứ 6": [
+          "Không có môn học nào."
+        ],
+        "Thứ 7": [
+          "Không có môn học nào."
+        ],
+        "Chủ Nhật": [
+          "Không có môn học nào."
+        ]
+      }
+    }
+  ]
+}

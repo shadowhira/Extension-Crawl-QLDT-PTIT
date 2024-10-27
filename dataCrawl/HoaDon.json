@@ -1,0 +1,75 @@
+[
+  {
+    "stt": "1",
+    "maSV": "INT13146",
+    "tenSinhVien": "Xử lý ảnh",
+    "lop": "",
+    "ngaySinh": "3",
+    "soHoaDon": "1,890,000",
+    "soTien": "0",
+    "ngayDong": "1,890,000"
+  },
+  {
+    "stt": "2",
+    "maSV": "INT1342M",
+    "tenSinhVien": "Phân tích và thiết kế hệ thống thông tin",
+    "lop": "",
+    "ngaySinh": "3",
+    "soHoaDon": "1,890,000",
+    "soTien": "0",
+    "ngayDong": "1,890,000"
+  },
+  {
+    "stt": "3",
+    "maSV": "INT14149",
+    "tenSinhVien": "IoT và ứng dụng",
+    "lop": "",
+    "ngaySinh": "3",
+    "soHoaDon": "1,890,000",
+    "soTien": "0",
+    "ngayDong": "1,890,000"
+  },
+  {
+    "stt": "4",
+    "maSV": "INT14150",
+    "tenSinhVien": "Nhập môn khoa học dữ liệu",
+    "lop": "",
+    "ngaySinh": "3",
+    "soHoaDon": "1,890,000",
+    "soTien": "0",
+    "ngayDong": "1,890,000"
+  },
+  {
+    "stt": "5",
+    "maSV": "INT1433",
+    "tenSinhVien": "Lập trình mạng",
+    "lop": "",
+    "ngaySinh": "3",
+    "soHoaDon": "1,890,000",
+    "soTien": "0",
+    "ngayDong": "1,890,000"
+  },
+  {
+    "stt": "6",
+    "maSV": "INT1450",
+    "tenSinhVien": "Quản lý dự án phần mềm",
+    "lop": "",
+    "ngaySinh": "2",
+    "soHoaDon": "1,260,000",
+    "soTien": "0",
+    "ngayDong": "1,260,000"
+  },
+  {
+    "stt": "7",
+    "maSV": "SKD1108",
+    "tenSinhVien": "Phương pháp luận nghiên cứu khoa học",
+    "lop": "",
+    "ngaySinh": "2",
+    "soHoaDon": "1,260,000",
+    "soTien": "0",
+    "ngayDong": "1,260,000"
+  },
+  {
+    "stt": "Không tìm thấy dữ liệu"
+  }
+]

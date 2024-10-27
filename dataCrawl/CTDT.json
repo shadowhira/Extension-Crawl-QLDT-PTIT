@@ -1,0 +1,544 @@
+[
+  {
+    "stt": "Học kỳ 1 Năm học 2021-2022",
+    "maMH": "20.5",
+    "tenMH": "",
+    "tietThanhPhanIcon": false
+  },
+  {
+    "stt": "1",
+    "maMH": "BAS1105M",
+    "tenMH": "Giáo dục quốc phòng",
+    "soTinChi": "7.5",
+    "tongTiet": "0",
+    "lyThuyet": "",
+    "thucHanh": "",
+    "tietThanhPhanIcon": true
+  },
+  {
+    "stt": "2",
+    "maMH": "BAS1106",
+    "tenMH": "Giáo dục thể chất 1",
+    "soTinChi": "2",
+    "tongTiet": "30",
+    "lyThuyet": "2",
+    "thucHanh": "26",
+    "tietThanhPhanIcon": true
+  },
+  {
+    "stt": "3",
+    "maMH": "BAS1150",
+    "tenMH": "Triết học Mác - Lênin",
+    "soTinChi": "3",
+    "tongTiet": "45",
+    "lyThuyet": "34",
+    "thucHanh": "0",
+    "tietThanhPhanIcon": true
+  },
+  {
+    "stt": "4",
+    "maMH": "BAS1201",
+    "tenMH": "Đại số",
+    "soTinChi": "3",
+    "tongTiet": "45",
+    "lyThuyet": "36",
+    "thucHanh": "0",
+    "tietThanhPhanIcon": true
+  },
+  {
+    "stt": "5",
+    "maMH": "BAS1203",
+    "tenMH": "Giải tích 1",
+    "soTinChi": "3",
+    "tongTiet": "45",
+    "lyThuyet": "36",
+    "thucHanh": "0",
+    "tietThanhPhanIcon": true
+  },
+  {
+    "stt": "6",
+    "maMH": "INT1154",
+    "tenMH": "Tin học cơ sở 1",
+    "soTinChi": "2",
+    "tongTiet": "30",
+    "lyThuyet": "20",
+    "thucHanh": "4",
+    "tietThanhPhanIcon": true
+  },
+  {
+    "stt": "Học kỳ 2 Năm học 2021-2022",
+    "maMH": "21",
+    "tenMH": "",
+    "tietThanhPhanIcon": false
+  },
+  {
+    "stt": "1",
+    "maMH": "BAS1107",
+    "tenMH": "Giáo dục thể chất 2",
+    "soTinChi": "2",
+    "tongTiet": "30",
+    "lyThuyet": "2",
+    "thucHanh": "26",
+    "tietThanhPhanIcon": true
+  },
+  {
+    "stt": "2",
+    "maMH": "BAS1151",
+    "tenMH": "Kinh tế chính trị Mác- Lênin",
+    "soTinChi": "2",
+    "tongTiet": "30",
+    "lyThuyet": "24",
+    "thucHanh": "0",
+    "tietThanhPhanIcon": true
+  },
+  {
+    "stt": "3",
+    "maMH": "BAS1156",
+    "tenMH": "Học phần tiếng anh bổ trợ (Course 0)",
+    "soTinChi": "0",
+    "tongTiet": "0",
+    "lyThuyet": "0",
+    "thucHanh": "0",
+    "tietThanhPhanIcon": true
+  },
+  {
+    "stt": "4",
+    "maMH": "BAS1157",
+    "tenMH": "Tiếng Anh (Course 1)",
+    "soTinChi": "4",
+    "tongTiet": "60",
+    "lyThuyet": "60",
+    "thucHanh": "0",
+    "tietThanhPhanIcon": true
+  },
+  {
+    "stt": "5",
+    "maMH": "BAS1204",
+    "tenMH": "Giải tích 2",
+    "soTinChi": "3",
+    "tongTiet": "45",
+    "lyThuyet": "36",
+    "thucHanh": "0",
+    "tietThanhPhanIcon": true
+  },
+  {
+    "stt": "6",
+    "maMH": "BAS1224",
+    "tenMH": "Vật lý 1 và thí nghiệm",
+    "soTinChi": "4",
+    "tongTiet": "60",
+    "lyThuyet": "42",
+    "thucHanh": "8",
+    "tietThanhPhanIcon": true
+  },
+  {
+    "stt": "7",
+    "maMH": "BAS1226",
+    "tenMH": "Xác suất thống kê",
+    "soTinChi": "2",
+    "tongTiet": "30",
+    "lyThuyet": "24",
+    "thucHanh": "0",
+    "tietThanhPhanIcon": true
+  },
+  {
+    "stt": "8",
+    "maMH": "ELE1433",
+    "tenMH": "Kỹ thuật số",
+    "soTinChi": "2",
+    "tongTiet": "30",
+    "lyThuyet": "24",
+    "thucHanh": "2",
+    "tietThanhPhanIcon": true
+  },
+  {
+    "stt": "9",
+    "maMH": "INT1155",
+    "tenMH": "Tin học cơ sở 2",
+    "soTinChi": "2",
+    "tongTiet": "30",
+    "lyThuyet": "20",
+    "thucHanh": "4",
+    "tietThanhPhanIcon": true
+  },
+  {
+    "stt": "Học kỳ 1 Năm học 2022-2023",
+    "maMH": "19",
+    "tenMH": "",
+    "tietThanhPhanIcon": false
+  },
+  {
+    "stt": "1",
+    "maMH": "BAS1152",
+    "tenMH": "Chủ nghĩa xã hội khoa học",
+    "soTinChi": "2",
+    "tongTiet": "30",
+    "lyThuyet": "24",
+    "thucHanh": "0",
+    "tietThanhPhanIcon": true
+  },
+  {
+    "stt": "2",
+    "maMH": "BAS1158",
+    "tenMH": "Tiếng Anh (Course 2)",
+    "soTinChi": "4",
+    "tongTiet": "60",
+    "lyThuyet": "60",
+    "thucHanh": "0",
+    "tietThanhPhanIcon": true
+  },
+  {
+    "stt": "3",
+    "maMH": "BAS1227",
+    "tenMH": "Vật lý 3 và thí nghiệm",
+    "soTinChi": "4",
+    "tongTiet": "60",
+    "lyThuyet": "36",
+    "thucHanh": "4",
+    "tietThanhPhanIcon": true
+  },
+  {
+    "stt": "4",
+    "maMH": "ELE1330",
+    "tenMH": "Xử lý tín hiệu số",
+    "soTinChi": "2",
+    "tongTiet": "30",
+    "lyThuyet": "24",
+    "thucHanh": "0",
+    "tietThanhPhanIcon": true
+  },
+  {
+    "stt": "5",
+    "maMH": "INT1339",
+    "tenMH": "Ngôn ngữ lập trình C++",
+    "soTinChi": "3",
+    "tongTiet": "45",
+    "lyThuyet": "30",
+    "thucHanh": "6",
+    "tietThanhPhanIcon": true
+  },
+  {
+    "stt": "6",
+    "maMH": "INT1358",
+    "tenMH": "Toán rời rạc 1",
+    "soTinChi": "3",
+    "tongTiet": "45",
+    "lyThuyet": "34",
+    "thucHanh": "0",
+    "tietThanhPhanIcon": true
+  },
+  {
+    "stt": "7",
+    "maMH": "SKD1102",
+    "tenMH": "Kỹ năng làm việc nhóm",
+    "soTinChi": "1",
+    "tongTiet": "15",
+    "lyThuyet": "6",
+    "thucHanh": "0",
+    "tietThanhPhanIcon": true
+  },
+  {
+    "stt": "Học kỳ 2 Năm học 2022-2023",
+    "maMH": "19",
+    "tenMH": "",
+    "tietThanhPhanIcon": false
+  },
+  {
+    "stt": "1",
+    "maMH": "BAS1122",
+    "tenMH": "Tư tưởng Hồ Chí Minh",
+    "soTinChi": "2",
+    "tongTiet": "30",
+    "lyThuyet": "24",
+    "thucHanh": "0",
+    "tietThanhPhanIcon": true
+  },
+  {
+    "stt": "2",
+    "maMH": "BAS1159",
+    "tenMH": "Tiếng Anh (Course 3)",
+    "soTinChi": "4",
+    "tongTiet": "60",
+    "lyThuyet": "60",
+    "thucHanh": "0",
+    "tietThanhPhanIcon": true
+  },
+  {
+    "stt": "3",
+    "maMH": "ELE1319",
+    "tenMH": "Lý thuyết thông tin",
+    "soTinChi": "3",
+    "tongTiet": "45",
+    "lyThuyet": "36",
+    "thucHanh": "0",
+    "tietThanhPhanIcon": true
+  },
+  {
+    "stt": "4",
+    "maMH": "INT1306",
+    "tenMH": "Cấu trúc dữ liệu và giải thuật",
+    "soTinChi": "3",
+    "tongTiet": "45",
+    "lyThuyet": "32",
+    "thucHanh": "4",
+    "tietThanhPhanIcon": true
+  },
+  {
+    "stt": "5",
+    "maMH": "INT13145",
+    "tenMH": "Kiến trúc máy tính",
+    "soTinChi": "3",
+    "tongTiet": "45",
+    "lyThuyet": "36",
+    "thucHanh": "0",
+    "tietThanhPhanIcon": true
+  },
+  {
+    "stt": "6",
+    "maMH": "INT1359",
+    "tenMH": "Toán rời rạc 2",
+    "soTinChi": "3",
+    "tongTiet": "45",
+    "lyThuyet": "34",
+    "thucHanh": "0",
+    "tietThanhPhanIcon": true
+  },
+  {
+    "stt": "7",
+    "maMH": "SKD1103",
+    "tenMH": "Kỹ năng tạo lập Văn bản",
+    "soTinChi": "1",
+    "tongTiet": "15",
+    "lyThuyet": "6",
+    "thucHanh": "0",
+    "tietThanhPhanIcon": true
+  },
+  {
+    "stt": "Học kỳ 1 Năm học 2023-2024",
+    "maMH": "19",
+    "tenMH": "",
+    "tietThanhPhanIcon": false
+  },
+  {
+    "stt": "1",
+    "maMH": "BAS1153",
+    "tenMH": "Lịch sử Đảng cộng sản Việt Nam",
+    "soTinChi": "2",
+    "tongTiet": "30",
+    "lyThuyet": "24",
+    "thucHanh": "0",
+    "tietThanhPhanIcon": true
+  },
+  {
+    "stt": "2",
+    "maMH": "BAS1160",
+    "tenMH": "Tiếng Anh (Course 3 Plus)",
+    "soTinChi": "2",
+    "tongTiet": "30",
+    "lyThuyet": "30",
+    "thucHanh": "0",
+    "tietThanhPhanIcon": true
+  },
+  {
+    "stt": "3",
+    "maMH": "INT1313",
+    "tenMH": "Cơ sở dữ liệu",
+    "soTinChi": "3",
+    "tongTiet": "45",
+    "lyThuyet": "32",
+    "thucHanh": "4",
+    "tietThanhPhanIcon": true
+  },
+  {
+    "stt": "4",
+    "maMH": "INT13162",
+    "tenMH": "Lập trình với Python",
+    "soTinChi": "3",
+    "tongTiet": "45",
+    "lyThuyet": "30",
+    "thucHanh": "6",
+    "tietThanhPhanIcon": true
+  },
+  {
+    "stt": "5",
+    "maMH": "INT1319",
+    "tenMH": "Hệ điều hành",
+    "soTinChi": "3",
+    "tongTiet": "45",
+    "lyThuyet": "34",
+    "thucHanh": "3",
+    "tietThanhPhanIcon": true
+  },
+  {
+    "stt": "6",
+    "maMH": "INT1332",
+    "tenMH": "Lập trình hướng đối tượng",
+    "soTinChi": "3",
+    "tongTiet": "45",
+    "lyThuyet": "30",
+    "thucHanh": "6",
+    "tietThanhPhanIcon": true
+  },
+  {
+    "stt": "7",
+    "maMH": "INT1336",
+    "tenMH": "Mạng máy tính",
+    "soTinChi": "3",
+    "tongTiet": "45",
+    "lyThuyet": "34",
+    "thucHanh": "3",
+    "tietThanhPhanIcon": true
+  },
+  {
+    "stt": "Học kỳ 2 Năm học 2023-2024",
+    "maMH": "19",
+    "tenMH": "",
+    "tietThanhPhanIcon": false
+  },
+  {
+    "stt": "1",
+    "maMH": "INT1303",
+    "tenMH": "An toàn và bảo mật hệ thống thông tin",
+    "soTinChi": "3",
+    "tongTiet": "45",
+    "lyThuyet": "32",
+    "thucHanh": "2",
+    "tietThanhPhanIcon": true
+  },
+  {
+    "stt": "2",
+    "maMH": "INT13147",
+    "tenMH": "Thực tập cơ sở",
+    "soTinChi": "3",
+    "tongTiet": "45",
+    "lyThuyet": "4",
+    "thucHanh": "0",
+    "tietThanhPhanIcon": true
+  },
+  {
+    "stt": "3",
+    "maMH": "INT1340",
+    "tenMH": "Nhập môn công nghệ phần mềm",
+    "soTinChi": "3",
+    "tongTiet": "45",
+    "lyThuyet": "36",
+    "thucHanh": "0",
+    "tietThanhPhanIcon": true
+  },
+  {
+    "stt": "4",
+    "maMH": "INT1341",
+    "tenMH": "Nhập môn trí tuệ nhân tạo",
+    "soTinChi": "3",
+    "tongTiet": "45",
+    "lyThuyet": "36",
+    "thucHanh": "0",
+    "tietThanhPhanIcon": true
+  },
+  {
+    "stt": "5",
+    "maMH": "INT14148",
+    "tenMH": "Cơ sở dữ liệu phân tán",
+    "soTinChi": "3",
+    "tongTiet": "45",
+    "lyThuyet": "36",
+    "thucHanh": "0",
+    "tietThanhPhanIcon": true
+  },
+  {
+    "stt": "6",
+    "maMH": "INT1434",
+    "tenMH": "Lập trình Web",
+    "soTinChi": "3",
+    "tongTiet": "45",
+    "lyThuyet": "30",
+    "thucHanh": "6",
+    "tietThanhPhanIcon": true
+  },
+  {
+    "stt": "7",
+    "maMH": "SKD1101",
+    "tenMH": "Kỹ năng thuyết trình",
+    "soTinChi": "1",
+    "tongTiet": "15",
+    "lyThuyet": "6",
+    "thucHanh": "0",
+    "tietThanhPhanIcon": true
+  },
+  {
+    "stt": "Học kỳ 1 Năm học 2024-2025",
+    "maMH": "19",
+    "tenMH": "",
+    "tietThanhPhanIcon": false
+  },
+  {
+    "stt": "1",
+    "maMH": "INT13146",
+    "tenMH": "Xử lý ảnh",
+    "soTinChi": "3",
+    "tongTiet": "45",
+    "lyThuyet": "36",
+    "thucHanh": "0",
+    "tietThanhPhanIcon": true
+  },
+  {
+    "stt": "2",
+    "maMH": "INT1342M",
+    "tenMH": "Phân tích và thiết kế hệ thống thông tin",
+    "soTinChi": "3",
+    "tongTiet": "45",
+    "lyThuyet": "36",
+    "thucHanh": "0",
+    "tietThanhPhanIcon": true
+  },
+  {
+    "stt": "3",
+    "maMH": "INT14149",
+    "tenMH": "IoT và ứng dụng",
+    "soTinChi": "3",
+    "tongTiet": "45",
+    "lyThuyet": "30",
+    "thucHanh": "6",
+    "tietThanhPhanIcon": true
+  },
+  {
+    "stt": "4",
+    "maMH": "INT14150",
+    "tenMH": "Nhập môn khoa học dữ liệu",
+    "soTinChi": "3",
+    "tongTiet": "45",
+    "lyThuyet": "32",
+    "thucHanh": "0",
+    "tietThanhPhanIcon": true
+  },
+  {
+    "stt": "5",
+    "maMH": "INT1433",
+    "tenMH": "Lập trình mạng",
+    "soTinChi": "3",
+    "tongTiet": "45",
+    "lyThuyet": "30",
+    "thucHanh": "8",
+    "tietThanhPhanIcon": true
+  },
+  {
+    "stt": "6",
+    "maMH": "INT1450",
+    "tenMH": "Quản lý dự án phần mềm",
+    "soTinChi": "2",
+    "tongTiet": "30",
+    "lyThuyet": "24",
+    "thucHanh": "0",
+    "tietThanhPhanIcon": true
+  },
+  {
+    "stt": "7",
+    "maMH": "SKD1108",
+    "tenMH": "Phương pháp luận nghiên cứu khoa học",
+    "soTinChi": "2",
+    "tongTiet": "30",
+    "lyThuyet": "18",
+    "thucHanh": "0",
+    "tietThanhPhanIcon": true
+  }
+]
