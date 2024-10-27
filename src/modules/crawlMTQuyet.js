@@ -80,4 +80,4 @@ const crawlMTQuyet = async (page) => {
 
 };
 
-module.exports = crawlMTQuyet;
+module.exports = {crawlMTQuyet};
