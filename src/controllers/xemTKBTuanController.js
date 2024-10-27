@@ -1,6 +1,6 @@
 const {crawlTKBTuan} = require('../services/xemTKBTuanService'); 
 
-const xemDiemController = {
+const xemTKBTuanController = {
   async crawlData(req, res) {
     try {
       const browser = await crawlTKBTuan();
@@ -13,4 +13,4 @@ const xemDiemController = {
   }
 };
 
-module.exports = xemDiemController;
+module.exports = xemTKBTuanController;
