@@ -7,6 +7,7 @@ const PORT = 3000;
 app.get('/', (req, res) => {
   res.send('Hello, Express!');
 });
+app.use("/api", require("./routers"))
 
 // Bắt đầu server
 app.listen(PORT, () => {
