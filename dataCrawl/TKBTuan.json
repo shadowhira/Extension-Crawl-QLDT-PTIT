@@ -19,20 +19,20 @@
             "GV": "Đặng Ngọc Hùng"
           },
           {
-            "period": "Tiết 9",
-            "time": "15:00",
-            "subject": "IoT và ứng dụng (INT14149)",
+            "period": "Tiết 3",
+            "time": "09:00",
+            "subject": "Phát triển các hệ thống thông minh (INT14151)",
             "Nhóm": "06",
-            "Phòng": "201A-A3-201A-A3(HN)",
-            "GV": "Nguyễn Quốc Uy"
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Đỗ Trung Tuấn"
           },
           {
-            "period": "Tiết 10",
-            "time": "16:00",
-            "subject": "IoT và ứng dụng (INT14149)",
+            "period": "Tiết 4",
+            "time": "10:00",
+            "subject": "Phát triển các hệ thống thông minh (INT14151)",
             "Nhóm": "06",
-            "Phòng": "201A-A3-201A-A3(HN)",
-            "GV": "Nguyễn Quốc Uy"
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Đỗ Trung Tuấn"
           }
         ],
         "Thứ 5": [
@@ -42,18 +42,34 @@
           {
             "period": "Tiết 1",
             "time": "07:00",
-            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
-            "Nhóm": "09",
-            "Phòng": "201A-A3-201A-A3(HN)",
-            "GV": "Trần Đình Quế"
+            "subject": "Phương pháp luận nghiên cứu khoa học (SKD1108)",
+            "Nhóm": "17",
+            "Phòng": "201B-A3-201B-A3(HN)",
+            "GV": "Trần Thị Tuyết Nhung"
           },
           {
             "period": "Tiết 3",
             "time": "09:00",
-            "subject": "Phương pháp luận nghiên cứu khoa học (SKD1108)",
-            "Nhóm": "18",
-            "Phòng": "201B-A3-201B-A3(HN)",
-            "GV": "Trần Thị Tuyết Nhung"
+            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
+            "Nhóm": "10",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Trần Đình Quế"
+          },
+          {
+            "period": "Tiết 4",
+            "time": "10:00",
+            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
+            "Nhóm": "10",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Trần Đình Quế"
+          },
+          {
+            "period": "Tiết 7",
+            "time": "13:00",
+            "subject": "Xử lý ảnh (INT13146)",
+            "Nhóm": "03",
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Nguyễn Tất Thắng"
           },
           {
             "period": "Tiết 9",
@@ -74,20 +90,12 @@
         ],
         "Thứ 7": [
           {
-            "period": "Tiết 3",
-            "time": "09:00",
-            "subject": "Xử lý ảnh (INT13146)",
-            "Nhóm": "06",
-            "Phòng": "405-A2-405-A2(HN)",
-            "GV": "Trương Minh Đức"
-          },
-          {
-            "period": "Tiết 7",
-            "time": "13:00",
-            "subject": "Nhập môn khoa học dữ liệu (INT14150)",
-            "Nhóm": "05",
-            "Phòng": "405-A2-405-A2(HN)",
-            "GV": "Đinh Xuân Trường"
+            "period": "Tiết 1",
+            "time": "07:00",
+            "subject": "IoT và ứng dụng (INT14149)",
+            "Nhóm": "11",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Đặng Văn Hiếu"
           }
         ],
         "Chủ Nhật": [
@@ -114,20 +122,20 @@
             "GV": "Đặng Ngọc Hùng"
           },
           {
-            "period": "Tiết 9",
-            "time": "15:00",
-            "subject": "IoT và ứng dụng (INT14149)",
+            "period": "Tiết 3",
+            "time": "09:00",
+            "subject": "Phát triển các hệ thống thông minh (INT14151)",
             "Nhóm": "06",
-            "Phòng": "201A-A3-201A-A3(HN)",
-            "GV": "Nguyễn Quốc Uy"
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Đỗ Trung Tuấn"
           },
           {
-            "period": "Tiết 10",
-            "time": "16:00",
-            "subject": "IoT và ứng dụng (INT14149)",
+            "period": "Tiết 4",
+            "time": "10:00",
+            "subject": "Phát triển các hệ thống thông minh (INT14151)",
             "Nhóm": "06",
-            "Phòng": "201A-A3-201A-A3(HN)",
-            "GV": "Nguyễn Quốc Uy"
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Đỗ Trung Tuấn"
           }
         ],
         "Thứ 5": [
@@ -137,18 +145,34 @@
           {
             "period": "Tiết 1",
             "time": "07:00",
-            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
-            "Nhóm": "09",
-            "Phòng": "201A-A3-201A-A3(HN)",
-            "GV": "Trần Đình Quế"
+            "subject": "Phương pháp luận nghiên cứu khoa học (SKD1108)",
+            "Nhóm": "17",
+            "Phòng": "201B-A3-201B-A3(HN)",
+            "GV": "Trần Thị Tuyết Nhung"
           },
           {
             "period": "Tiết 3",
             "time": "09:00",
-            "subject": "Phương pháp luận nghiên cứu khoa học (SKD1108)",
-            "Nhóm": "18",
-            "Phòng": "201B-A3-201B-A3(HN)",
-            "GV": "Trần Thị Tuyết Nhung"
+            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
+            "Nhóm": "10",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Trần Đình Quế"
+          },
+          {
+            "period": "Tiết 4",
+            "time": "10:00",
+            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
+            "Nhóm": "10",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Trần Đình Quế"
+          },
+          {
+            "period": "Tiết 7",
+            "time": "13:00",
+            "subject": "Xử lý ảnh (INT13146)",
+            "Nhóm": "03",
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Nguyễn Tất Thắng"
           },
           {
             "period": "Tiết 9",
@@ -169,20 +193,12 @@
         ],
         "Thứ 7": [
           {
-            "period": "Tiết 3",
-            "time": "09:00",
-            "subject": "Xử lý ảnh (INT13146)",
-            "Nhóm": "06",
-            "Phòng": "405-A2-405-A2(HN)",
-            "GV": "Trương Minh Đức"
-          },
-          {
-            "period": "Tiết 7",
-            "time": "13:00",
-            "subject": "Nhập môn khoa học dữ liệu (INT14150)",
-            "Nhóm": "05",
-            "Phòng": "405-A2-405-A2(HN)",
-            "GV": "Đinh Xuân Trường"
+            "period": "Tiết 1",
+            "time": "07:00",
+            "subject": "IoT và ứng dụng (INT14149)",
+            "Nhóm": "11",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Đặng Văn Hiếu"
           }
         ],
         "Chủ Nhật": [
@@ -209,20 +225,20 @@
             "GV": "Đặng Ngọc Hùng"
           },
           {
-            "period": "Tiết 9",
-            "time": "15:00",
-            "subject": "IoT và ứng dụng (INT14149)",
+            "period": "Tiết 3",
+            "time": "09:00",
+            "subject": "Phát triển các hệ thống thông minh (INT14151)",
             "Nhóm": "06",
-            "Phòng": "201A-A3-201A-A3(HN)",
-            "GV": "Nguyễn Quốc Uy"
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Đỗ Trung Tuấn"
           },
           {
-            "period": "Tiết 10",
-            "time": "16:00",
-            "subject": "IoT và ứng dụng (INT14149)",
+            "period": "Tiết 4",
+            "time": "10:00",
+            "subject": "Phát triển các hệ thống thông minh (INT14151)",
             "Nhóm": "06",
-            "Phòng": "201A-A3-201A-A3(HN)",
-            "GV": "Nguyễn Quốc Uy"
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Đỗ Trung Tuấn"
           }
         ],
         "Thứ 5": [
@@ -232,18 +248,34 @@
           {
             "period": "Tiết 1",
             "time": "07:00",
-            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
-            "Nhóm": "09",
-            "Phòng": "201A-A3-201A-A3(HN)",
-            "GV": "Trần Đình Quế"
+            "subject": "Phương pháp luận nghiên cứu khoa học (SKD1108)",
+            "Nhóm": "17",
+            "Phòng": "201B-A3-201B-A3(HN)",
+            "GV": "Trần Thị Tuyết Nhung"
           },
           {
             "period": "Tiết 3",
             "time": "09:00",
-            "subject": "Phương pháp luận nghiên cứu khoa học (SKD1108)",
-            "Nhóm": "18",
-            "Phòng": "201B-A3-201B-A3(HN)",
-            "GV": "Trần Thị Tuyết Nhung"
+            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
+            "Nhóm": "10",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Trần Đình Quế"
+          },
+          {
+            "period": "Tiết 4",
+            "time": "10:00",
+            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
+            "Nhóm": "10",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Trần Đình Quế"
+          },
+          {
+            "period": "Tiết 7",
+            "time": "13:00",
+            "subject": "Xử lý ảnh (INT13146)",
+            "Nhóm": "03",
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Nguyễn Tất Thắng"
           },
           {
             "period": "Tiết 9",
@@ -289,20 +321,20 @@
             "GV": "Đặng Ngọc Hùng"
           },
           {
-            "period": "Tiết 9",
-            "time": "15:00",
-            "subject": "IoT và ứng dụng (INT14149)",
+            "period": "Tiết 3",
+            "time": "09:00",
+            "subject": "Phát triển các hệ thống thông minh (INT14151)",
             "Nhóm": "06",
-            "Phòng": "201A-A3-201A-A3(HN)",
-            "GV": "Nguyễn Quốc Uy"
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Đỗ Trung Tuấn"
           },
           {
-            "period": "Tiết 10",
-            "time": "16:00",
-            "subject": "IoT và ứng dụng (INT14149)",
+            "period": "Tiết 4",
+            "time": "10:00",
+            "subject": "Phát triển các hệ thống thông minh (INT14151)",
             "Nhóm": "06",
-            "Phòng": "201A-A3-201A-A3(HN)",
-            "GV": "Nguyễn Quốc Uy"
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Đỗ Trung Tuấn"
           }
         ],
         "Thứ 5": [
@@ -312,18 +344,26 @@
           {
             "period": "Tiết 1",
             "time": "07:00",
+            "subject": "Phương pháp luận nghiên cứu khoa học (SKD1108)",
+            "Nhóm": "17",
+            "Phòng": "201B-A3-201B-A3(HN)",
+            "GV": "Trần Thị Tuyết Nhung"
+          },
+          {
+            "period": "Tiết 3",
+            "time": "09:00",
             "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
-            "Nhóm": "09",
+            "Nhóm": "10",
             "Phòng": "201A-A3-201A-A3(HN)",
             "GV": "Trần Đình Quế"
           },
           {
-            "period": "Tiết 9",
-            "time": "15:00",
-            "subject": "Quản lý dự án phần mềm (INT1450)",
+            "period": "Tiết 4",
+            "time": "10:00",
+            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
             "Nhóm": "10",
-            "Phòng": "401-A2-401-A2(HN)",
-            "GV": "Đào Ngọc Phong"
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Trần Đình Quế"
           },
           {
             "period": "Tiết 10",
@@ -335,17 +375,17 @@
           }
         ],
         "Thứ 7": [
-          {
-            "period": "Tiết 7",
-            "time": "13:00",
-            "subject": "Nhập môn khoa học dữ liệu (INT14150)",
-            "Nhóm": "05",
-            "Phòng": "405-A2-405-A2(HN)",
-            "GV": "Đinh Xuân Trường"
-          }
+          "Không có môn học nào."
         ],
         "Chủ Nhật": [
-          "Không có môn học nào."
+          {
+            "period": "Tiết 6",
+            "time": "12:00",
+            "subject": "Lập trình mạng (INT1433)",
+            "Nhóm": "05",
+            "Phòng": "509-A3-509-A3(HN)",
+            "GV": "Đặng Ngọc Hùng"
+          }
         ]
       }
     },
@@ -368,20 +408,20 @@
             "GV": "Đặng Ngọc Hùng"
           },
           {
-            "period": "Tiết 9",
-            "time": "15:00",
-            "subject": "IoT và ứng dụng (INT14149)",
+            "period": "Tiết 3",
+            "time": "09:00",
+            "subject": "Phát triển các hệ thống thông minh (INT14151)",
             "Nhóm": "06",
-            "Phòng": "201A-A3-201A-A3(HN)",
-            "GV": "Nguyễn Quốc Uy"
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Đỗ Trung Tuấn"
           },
           {
-            "period": "Tiết 10",
-            "time": "16:00",
-            "subject": "IoT và ứng dụng (INT14149)",
+            "period": "Tiết 4",
+            "time": "10:00",
+            "subject": "Phát triển các hệ thống thông minh (INT14151)",
             "Nhóm": "06",
-            "Phòng": "201A-A3-201A-A3(HN)",
-            "GV": "Nguyễn Quốc Uy"
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Đỗ Trung Tuấn"
           }
         ],
         "Thứ 5": [
@@ -391,18 +431,34 @@
           {
             "period": "Tiết 1",
             "time": "07:00",
-            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
-            "Nhóm": "09",
-            "Phòng": "201A-A3-201A-A3(HN)",
-            "GV": "Trần Đình Quế"
+            "subject": "Phương pháp luận nghiên cứu khoa học (SKD1108)",
+            "Nhóm": "17",
+            "Phòng": "201B-A3-201B-A3(HN)",
+            "GV": "Trần Thị Tuyết Nhung"
           },
           {
             "period": "Tiết 3",
             "time": "09:00",
-            "subject": "Phương pháp luận nghiên cứu khoa học (SKD1108)",
-            "Nhóm": "18",
-            "Phòng": "201B-A3-201B-A3(HN)",
-            "GV": "Trần Thị Tuyết Nhung"
+            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
+            "Nhóm": "10",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Trần Đình Quế"
+          },
+          {
+            "period": "Tiết 4",
+            "time": "10:00",
+            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
+            "Nhóm": "10",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Trần Đình Quế"
+          },
+          {
+            "period": "Tiết 7",
+            "time": "13:00",
+            "subject": "Xử lý ảnh (INT13146)",
+            "Nhóm": "03",
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Nguyễn Tất Thắng"
           },
           {
             "period": "Tiết 9",
@@ -419,32 +475,16 @@
             "Nhóm": "10",
             "Phòng": "401-A2-401-A2(HN)",
             "GV": "Đào Ngọc Phong"
-          },
-          {
-            "period": "Tiết 12",
-            "time": "18:00",
-            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
-            "Nhóm": "09",
-            "Phòng": "201A-A3-201A-A3(HN)",
-            "GV": "Trần Đình Quế"
           }
         ],
         "Thứ 7": [
           {
-            "period": "Tiết 3",
-            "time": "09:00",
-            "subject": "Xử lý ảnh (INT13146)",
-            "Nhóm": "06",
-            "Phòng": "405-A2-405-A2(HN)",
-            "GV": "Trương Minh Đức"
-          },
-          {
-            "period": "Tiết 7",
-            "time": "13:00",
-            "subject": "Nhập môn khoa học dữ liệu (INT14150)",
-            "Nhóm": "05",
-            "Phòng": "405-A2-405-A2(HN)",
-            "GV": "Đinh Xuân Trường"
+            "period": "Tiết 1",
+            "time": "07:00",
+            "subject": "IoT và ứng dụng (INT14149)",
+            "Nhóm": "11",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Đặng Văn Hiếu"
           }
         ],
         "Chủ Nhật": [
@@ -471,20 +511,20 @@
             "GV": "Đặng Ngọc Hùng"
           },
           {
-            "period": "Tiết 9",
-            "time": "15:00",
-            "subject": "IoT và ứng dụng (INT14149)",
+            "period": "Tiết 3",
+            "time": "09:00",
+            "subject": "Phát triển các hệ thống thông minh (INT14151)",
             "Nhóm": "06",
-            "Phòng": "201A-A3-201A-A3(HN)",
-            "GV": "Nguyễn Quốc Uy"
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Đỗ Trung Tuấn"
           },
           {
-            "period": "Tiết 10",
-            "time": "16:00",
-            "subject": "IoT và ứng dụng (INT14149)",
+            "period": "Tiết 4",
+            "time": "10:00",
+            "subject": "Phát triển các hệ thống thông minh (INT14151)",
             "Nhóm": "06",
-            "Phòng": "201A-A3-201A-A3(HN)",
-            "GV": "Nguyễn Quốc Uy"
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Đỗ Trung Tuấn"
           }
         ],
         "Thứ 5": [
@@ -494,18 +534,34 @@
           {
             "period": "Tiết 1",
             "time": "07:00",
-            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
-            "Nhóm": "09",
-            "Phòng": "201A-A3-201A-A3(HN)",
-            "GV": "Trần Đình Quế"
+            "subject": "Phương pháp luận nghiên cứu khoa học (SKD1108)",
+            "Nhóm": "17",
+            "Phòng": "201B-A3-201B-A3(HN)",
+            "GV": "Trần Thị Tuyết Nhung"
           },
           {
             "period": "Tiết 3",
             "time": "09:00",
-            "subject": "Phương pháp luận nghiên cứu khoa học (SKD1108)",
-            "Nhóm": "18",
-            "Phòng": "201B-A3-201B-A3(HN)",
-            "GV": "Trần Thị Tuyết Nhung"
+            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
+            "Nhóm": "10",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Trần Đình Quế"
+          },
+          {
+            "period": "Tiết 4",
+            "time": "10:00",
+            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
+            "Nhóm": "10",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Trần Đình Quế"
+          },
+          {
+            "period": "Tiết 7",
+            "time": "13:00",
+            "subject": "Xử lý ảnh (INT13146)",
+            "Nhóm": "03",
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Nguyễn Tất Thắng"
           },
           {
             "period": "Tiết 9",
@@ -522,32 +578,16 @@
             "Nhóm": "10",
             "Phòng": "401-A2-401-A2(HN)",
             "GV": "Đào Ngọc Phong"
-          },
-          {
-            "period": "Tiết 12",
-            "time": "18:00",
-            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
-            "Nhóm": "09",
-            "Phòng": "201A-A3-201A-A3(HN)",
-            "GV": "Trần Đình Quế"
           }
         ],
         "Thứ 7": [
           {
-            "period": "Tiết 3",
-            "time": "09:00",
-            "subject": "Xử lý ảnh (INT13146)",
-            "Nhóm": "06",
-            "Phòng": "405-A2-405-A2(HN)",
-            "GV": "Trương Minh Đức"
-          },
-          {
-            "period": "Tiết 7",
-            "time": "13:00",
-            "subject": "Nhập môn khoa học dữ liệu (INT14150)",
-            "Nhóm": "05",
-            "Phòng": "405-A2-405-A2(HN)",
-            "GV": "Đinh Xuân Trường"
+            "period": "Tiết 1",
+            "time": "07:00",
+            "subject": "IoT và ứng dụng (INT14149)",
+            "Nhóm": "11",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Đặng Văn Hiếu"
           }
         ],
         "Chủ Nhật": [
@@ -574,12 +614,28 @@
             "GV": "Đặng Ngọc Hùng"
           },
           {
-            "period": "Tiết 10",
-            "time": "16:00",
-            "subject": "IoT và ứng dụng (INT14149)",
+            "period": "Tiết 3",
+            "time": "09:00",
+            "subject": "Phát triển các hệ thống thông minh (INT14151)",
             "Nhóm": "06",
-            "Phòng": "201A-A3-201A-A3(HN)",
-            "GV": "Nguyễn Quốc Uy"
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Đỗ Trung Tuấn"
+          },
+          {
+            "period": "Tiết 4",
+            "time": "10:00",
+            "subject": "Phát triển các hệ thống thông minh (INT14151)",
+            "Nhóm": "06",
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Đỗ Trung Tuấn"
+          },
+          {
+            "period": "Tiết 12",
+            "time": "18:00",
+            "subject": "Phát triển các hệ thống thông minh (INT14151)",
+            "Nhóm": "06",
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Đỗ Trung Tuấn"
           }
         ],
         "Thứ 5": [
@@ -587,17 +643,33 @@
             "period": "Tiết 6",
             "time": "12:00",
             "subject": "IoT và ứng dụng (INT14149)",
-            "Nhóm": "06",
-            "Phòng": "604-A3-604-A3(HN)",
-            "GV": "Nguyễn Đức Việt"
+            "Nhóm": "11",
+            "Phòng": "608-A3-608-A3(HN)",
+            "GV": "Nguyễn Đức Minh"
           }
         ],
         "Thứ 6": [
           {
             "period": "Tiết 1",
             "time": "07:00",
+            "subject": "Phương pháp luận nghiên cứu khoa học (SKD1108)",
+            "Nhóm": "17",
+            "Phòng": "201B-A3-201B-A3(HN)",
+            "GV": "Trần Thị Tuyết Nhung"
+          },
+          {
+            "period": "Tiết 3",
+            "time": "09:00",
             "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
-            "Nhóm": "09",
+            "Nhóm": "10",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Trần Đình Quế"
+          },
+          {
+            "period": "Tiết 4",
+            "time": "10:00",
+            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
+            "Nhóm": "10",
             "Phòng": "201A-A3-201A-A3(HN)",
             "GV": "Trần Đình Quế"
           },
@@ -608,20 +680,35 @@
             "Nhóm": "10",
             "Phòng": "401-A2-401-A2(HN)",
             "GV": "Đào Ngọc Phong"
+          },
+          {
+            "period": "Tiết 12",
+            "time": "18:00",
+            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
+            "Nhóm": "10",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Trần Đình Quế"
           }
         ],
         "Thứ 7": [
           {
-            "period": "Tiết 13",
-            "time": "19:00",
-            "subject": "Xử lý ảnh (INT13146)",
-            "Nhóm": "06",
-            "Phòng": "8888888818-Phòng học 18",
-            "GV": "Trương Minh Đức"
+            "period": "Tiết 1",
+            "time": "07:00",
+            "subject": "IoT và ứng dụng (INT14149)",
+            "Nhóm": "11",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Đặng Văn Hiếu"
           }
         ],
         "Chủ Nhật": [
-          "Không có môn học nào."
+          {
+            "period": "Tiết 6",
+            "time": "12:00",
+            "subject": "Lập trình mạng (INT1433)",
+            "Nhóm": "05",
+            "Phòng": "509-A3-509-A3(HN)",
+            "GV": "Đặng Ngọc Hùng"
+          }
         ]
       }
     },
@@ -644,20 +731,28 @@
             "GV": "Đặng Ngọc Hùng"
           },
           {
-            "period": "Tiết 9",
-            "time": "15:00",
-            "subject": "IoT và ứng dụng (INT14149)",
+            "period": "Tiết 3",
+            "time": "09:00",
+            "subject": "Phát triển các hệ thống thông minh (INT14151)",
             "Nhóm": "06",
-            "Phòng": "201A-A3-201A-A3(HN)",
-            "GV": "Nguyễn Quốc Uy"
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Đỗ Trung Tuấn"
           },
           {
-            "period": "Tiết 10",
-            "time": "16:00",
-            "subject": "IoT và ứng dụng (INT14149)",
+            "period": "Tiết 4",
+            "time": "10:00",
+            "subject": "Phát triển các hệ thống thông minh (INT14151)",
             "Nhóm": "06",
-            "Phòng": "201A-A3-201A-A3(HN)",
-            "GV": "Nguyễn Quốc Uy"
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Đỗ Trung Tuấn"
+          },
+          {
+            "period": "Tiết 12",
+            "time": "18:00",
+            "subject": "Phát triển các hệ thống thông minh (INT14151)",
+            "Nhóm": "06",
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Đỗ Trung Tuấn"
           }
         ],
         "Thứ 5": [
@@ -667,18 +762,34 @@
           {
             "period": "Tiết 1",
             "time": "07:00",
-            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
-            "Nhóm": "09",
-            "Phòng": "201A-A3-201A-A3(HN)",
-            "GV": "Trần Đình Quế"
+            "subject": "Phương pháp luận nghiên cứu khoa học (SKD1108)",
+            "Nhóm": "17",
+            "Phòng": "201B-A3-201B-A3(HN)",
+            "GV": "Trần Thị Tuyết Nhung"
           },
           {
             "period": "Tiết 3",
             "time": "09:00",
-            "subject": "Phương pháp luận nghiên cứu khoa học (SKD1108)",
-            "Nhóm": "18",
-            "Phòng": "201B-A3-201B-A3(HN)",
-            "GV": "Trần Thị Tuyết Nhung"
+            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
+            "Nhóm": "10",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Trần Đình Quế"
+          },
+          {
+            "period": "Tiết 4",
+            "time": "10:00",
+            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
+            "Nhóm": "10",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Trần Đình Quế"
+          },
+          {
+            "period": "Tiết 7",
+            "time": "13:00",
+            "subject": "Xử lý ảnh (INT13146)",
+            "Nhóm": "03",
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Nguyễn Tất Thắng"
           },
           {
             "period": "Tiết 9",
@@ -695,32 +806,24 @@
             "Nhóm": "10",
             "Phòng": "401-A2-401-A2(HN)",
             "GV": "Đào Ngọc Phong"
+          },
+          {
+            "period": "Tiết 12",
+            "time": "18:00",
+            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
+            "Nhóm": "10",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Trần Đình Quế"
           }
         ],
         "Thứ 7": [
           {
-            "period": "Tiết 3",
-            "time": "09:00",
-            "subject": "Xử lý ảnh (INT13146)",
-            "Nhóm": "06",
-            "Phòng": "405-A2-405-A2(HN)",
-            "GV": "Trương Minh Đức"
-          },
-          {
-            "period": "Tiết 7",
-            "time": "13:00",
-            "subject": "Nhập môn khoa học dữ liệu (INT14150)",
-            "Nhóm": "05",
-            "Phòng": "405-A2-405-A2(HN)",
-            "GV": "Đinh Xuân Trường"
-          },
-          {
-            "period": "Tiết 13",
-            "time": "19:00",
-            "subject": "Xử lý ảnh (INT13146)",
-            "Nhóm": "06",
-            "Phòng": "8888888818-Phòng học 18",
-            "GV": "Trương Minh Đức"
+            "period": "Tiết 1",
+            "time": "07:00",
+            "subject": "IoT và ứng dụng (INT14149)",
+            "Nhóm": "11",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Đặng Văn Hiếu"
           }
         ],
         "Chủ Nhật": [
@@ -747,20 +850,12 @@
             "GV": "Đặng Ngọc Hùng"
           },
           {
-            "period": "Tiết 3",
-            "time": "09:00",
-            "subject": "Lập trình mạng (INT1433)",
-            "Nhóm": "05",
-            "Phòng": "305-A3-305-A3(HN)",
-            "GV": "Đặng Ngọc Hùng"
-          },
-          {
-            "period": "Tiết 10",
-            "time": "16:00",
-            "subject": "IoT và ứng dụng (INT14149)",
+            "period": "Tiết 4",
+            "time": "10:00",
+            "subject": "Phát triển các hệ thống thông minh (INT14151)",
             "Nhóm": "06",
-            "Phòng": "201A-A3-201A-A3(HN)",
-            "GV": "Nguyễn Quốc Uy"
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Đỗ Trung Tuấn"
           }
         ],
         "Thứ 5": [
@@ -768,28 +863,28 @@
         ],
         "Thứ 6": [
           {
-            "period": "Tiết 1",
-            "time": "07:00",
-            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
-            "Nhóm": "09",
-            "Phòng": "201A-A3-201A-A3(HN)",
-            "GV": "Trần Đình Quế"
-          },
-          {
-            "period": "Tiết 3",
-            "time": "09:00",
-            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
-            "Nhóm": "09",
-            "Phòng": "201A-A3-201A-A3(HN)",
-            "GV": "Trần Đình Quế"
-          },
-          {
             "period": "Tiết 4",
             "time": "10:00",
-            "subject": "Phương pháp luận nghiên cứu khoa học (SKD1108)",
-            "Nhóm": "18",
-            "Phòng": "201B-A3-201B-A3(HN)",
-            "GV": "Trần Thị Tuyết Nhung"
+            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
+            "Nhóm": "10",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Trần Đình Quế"
+          },
+          {
+            "period": "Tiết 7",
+            "time": "13:00",
+            "subject": "Xử lý ảnh (INT13146)",
+            "Nhóm": "03",
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Nguyễn Tất Thắng"
+          },
+          {
+            "period": "Tiết 9",
+            "time": "15:00",
+            "subject": "Xử lý ảnh (INT13146)",
+            "Nhóm": "03",
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Nguyễn Tất Thắng"
           },
           {
             "period": "Tiết 10",
@@ -798,40 +893,24 @@
             "Nhóm": "10",
             "Phòng": "401-A2-401-A2(HN)",
             "GV": "Đào Ngọc Phong"
-          }
-        ],
-        "Thứ 7": [
-          {
-            "period": "Tiết 3",
-            "time": "09:00",
-            "subject": "Xử lý ảnh (INT13146)",
-            "Nhóm": "06",
-            "Phòng": "405-A2-405-A2(HN)",
-            "GV": "Trương Minh Đức"
-          },
-          {
-            "period": "Tiết 4",
-            "time": "10:00",
-            "subject": "Xử lý ảnh (INT13146)",
-            "Nhóm": "06",
-            "Phòng": "405-A2-405-A2(HN)",
-            "GV": "Trương Minh Đức"
-          },
-          {
-            "period": "Tiết 7",
-            "time": "13:00",
-            "subject": "Nhập môn khoa học dữ liệu (INT14150)",
-            "Nhóm": "05",
-            "Phòng": "405-A2-405-A2(HN)",
-            "GV": "Đinh Xuân Trường"
           },
           {
             "period": "Tiết 13",
             "time": "19:00",
-            "subject": "Nhập môn khoa học dữ liệu (INT14150)",
-            "Nhóm": "05",
-            "Phòng": "8888888810-Phòng học 10",
-            "GV": "Đinh Xuân Trường"
+            "subject": "Xử lý ảnh (INT13146)",
+            "Nhóm": "03",
+            "Phòng": "8888888801-Phòng học 01",
+            "GV": "Nguyễn Tất Thắng"
+          }
+        ],
+        "Thứ 7": [
+          {
+            "period": "Tiết 1",
+            "time": "07:00",
+            "subject": "IoT và ứng dụng (INT14149)",
+            "Nhóm": "11",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Đặng Văn Hiếu"
           }
         ],
         "Chủ Nhật": [
@@ -858,12 +937,12 @@
             "GV": "Đặng Ngọc Hùng"
           },
           {
-            "period": "Tiết 10",
-            "time": "16:00",
-            "subject": "IoT và ứng dụng (INT14149)",
+            "period": "Tiết 4",
+            "time": "10:00",
+            "subject": "Phát triển các hệ thống thông minh (INT14151)",
             "Nhóm": "06",
-            "Phòng": "201A-A3-201A-A3(HN)",
-            "GV": "Nguyễn Quốc Uy"
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Đỗ Trung Tuấn"
           }
         ],
         "Thứ 5": [
@@ -871,17 +950,17 @@
             "period": "Tiết 6",
             "time": "12:00",
             "subject": "IoT và ứng dụng (INT14149)",
-            "Nhóm": "06",
-            "Phòng": "604-A3-604-A3(HN)",
-            "GV": "Nguyễn Đức Việt"
+            "Nhóm": "11",
+            "Phòng": "608-A3-608-A3(HN)",
+            "GV": "Nguyễn Đức Minh"
           }
         ],
         "Thứ 6": [
           {
-            "period": "Tiết 1",
-            "time": "07:00",
+            "period": "Tiết 4",
+            "time": "10:00",
             "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
-            "Nhóm": "09",
+            "Nhóm": "10",
             "Phòng": "201A-A3-201A-A3(HN)",
             "GV": "Trần Đình Quế"
           },
@@ -892,20 +971,35 @@
             "Nhóm": "10",
             "Phòng": "401-A2-401-A2(HN)",
             "GV": "Đào Ngọc Phong"
+          },
+          {
+            "period": "Tiết 13",
+            "time": "19:00",
+            "subject": "Xử lý ảnh (INT13146)",
+            "Nhóm": "03",
+            "Phòng": "8888888801-Phòng học 01",
+            "GV": "Nguyễn Tất Thắng"
           }
         ],
         "Thứ 7": [
           {
-            "period": "Tiết 13",
-            "time": "19:00",
-            "subject": "Nhập môn khoa học dữ liệu (INT14150)",
-            "Nhóm": "05",
-            "Phòng": "8888888810-Phòng học 10",
-            "GV": "Đinh Xuân Trường"
+            "period": "Tiết 1",
+            "time": "07:00",
+            "subject": "IoT và ứng dụng (INT14149)",
+            "Nhóm": "11",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Đặng Văn Hiếu"
           }
         ],
         "Chủ Nhật": [
-          "Không có môn học nào."
+          {
+            "period": "Tiết 6",
+            "time": "12:00",
+            "subject": "Lập trình mạng (INT1433)",
+            "Nhóm": "05",
+            "Phòng": "509-A3-509-A3(HN)",
+            "GV": "Đặng Ngọc Hùng"
+          }
         ]
       }
     },
@@ -928,20 +1022,12 @@
             "GV": "Đặng Ngọc Hùng"
           },
           {
-            "period": "Tiết 3",
-            "time": "09:00",
-            "subject": "Lập trình mạng (INT1433)",
-            "Nhóm": "05",
-            "Phòng": "305-A3-305-A3(HN)",
-            "GV": "Đặng Ngọc Hùng"
-          },
-          {
-            "period": "Tiết 10",
-            "time": "16:00",
-            "subject": "IoT và ứng dụng (INT14149)",
+            "period": "Tiết 4",
+            "time": "10:00",
+            "subject": "Phát triển các hệ thống thông minh (INT14151)",
             "Nhóm": "06",
-            "Phòng": "201A-A3-201A-A3(HN)",
-            "GV": "Nguyễn Quốc Uy"
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Đỗ Trung Tuấn"
           }
         ],
         "Thứ 5": [
@@ -949,28 +1035,28 @@
         ],
         "Thứ 6": [
           {
-            "period": "Tiết 1",
-            "time": "07:00",
-            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
-            "Nhóm": "09",
-            "Phòng": "201A-A3-201A-A3(HN)",
-            "GV": "Trần Đình Quế"
-          },
-          {
-            "period": "Tiết 3",
-            "time": "09:00",
-            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
-            "Nhóm": "09",
-            "Phòng": "201A-A3-201A-A3(HN)",
-            "GV": "Trần Đình Quế"
-          },
-          {
             "period": "Tiết 4",
             "time": "10:00",
-            "subject": "Phương pháp luận nghiên cứu khoa học (SKD1108)",
-            "Nhóm": "18",
-            "Phòng": "201B-A3-201B-A3(HN)",
-            "GV": "Trần Thị Tuyết Nhung"
+            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
+            "Nhóm": "10",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Trần Đình Quế"
+          },
+          {
+            "period": "Tiết 7",
+            "time": "13:00",
+            "subject": "Xử lý ảnh (INT13146)",
+            "Nhóm": "03",
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Nguyễn Tất Thắng"
+          },
+          {
+            "period": "Tiết 9",
+            "time": "15:00",
+            "subject": "Xử lý ảnh (INT13146)",
+            "Nhóm": "03",
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Nguyễn Tất Thắng"
           },
           {
             "period": "Tiết 10",
@@ -983,28 +1069,12 @@
         ],
         "Thứ 7": [
           {
-            "period": "Tiết 4",
-            "time": "10:00",
-            "subject": "Xử lý ảnh (INT13146)",
-            "Nhóm": "06",
-            "Phòng": "405-A2-405-A2(HN)",
-            "GV": "Trương Minh Đức"
-          },
-          {
-            "period": "Tiết 7",
-            "time": "13:00",
-            "subject": "Nhập môn khoa học dữ liệu (INT14150)",
-            "Nhóm": "05",
-            "Phòng": "405-A2-405-A2(HN)",
-            "GV": "Đinh Xuân Trường"
-          },
-          {
-            "period": "Tiết 9",
-            "time": "15:00",
-            "subject": "Nhập môn khoa học dữ liệu (INT14150)",
-            "Nhóm": "05",
-            "Phòng": "405-A2-405-A2(HN)",
-            "GV": "Đinh Xuân Trường"
+            "period": "Tiết 1",
+            "time": "07:00",
+            "subject": "IoT và ứng dụng (INT14149)",
+            "Nhóm": "11",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Đặng Văn Hiếu"
           }
         ],
         "Chủ Nhật": [
@@ -1031,20 +1101,12 @@
             "GV": "Đặng Ngọc Hùng"
           },
           {
-            "period": "Tiết 3",
-            "time": "09:00",
-            "subject": "Lập trình mạng (INT1433)",
-            "Nhóm": "05",
-            "Phòng": "305-A3-305-A3(HN)",
-            "GV": "Đặng Ngọc Hùng"
-          },
-          {
-            "period": "Tiết 10",
-            "time": "16:00",
-            "subject": "IoT và ứng dụng (INT14149)",
+            "period": "Tiết 4",
+            "time": "10:00",
+            "subject": "Phát triển các hệ thống thông minh (INT14151)",
             "Nhóm": "06",
-            "Phòng": "201A-A3-201A-A3(HN)",
-            "GV": "Nguyễn Quốc Uy"
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Đỗ Trung Tuấn"
           }
         ],
         "Thứ 5": [
@@ -1052,54 +1114,38 @@
         ],
         "Thứ 6": [
           {
-            "period": "Tiết 1",
-            "time": "07:00",
-            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
-            "Nhóm": "09",
-            "Phòng": "201A-A3-201A-A3(HN)",
-            "GV": "Trần Đình Quế"
-          },
-          {
-            "period": "Tiết 3",
-            "time": "09:00",
-            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
-            "Nhóm": "09",
-            "Phòng": "201A-A3-201A-A3(HN)",
-            "GV": "Trần Đình Quế"
-          },
-          {
             "period": "Tiết 4",
             "time": "10:00",
-            "subject": "Phương pháp luận nghiên cứu khoa học (SKD1108)",
-            "Nhóm": "18",
-            "Phòng": "201B-A3-201B-A3(HN)",
-            "GV": "Trần Thị Tuyết Nhung"
-          }
-        ],
-        "Thứ 7": [
-          {
-            "period": "Tiết 4",
-            "time": "10:00",
-            "subject": "Xử lý ảnh (INT13146)",
-            "Nhóm": "06",
-            "Phòng": "405-A2-405-A2(HN)",
-            "GV": "Trương Minh Đức"
+            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
+            "Nhóm": "10",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Trần Đình Quế"
           },
           {
             "period": "Tiết 7",
             "time": "13:00",
-            "subject": "Nhập môn khoa học dữ liệu (INT14150)",
-            "Nhóm": "05",
+            "subject": "Xử lý ảnh (INT13146)",
+            "Nhóm": "03",
             "Phòng": "405-A2-405-A2(HN)",
-            "GV": "Đinh Xuân Trường"
+            "GV": "Nguyễn Tất Thắng"
           },
           {
             "period": "Tiết 9",
             "time": "15:00",
-            "subject": "Nhập môn khoa học dữ liệu (INT14150)",
-            "Nhóm": "05",
+            "subject": "Xử lý ảnh (INT13146)",
+            "Nhóm": "03",
             "Phòng": "405-A2-405-A2(HN)",
-            "GV": "Đinh Xuân Trường"
+            "GV": "Nguyễn Tất Thắng"
+          }
+        ],
+        "Thứ 7": [
+          {
+            "period": "Tiết 1",
+            "time": "07:00",
+            "subject": "IoT và ứng dụng (INT14149)",
+            "Nhóm": "11",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Đặng Văn Hiếu"
           }
         ],
         "Chủ Nhật": [
@@ -1134,12 +1180,12 @@
             "GV": "Đặng Ngọc Hùng"
           },
           {
-            "period": "Tiết 10",
-            "time": "16:00",
-            "subject": "IoT và ứng dụng (INT14149)",
+            "period": "Tiết 4",
+            "time": "10:00",
+            "subject": "Phát triển các hệ thống thông minh (INT14151)",
             "Nhóm": "06",
-            "Phòng": "201A-A3-201A-A3(HN)",
-            "GV": "Nguyễn Quốc Uy"
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Đỗ Trung Tuấn"
           }
         ],
         "Thứ 5": [
@@ -1147,37 +1193,37 @@
             "period": "Tiết 6",
             "time": "12:00",
             "subject": "IoT và ứng dụng (INT14149)",
-            "Nhóm": "06",
-            "Phòng": "604-A3-604-A3(HN)",
-            "GV": "Nguyễn Đức Việt"
+            "Nhóm": "11",
+            "Phòng": "608-A3-608-A3(HN)",
+            "GV": "Nguyễn Đức Minh"
           }
         ],
         "Thứ 6": [
           {
-            "period": "Tiết 1",
-            "time": "07:00",
+            "period": "Tiết 4",
+            "time": "10:00",
             "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
-            "Nhóm": "09",
-            "Phòng": "201A-A3-201A-A3(HN)",
-            "GV": "Trần Đình Quế"
-          },
-          {
-            "period": "Tiết 3",
-            "time": "09:00",
-            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
-            "Nhóm": "09",
+            "Nhóm": "10",
             "Phòng": "201A-A3-201A-A3(HN)",
             "GV": "Trần Đình Quế"
           }
         ],
         "Thứ 7": [
           {
-            "period": "Tiết 4",
-            "time": "10:00",
-            "subject": "Xử lý ảnh (INT13146)",
-            "Nhóm": "06",
-            "Phòng": "405-A2-405-A2(HN)",
-            "GV": "Trương Minh Đức"
+            "period": "Tiết 1",
+            "time": "07:00",
+            "subject": "IoT và ứng dụng (INT14149)",
+            "Nhóm": "11",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Đặng Văn Hiếu"
+          },
+          {
+            "period": "Tiết 3",
+            "time": "09:00",
+            "subject": "IoT và ứng dụng (INT14149)",
+            "Nhóm": "11",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Đặng Văn Hiếu"
           }
         ],
         "Chủ Nhật": [
@@ -1212,12 +1258,12 @@
             "GV": "Đặng Ngọc Hùng"
           },
           {
-            "period": "Tiết 10",
-            "time": "16:00",
-            "subject": "IoT và ứng dụng (INT14149)",
+            "period": "Tiết 4",
+            "time": "10:00",
+            "subject": "Phát triển các hệ thống thông minh (INT14151)",
             "Nhóm": "06",
-            "Phòng": "201A-A3-201A-A3(HN)",
-            "GV": "Nguyễn Quốc Uy"
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Đỗ Trung Tuấn"
           }
         ],
         "Thứ 5": [
@@ -1225,46 +1271,46 @@
         ],
         "Thứ 6": [
           {
-            "period": "Tiết 1",
-            "time": "07:00",
-            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
-            "Nhóm": "09",
-            "Phòng": "201A-A3-201A-A3(HN)",
-            "GV": "Trần Đình Quế"
-          },
-          {
-            "period": "Tiết 3",
-            "time": "09:00",
-            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
-            "Nhóm": "09",
-            "Phòng": "201A-A3-201A-A3(HN)",
-            "GV": "Trần Đình Quế"
-          }
-        ],
-        "Thứ 7": [
-          {
             "period": "Tiết 4",
             "time": "10:00",
-            "subject": "Xử lý ảnh (INT13146)",
-            "Nhóm": "06",
-            "Phòng": "405-A2-405-A2(HN)",
-            "GV": "Trương Minh Đức"
+            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
+            "Nhóm": "10",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Trần Đình Quế"
           },
           {
             "period": "Tiết 7",
             "time": "13:00",
-            "subject": "Nhập môn khoa học dữ liệu (INT14150)",
-            "Nhóm": "05",
+            "subject": "Xử lý ảnh (INT13146)",
+            "Nhóm": "03",
             "Phòng": "405-A2-405-A2(HN)",
-            "GV": "Đinh Xuân Trường"
+            "GV": "Nguyễn Tất Thắng"
           },
           {
             "period": "Tiết 9",
             "time": "15:00",
-            "subject": "Nhập môn khoa học dữ liệu (INT14150)",
-            "Nhóm": "05",
+            "subject": "Xử lý ảnh (INT13146)",
+            "Nhóm": "03",
             "Phòng": "405-A2-405-A2(HN)",
-            "GV": "Đinh Xuân Trường"
+            "GV": "Nguyễn Tất Thắng"
+          }
+        ],
+        "Thứ 7": [
+          {
+            "period": "Tiết 1",
+            "time": "07:00",
+            "subject": "IoT và ứng dụng (INT14149)",
+            "Nhóm": "11",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Đặng Văn Hiếu"
+          },
+          {
+            "period": "Tiết 3",
+            "time": "09:00",
+            "subject": "IoT và ứng dụng (INT14149)",
+            "Nhóm": "11",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Đặng Văn Hiếu"
           }
         ],
         "Chủ Nhật": [
@@ -1289,46 +1335,46 @@
         ],
         "Thứ 6": [
           {
-            "period": "Tiết 1",
-            "time": "07:00",
-            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
-            "Nhóm": "09",
-            "Phòng": "201A-A3-201A-A3(HN)",
-            "GV": "Trần Đình Quế"
-          },
-          {
-            "period": "Tiết 3",
-            "time": "09:00",
-            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
-            "Nhóm": "09",
-            "Phòng": "201A-A3-201A-A3(HN)",
-            "GV": "Trần Đình Quế"
-          }
-        ],
-        "Thứ 7": [
-          {
             "period": "Tiết 4",
             "time": "10:00",
-            "subject": "Xử lý ảnh (INT13146)",
-            "Nhóm": "06",
-            "Phòng": "405-A2-405-A2(HN)",
-            "GV": "Trương Minh Đức"
+            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
+            "Nhóm": "10",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Trần Đình Quế"
           },
           {
             "period": "Tiết 7",
             "time": "13:00",
-            "subject": "Nhập môn khoa học dữ liệu (INT14150)",
-            "Nhóm": "05",
+            "subject": "Xử lý ảnh (INT13146)",
+            "Nhóm": "03",
             "Phòng": "405-A2-405-A2(HN)",
-            "GV": "Đinh Xuân Trường"
+            "GV": "Nguyễn Tất Thắng"
           },
           {
             "period": "Tiết 9",
             "time": "15:00",
-            "subject": "Nhập môn khoa học dữ liệu (INT14150)",
-            "Nhóm": "05",
+            "subject": "Xử lý ảnh (INT13146)",
+            "Nhóm": "03",
             "Phòng": "405-A2-405-A2(HN)",
-            "GV": "Đinh Xuân Trường"
+            "GV": "Nguyễn Tất Thắng"
+          }
+        ],
+        "Thứ 7": [
+          {
+            "period": "Tiết 1",
+            "time": "07:00",
+            "subject": "IoT và ứng dụng (INT14149)",
+            "Nhóm": "11",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Đặng Văn Hiếu"
+          },
+          {
+            "period": "Tiết 3",
+            "time": "09:00",
+            "subject": "IoT và ứng dụng (INT14149)",
+            "Nhóm": "11",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Đặng Văn Hiếu"
           }
         ],
         "Chủ Nhật": [
@@ -1363,12 +1409,12 @@
             "GV": "Đặng Ngọc Hùng"
           },
           {
-            "period": "Tiết 10",
-            "time": "16:00",
-            "subject": "IoT và ứng dụng (INT14149)",
+            "period": "Tiết 4",
+            "time": "10:00",
+            "subject": "Phát triển các hệ thống thông minh (INT14151)",
             "Nhóm": "06",
-            "Phòng": "201A-A3-201A-A3(HN)",
-            "GV": "Nguyễn Quốc Uy"
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Đỗ Trung Tuấn"
           }
         ],
         "Thứ 5": [
@@ -1376,46 +1422,46 @@
         ],
         "Thứ 6": [
           {
-            "period": "Tiết 1",
-            "time": "07:00",
-            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
-            "Nhóm": "09",
-            "Phòng": "201A-A3-201A-A3(HN)",
-            "GV": "Trần Đình Quế"
-          },
-          {
-            "period": "Tiết 3",
-            "time": "09:00",
-            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
-            "Nhóm": "09",
-            "Phòng": "201A-A3-201A-A3(HN)",
-            "GV": "Trần Đình Quế"
-          }
-        ],
-        "Thứ 7": [
-          {
             "period": "Tiết 4",
             "time": "10:00",
-            "subject": "Xử lý ảnh (INT13146)",
-            "Nhóm": "06",
-            "Phòng": "405-A2-405-A2(HN)",
-            "GV": "Trương Minh Đức"
+            "subject": "Phân tích và thiết kế hệ thống thông tin (INT1342M)",
+            "Nhóm": "10",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Trần Đình Quế"
           },
           {
             "period": "Tiết 7",
             "time": "13:00",
-            "subject": "Nhập môn khoa học dữ liệu (INT14150)",
-            "Nhóm": "05",
+            "subject": "Xử lý ảnh (INT13146)",
+            "Nhóm": "03",
             "Phòng": "405-A2-405-A2(HN)",
-            "GV": "Đinh Xuân Trường"
+            "GV": "Nguyễn Tất Thắng"
           },
           {
             "period": "Tiết 9",
             "time": "15:00",
-            "subject": "Nhập môn khoa học dữ liệu (INT14150)",
-            "Nhóm": "05",
+            "subject": "Xử lý ảnh (INT13146)",
+            "Nhóm": "03",
             "Phòng": "405-A2-405-A2(HN)",
-            "GV": "Đinh Xuân Trường"
+            "GV": "Nguyễn Tất Thắng"
+          }
+        ],
+        "Thứ 7": [
+          {
+            "period": "Tiết 1",
+            "time": "07:00",
+            "subject": "IoT và ứng dụng (INT14149)",
+            "Nhóm": "11",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Đặng Văn Hiếu"
+          },
+          {
+            "period": "Tiết 3",
+            "time": "09:00",
+            "subject": "IoT và ứng dụng (INT14149)",
+            "Nhóm": "11",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Đặng Văn Hiếu"
           }
         ],
         "Chủ Nhật": [
@@ -1440,6 +1486,14 @@
             "Nhóm": "05",
             "Phòng": "305-A3-305-A3(HN)",
             "GV": "Đặng Ngọc Hùng"
+          },
+          {
+            "period": "Tiết 4",
+            "time": "10:00",
+            "subject": "Phát triển các hệ thống thông minh (INT14151)",
+            "Nhóm": "06",
+            "Phòng": "405-A2-405-A2(HN)",
+            "GV": "Đỗ Trung Tuấn"
           }
         ],
         "Thứ 5": [
@@ -1450,28 +1504,20 @@
         ],
         "Thứ 7": [
           {
-            "period": "Tiết 4",
-            "time": "10:00",
-            "subject": "Xử lý ảnh (INT13146)",
-            "Nhóm": "06",
-            "Phòng": "405-A2-405-A2(HN)",
-            "GV": "Trương Minh Đức"
+            "period": "Tiết 1",
+            "time": "07:00",
+            "subject": "IoT và ứng dụng (INT14149)",
+            "Nhóm": "11",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Đặng Văn Hiếu"
           },
           {
-            "period": "Tiết 7",
-            "time": "13:00",
-            "subject": "Nhập môn khoa học dữ liệu (INT14150)",
-            "Nhóm": "05",
-            "Phòng": "405-A2-405-A2(HN)",
-            "GV": "Đinh Xuân Trường"
-          },
-          {
-            "period": "Tiết 9",
-            "time": "15:00",
-            "subject": "Nhập môn khoa học dữ liệu (INT14150)",
-            "Nhóm": "05",
-            "Phòng": "405-A2-405-A2(HN)",
-            "GV": "Đinh Xuân Trường"
+            "period": "Tiết 3",
+            "time": "09:00",
+            "subject": "IoT và ứng dụng (INT14149)",
+            "Nhóm": "11",
+            "Phòng": "201A-A3-201A-A3(HN)",
+            "GV": "Đặng Văn Hiếu"
           }
         ],
         "Chủ Nhật": [
