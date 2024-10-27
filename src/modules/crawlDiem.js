@@ -8,6 +8,7 @@ async function getGrades(page) {
   
     // Chờ cho bảng được tải (nếu cần)
     await page.waitForSelector('#excel-table');
+    await new Promise((resolve) => setTimeout(resolve, 2000));
   
     const semesterData = await page.evaluate(() => {
       const semesters = {}; // Đối tượng lưu trữ thông tin cho từng kỳ học

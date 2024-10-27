@@ -1,37 +1,10 @@
-const puppeteer = require("puppeteer");
-const minimal_args = require("../constant/minimalArgs");
-require('dotenv').config(); 
+const { selectAndClickUl } = require('./selectFeature'); // Import hàm chọn thẻ ul
+const fs = require('fs');
 
-const PASSWORD = process.env.QLDT_PASSWORD;
-const USERNAME = process.env.QLDT_USERNAME;
-
-const crawlMTQuyet = async () => {
-  const browser = await puppeteer.launch({
-    // khởi chạy trình duyệt với các tùy chọn
-    headless: false, // có giao diện
-    args: minimal_args, // danh sách tùy chọn tối ưu
-  });
-  const page = await browser.newPage(); // tạo mới page
-
-  await page.setViewport({ width: 1000, height: 700 }); // kích thước view
-
-  await page.goto("https://qldt.ptit.edu.vn/#/home", {
-    // điều hướng tới qldt
-    waitUntil: "networkidle2", // chờ trang đã tải gần hoàn chỉnh
-    timeout: 30000,
-  });
-
-  await page.waitForSelector("input[name='username']"); // chờ thằng này hiển thị
-  await page.type("input[name='username']", USERNAME); // nhập giá trị vào selector
-
-  await page.waitForSelector("input[name='password']");
-  await page.type("input[name='password']", PASSWORD);
-
-  await Promise.all([
-    // đồng thời làm 2 việc
-    page.click("button[class='btn btn-primary mb-1 ng-star-inserted']"), // nhấn nút
-    page.waitForNavigation({ waitUntil: "networkidle2" }), // chờ trang tải xong
-  ]);
+const crawlMTQuyet = async (page) => {
+  // Chọn và click thẻ ul (truyền chỉ số từ dưới lên, ví dụ: 4)
+  const ulIndexFromBottom = 9; // Thẻ <ul> thứ 4 từ dưới lên
+  await selectAndClickUl(page, ulIndexFromBottom);
 
   await page.waitForSelector("a#WEB_XEMMONTIENQUYET", { visible: true });
   await new Promise((resolve) => setTimeout(resolve, 2000)); // đợi 2 giây cho thằng phía trên xuất hiện
@@ -101,9 +74,10 @@ const crawlMTQuyet = async () => {
     hasNextPage = await goToNextPage();
   }
 
-  console.log(JSON.stringify(allTableData, null, 2)); // Hiển thị toàn bộ dữ liệu đã crawl dạng json
+  // Ghi dữ liệu thành tệp JSON
+  fs.writeFileSync('dataCrawl/MonTienQuyet.json', JSON.stringify(allTableData, null, 2), 'utf-8');
+  console.log('Dữ liệu thời khóa biểu đã được lưu vào timetableData.json');
 
-  await browser.close();
 };
 
 module.exports = crawlMTQuyet;

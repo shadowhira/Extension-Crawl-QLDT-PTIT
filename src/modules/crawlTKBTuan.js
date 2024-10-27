@@ -175,7 +175,7 @@ async function extractAllTimetable(page) {
   }
 
   // Ghi dữ liệu thành tệp JSON
-  fs.writeFileSync('dataCrawl/timetableData.json', JSON.stringify(timetableData, null, 2), 'utf-8');
+  fs.writeFileSync('dataCrawl/TKBTuan.json', JSON.stringify(timetableData, null, 2), 'utf-8');
   console.log('Dữ liệu thời khóa biểu đã được lưu vào timetableData.json');
 
 }

@@ -9,10 +9,10 @@ const crawlXemHocPhi = require("./src/modules/crawlXemHocPhi");
 
 (async () => {
   try {
-    //await crawlTKB();
+    // await crawlTKB();
     // await crawlHoaDon();
-    //await crawlMTQuyet();
-    //await crawlMTQuyetUpdate();
+    // await crawlMTQuyet();
+    // await crawlMTQuyetUpdate();
     // await crawlDKMH();
     // await crawlCTDT();
     // await crawlAllCTDT();

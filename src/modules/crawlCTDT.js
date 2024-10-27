@@ -1,9 +1,9 @@
 const puppeteer = require("puppeteer");
+const { selectAndClickUl } = require('./selectFeature'); // Import hàm chọn thẻ ul
 const minimal_args = require("../constant/minimalArgs");
 require('dotenv').config(); 
+const fs = require("fs");
 
-const PASSWORD = process.env.QLDT_PASSWORD;
-const USERNAME = process.env.QLDT_USERNAME;
 
 // Hàm crawl thông tin tiết thành phần
 async function crawlTietThanhPhan(page, index) {
@@ -76,37 +76,10 @@ async function crawlTietThanhPhan(page, index) {
   }
 }
 
-const crawlCTDT = async () => {
-  const browser = await puppeteer.launch({
-    headless: false,
-    args: minimal_args,
-  }); // Mở Chrome với giao diện
-  const page = await browser.newPage();
-
-  // Điều hướng tới trang đăng nhập
-  await page.goto("https://qldt.ptit.edu.vn/#/home", {
-    waitUntil: "networkidle2",
-    timeout: 30000,
-  }); // chờ cho không còn yêu cầu mạng nào đang được thực hiện.
-
-  await page.waitForSelector("input[name='username']");
-
-  // Nhập tên đăng nhập và mật khẩu
-  await page.type("input[name='username']", USERNAME); // Thay '#username' bằng selector thật
-
-  await page.waitForSelector("input[name='password']");
-  await page.type("input[name='password']", PASSWORD); // Thay '#password' bằng selector thật
-
-  await Promise.all([
-    page.click("button[class='btn btn-primary mb-1 ng-star-inserted']"),
-    page.waitForNavigation({ waitUntil: "networkidle2" }),
-  ]);
-
-  // Chờ phần tử "Xem chương trình đào tạo" xuất hiện
-  await page.waitForSelector("a#WEB_CTDT", { visible: true });
-
-  // Click vào liên kết "Xem chương trình đào tạo"
-  await page.click("a#WEB_CTDT");
+const crawlCTDT = async (page) => {
+  // Chọn và click thẻ ul (truyền chỉ số từ dưới lên, ví dụ: 4)
+  const ulIndexFromBottom = 10; // Thẻ <ul> thứ 4 từ dưới lên
+  await selectAndClickUl(page, ulIndexFromBottom);
 
   // Chờ cho bảng xuất hiện
   await page.waitForSelector("#excel-table", { visible: true });
@@ -136,6 +109,9 @@ const crawlCTDT = async () => {
     return data;
   });
 
+  // Ghi dữ liệu thành tệp JSON
+  fs.writeFileSync('dataCrawl/CTDT.json', JSON.stringify(tableData, null, 2), 'utf-8');
+  console.log('Dữ liệu thời khóa biểu đã được lưu vào timetableData.json');
   console.log("Dữ liệu bảng chính:", JSON.stringify(tableData, null, 2));
 
   // Khi bạn muốn crawl thông tin tiết thành phần cho một môn cụ thể
@@ -147,8 +123,6 @@ const crawlCTDT = async () => {
       tietThanhPhan
     );
   }
-
-  await browser.close();
 };
 
 module.exports = crawlCTDT;

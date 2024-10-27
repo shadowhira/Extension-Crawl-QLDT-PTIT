@@ -1,46 +1,18 @@
 const puppeteer = require("puppeteer");
 const minimal_args = require("../constant/minimalArgs");
 require('dotenv').config(); 
+const { selectAndClickUl } = require('./selectFeature'); // Import hàm chọn thẻ ul
+const fs = require("fs");
 
-const PASSWORD = process.env.QLDT_PASSWORD;
-const USERNAME = process.env.QLDT_USERNAME;
-
-const crawlXemHocPhi = async () => {
-  const browser = await puppeteer.launch({
-    headless: false, // có giao diện
-    args: minimal_args,
-  });
-
-  const page = await browser.newPage();
-  await page.setViewport({ width: 1000, height: 700 });
-
-  console.log("Điều hướng tới trang...");
-  await page.goto("https://qldt.ptit.edu.vn/#/home", {
-    waitUntil: "networkidle2",
-    timeout: 30000,
-  });
-
-  console.log("Chờ trường đăng nhập xuất hiện...");
-  await page.waitForSelector("input[name='username']");
-  await page.type("input[name='username']", USERNAME);
-
-  await page.waitForSelector("input[name='password']");
-  await page.type("input[name='password']", PASSWORD);
-
-  console.log("Đăng nhập...");
-  await Promise.all([
-    page.click("button[class='btn btn-primary mb-1 ng-star-inserted']"),
-    page.waitForNavigation({ waitUntil: "networkidle2" }),
-  ]);
-
-  console.log("Chờ liên kết học phí xuất hiện...");
-  await page.waitForSelector("a#WEB_HOCPHI", { visible: true });
-  await new Promise((resolve) => setTimeout(resolve, 2000));
-  await page.click("a#WEB_HOCPHI");
+const crawlXemHocPhi = async (page) => {
+  // Chọn và click thẻ ul (truyền chỉ số từ dưới lên, ví dụ: 4)
+  const ulIndexFromBottom = 6; // Thẻ <ul> thứ 4 từ dưới lên
+  await selectAndClickUl(page, ulIndexFromBottom);
 
   // Mở combobox và lấy tất cả các lựa chọn
   console.log("Mở combobox...");
   // Chờ đợi combobox xuất hiện
+  await new Promise((resolve) => setTimeout(resolve, 1000));
   await page.waitForSelector(".ng-select-container");
   await new Promise((resolve) => setTimeout(resolve, 2000));
 
@@ -187,10 +159,12 @@ const crawlXemHocPhi = async () => {
     });
   }
 
+  // Ghi dữ liệu thành tệp JSON
+  fs.writeFileSync('dataCrawl/HocPhi.json', JSON.stringify(allTableData, null, 2), 'utf-8');
+  console.log('Dữ liệu thời khóa biểu đã được lưu vào timetableData.json');
   // Hiển thị hoặc lưu toàn bộ dữ liệu đã crawl từ tất cả các kỳ học
   console.log(JSON.stringify(allTableData, null, 2));
 
-  await browser.close();
 };
 
 module.exports = crawlXemHocPhi;

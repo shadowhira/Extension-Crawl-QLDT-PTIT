@@ -1,0 +1,1180 @@
+[
+  {
+    "option": "Lọc theo môn học",
+    "secondOption": "Đổi mới sáng tạo tài chính\nMã: FIA1472",
+    "data": [
+      {}
+    ]
+  },
+  {
+    "option": "Lọc theo môn học",
+    "secondOption": "Đổi mới sáng tạo trong tài chính kế toán\nMã: FIA1376",
+    "data": [
+      {}
+    ]
+  },
+  {
+    "option": "Lọc theo môn học",
+    "secondOption": "Đồ án tốt nghiệp\nMã: CDT1434",
+    "data": [
+      {}
+    ]
+  },
+  {
+    "option": "Lọc theo môn học",
+    "secondOption": "Đồ án tốt nghiệp\nMã: INT1478_CLC",
+    "data": [
+      {}
+    ]
+  },
+  {
+    "option": "Lọc theo môn học",
+    "secondOption": "Đồ án tốt nghiệp\nMã: INT1478",
+    "data": [
+      {}
+    ]
+  },
+  {
+    "option": "Lọc theo môn học",
+    "secondOption": "Đồ án tốt nghiệp\nMã: TEL1426",
+    "data": [
+      {}
+    ]
+  },
+  {
+    "option": "Lọc theo môn học",
+    "secondOption": "Đồ án tốt nghiệp\nMã: ELE1437",
+    "data": [
+      {}
+    ]
+  },
+  {
+    "option": "Lọc theo môn học",
+    "secondOption": "Đồ án thiết kế mạch điện tử\nMã: ELE1412",
+    "data": [
+      {
+        "ma_mh": "ELE1412",
+        "ten_mon_hoc": "Đồ án thiết kế mạch điện tử",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "2",
+        "lop": "H-029",
+        "so_luong": "30",
+        "con_lai": "25",
+        "thoi_khoa_bieu": "Thứ 4,từ 13:00 đến 17:50,Ph 8888888807,GV T.M.Đức,30/10/24 đến 13/11/24\nThứ 4,từ 13:00 đến 17:50,Ph 8888888807,GV T.M.Đức,27/11/24\nThứ 5,từ 13:00 đến 17:50,Ph 8888888808,GV T.M.Đức,31/10/24 đến 07/11/24"
+      }
+    ]
+  },
+  {
+    "option": "Môn học mở theo lớp sinh viên D21HTTT6",
+    "secondOption": null,
+    "data": [
+      {}
+    ]
+  },
+  {
+    "option": "Môn trong chương trình đào tạo kế hoạch",
+    "secondOption": null,
+    "data": [
+      {
+        "ma_mh": "BAS1107",
+        "ten_mon_hoc": "Giáo dục thể chất 2",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "2",
+        "lop": "H-001",
+        "so_luong": "30",
+        "con_lai": "17",
+        "thoi_khoa_bieu": "Thứ 5,từ 07:00 đến 11:50,Ph SAN-B1,GV N.D.Trường,31/10/24 đến 28/11/24\nThứ 6,từ 07:00 đến 09:50,Ph SAN-B1,GV N.D.Trường,08/11/24"
+      },
+      {
+        "ma_mh": "BAS1122",
+        "ten_mon_hoc": "Tư tưởng Hồ Chí Minh",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "2",
+        "lop": "H-002",
+        "so_luong": "50",
+        "con_lai": "7",
+        "thoi_khoa_bieu": "Thứ 3,từ 07:00 đến 11:50,Ph 8888888801,GV Đ.M.Sơn,29/10/24 đến 26/11/24\nThứ 4,từ 07:00 đến 11:50,Ph 8888888824,GV Đ.M.Sơn,30/10/24"
+      },
+      {
+        "ma_mh": "BAS1150",
+        "ten_mon_hoc": "Triết học Mác - Lênin",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "3",
+        "lop": "H-004",
+        "so_luong": "30",
+        "con_lai": "14",
+        "thoi_khoa_bieu": "Thứ 2,từ 13:00 đến 17:50,Ph 8888888801,GV P.T.Khánh,04/11/24 đến 25/11/24\nThứ 7,từ 07:00 đến 11:50,Ph 8888888801,GV P.T.Khánh,02/11/24 đến 23/11/24\nThứ 7,từ 13:00 đến 16:50,Ph 8888888801,GV P.T.Khánh,30/11/24"
+      },
+      {
+        "ma_mh": "BAS1151",
+        "ten_mon_hoc": "Kinh tế chính trị Mác- Lênin",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "2",
+        "lop": "H-005",
+        "so_luong": "30",
+        "con_lai": "7",
+        "thoi_khoa_bieu": "Thứ 5,từ 07:00 đến 11:50,Ph 8888888801,GV P.M.Ái,31/10/24 đến 28/11/24\nThứ 6,từ 13:00 đến 17:50,Ph 8888888801,GV P.M.Ái,22/11/24"
+      },
+      {
+        "ma_mh": "BAS1152",
+        "ten_mon_hoc": "Chủ nghĩa xã hội khoa học",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "2",
+        "lop": "H-111",
+        "so_luong": "30",
+        "con_lai": "14",
+        "thoi_khoa_bieu": "Thứ 5,từ 13:00 đến 17:50,Ph 8888888818,GV Đ.M.Sơn,07/11/24\nThứ 7,từ 07:00 đến 11:50,Ph 8888888815,GV Đ.M.Sơn,02/11/24 đến 30/11/24"
+      },
+      {
+        "ma_mh": "BAS1153",
+        "ten_mon_hoc": "Lịch sử Đảng cộng sản Việt Nam",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "2",
+        "lop": "H-006",
+        "so_luong": "50",
+        "con_lai": "15",
+        "thoi_khoa_bieu": "Thứ 5,từ 07:00 đến 11:50,Ph 8888888821,GV Đ.T.Diệu,14/11/24\nThứ 6,từ 13:00 đến 17:50,Ph 8888888803,GV Đ.T.Diệu,01/11/24 đến 29/11/24"
+      },
+      {
+        "ma_mh": "BAS1156",
+        "ten_mon_hoc": "Học phần tiếng anh bổ trợ (Course 0)",
+        "nhom": "01",
+        "to": "",
+        "so_tc": "0",
+        "lop": "D24-020",
+        "so_luong": "0",
+        "con_lai": "0",
+        "thoi_khoa_bieu": "Thứ 2,từ 18:00 đến 19:50,Ph G04-A2,GV P.T.N.Thư,28/10/24 đến 18/11/24\nThứ 3,từ 18:00 đến 19:50,Ph G04-A2,GV P.T.N.Thư,22/10/24 đến 19/11/24\nThứ 4,từ 18:00 đến 19:50,Ph G04-A2,GV V.T.Sâm,23/10/24 đến 13/11/24\nThứ 5,từ 18:00 đến 19:50,Ph G04-A2,GV P.T.N.Thư,24/10/24 đến 21/11/24\nThứ 6,từ 18:00 đến 19:50,Ph G04-A2,GV V.T.Sâm,25/10/24 đến 15/11/24\nThứ 7,từ 07:00 đến 10:50,Ph 604-A2,GV V.T.Sâm,26/10/24 đến 16/11/24"
+      },
+      {
+        "ma_mh": "BAS1156",
+        "ten_mon_hoc": "Học phần tiếng anh bổ trợ (Course 0)",
+        "nhom": "02",
+        "to": "",
+        "so_tc": "0",
+        "lop": "D24-021",
+        "so_luong": "0",
+        "con_lai": "0",
+        "thoi_khoa_bieu": "Thứ 2,từ 18:00 đến 19:50,Ph G05-A2,GV N.T.Thu,28/10/24 đến 18/11/24\nThứ 3,từ 18:00 đến 19:50,Ph G05-A2,GV N.T.Thu,22/10/24 đến 19/11/24\nThứ 4,từ 18:00 đến 19:50,Ph G05-A2,GV N.Q.Giao,23/10/24 đến 13/11/24\nThứ 5,từ 18:00 đến 19:50,Ph G05-A2,GV N.Q.Giao,24/10/24 đến 21/11/24\nThứ 6,từ 18:00 đến 19:50,Ph G05-A2,GV Đ.P.Thúy,25/10/24 đến 15/11/24\nThứ 7,từ 13:00 đến 16:50,Ph 604-A2,GV N.Q.Giao,26/10/24 đến 16/11/24"
+      },
+      {
+        "ma_mh": "BAS1156",
+        "ten_mon_hoc": "Học phần tiếng anh bổ trợ (Course 0)",
+        "nhom": "03",
+        "to": "",
+        "so_tc": "0",
+        "lop": "D24-022",
+        "so_luong": "0",
+        "con_lai": "0",
+        "thoi_khoa_bieu": "Thứ 2,từ 18:00 đến 19:50,Ph G06-A2,GV Đ.P.Thúy,28/10/24 đến 18/11/24\nThứ 3,từ 18:00 đến 19:50,Ph G06-A2,GV B.T.T.Mai,22/10/24 đến 19/11/24\nThứ 4,từ 18:00 đến 19:50,Ph G06-A2,GV T.M.Sơn,23/10/24 đến 13/11/24\nThứ 5,từ 18:00 đến 19:50,Ph G06-A2,GV B.T.T.Mai,24/10/24 đến 21/11/24\nThứ 6,từ 18:00 đến 19:50,Ph G06-A2,GV T.M.Sơn,25/10/24 đến 15/11/24\nThứ 7,từ 13:00 đến 16:50,Ph 204-A2,GV B.T.T.Mai,26/10/24 đến 16/11/24"
+      },
+      {
+        "ma_mh": "BAS1156",
+        "ten_mon_hoc": "Học phần tiếng anh bổ trợ (Course 0)",
+        "nhom": "04",
+        "to": "",
+        "so_tc": "0",
+        "lop": "D24-023",
+        "so_luong": "0",
+        "con_lai": "0",
+        "thoi_khoa_bieu": "Thứ 2,từ 18:00 đến 19:50,Ph 104-A2,GV T.T.T.Bình,28/10/24 đến 18/11/24\nThứ 3,từ 18:00 đến 19:50,Ph 104-A2,GV N.H.Nga,22/10/24 đến 19/11/24\nThứ 4,từ 18:00 đến 19:50,Ph 104-A2,GV T.T.T.Bình,23/10/24 đến 13/11/24\nThứ 5,từ 18:00 đến 19:50,Ph 104-A2,GV N.H.Nga,24/10/24 đến 21/11/24\nThứ 6,từ 18:00 đến 19:50,Ph 104-A2,GV N.H.Nga,25/10/24 đến 15/11/24\nThứ 7,từ 07:00 đến 07:50,Ph 104-A2,GV T.T.T.Bình,26/10/24 đến 16/11/24"
+      },
+      {
+        "ma_mh": "BAS1157",
+        "ten_mon_hoc": "Tiếng Anh (Course 1)",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "4",
+        "lop": "H-007",
+        "so_luong": "30",
+        "con_lai": "15",
+        "thoi_khoa_bieu": "Thứ 4,từ 13:00 đến 17:50,Ph 8888888801,GV N.Q.Giao,30/10/24 đến 13/11/24\nThứ 4,từ 13:00 đến 17:50,Ph 8888888801,GV N.Q.Giao,27/11/24\nThứ 5,từ 13:00 đến 17:50,Ph 8888888801,GV N.Q.Giao,31/10/24 đến 28/11/24\nThứ 6,từ 13:00 đến 17:50,Ph 8888888801,GV N.Q.Giao,01/11/24 đến 15/11/24"
+      },
+      {
+        "ma_mh": "BAS1158",
+        "ten_mon_hoc": "Tiếng Anh (Course 2)",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "4",
+        "lop": "H-008",
+        "so_luong": "30",
+        "con_lai": "16",
+        "thoi_khoa_bieu": "Thứ 2,từ 07:00 đến 11:50,Ph 8888888802,GV P.T.N.Thư,28/10/24 đến 25/11/24\nThứ 3,từ 07:00 đến 11:50,Ph 8888888803,GV P.T.N.Thư,29/10/24 đến 26/11/24\nThứ 5,từ 07:00 đến 11:50,Ph 8888888823,GV P.T.N.Thư,31/10/24 đến 07/11/24"
+      },
+      {
+        "ma_mh": "BAS1159",
+        "ten_mon_hoc": "Tiếng Anh (Course 3)",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "4",
+        "lop": "H-009",
+        "so_luong": "30",
+        "con_lai": "11",
+        "thoi_khoa_bieu": "Thứ 2,từ 13:00 đến 17:50,Ph 8888888802,GV T.M.Sơn,28/10/24 đến 25/11/24\nThứ 3,từ 13:00 đến 17:50,Ph 8888888801,GV Đ.P.Thúy,29/10/24 đến 26/11/24\nThứ 4,từ 13:00 đến 17:50,Ph 8888888802,GV T.M.Sơn,30/10/24 đến 06/11/24"
+      },
+      {
+        "ma_mh": "BAS1160",
+        "ten_mon_hoc": "Tiếng Anh (Course 3 Plus)",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "2",
+        "lop": "H-010",
+        "so_luong": "30",
+        "con_lai": "21",
+        "thoi_khoa_bieu": "Thứ 4,từ 07:00 đến 11:50,Ph 8888888801,GV N.T.Thiết,30/10/24 đến 13/11/24\nThứ 4,từ 07:00 đến 11:50,Ph 8888888801,GV N.T.Thiết,27/11/24\nThứ 5,từ 07:00 đến 11:50,Ph 8888888822,GV N.T.Thiết,31/10/24 đến 07/11/24"
+      },
+      {
+        "ma_mh": "BAS1203",
+        "ten_mon_hoc": "Giải tích 1",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "3",
+        "lop": "H-011",
+        "so_luong": "50",
+        "con_lai": "21",
+        "thoi_khoa_bieu": "Thứ 3,từ 13:00 đến 17:50,Ph 8888888802,GV N.Đ.Dương,29/10/24 đến 26/11/24\nThứ 6,từ 13:00 đến 17:50,Ph 8888888802,GV N.Đ.Dương,01/11/24 đến 15/11/24\nThứ 6,từ 13:00 đến 16:50,Ph 8888888802,GV N.Đ.Dương,22/11/24"
+      },
+      {
+        "ma_mh": "BAS1204",
+        "ten_mon_hoc": "Giải tích 2",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "3",
+        "lop": "H-012",
+        "so_luong": "40",
+        "con_lai": "13",
+        "thoi_khoa_bieu": "Thứ 2,từ 13:00 đến 17:50,Ph 8888888803,GV T.T.Trang,28/10/24 đến 25/11/24\nThứ 7,từ 13:00 đến 17:50,Ph 8888888802,GV T.T.Trang,02/11/24 đến 16/11/24\nThứ 7,từ 13:00 đến 16:50,Ph 8888888802,GV T.T.Trang,23/11/24"
+      },
+      {
+        "ma_mh": "BAS1224",
+        "ten_mon_hoc": "Vật lý 1 và thí nghiệm",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "4",
+        "lop": "H-013",
+        "so_luong": "40",
+        "con_lai": "13",
+        "thoi_khoa_bieu": "Thứ 6,từ 13:00 đến 17:50,Ph 8888888804,GV H.T.L.Hương,01/11/24 đến 29/11/24\nThứ 7,từ 13:00 đến 17:50,Ph 8888888803,GV H.T.L.Hương,02/11/24 đến 23/11/24\nThứ 7,từ 13:00 đến 15:50,Ph 8888888803,GV H.T.L.Hương,30/11/24"
+      },
+      {
+        "ma_mh": "BAS1227",
+        "ten_mon_hoc": "Vật lý 3 và thí nghiệm",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "4",
+        "lop": "H-015",
+        "so_luong": "30",
+        "con_lai": "17",
+        "thoi_khoa_bieu": "Thứ 2,từ 07:00 đến 11:50,Ph 8888888803,GV T.T.Thảo,28/10/24 đến 25/11/24\nThứ 3,từ 07:00 đến 11:50,Ph 8888888804,GV T.T.Thảo,29/10/24 đến 12/11/24\nThứ 3,từ 07:00 đến 10:50,Ph 8888888804,GV T.T.Thảo,19/11/24"
+      },
+      {
+        "ma_mh": "ELE1319",
+        "ten_mon_hoc": "Lý thuyết thông tin",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "3",
+        "lop": "H-023",
+        "so_luong": "50",
+        "con_lai": "8",
+        "thoi_khoa_bieu": "Thứ 4,từ 13:00 đến 17:50,Ph 8888888806,GV N.T.H.Thảo,30/10/24 đến 13/11/24\nThứ 4,từ 13:00 đến 17:50,Ph 8888888806,GV N.T.H.Thảo,27/11/24\nThứ 7,từ 13:00 đến 17:50,Ph 8888888806,GV N.T.H.Thảo,02/11/24 đến 23/11/24\nThứ 7,từ 13:00 đến 16:50,Ph 8888888806,GV N.T.H.Thảo,30/11/24"
+      },
+      {
+        "ma_mh": "ELE1330",
+        "ten_mon_hoc": "Xử lý tín hiệu số",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "2",
+        "lop": "H-025",
+        "so_luong": "30",
+        "con_lai": "22",
+        "thoi_khoa_bieu": "Thứ 4,từ 07:00 đến 11:50,Ph 8888888803,GV P.V.Sự,30/10/24 đến 13/11/24\nThứ 4,từ 07:00 đến 11:50,Ph 8888888803,GV P.V.Sự,27/11/24\nThứ 5,từ 07:00 đến 11:50,Ph 8888888822,GV P.V.Sự,14/11/24 đến 21/11/24"
+      },
+      {
+        "ma_mh": "ELE1433",
+        "ten_mon_hoc": "Kỹ thuật số",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "2",
+        "lop": "H-035",
+        "so_luong": "30",
+        "con_lai": "19",
+        "thoi_khoa_bieu": "Thứ 3,từ 13:00 đến 17:50,Ph 8888888805,GV V.A.Đào,29/10/24 đến 05/11/24\nThứ 3,từ 13:00 đến 15:50,Ph 8888888805,GV V.A.Đào,12/11/24\nThứ 4,từ 07:00 đến 11:50,Ph 8888888805,GV V.A.Đào,30/10/24 đến 13/11/24\nThứ 4,từ 07:00 đến 11:50,Ph 8888888805,GV V.A.Đào,27/11/24"
+      },
+      {
+        "ma_mh": "INT1154",
+        "ten_mon_hoc": "Tin học cơ sở 1",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "2",
+        "lop": "H-039",
+        "so_luong": "30",
+        "con_lai": "23",
+        "thoi_khoa_bieu": "Thứ 2,từ 07:00 đến 11:50,Ph 8888888808,GV Q.T.Thế,04/11/24\nThứ 2,từ 07:00 đến 11:50,Ph 8888888808,GV Q.T.Thế,18/11/24 đến 25/11/24\nThứ 7,từ 07:00 đến 10:50,Ph 8888888802,GV Q.T.Thế,16/11/24\nThứ 7,từ 07:00 đến 11:50,Ph 8888888802,GV Q.T.Thế,30/11/24"
+      },
+      {
+        "ma_mh": "INT1155",
+        "ten_mon_hoc": "Tin học cơ sở 2",
+        "nhom": "98",
+        "to": "",
+        "so_tc": "2",
+        "lop": "H-118",
+        "so_luong": "0",
+        "con_lai": "0",
+        "thoi_khoa_bieu": "Thứ 7,từ 07:00 đến 11:50,Ph 8888888819,GV N.Đ.Hiến,02/11/24 đến 23/11/24\nThứ 7,từ 07:00 đến 10:50,Ph 8888888819,GV N.Đ.Hiến,30/11/24"
+      },
+      {
+        "ma_mh": "INT1155",
+        "ten_mon_hoc": "Tin học cơ sở 2",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "2",
+        "lop": "H-040",
+        "so_luong": "75",
+        "con_lai": "1",
+        "thoi_khoa_bieu": "Thứ 2,từ 13:00 đến 17:50,Ph 8888888806,GV N.Đ.Hiến,28/10/24 đến 18/11/24\nThứ 2,từ 13:00 đến 16:50,Ph 8888888806,GV N.Đ.Hiến,25/11/24"
+      },
+      {
+        "ma_mh": "INT1303",
+        "ten_mon_hoc": "An toàn và bảo mật hệ thống thông tin",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "3",
+        "lop": "H-110",
+        "so_luong": "30",
+        "con_lai": "27",
+        "thoi_khoa_bieu": "Thứ 6,từ 13:00 đến 17:50,Ph 8888888814,GV N.H.Cương,01/11/24 đến 29/11/24\nThứ 7,từ 13:00 đến 17:50,Ph 8888888812,GV N.H.Cương,02/11/24 đến 16/11/24\nThứ 7,từ 13:00 đến 14:50,Ph 8888888812,GV N.H.Cương,23/11/24"
+      },
+      {
+        "ma_mh": "INT1306",
+        "ten_mon_hoc": "Cấu trúc dữ liệu và giải thuật",
+        "nhom": "98",
+        "to": "",
+        "so_tc": "3",
+        "lop": "H-041",
+        "so_luong": "65",
+        "con_lai": "10",
+        "thoi_khoa_bieu": "Thứ 2,từ 07:00 đến 11:50,Ph 8888888820,GV N.M.Sơn,28/10/24 đến 25/11/24\nThứ 5,từ 13:00 đến 17:50,Ph 8888888820,GV N.M.Sơn,31/10/24 đến 14/11/24"
+      },
+      {
+        "ma_mh": "INT1306",
+        "ten_mon_hoc": "Cấu trúc dữ liệu và giải thuật",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "3",
+        "lop": "H-042",
+        "so_luong": "65",
+        "con_lai": "4",
+        "thoi_khoa_bieu": "Thứ 2,từ 13:00 đến 17:50,Ph 8888888818,GV N.M.Sơn,28/10/24 đến 25/11/24\nThứ 4,từ 13:00 đến 17:50,Ph 8888888815,GV N.M.Sơn,30/10/24 đến 13/11/24"
+      },
+      {
+        "ma_mh": "INT13145",
+        "ten_mon_hoc": "Kiến trúc máy tính",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "3",
+        "lop": "H-043",
+        "so_luong": "50",
+        "con_lai": "16",
+        "thoi_khoa_bieu": "Thứ 2,từ 13:00 đến 17:50,Ph 8888888807,GV Đ.X.Trường,28/10/24 đến 11/11/24\nThứ 2,từ 13:00 đến 16:50,Ph 8888888807,GV Đ.X.Trường,18/11/24\nThứ 5,từ 13:00 đến 17:50,Ph 8888888810,GV Đ.X.Trường,31/10/24 đến 28/11/24"
+      },
+      {
+        "ma_mh": "INT13146",
+        "ten_mon_hoc": "Xử lý ảnh",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "3",
+        "lop": "H-044",
+        "so_luong": "30",
+        "con_lai": "20",
+        "thoi_khoa_bieu": "Thứ 3,từ 13:00 đến 17:50,Ph 8888888808,GV Đ.T.T.Quỳnh,29/10/24 đến 26/11/24\nThứ 4,từ 07:00 đến 11:50,Ph 8888888807,GV Đ.T.T.Quỳnh,30/10/24 đến 13/11/24\nThứ 4,từ 07:00 đến 10:50,Ph 8888888807,GV Đ.T.T.Quỳnh,27/11/24"
+      },
+      {
+        "ma_mh": "INT1319",
+        "ten_mon_hoc": "Hệ điều hành",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "3",
+        "lop": "H-045",
+        "so_luong": "40",
+        "con_lai": "12",
+        "thoi_khoa_bieu": "Thứ 2,từ 07:00 đến 11:50,Ph 8888888809,GV P.H.Duy,28/10/24 đến 11/11/24\nThứ 2,từ 07:00 đến 08:50,Ph 8888888809,GV P.H.Duy,18/11/24\nThứ 7,từ 07:00 đến 11:50,Ph 8888888804,GV P.H.Duy,02/11/24 đến 30/11/24"
+      },
+      {
+        "ma_mh": "INT1332",
+        "ten_mon_hoc": "Lập trình hướng đối tượng",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "3",
+        "lop": "H-047",
+        "so_luong": "70",
+        "con_lai": "9",
+        "thoi_khoa_bieu": "Thứ 4,từ 07:00 đến 11:50,Ph 8888888808,GV T.T.V.Anh,30/10/24 đến 13/11/24\nThứ 4,từ 07:00 đến 11:50,Ph 8888888808,GV T.T.V.Anh,27/11/24\nThứ 5,từ 07:00 đến 11:50,Ph 8888888804,GV T.T.V.Anh,31/10/24 đến 14/11/24\nThứ 5,từ 07:00 đến 09:50,Ph 8888888804,GV T.T.V.Anh,21/11/24"
+      },
+      {
+        "ma_mh": "INT1336",
+        "ten_mon_hoc": "Mạng máy tính",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "3",
+        "lop": "H-048",
+        "so_luong": "30",
+        "con_lai": "17",
+        "thoi_khoa_bieu": "Thứ 6,từ 07:00 đến 11:50,Ph 8888888805,GV N.T.T.Thủy,01/11/24 đến 29/11/24\nThứ 7,từ 07:00 đến 11:50,Ph 8888888805,GV N.T.T.Thủy,02/11/24 đến 16/11/24\nThứ 7,từ 07:00 đến 08:50,Ph 8888888805,GV N.T.T.Thủy,23/11/24"
+      },
+      {
+        "ma_mh": "INT1339",
+        "ten_mon_hoc": "Ngôn ngữ lập trình C++",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "3",
+        "lop": "H-049",
+        "so_luong": "50",
+        "con_lai": "15",
+        "thoi_khoa_bieu": "Thứ 4,từ 13:00 đến 17:50,Ph 8888888810,GV B.V.Kiên,30/10/24 đến 13/11/24\nThứ 4,từ 13:00 đến 17:50,Ph 8888888810,GV B.V.Kiên,27/11/24\nThứ 5,từ 13:00 đến 17:50,Ph 8888888811,GV B.V.Kiên,31/10/24 đến 14/11/24\nThứ 5,từ 13:00 đến 15:50,Ph 8888888811,GV B.V.Kiên,21/11/24"
+      },
+      {
+        "ma_mh": "INT1340",
+        "ten_mon_hoc": "Nhập môn công nghệ phần mềm",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "3",
+        "lop": "H-050",
+        "so_luong": "50",
+        "con_lai": "5",
+        "thoi_khoa_bieu": "Thứ 3,từ 13:00 đến 17:50,Ph 8888888809,GV N.T.Đức,29/10/24 đến 19/11/24\nThứ 3,từ 13:00 đến 16:50,Ph 8888888809,GV N.T.Đức,26/11/24\nThứ 4,từ 13:00 đến 17:50,Ph 8888888811,GV N.T.Đức,30/10/24 đến 13/11/24\nThứ 4,từ 13:00 đến 17:50,Ph 8888888811,GV N.T.Đức,27/11/24"
+      },
+      {
+        "ma_mh": "INT1341",
+        "ten_mon_hoc": "Nhập môn trí tuệ nhân tạo",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "3",
+        "lop": "H-051",
+        "so_luong": "30",
+        "con_lai": "12",
+        "thoi_khoa_bieu": "Thứ 5,từ 13:00 đến 17:50,Ph 8888888812,GV Đ.T.T.Quỳnh,31/10/24 đến 14/11/24\nThứ 5,từ 13:00 đến 16:50,Ph 8888888812,GV Đ.T.T.Quỳnh,21/11/24\nThứ 6,từ 13:00 đến 17:50,Ph 8888888808,GV Đ.T.T.Quỳnh,01/11/24 đến 29/11/24"
+      },
+      {
+        "ma_mh": "INT1342M",
+        "ten_mon_hoc": "Phân tích và thiết kế hệ thống thông tin",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "3",
+        "lop": "H-052",
+        "so_luong": "30",
+        "con_lai": "14",
+        "thoi_khoa_bieu": "Thứ 6,từ 07:00 đến 11:50,Ph 8888888806,GV N.M.Hùng,01/11/24 đến 29/11/24\nThứ 7,từ 07:00 đến 11:50,Ph 8888888806,GV N.M.Hùng,02/11/24 đến 16/11/24\nThứ 7,từ 07:00 đến 10:50,Ph 8888888806,GV N.M.Hùng,23/11/24"
+      },
+      {
+        "ma_mh": "INT1358",
+        "ten_mon_hoc": "Toán rời rạc 1",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "3",
+        "lop": "H-054",
+        "so_luong": "30",
+        "con_lai": "22",
+        "thoi_khoa_bieu": "Thứ 6,từ 07:00 đến 11:50,Ph 8888888807,GV V.V.Thỏa,01/11/24 đến 29/11/24\nThứ 7,từ 07:00 đến 11:50,Ph 8888888807,GV V.V.Thỏa,02/11/24 đến 16/11/24\nThứ 7,từ 07:00 đến 10:50,Ph 8888888807,GV V.V.Thỏa,23/11/24"
+      },
+      {
+        "ma_mh": "INT1359",
+        "ten_mon_hoc": "Toán rời rạc 2",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "3",
+        "lop": "H-055",
+        "so_luong": "30",
+        "con_lai": "11",
+        "thoi_khoa_bieu": "Thứ 2,từ 13:00 đến 17:50,Ph 8888888808,GV N.T.M.Trang,28/10/24 đến 25/11/24\nThứ 3,từ 13:00 đến 17:50,Ph 8888888810,GV N.T.M.Trang,29/10/24 đến 12/11/24\nThứ 3,từ 13:00 đến 16:50,Ph 8888888810,GV N.T.M.Trang,19/11/24"
+      },
+      {
+        "ma_mh": "INT14148",
+        "ten_mon_hoc": "Cơ sở dữ liệu phân tán",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "3",
+        "lop": "H-060",
+        "so_luong": "30",
+        "con_lai": "18",
+        "thoi_khoa_bieu": "Thứ 4,từ 13:00 đến 17:50,Ph 8888888812,GV P.T.Hà,30/10/24 đến 13/11/24\nThứ 4,từ 13:00 đến 17:50,Ph 8888888812,GV P.T.Hà,27/11/24\nThứ 5,từ 13:00 đến 17:50,Ph 8888888813,GV P.T.Hà,31/10/24 đến 21/11/24\nThứ 5,từ 13:00 đến 16:50,Ph 8888888813,GV P.T.Hà,28/11/24"
+      },
+      {
+        "ma_mh": "INT14149",
+        "ten_mon_hoc": "IoT và ứng dụng",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "3",
+        "lop": "H-061",
+        "so_luong": "30",
+        "con_lai": "16",
+        "thoi_khoa_bieu": "Thứ 3,từ 13:00 đến 17:50,Ph 8888888812,GV K.N.Bách,29/10/24 đến 26/11/24\nThứ 7,từ 13:00 đến 17:50,Ph 8888888809,GV K.N.Bách,02/11/24 đến 09/11/24\nThứ 7,từ 13:00 đến 15:50,Ph 8888888809,GV K.N.Bách,16/11/24"
+      },
+      {
+        "ma_mh": "INT14150",
+        "ten_mon_hoc": "Nhập môn khoa học dữ liệu",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "3",
+        "lop": "H-062",
+        "so_luong": "30",
+        "con_lai": "23",
+        "thoi_khoa_bieu": "Thứ 2,từ 07:00 đến 11:50,Ph 8888888811,GV Đ.X.Trường,28/10/24 đến 25/11/24\nThứ 3,từ 07:00 đến 11:50,Ph 8888888810,GV Đ.X.Trường,29/10/24 đến 12/11/24\nThứ 3,từ 07:00 đến 10:50,Ph 8888888810,GV Đ.X.Trường,19/11/24"
+      },
+      {
+        "ma_mh": "INT1433",
+        "ten_mon_hoc": "Lập trình mạng",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "3",
+        "lop": "H-066",
+        "so_luong": "50",
+        "con_lai": "17",
+        "thoi_khoa_bieu": "Thứ 2,từ 07:00 đến 11:50,Ph 8888888812,GV Đ.N.Hùng,28/10/24 đến 25/11/24\nThứ 3,từ 07:00 đến 11:50,Ph 8888888811,GV Đ.N.Hùng,29/10/24 đến 05/11/24\nThứ 3,từ 07:00 đến 09:50,Ph 8888888811,GV Đ.N.Hùng,12/11/24"
+      },
+      {
+        "ma_mh": "INT1434",
+        "ten_mon_hoc": "Lập trình Web",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "3",
+        "lop": "H-067",
+        "so_luong": "55",
+        "con_lai": "14",
+        "thoi_khoa_bieu": "Thứ 3,từ 13:00 đến 17:50,Ph 8888888820,GV D.T.Đức,29/10/24 đến 12/11/24\nThứ 3,từ 13:00 đến 15:50,Ph 8888888820,GV D.T.Đức,19/11/24\nThứ 4,từ 07:00 đến 11:50,Ph 8888888811,GV D.T.Đức,30/10/24 đến 13/11/24\nThứ 4,từ 07:00 đến 11:50,Ph 8888888811,GV D.T.Đức,27/11/24"
+      },
+      {
+        "ma_mh": "INT1450",
+        "ten_mon_hoc": "Quản lý dự án phần mềm",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "2",
+        "lop": "H-070",
+        "so_luong": "30",
+        "con_lai": "25",
+        "thoi_khoa_bieu": "Thứ 3,từ 13:00 đến 17:50,Ph 8888888814,GV Đ.N.Phong,29/10/24 đến 26/11/24\nThứ 4,từ 13:00 đến 17:50,Ph 8888888813,GV Đ.N.Phong,30/10/24"
+      },
+      {
+        "ma_mh": "SKD1108",
+        "ten_mon_hoc": "Phương pháp luận nghiên cứu khoa học",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "2",
+        "lop": "H-078",
+        "so_luong": "30",
+        "con_lai": "25",
+        "thoi_khoa_bieu": "Thứ 5,từ 13:00 đến 17:50,Ph 8888888816,GV Đ.T.Hương,31/10/24 đến 21/11/24\nThứ 5,từ 13:00 đến 16:50,Ph 8888888816,GV Đ.T.Hương,28/11/24"
+      }
+    ]
+  },
+  {
+    "option": "Môn chưa học trong CTĐT kế hoạch",
+    "secondOption": null,
+    "data": [
+      {
+        "ma_mh": "BAS1156",
+        "ten_mon_hoc": "Học phần tiếng anh bổ trợ (Course 0)",
+        "nhom": "01",
+        "to": "",
+        "so_tc": "0",
+        "lop": "D24-020",
+        "so_luong": "0",
+        "con_lai": "0",
+        "thoi_khoa_bieu": "Thứ 2,từ 18:00 đến 19:50,Ph G04-A2,GV P.T.N.Thư,28/10/24 đến 18/11/24\nThứ 3,từ 18:00 đến 19:50,Ph G04-A2,GV P.T.N.Thư,22/10/24 đến 19/11/24\nThứ 4,từ 18:00 đến 19:50,Ph G04-A2,GV V.T.Sâm,23/10/24 đến 13/11/24\nThứ 5,từ 18:00 đến 19:50,Ph G04-A2,GV P.T.N.Thư,24/10/24 đến 21/11/24\nThứ 6,từ 18:00 đến 19:50,Ph G04-A2,GV V.T.Sâm,25/10/24 đến 15/11/24\nThứ 7,từ 07:00 đến 10:50,Ph 604-A2,GV V.T.Sâm,26/10/24 đến 16/11/24"
+      },
+      {
+        "ma_mh": "BAS1156",
+        "ten_mon_hoc": "Học phần tiếng anh bổ trợ (Course 0)",
+        "nhom": "02",
+        "to": "",
+        "so_tc": "0",
+        "lop": "D24-021",
+        "so_luong": "0",
+        "con_lai": "0",
+        "thoi_khoa_bieu": "Thứ 2,từ 18:00 đến 19:50,Ph G05-A2,GV N.T.Thu,28/10/24 đến 18/11/24\nThứ 3,từ 18:00 đến 19:50,Ph G05-A2,GV N.T.Thu,22/10/24 đến 19/11/24\nThứ 4,từ 18:00 đến 19:50,Ph G05-A2,GV N.Q.Giao,23/10/24 đến 13/11/24\nThứ 5,từ 18:00 đến 19:50,Ph G05-A2,GV N.Q.Giao,24/10/24 đến 21/11/24\nThứ 6,từ 18:00 đến 19:50,Ph G05-A2,GV Đ.P.Thúy,25/10/24 đến 15/11/24\nThứ 7,từ 13:00 đến 16:50,Ph 604-A2,GV N.Q.Giao,26/10/24 đến 16/11/24"
+      },
+      {
+        "ma_mh": "BAS1156",
+        "ten_mon_hoc": "Học phần tiếng anh bổ trợ (Course 0)",
+        "nhom": "03",
+        "to": "",
+        "so_tc": "0",
+        "lop": "D24-022",
+        "so_luong": "0",
+        "con_lai": "0",
+        "thoi_khoa_bieu": "Thứ 2,từ 18:00 đến 19:50,Ph G06-A2,GV Đ.P.Thúy,28/10/24 đến 18/11/24\nThứ 3,từ 18:00 đến 19:50,Ph G06-A2,GV B.T.T.Mai,22/10/24 đến 19/11/24\nThứ 4,từ 18:00 đến 19:50,Ph G06-A2,GV T.M.Sơn,23/10/24 đến 13/11/24\nThứ 5,từ 18:00 đến 19:50,Ph G06-A2,GV B.T.T.Mai,24/10/24 đến 21/11/24\nThứ 6,từ 18:00 đến 19:50,Ph G06-A2,GV T.M.Sơn,25/10/24 đến 15/11/24\nThứ 7,từ 13:00 đến 16:50,Ph 204-A2,GV B.T.T.Mai,26/10/24 đến 16/11/24"
+      },
+      {
+        "ma_mh": "BAS1156",
+        "ten_mon_hoc": "Học phần tiếng anh bổ trợ (Course 0)",
+        "nhom": "04",
+        "to": "",
+        "so_tc": "0",
+        "lop": "D24-023",
+        "so_luong": "0",
+        "con_lai": "0",
+        "thoi_khoa_bieu": "Thứ 2,từ 18:00 đến 19:50,Ph 104-A2,GV T.T.T.Bình,28/10/24 đến 18/11/24\nThứ 3,từ 18:00 đến 19:50,Ph 104-A2,GV N.H.Nga,22/10/24 đến 19/11/24\nThứ 4,từ 18:00 đến 19:50,Ph 104-A2,GV T.T.T.Bình,23/10/24 đến 13/11/24\nThứ 5,từ 18:00 đến 19:50,Ph 104-A2,GV N.H.Nga,24/10/24 đến 21/11/24\nThứ 6,từ 18:00 đến 19:50,Ph 104-A2,GV N.H.Nga,25/10/24 đến 15/11/24\nThứ 7,từ 07:00 đến 07:50,Ph 104-A2,GV T.T.T.Bình,26/10/24 đến 16/11/24"
+      },
+      {
+        "ma_mh": "INT13146",
+        "ten_mon_hoc": "Xử lý ảnh",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "3",
+        "lop": "H-044",
+        "so_luong": "30",
+        "con_lai": "20",
+        "thoi_khoa_bieu": "Thứ 3,từ 13:00 đến 17:50,Ph 8888888808,GV Đ.T.T.Quỳnh,29/10/24 đến 26/11/24\nThứ 4,từ 07:00 đến 11:50,Ph 8888888807,GV Đ.T.T.Quỳnh,30/10/24 đến 13/11/24\nThứ 4,từ 07:00 đến 10:50,Ph 8888888807,GV Đ.T.T.Quỳnh,27/11/24"
+      },
+      {
+        "ma_mh": "INT1342M",
+        "ten_mon_hoc": "Phân tích và thiết kế hệ thống thông tin",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "3",
+        "lop": "H-052",
+        "so_luong": "30",
+        "con_lai": "14",
+        "thoi_khoa_bieu": "Thứ 6,từ 07:00 đến 11:50,Ph 8888888806,GV N.M.Hùng,01/11/24 đến 29/11/24\nThứ 7,từ 07:00 đến 11:50,Ph 8888888806,GV N.M.Hùng,02/11/24 đến 16/11/24\nThứ 7,từ 07:00 đến 10:50,Ph 8888888806,GV N.M.Hùng,23/11/24"
+      },
+      {
+        "ma_mh": "INT14149",
+        "ten_mon_hoc": "IoT và ứng dụng",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "3",
+        "lop": "H-061",
+        "so_luong": "30",
+        "con_lai": "16",
+        "thoi_khoa_bieu": "Thứ 3,từ 13:00 đến 17:50,Ph 8888888812,GV K.N.Bách,29/10/24 đến 26/11/24\nThứ 7,từ 13:00 đến 17:50,Ph 8888888809,GV K.N.Bách,02/11/24 đến 09/11/24\nThứ 7,từ 13:00 đến 15:50,Ph 8888888809,GV K.N.Bách,16/11/24"
+      },
+      {
+        "ma_mh": "INT14150",
+        "ten_mon_hoc": "Nhập môn khoa học dữ liệu",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "3",
+        "lop": "H-062",
+        "so_luong": "30",
+        "con_lai": "23",
+        "thoi_khoa_bieu": "Thứ 2,từ 07:00 đến 11:50,Ph 8888888811,GV Đ.X.Trường,28/10/24 đến 25/11/24\nThứ 3,từ 07:00 đến 11:50,Ph 8888888810,GV Đ.X.Trường,29/10/24 đến 12/11/24\nThứ 3,từ 07:00 đến 10:50,Ph 8888888810,GV Đ.X.Trường,19/11/24"
+      },
+      {
+        "ma_mh": "INT1433",
+        "ten_mon_hoc": "Lập trình mạng",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "3",
+        "lop": "H-066",
+        "so_luong": "50",
+        "con_lai": "17",
+        "thoi_khoa_bieu": "Thứ 2,từ 07:00 đến 11:50,Ph 8888888812,GV Đ.N.Hùng,28/10/24 đến 25/11/24\nThứ 3,từ 07:00 đến 11:50,Ph 8888888811,GV Đ.N.Hùng,29/10/24 đến 05/11/24\nThứ 3,từ 07:00 đến 09:50,Ph 8888888811,GV Đ.N.Hùng,12/11/24"
+      },
+      {
+        "ma_mh": "INT1450",
+        "ten_mon_hoc": "Quản lý dự án phần mềm",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "2",
+        "lop": "H-070",
+        "so_luong": "30",
+        "con_lai": "25",
+        "thoi_khoa_bieu": "Thứ 3,từ 13:00 đến 17:50,Ph 8888888814,GV Đ.N.Phong,29/10/24 đến 26/11/24\nThứ 4,từ 13:00 đến 17:50,Ph 8888888813,GV Đ.N.Phong,30/10/24"
+      },
+      {
+        "ma_mh": "SKD1108",
+        "ten_mon_hoc": "Phương pháp luận nghiên cứu khoa học",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "2",
+        "lop": "H-078",
+        "so_luong": "30",
+        "con_lai": "25",
+        "thoi_khoa_bieu": "Thứ 5,từ 13:00 đến 17:50,Ph 8888888816,GV Đ.T.Hương,31/10/24 đến 21/11/24\nThứ 5,từ 13:00 đến 16:50,Ph 8888888816,GV Đ.T.Hương,28/11/24"
+      }
+    ]
+  },
+  {
+    "option": "Môn sinh viên cần học lại (đã rớt)",
+    "secondOption": null,
+    "data": [
+      {
+        "ma_mh": "BAS1159",
+        "ten_mon_hoc": "Tiếng Anh (Course 3)",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "4",
+        "lop": "H-009",
+        "so_luong": "30",
+        "con_lai": "11",
+        "thoi_khoa_bieu": "Thứ 2,từ 13:00 đến 17:50,Ph 8888888802,GV T.M.Sơn,28/10/24 đến 25/11/24\nThứ 3,từ 13:00 đến 17:50,Ph 8888888801,GV Đ.P.Thúy,29/10/24 đến 26/11/24\nThứ 4,từ 13:00 đến 17:50,Ph 8888888802,GV T.M.Sơn,30/10/24 đến 06/11/24"
+      }
+    ]
+  },
+  {
+    "option": "Lọc theo khoa quản lý môn học",
+    "secondOption": "Điện tử\nMã: (1).DT1",
+    "data": [
+      {
+        "ma_mh": "ELE1386",
+        "ten_mon_hoc": "Nhập môn kỹ thuật điện tử",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "2",
+        "lop": "H-026",
+        "so_luong": "30",
+        "con_lai": "23",
+        "thoi_khoa_bieu": "Thứ 5,từ 07:00 đến 11:50,Ph 8888888802,GV N.T.Hiếu,31/10/24 đến 28/11/24\nThứ 6,từ 07:00 đến 11:50,Ph 8888888801,GV N.T.Hiếu,08/11/24"
+      }
+    ]
+  },
+  {
+    "option": "Lọc theo khoa quản lý môn học",
+    "secondOption": "Xưởng thực hành\nMã: (1).TTM XT1",
+    "data": [
+      {
+        "ma_mh": "OTC1301",
+        "ten_mon_hoc": "Thực hành cơ sở",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "3",
+        "lop": "H-077",
+        "so_luong": "30",
+        "con_lai": "11",
+        "thoi_khoa_bieu": "Thứ 4,từ 16:00 đến 20:50,Ph 604-A3,GV N.Đ.Việt,30/10/24 đến 27/11/24\nThứ 5,từ 16:00 đến 20:50,Ph 604-A3,GV N.Đ.Việt,31/10/24 đến 28/11/24\nThứ 6,từ 16:00 đến 20:50,Ph 604-A3,GV N.Đ.Việt,01/11/24 đến 29/11/24\nThứ 7,từ 08:00 đến 12:50,Ph 604-A3,GV N.Đ.Việt,02/11/24"
+      }
+    ]
+  },
+  {
+    "option": "Lọc theo khoa quản lý môn học",
+    "secondOption": "Vật lý\nMã: (1).CB1 VL1",
+    "data": [
+      {
+        "ma_mh": "BAS1224",
+        "ten_mon_hoc": "Vật lý 1 và thí nghiệm",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "4",
+        "lop": "H-013",
+        "so_luong": "40",
+        "con_lai": "13",
+        "thoi_khoa_bieu": "Thứ 6,từ 13:00 đến 17:50,Ph 8888888804,GV H.T.L.Hương,01/11/24 đến 29/11/24\nThứ 7,từ 13:00 đến 17:50,Ph 8888888803,GV H.T.L.Hương,02/11/24 đến 23/11/24\nThứ 7,từ 13:00 đến 15:50,Ph 8888888803,GV H.T.L.Hương,30/11/24"
+      },
+      {
+        "ma_mh": "BAS1225",
+        "ten_mon_hoc": "Vật lý 2 và thí nghiệm",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "4",
+        "lop": "H-014",
+        "so_luong": "30",
+        "con_lai": "25",
+        "thoi_khoa_bieu": "Thứ 5,từ 13:00 đến 17:50,Ph 8888888802,GV V.T.H.Nga,31/10/24 đến 28/11/24\nThứ 7,từ 13:00 đến 17:50,Ph 8888888804,GV V.T.H.Nga,02/11/24 đến 23/11/24\nThứ 7,từ 13:00 đến 15:50,Ph 8888888804,GV V.T.H.Nga,30/11/24"
+      },
+      {
+        "ma_mh": "BAS1227",
+        "ten_mon_hoc": "Vật lý 3 và thí nghiệm",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "4",
+        "lop": "H-015",
+        "so_luong": "30",
+        "con_lai": "17",
+        "thoi_khoa_bieu": "Thứ 2,từ 07:00 đến 11:50,Ph 8888888803,GV T.T.Thảo,28/10/24 đến 25/11/24\nThứ 3,từ 07:00 đến 11:50,Ph 8888888804,GV T.T.Thảo,29/10/24 đến 12/11/24\nThứ 3,từ 07:00 đến 10:50,Ph 8888888804,GV T.T.Thảo,19/11/24"
+      }
+    ]
+  },
+  {
+    "option": "Lọc theo khoa quản lý môn học",
+    "secondOption": "Vô tuyến\nMã: (1).VT1 VO1",
+    "data": [
+      {
+        "ma_mh": "TEL1404",
+        "ten_mon_hoc": "Chuyên đề",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "1",
+        "lop": "H-087",
+        "so_luong": "30",
+        "con_lai": "27",
+        "thoi_khoa_bieu": "Thứ 2,từ 07:00 đến 11:50,Ph 8888888815,GV N.T.Ban,28/10/24 đến 04/11/24\nThứ 2,từ 07:00 đến 10:50,Ph 8888888815,GV N.T.Ban,11/11/24"
+      },
+      {
+        "ma_mh": "TEL1417",
+        "ten_mon_hoc": "Thực hành chuyên sâu",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "4",
+        "lop": "H-092",
+        "so_luong": "30",
+        "con_lai": "27",
+        "thoi_khoa_bieu": "Thứ 2,từ 08:00 đến 12:50,Ph LAB_V-A1,GV L.T.Thủy,28/10/24 đến 25/11/24\nThứ 2,từ 13:00 đến 17:50,Ph LAB_V-A1,GV L.T.Thủy,28/10/24 đến 04/11/24\nThứ 6,từ 12:00 đến 16:50,Ph LAB_V-A1,GV L.T.Thủy,01/11/24 đến 29/11/24"
+      },
+      {
+        "ma_mh": "TEL1421",
+        "ten_mon_hoc": "Truyền sóng và anten",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "3",
+        "lop": "H-093",
+        "so_luong": "30",
+        "con_lai": "25",
+        "thoi_khoa_bieu": "Thứ 3,từ 07:00 đến 11:50,Ph 8888888818,GV P.T.T.Hiền,29/10/24 đến 26/11/24\nThứ 4,từ 07:00 đến 11:50,Ph 8888888816,GV P.T.T.Hiền,30/10/24 đến 13/11/24"
+      },
+      {
+        "ma_mh": "TEL1435",
+        "ten_mon_hoc": "Công nghệ mạng truyền thông tiên tiến",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "3",
+        "lop": "H-096",
+        "so_luong": "30",
+        "con_lai": "25",
+        "thoi_khoa_bieu": "Thứ 2,từ 07:00 đến 11:50,Ph 8888888818,GV H.T.Minh,28/10/24 đến 25/11/24\nThứ 3,từ 07:00 đến 11:50,Ph 8888888819,GV H.T.Minh,29/10/24 đến 12/11/24\nThứ 3,từ 07:00 đến 10:50,Ph 8888888820,GV H.T.Minh,19/11/24"
+      }
+    ]
+  },
+  {
+    "option": "Lọc theo khoa quản lý môn học",
+    "secondOption": "Vô tuyến\nMã: (1).VT1 VO1",
+    "data": [
+      {
+        "ma_mh": "TEL1404",
+        "ten_mon_hoc": "Chuyên đề",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "1",
+        "lop": "H-087",
+        "so_luong": "30",
+        "con_lai": "27",
+        "thoi_khoa_bieu": "Thứ 2,từ 07:00 đến 11:50,Ph 8888888815,GV N.T.Ban,28/10/24 đến 04/11/24\nThứ 2,từ 07:00 đến 10:50,Ph 8888888815,GV N.T.Ban,11/11/24"
+      },
+      {
+        "ma_mh": "TEL1417",
+        "ten_mon_hoc": "Thực hành chuyên sâu",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "4",
+        "lop": "H-092",
+        "so_luong": "30",
+        "con_lai": "27",
+        "thoi_khoa_bieu": "Thứ 2,từ 08:00 đến 12:50,Ph LAB_V-A1,GV L.T.Thủy,28/10/24 đến 25/11/24\nThứ 2,từ 13:00 đến 17:50,Ph LAB_V-A1,GV L.T.Thủy,28/10/24 đến 04/11/24\nThứ 6,từ 12:00 đến 16:50,Ph LAB_V-A1,GV L.T.Thủy,01/11/24 đến 29/11/24"
+      },
+      {
+        "ma_mh": "TEL1421",
+        "ten_mon_hoc": "Truyền sóng và anten",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "3",
+        "lop": "H-093",
+        "so_luong": "30",
+        "con_lai": "25",
+        "thoi_khoa_bieu": "Thứ 3,từ 07:00 đến 11:50,Ph 8888888818,GV P.T.T.Hiền,29/10/24 đến 26/11/24\nThứ 4,từ 07:00 đến 11:50,Ph 8888888816,GV P.T.T.Hiền,30/10/24 đến 13/11/24"
+      },
+      {
+        "ma_mh": "TEL1435",
+        "ten_mon_hoc": "Công nghệ mạng truyền thông tiên tiến",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "3",
+        "lop": "H-096",
+        "so_luong": "30",
+        "con_lai": "25",
+        "thoi_khoa_bieu": "Thứ 2,từ 07:00 đến 11:50,Ph 8888888818,GV H.T.Minh,28/10/24 đến 25/11/24\nThứ 3,từ 07:00 đến 11:50,Ph 8888888819,GV H.T.Minh,29/10/24 đến 12/11/24\nThứ 3,từ 07:00 đến 10:50,Ph 8888888820,GV H.T.Minh,19/11/24"
+      }
+    ]
+  },
+  {
+    "option": "Lọc theo khoa quản lý môn học",
+    "secondOption": "Viễn thông\nMã: (1).VT1",
+    "data": [
+      {
+        "ma_mh": "TEL1337",
+        "ten_mon_hoc": "Toán rời rạc",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "3",
+        "lop": "H-079",
+        "so_luong": "30",
+        "con_lai": "17",
+        "thoi_khoa_bieu": "Thứ 2,từ 13:00 đến 17:50,Ph 8888888812,GV N.C.Trinh,28/10/24 đến 25/11/24\nThứ 3,từ 13:00 đến 17:50,Ph 8888888816,GV N.C.Trinh,29/10/24 đến 12/11/24\nThứ 3,từ 13:00 đến 16:50,Ph 8888888816,GV N.C.Trinh,19/11/24"
+      },
+      {
+        "ma_mh": "TEL1338",
+        "ten_mon_hoc": "Kiến trúc máy tính",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "2",
+        "lop": "H-080",
+        "so_luong": "30",
+        "con_lai": "17",
+        "thoi_khoa_bieu": "Thứ 2,từ 07:00 đến 11:50,Ph 8888888813,GV N.T.T.Hiên,28/10/24 đến 25/11/24\nThứ 3,từ 07:00 đến 11:50,Ph 8888888815,GV N.T.T.Hiên,19/11/24"
+      },
+      {
+        "ma_mh": "TEL1339",
+        "ten_mon_hoc": "Hệ điều hành",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "2",
+        "lop": "H-115",
+        "so_luong": "30",
+        "con_lai": "27",
+        "thoi_khoa_bieu": "Thứ 2,từ 13:00 đến 17:50,Ph 8888888815,GV Đ.T.L.Anh,28/10/24 đến 25/11/24\nThứ 3,từ 13:00 đến 17:50,Ph 8888888818,GV Đ.T.L.Anh,29/10/24"
+      },
+      {
+        "ma_mh": "TEL1340",
+        "ten_mon_hoc": "Kỹ thuật lập trình",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "3",
+        "lop": "H-081",
+        "so_luong": "40",
+        "con_lai": "12",
+        "thoi_khoa_bieu": "Thứ 3,từ 07:00 đến 11:50,Ph 8888888813,GV N.T.Trung,29/10/24 đến 26/11/24\nThứ 4,từ 07:00 đến 11:50,Ph 8888888823,GV N.T.Trung,30/10/24 đến 06/11/24\nThứ 4,từ 07:00 đến 09:50,Ph 8888888823,GV N.T.Trung,13/11/24"
+      },
+      {
+        "ma_mh": "TEL1342",
+        "ten_mon_hoc": "Cấu trúc dữ liệu và giải thuật",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "3",
+        "lop": "H-082",
+        "so_luong": "50",
+        "con_lai": "6",
+        "thoi_khoa_bieu": "Thứ 5,từ 07:00 đến 11:50,Ph 8888888812,GV K.V.Đức,31/10/24 đến 28/11/24\nThứ 6,từ 07:00 đến 11:50,Ph 8888888811,GV K.V.Đức,01/11/24 đến 15/11/24"
+      },
+      {
+        "ma_mh": "TEL1345",
+        "ten_mon_hoc": "Kỹ thuật siêu cao tần",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "3",
+        "lop": "H-084",
+        "so_luong": "30",
+        "con_lai": "27",
+        "thoi_khoa_bieu": "Thứ 2,từ 07:00 đến 11:50,Ph 8888888814,GV N.V.Thăng,28/10/24 đến 25/11/24\nThứ 3,từ 07:00 đến 11:50,Ph 8888888815,GV N.V.Thăng,29/10/24 đến 12/11/24"
+      },
+      {
+        "ma_mh": "TEL1368",
+        "ten_mon_hoc": "Tín hiệu và Hệ thống",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "3",
+        "lop": "H-085",
+        "so_luong": "30",
+        "con_lai": "26",
+        "thoi_khoa_bieu": "Thứ 4,từ 07:00 đến 11:50,Ph 8888888814,GV N.T.T.Trang,30/10/24 đến 13/11/24\nThứ 4,từ 07:00 đến 11:50,Ph 8888888814,GV N.T.T.Trang,27/11/24\nThứ 5,từ 07:00 đến 11:50,Ph 8888888813,GV N.T.T.Trang,31/10/24 đến 21/11/24\nThứ 5,từ 07:00 đến 10:50,Ph 8888888813,GV N.T.T.Trang,28/11/24"
+      },
+      {
+        "ma_mh": "TEL1405",
+        "ten_mon_hoc": "Kỹ thuật mạng truyền thông",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "3",
+        "lop": "H-088",
+        "so_luong": "30",
+        "con_lai": "22",
+        "thoi_khoa_bieu": "Thứ 2,từ 07:00 đến 11:50,Ph 8888888816,GV P.A.Thư,28/10/24 đến 25/11/24\nThứ 3,từ 07:00 đến 11:50,Ph 8888888816,GV P.A.Thư,29/10/24 đến 12/11/24"
+      },
+      {
+        "ma_mh": "TEL1406",
+        "ten_mon_hoc": "Kỹ thuật thông tin quang",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "3",
+        "lop": "H-089",
+        "so_luong": "30",
+        "con_lai": "15",
+        "thoi_khoa_bieu": "Thứ 4,từ 07:00 đến 11:50,Ph 8888888815,GV C.H.Sơn,30/10/24 đến 13/11/24\nThứ 4,từ 07:00 đến 11:50,Ph 8888888815,GV C.H.Sơn,27/11/24\nThứ 5,từ 07:00 đến 11:50,Ph 8888888814,GV C.H.Sơn,31/10/24 đến 21/11/24"
+      },
+      {
+        "ma_mh": "TEL1407",
+        "ten_mon_hoc": "Kỹ thuật thông tin vô tuyến",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "3",
+        "lop": "H-090",
+        "so_luong": "40",
+        "con_lai": "13",
+        "thoi_khoa_bieu": "Thứ 3,từ 07:00 đến 11:50,Ph 8888888824,GV V.Q.Minh,29/10/24 đến 12/11/24\nThứ 6,từ 07:00 đến 11:50,Ph 8888888813,GV V.Q.Minh,01/11/24 đến 29/11/24"
+      }
+    ]
+  },
+  {
+    "option": "Lọc theo khoa quản lý môn học",
+    "secondOption": "Tín hiệu và hệ thống\nMã: (1).VT1 TH1",
+    "data": [
+      {
+        "ma_mh": "TEL1432",
+        "ten_mon_hoc": "Thông tin vệ tinh",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "2",
+        "lop": "H-095",
+        "so_luong": "30",
+        "con_lai": "13",
+        "thoi_khoa_bieu": "Thứ 7,từ 07:00 đến 11:50,Ph 8888888812,GV Đ.T.Ngọc,02/11/24 đến 30/11/24\nThứ 7,từ 13:00 đến 15:50,Ph 8888888814,GV Đ.T.Ngọc,02/11/24"
+      }
+    ]
+  },
+  {
+    "option": "Lọc theo khoa quản lý môn học",
+    "secondOption": "Tín hiệu và hệ thống\nMã: (1).VT1 TH1",
+    "data": [
+      {
+        "ma_mh": "TEL1432",
+        "ten_mon_hoc": "Thông tin vệ tinh",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "2",
+        "lop": "H-095",
+        "so_luong": "30",
+        "con_lai": "13",
+        "thoi_khoa_bieu": "Thứ 7,từ 07:00 đến 11:50,Ph 8888888812,GV Đ.T.Ngọc,02/11/24 đến 30/11/24\nThứ 7,từ 13:00 đến 15:50,Ph 8888888814,GV Đ.T.Ngọc,02/11/24"
+      }
+    ]
+  },
+  {
+    "option": "Lọc theo lớp",
+    "secondOption": "Lớp chung\nMã: *",
+    "data": [
+      {}
+    ]
+  },
+  {
+    "option": "Lọc theo lớp",
+    "secondOption": "H-123\nMã: H-123",
+    "data": [
+      {
+        "ma_mh": "INT1483",
+        "ten_mon_hoc": "An toàn mạng nâng cao",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "3",
+        "lop": "H-123",
+        "so_luong": "5",
+        "con_lai": "2",
+        "thoi_khoa_bieu": "Thứ 6,từ 07:00 đến 11:50,Ph 8888888820,GV H.X.Dậu,01/11/24 đến 29/11/24\nThứ 7,từ 07:00 đến 11:50,Ph 8888888820,GV H.X.Dậu,02/11/24 đến 09/11/24\nThứ 7,từ 07:00 đến 09:50,Ph 8888888820,GV H.X.Dậu,16/11/24"
+      }
+    ]
+  },
+  {
+    "option": "Lọc theo lớp",
+    "secondOption": "H-122\nMã: H-122",
+    "data": [
+      {
+        "ma_mh": "MUL14130",
+        "ten_mon_hoc": "Khai phá dữ liệu đa phương tiện",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "3",
+        "lop": "H-122",
+        "so_luong": "10",
+        "con_lai": "9",
+        "thoi_khoa_bieu": "Thứ 2,từ 13:00 đến 17:50,Ph 8888888819,GV T.Q.Nam,28/10/24 đến 25/11/24\nThứ 4,từ 13:00 đến 17:50,Ph 8888888816,GV T.Q.Nam,30/10/24 đến 13/11/24"
+      }
+    ]
+  },
+  {
+    "option": "Lọc theo lớp",
+    "secondOption": "H-121\nMã: H-121",
+    "data": [
+      {
+        "ma_mh": "MUL1482",
+        "ten_mon_hoc": "Thực hành chuyên sâu",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "4",
+        "lop": "H-121",
+        "so_luong": "10",
+        "con_lai": "9",
+        "thoi_khoa_bieu": "Thứ 3,từ 13:00 đến 17:50,Ph 8888888821,GV V.H.Tiến,29/10/24 đến 26/11/24\nThứ 5,từ 13:00 đến 17:50,Ph 8888888821,GV V.H.Tiến,07/11/24"
+      }
+    ]
+  },
+  {
+    "option": "Lọc theo lớp",
+    "secondOption": "H-120\nMã: H-120",
+    "data": [
+      {
+        "ma_mh": "INT1332_CLC",
+        "ten_mon_hoc": "Lập trình hướng đối tượng",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "3",
+        "lop": "H-120",
+        "so_luong": "30",
+        "con_lai": "17",
+        "thoi_khoa_bieu": "Thứ 4,từ 07:00 đến 11:50,Ph 8888888822,GV Đ.N.Phong,30/10/24 đến 27/11/24\nThứ 5,từ 07:00 đến 11:50,Ph 8888888820,GV Đ.N.Phong,31/10/24 đến 07/11/24\nThứ 5,từ 07:00 đến 09:50,Ph 8888888820,GV Đ.N.Phong,14/11/24"
+      }
+    ]
+  },
+  {
+    "option": "Lọc theo lớp",
+    "secondOption": "H-119\nMã: H-119",
+    "data": [
+      {
+        "ma_mh": "INT1339_CLC",
+        "ten_mon_hoc": "Ngôn ngữ lập trình C++",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "3",
+        "lop": "H-119",
+        "so_luong": "30",
+        "con_lai": "19",
+        "thoi_khoa_bieu": "Thứ 2,từ 13:00 đến 17:50,Ph 8888888817,GV Đ.T.Liên,28/10/24 đến 25/11/24\nThứ 6,từ 07:00 đến 11:50,Ph 8888888819,GV Đ.T.Liên,01/11/24 đến 08/11/24\nThứ 6,từ 07:00 đến 09:50,Ph 8888888819,GV Đ.T.Liên,15/11/24"
+      },
+      {
+        "ma_mh": "MUL1486",
+        "ten_mon_hoc": "Thiết kế hoạt hình nâng cao",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "3",
+        "lop": "H-119",
+        "so_luong": "5",
+        "con_lai": "2",
+        "thoi_khoa_bieu": "Thứ 2,từ 13:00 đến 17:50,Ph 8888888820,GV H.T.H.Ngân,28/10/24 đến 25/11/24\nThứ 5,từ 13:00 đến 17:50,Ph 8888888823,GV H.T.H.Ngân,31/10/24 đến 14/11/24\nThứ 5,từ 13:00 đến 16:50,Ph 8888888823,GV H.T.H.Ngân,21/11/24"
+      }
+    ]
+  },
+  {
+    "option": "Lọc theo lớp",
+    "secondOption": "H-118\nMã: H-118",
+    "data": [
+      {
+        "ma_mh": "INT1155",
+        "ten_mon_hoc": "Tin học cơ sở 2",
+        "nhom": "98",
+        "to": "",
+        "so_tc": "2",
+        "lop": "H-118",
+        "so_luong": "0",
+        "con_lai": "0",
+        "thoi_khoa_bieu": "Thứ 7,từ 07:00 đến 11:50,Ph 8888888819,GV N.Đ.Hiến,02/11/24 đến 23/11/24\nThứ 7,từ 07:00 đến 10:50,Ph 8888888819,GV N.Đ.Hiến,30/11/24"
+      }
+    ]
+  },
+  {
+    "option": "Lọc theo lớp",
+    "secondOption": "H-117\nMã: H-117",
+    "data": [
+      {
+        "ma_mh": "FIA1437",
+        "ten_mon_hoc": "Kế toán doanh nghiệp du lịch",
+        "nhom": "99",
+        "to": "",
+        "so_tc": "2",
+        "lop": "H-117",
+        "so_luong": "30",
+        "con_lai": "29",
+        "thoi_khoa_bieu": "Thứ 5,từ 13:00 đến 17:50,Ph 8888888822,GV L.T.N.Phương,31/10/24 đến 28/11/24\nThứ 6,từ 13:00 đến 17:50,Ph 8888888818,GV L.T.N.Phương,08/11/24"
+      }
+    ]
+  }
+]

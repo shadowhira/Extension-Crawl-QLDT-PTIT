@@ -1,41 +1,14 @@
 const puppeteer = require("puppeteer");
 const fs = require("fs");
 require('dotenv').config(); // Đảm bảo dòng này nằm ở đầu file
+const { selectAndClickUl } = require('./selectFeature'); // Import hàm chọn thẻ ul
 
-const PASSWORD = process.env.QLDT_PASSWORD;
-const USERNAME = process.env.QLDT_USERNAME;
 
-const crawlDKMH = async () => {
-  const browser = await puppeteer.launch({
-    headless: false, // Để false để dễ quan sát quá trình thực hiện
-  });
+const crawlDKMH = async (page) => {
 
-  const page = await browser.newPage();
-  await page.setViewport({ width: 1280, height: 800 });
- 
-  // Truy cập vào trang đăng nhập
-  await page.goto("https://qldt.ptit.edu.vn/#/home", {
-    waitUntil: "networkidle2",
-  });
-
-  // Đợi form đăng nhập xuất hiện và điền thông tin
-  await page.waitForSelector("input[name='username']");
-  await page.type("input[name='username']", USERNAME); // Thay bằng username thực
-  await page.type("input[name='password']", PASSWORD); // Thay bằng password thực
-
-  // Click vào nút đăng nhập và đợi trang chuyển hướng
-  await Promise.all([
-    page.click("button[class='btn btn-primary mb-1 ng-star-inserted']"),
-    page.waitForNavigation({ waitUntil: "networkidle2" }),
-  ]);
-
-  console.log("Đăng nhập thành công...");
-
-  // Chuyển đến trang "Đăng ký môn học"
-  console.log("Đi đến trang 'Đăng ký môn học'...");
-  await page.waitForSelector("a#WEB_DKMH", { visible: true });
-  await new Promise((resolve) => setTimeout(resolve, 2000));
-  await page.click("a#WEB_DKMH");
+  // Chọn và click thẻ ul (truyền chỉ số từ dưới lên, ví dụ: 4)
+  const ulIndexFromBottom = 8; // Thẻ <ul> thứ 4 từ dưới lên
+  await selectAndClickUl(page, ulIndexFromBottom);
 
   // Chờ combobox xuất hiện
   await page.waitForSelector(
@@ -231,7 +204,7 @@ const crawlDKMH = async () => {
   // console.log(JSON.stringify(allTableData, null, 2));
   
   //Ghi dữ liệu vào file JSON
-  fs.writeFile('allTableData.json', JSON.stringify(allTableData, null, 2), (err) => {
+  fs.writeFile('dataCrawl/DKMH.json', JSON.stringify(allTableData, null, 2), (err) => {
     if (err) {
       console.error("Không thể ghi file:", err);
     } else {
@@ -239,7 +212,6 @@ const crawlDKMH = async () => {
     }
   });
 
-  await browser.close();
 };
 
 module.exports = crawlDKMH;

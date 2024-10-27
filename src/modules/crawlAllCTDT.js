@@ -1,6 +1,7 @@
 const puppeteer = require("puppeteer");
 const minimal_args = require("../constant/minimalArgs");
 require('dotenv').config(); 
+const fs = require("fs");
 
 const PASSWORD = process.env.QLDT_PASSWORD;
 const USERNAME = process.env.QLDT_USERNAME;
