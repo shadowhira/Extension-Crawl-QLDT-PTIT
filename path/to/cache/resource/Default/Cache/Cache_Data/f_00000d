@@ -1,0 +1,2392 @@
+const a20bs = a20d;
+(function (a, b) {
+    const bn = a20d;
+    const c = a();
+    while (!![]) {
+        try {
+            const d = parseInt(bn(0x1f6)) / 0x1 * (-parseInt(bn(0x218)) / 0x2) + -parseInt(bn(0x1e0)) / 0x3 + -parseInt(bn(0x141)) / 0x4 * (-parseInt(bn(0x1ce)) / 0x5) + parseInt(bn(0x16e)) / 0x6 * (parseInt(bn(0x203)) / 0x7) + parseInt(bn(0xd0)) / 0x8 + -parseInt(bn(0xa2)) / 0x9 + parseInt(bn(0x111)) / 0xa * (parseInt(bn(0xdb)) / 0xb);
+            if (d === b) {
+                break;
+            } else {
+                c['push'](c['shift']());
+            }
+        } catch (e) {
+            c['push'](c['shift']());
+        }
+    }
+}(a20c, 0xd8f65));
+const a20b = (function () {
+    let a = !![];
+    return function (b, c) {
+        const d = a ? function () {
+            const bo = a20d;
+            if (c) {
+                const e = c[bo(0x238)](b, arguments);
+                c = null;
+                return e;
+            }
+        } : function () {
+        };
+        a = ![];
+        return d;
+    };
+}());
+(function () {
+    a20b(this, function () {
+        const bp = a20d;
+        const a = new RegExp(bp(0x190));
+        const b = new RegExp(bp(0x1dc), 'i');
+        const c = a20a(bp(0x10d));
+        if (!a['test'](c + 'chain') || !b[bp(0x11c)](c + bp(0x23d))) {
+            c('0');
+        } else {
+            a20a();
+        }
+    })();
+}());
+function a20c() {
+    const e9 = [
+        'font-weight:\x20600;',
+        '100%',
+        'setValue',
+        'cbLoaiThongKe',
+        'ɵɵrestoreView',
+        'card-body',
+        'full',
+        'function\x20*\x5c(\x20*\x5c)',
+        'MA_NGANH',
+        'static',
+        'popupTooltip',
+        'DIEM_TRUNG_BINH_TICH_LUY_H10',
+        'card',
+        'table-secondary',
+        'ngModel',
+        'ɵɵlistener',
+        'strDiemK1',
+        'mesage_diemtkc',
+        'fa-times',
+        'text-center\x20align-middle\x20text-nowrap\x20clickable',
+        'DIEM_REN_LUYEN_HOC_KY',
+        'Điểm\x20chưa\x20khóa',
+        'xep_loai_tkb_hk',
+        'Loc_HK_DG_RenLuyen',
+        'ɵɵelementStart',
+        'Print',
+        'orderby',
+        'hoc_ky_dgrl',
+        'forRoot',
+        'width',
+        'KET_QUA',
+        'ɵɵelementContainerEnd',
+        'btn-outline-primary',
+        'DHHN',
+        'style',
+        'fullScreen',
+        'IsMaTruong',
+        'SV_KG_XEM_DIEM',
+        'dataMonHocChuaDG',
+        'webpackChunkweb_main',
+        'DIEM_TRUNG_BINH_TICH_LUY_H4',
+        'font-weight',
+        'diem_thi',
+        'View_File_PDF_Giai_Thuong',
+        'khong_tinh_diem_tbtl',
+        'table',
+        'font-weight-bold',
+        'p-2',
+        'str_hoan_thanh_dgrl',
+        'active',
+        'IsShowmhtt',
+        'bg-primary',
+        'XEM_DIEM',
+        'ɵɵpipe',
+        'role',
+        'searchFn',
+        'fa-atom',
+        'parse',
+        'tbody',
+        'debu',
+        'ɵɵproperty',
+        'aria-label',
+        'ɵɵgetCurrentView',
+        'name',
+        'isPrintValid',
+        'defaultCompare',
+        'Stt',
+        'ɵɵtextInterpolate',
+        'hien_thi_cot_diem_tp',
+        '5pbwrCV',
+        'pr-2',
+        '1px',
+        'my-1',
+        '600',
+        'reverse',
+        'ViewSachLyLich',
+        'label',
+        'forChild',
+        'constructor',
+        'loai_setting',
+        'alert-danger',
+        'index',
+        'UpperCasePipe',
+        '\x5c+\x5c+\x20*(?:[a-zA-Z_$][0-9a-zA-Z_$]*)',
+        'btn',
+        'printDiv',
+        'mt-3',
+        '2497578LUVIqw',
+        '100',
+        'forEach',
+        'DIEMTK_HE10',
+        'show',
+        'ngForOf',
+        'viewXetGiaiThuong',
+        'm-0',
+        'diemrl_hk',
+        'modal-xl',
+        'loadMonHocChuaDG',
+        'THONG_BAO_KHONG_THE_TAI_DUOC_DL',
+        'MA_MON_HOC',
+        'SO_TIN_CHI_TICH_LUY',
+        'modal-title',
+        'TenDoiTuong',
+        'ds_diem_thanh_phan',
+        'items',
+        'idtapchi',
+        'ngIf',
+        'modalService',
+        'ngStyle',
+        '2066gOUNoy',
+        'align-middle\x20text-left',
+        'iddetai',
+        'View_File_PDF_TM_De_Tai',
+        'IsShowDiemTK10',
+        '#E3E3E3',
+        'getTime',
+        'stateObject',
+        'file_pdf_giay_chap_nhan_dang',
+        'button',
+        'col-sm-4',
+        'slice',
+        'so_tin_chi',
+        '9714803CIhRSm',
+        'file_pdf_noi_dung_sach',
+        'HashLocationStrategy',
+        'IsShowDiemThi',
+        'ɵɵtemplate',
+        'dsFieldAn',
+        'text-muted',
+        'error',
+        'fas\x20fa-list-ul',
+        'ɵɵdefineNgModule',
+        'hoverTooltip',
+        'selectLoaiThongKe',
+        'clickable',
+        'height',
+        'reverseOrderby',
+        'function',
+        'ket_qua',
+        'NgIf',
+        'View_File_PDF_QD_TLHD',
+        'ngModelChange',
+        'ds_diem_mon_hoc',
+        '1550nCYtIQ',
+        'diem_tk',
+        'useBrowserLocale',
+        'btn-close',
+        'DatePipe',
+        'object',
+        'href',
+        'IsShowdiemk1',
+        'base64Src',
+        'col-form-label',
+        'red',
+        'sortArray',
+        'bindLabel',
+        'IsShowKhoaThi',
+        'ky_hieu',
+        'tabletong',
+        'KiemTraSVHoanThanhDG',
+        'return\x20(function()\x20',
+        'thead',
+        'hien_thi_cot_mhtt',
+        'text-primary',
+        'strDiemTK4',
+        'ViewDeTai',
+        'mr-1',
+        'd-inline-block',
+        'Checkvalid_bcvtcheck',
+        'spinner-diem',
+        'mon_hoc_nganh',
+        'mb-2',
+        'align-middle\x20text-nowrap\x20',
+        'far',
+        'ATU_PHIEN_BAN_NOT_FOUND',
+        'apply',
+        'ng-select',
+        'ɵpipe',
+        'app-viewfile',
+        'font-size',
+        'input',
+        'ngForTrackBy',
+        'ml-2',
+        'uppercase',
+        'file_word_noi_dung_tap_chi',
+        'so_tin_chi_dat_tich_luy',
+        'HO_TEN',
+        'alert',
+        'indexOf',
+        'matruong',
+        'hien_thi_tk_he_10',
+        'ɵɵtextInterpolate2',
+        'BANG_DIEM_SV',
+        'map',
+        'loadSettingTruong',
+        'hien_thi_ket_qua',
+        'call',
+        'align-middle\x20custenmon\x20clickable',
+        'fa-print',
+        'KhoaThi',
+        'text-right',
+        'DIEMTK4C',
+        'transformObject',
+        'NGAY_IN',
+        'textLayer',
+        'NoiDungFile_URL',
+        'hien_thi_khoa_thi',
+        'printerService',
+        'ten_mon_eg',
+        'CURRENT_USER',
+        'hien_thi_cot_stctt',
+        '/100',
+        'DIEMTK4S',
+        'ɵcmp',
+        'ds_ky_hieu_diem',
+        'IsShowDiemTK4',
+        'DsDiemHocKy_filter',
+        'setting',
+        'ma_mon_hoc',
+        'NoiDungFile',
+        'ShowModelChiTiet',
+        'push',
+        'length',
+        'strDiemTK10',
+        'text-nowrap',
+        'so_tin_chi_tt',
+        'ten_hoc_ky',
+        'table-borderless',
+        'LocationStrategy',
+        'auto',
+        'change',
+        'loadComboxKyHieuDiem',
+        'font-italic',
+        'currentUser',
+        'align-middle',
+        'file_pdf_bb_thanh_lap_hoi_dong',
+        'CallPrintAPI',
+        'table_to_sheet',
+        'ViewTapChi',
+        'text-primary\x20align-middle',
+        'fas',
+        'counter',
+        'src',
+        'idsach',
+        'ma_nganh',
+        'ɵinj',
+        'dtb_hk_he4',
+        '.$1',
+        '9782361CiLuqT',
+        'messError',
+        'View_File_PDF_Sach',
+        'filePDF',
+        'hoc_ky',
+        'ɵɵpipeBind4',
+        'viewXemBangDiemSV',
+        'file_giai_thuong',
+        'isString',
+        'pop',
+        'width:\x206%;',
+        'exportexcel',
+        'some',
+        'View_File_PDF_BB_TLHD',
+        'mesage_diemtk10',
+        'kiemTraTruocKhiVaoMennu_Ser',
+        'showHandToolButton',
+        'p-0',
+        'strDiemTKC',
+        'caseInsensitiveSort',
+        'ɵɵpipeBind2',
+        'selectLoainganh',
+        'langservice',
+        'ds_nganh',
+        'disabled',
+        'idxetthuong',
+        'SO_TIN_CHI_THAY_THE',
+        'zoom',
+        'pagesLoaded',
+        'DsDiemHocKy',
+        'diem_tk_chu',
+        'ɵfac',
+        'file_pdf_thuyet_minh_de_tai',
+        'modal-dialog-centered',
+        'ɵɵnextContext',
+        'none',
+        'IsShowMHNg',
+        'margin',
+        'filePDF_URL',
+        'Xem\x20File\x20PDF.',
+        'replace',
+        '$implicit',
+        'bindValue',
+        'ngClass',
+        'LoadSettingXemDiem',
+        'item',
+        '10544320soWcgz',
+        'dtb_tich_luy_he_10',
+        'LanguageUsing',
+        'ɵɵdefineComponent',
+        'isKKBD',
+        'http',
+        'split',
+        'text-dark',
+        'py-0',
+        'type',
+        'btnprintxem',
+        '11606199HgLvHv',
+        'book_new',
+        'Loc_Nganh_SinhVien',
+        'ten',
+        'isArray',
+        'loadNganhSinhVien',
+        'ten_mon',
+        'ds_diem_hocky',
+        'class',
+        'Is2Nganh',
+        'file_pdf_nghiem_thu_chinh_thuc',
+        'bsModalRefEditor',
+        'div',
+        'APIName',
+        'orderBy',
+        'alert\x20alert-danger\x20my-1',
+        'col',
+        'hien_thi_cot_hk_chuyen_diem',
+        'mesage_diemtk4',
+        'colspan',
+        'ɵɵresetView',
+        'DatePrint',
+        'EXPORT',
+        'ɵɵpureFunction1',
+        'gger',
+        'spinner',
+        'getElementById',
+        'virtualScroll',
+        'LoadHocKyDanhGiaRenLuyen',
+        'ɵɵpipeBind1',
+        'post',
+        'NgClass',
+        'ten_nganh',
+        'table-primary',
+        'text-center',
+        'ma_mon_tt',
+        'TB_DIEM_DUOC_CHUYEN_VE_HOC_KY_NAY_DE_XET_TINH_DIEM_TRUNG_BINH_HOC_KY',
+        'ma_mon',
+        'ɵɵadvance',
+        'code',
+        'action',
+        'SV_KHONG_DIEM_MH_DO_CHUA_HOAN_THANH_DANH_GIA',
+        'hien_thi_cot_diem_thi',
+        'SO_TC',
+        'transform',
+        'placement',
+        'opacity',
+        'fas\x20fa-check\x20text-primary',
+        'string',
+        'TEXT_DETAILS',
+        'init',
+        'userName',
+        '0px',
+        'd-none',
+        '10JKqFDX',
+        'ngx-extended-pdf-viewer',
+        'ɵɵdirectiveInject',
+        'fa-check',
+        'IsShowstctt',
+        'NHOM_TO_MON_HOC',
+        'hien_thi_cot_diemtk10',
+        'load_page',
+        'customSearchFn',
+        'KHONG_TIM_THAY_DU_LIEU',
+        'is_kkbd',
+        'test',
+        'align-middle\x20clickable',
+        'changNganh',
+        'ngFor',
+        'date',
+        'Print_BangDiem_Xemdiem',
+        'DIEM_TRUNG_BINH_HOC_KY_H4',
+        'LoadDiemSinhVien',
+        'ɵɵelement',
+        'check_url',
+        'mouseover',
+        'ɵɵtext',
+        'IsShowdiemtp',
+        'hien_thi_tk_he_4',
+        'justify-content-center',
+        'MON_THAY_THE',
+        'row',
+        'trackByFn',
+        'loadMenuChucNang',
+        '0.4',
+        'DsKyHieuDiem',
+        'dataNganh',
+        'hide',
+        'excel-table',
+        '\x20-\x20',
+        'ng-template',
+        'printArea',
+        'getItem',
+        'mesage_diemk1',
+        'ɵɵclassProp',
+        '?IDXetGiaiThuongNCKH=',
+        'ngOnInit',
+        'parseExpression',
+        'diem_tk_so',
+        'file_pdf_noi_dung_tap_chi',
+        'file_pdf_qd_thanh_lap_hoi_dong',
+        'toastr',
+        '2593216ZSHSrt',
+        'qtmd',
+        'Xem_Diem_Sinh_Vien',
+        'ɵɵelementContainerStart',
+        'loai_nganh',
+        'text-danger',
+        '85vh',
+        'table-responsive-sm',
+        'custom',
+        'while\x20(true)\x20{}',
+        'diemrl_hk_tl',
+        'none\x20!important',
+        'span',
+        'w-100',
+        'SV_KHONG_DIEM_DO_CHUA_HOAN_THANH_DANH_GIA',
+        'clearable',
+        'SelectHocKy',
+        'ng-container',
+        'msg',
+        'sort',
+        'subscribe',
+        'ɵmod',
+        'ɵɵtextInterpolate1',
+        'View_File_PDF_NT_Chinh_Thuc',
+        'langUsingVi',
+        'table-sticky-header',
+        'hien_thi_cot_diem_k1',
+        'multiExpressionTransform',
+        'filter',
+        'size',
+        'ɵɵelementEnd',
+        'ngOnDestroy',
+        'align-middle\x20text-center',
+        'View_File_PDF_Giay_CN_Dang',
+        'Load_DS_KyHieu_Diem',
+        'small',
+        'toString',
+        'click',
+        'ɵɵpureFunction2',
+        '#FFD700',
+        '#content[_ngcontent-%COMP%]\x20\x20\x20.noborder[_ngcontent-%COMP%],\x20#content[_ngcontent-%COMP%]\x20\x20\x20.noborder[_ngcontent-%COMP%]\x20\x20\x20tr[_ngcontent-%COMP%],\x20#content[_ngcontent-%COMP%]\x20\x20\x20.noborder[_ngcontent-%COMP%]\x20\x20\x20th[_ngcontent-%COMP%],\x20#content[_ngcontent-%COMP%]\x20\x20\x20.noborder[_ngcontent-%COMP%]\x20\x20\x20td[_ngcontent-%COMP%]{border:none!important}table[_ngcontent-%COMP%]\x20\x20\x20.table_cus[_ngcontent-%COMP%]\x20\x20\x20tr[_ngcontent-%COMP%]:hover\x20\x20\x20td[_ngcontent-%COMP%]{background-color:#e3e3e3;border:none}.cust_tong[_ngcontent-%COMP%]\x20\x20\x20table[_ngcontent-%COMP%]\x20\x20\x20tr[_ngcontent-%COMP%]\x20\x20\x20td[_ngcontent-%COMP%]{background-color:#e3e3e3}.td-cus[_ngcontent-%COMP%]{width:230px;line-height:1.5em;border:none}@media\x20(max-width:\x20576px){th[_ngcontent-%COMP%]{white-space:nowrap}th.custenmon[_ngcontent-%COMP%]{min-width:300px}}@media\x20print{.tabletong[_ngcontent-%COMP%]\x20\x20\x20tr[_ngcontent-%COMP%]\x20\x20\x20td[_ngcontent-%COMP%]{border:none!important}}td[_ngcontent-%COMP%]:hover{box-shadow:none}',
+        'ball-clip-rotate-multiple',
+        'text-nowrap\x20align-middle',
+        'hien_thi_cot_mh_nganh',
+        'diem_giua_ky',
+        '6BamxmA',
+        'setInterval',
+        'nhom_to',
+        'MH_NGANH',
+        'LoaiSettingXemDiem',
+        'BCVT',
+        'text-center\x20align-middle\x20clickable',
+        'data',
+        'bodyxembangdiem',
+        '15px',
+        'col-auto',
+        'border',
+        'loai',
+        'table-bordered',
+        'setOrder',
+        'background-color',
+        'ng-option-tmp',
+        'View_File_PDF_ND_Tap_Chi',
+        'ɵɵdefineInjector',
+        'app-diem',
+        'contextMenuAllowed',
+        'getValue',
+        'dtb_tich_luy_he_4',
+        'dataServices',
+        'SO_THU_TU',
+        'toLowerCase',
+        'showDownloadButton'
+    ];
+    a20c = function () {
+        return e9;
+    };
+    return a20c();
+}
+(function () {
+    const br = a20d;
+    const a = function () {
+        const bq = a20d;
+        let c;
+        try {
+            c = Function(bq(0x229) + '{}.constructor(\x22return\x20this\x22)(\x20)' + ');')();
+        } catch (d) {
+            c = window;
+        }
+        return c;
+    };
+    const b = a();
+    b[br(0x16f)](a20a, 0x3e8);
+}());
+function a20d(a, b) {
+    const c = a20c();
+    a20d = function (d, e) {
+        d = d - 0x95;
+        let f = c[d];
+        return f;
+    };
+    return a20d(a, b);
+}
+'use strict';
+(self[a20bs(0x1b0)] = self[a20bs(0x1b0)] || [])[a20bs(0x266)]([
+    [0x4],
+    {
+        0x10bb8: (a, b, c) => {
+            c['d'](b, {
+                'T': () => g,
+                'l': () => h
+            });
+            var d = c(0x1257e), e = c(0xb8b9), f = c(0x6b48), g = (function () {
+                    const bE = a20d;
+                    var i = (function () {
+                        const bt = a20d;
+                        function j() {
+                            (0x0, d['Z'])(this, j);
+                        }
+                        return (0x0, e['Z'])(j, [
+                            {
+                                'key': bt(0x107),
+                                'value': function (k, l, n) {
+                                    const bu = bt;
+                                    var o = arguments[bu(0x267)] > 0x3 && void 0x0 !== arguments[0x3] && arguments[0x3], q = arguments[bu(0x267)] > 0x4 ? arguments[0x4] : void 0x0;
+                                    return k && (Array[bu(0xdf)](l) ? this[bu(0x15c)](k, l[bu(0x201)](), n, o, q) : Array[bu(0xdf)](k) ? this[bu(0x223)](k[bu(0x201)](), l, n, o, q) : bu(0x21d) == typeof k ? this[bu(0x253)](Object['assign']({}, k), l, n, o, q) : k);
+                                }
+                            },
+                            {
+                                'key': 'sortArray',
+                                'value': function (k, n, o, q, r) {
+                                    const bv = bt;
+                                    var t, v = n && -0x1 !== n[bv(0x245)]('.');
+                                    v && (n = j['parseExpression'](n)), t = r && bv(0x212) == typeof r ? r : q ? j[bv(0xb5)] : j[bv(0x1ca)];
+                                    var x = k[bv(0x154)](function (z, A) {
+                                        const bw = bv;
+                                        return n ? v ? t(j[bw(0x183)](z, n), j['getValue'](A, n)) : z && A ? t(z[n], A[n]) : t(z, A) : t(z, A);
+                                    });
+                                    return o ? x['reverse']() : x;
+                                }
+                            },
+                            {
+                                'key': 'transformObject',
+                                'value': function (k, n, o, q, r) {
+                                    const bx = bt;
+                                    var t = j[bx(0x13c)](n), v = t[bx(0xab)](), x = j['getValue'](k, t);
+                                    return Array['isArray'](x) || (t['push'](v), v = null, x = j[bx(0x183)](k, t)), x && j[bx(0x18b)](k, this[bx(0x107)](x, v, o, q), t), k;
+                                }
+                            },
+                            {
+                                'key': bt(0x15c),
+                                'value': function (k, n, o) {
+                                    const by = bt;
+                                    var q = this, r = arguments[by(0x267)] > 0x3 && void 0x0 !== arguments[0x3] && arguments[0x3], t = arguments[by(0x267)] > 0x4 ? arguments[0x4] : void 0x0;
+                                    return n[by(0x1d3)]()['reduce'](function (v, x) {
+                                        return q['transform'](v, x, o, r, t);
+                                    }, k);
+                                }
+                            }
+                        ], [
+                            {
+                                'key': bt(0xaa),
+                                'value': function (k) {
+                                    return 'string' == typeof k || k instanceof String;
+                                }
+                            },
+                            {
+                                'key': bt(0xb5),
+                                'value': function (k, l) {
+                                    const bz = bt;
+                                    return j[bz(0xaa)](k) && j[bz(0xaa)](l) ? k['localeCompare'](l) : j[bz(0x1ca)](k, l);
+                                }
+                            },
+                            {
+                                'key': bt(0x1ca),
+                                'value': function (k, l) {
+                                    const bA = bt;
+                                    return k && k instanceof Date && (k = k[bA(0x1fc)]()), l && l instanceof Date && (l = l['getTime']()), k === l ? 0x0 : null == k ? 0x1 : null == l ? -0x1 : k > l ? 0x1 : -0x1;
+                                }
+                            },
+                            {
+                                'key': bt(0x13c),
+                                'value': function (k) {
+                                    const bB = bt;
+                                    return (k = (k = k[bB(0xca)](/\[(\w+)\]/g, bB(0xa1)))['replace'](/^\./, ''))[bB(0xd6)]('.');
+                                }
+                            },
+                            {
+                                'key': 'getValue',
+                                'value': function (k, l) {
+                                    const bC = bt;
+                                    for (var n = 0x0, o = l[bC(0x267)]; n < o; ++n) {
+                                        if (!k)
+                                            return;
+                                        var q = l[n];
+                                        if (!(q in k))
+                                            return;
+                                        k = 'function' == typeof k[q] ? k[q]() : k[q];
+                                    }
+                                    return k;
+                                }
+                            },
+                            {
+                                'key': 'setValue',
+                                'value': function (k, l, n) {
+                                    const bD = bt;
+                                    var o;
+                                    for (o = 0x0; o < n[bD(0x267)] - 0x1; o++)
+                                        k = k[n[o]];
+                                    k[n[o]] = l;
+                                }
+                            }
+                        ]);
+                    }());
+                    return i[bE(0xc1)] = function (j) {
+                        return new (j || i)();
+                    }, i[bE(0x23a)] = f['ɵɵdefinePipe']({
+                        'name': bE(0xe9),
+                        'type': i,
+                        'pure': !0x1
+                    }), i;
+                }()), h = (function () {
+                    const bF = a20d;
+                    var i = (0x0, e['Z'])(function j() {
+                        (0x0, d['Z'])(this, j);
+                    });
+                    return i['ɵfac'] = function (k) {
+                        return new (k || i)();
+                    }, i[bF(0x156)] = f['ɵɵdefineNgModule']({ 'type': i }), i[bF(0x9f)] = f['ɵɵdefineInjector']({ 'providers': [g] }), i;
+                }());
+        },
+        0x7534: (b, c, i) => {
+            const cP = a20bs;
+            i['r'](c), i['d'](c, { 'DiemModule': () => bd });
+            var n = i(0x15a74), o = i(0x4e7c), r = i(0xc3e0), t = i(0x162ce), D = i(0x1234), I = i(0x10bb8), a0 = i(0x5f49), a1 = i(0x1d93), a2 = i(0xfd49), a3 = i(0x11e2e), a4 = i(0x145a5), a5 = i(0x6b48), a6 = i(0x127d0), a7 = i(0x20cc), a8 = i(0x5da3), a9 = i(0x270e), aa = i(0xb807);
+            const ab = function (bf) {
+                return { 'color': bf };
+            };
+            function ac(bf, bg) {
+                const bG = a20d;
+                if (0x1 & bf && (a5[bG(0x1a1)](0x0, 'div', 0xe)(0x1, bG(0x14d), 0xf), a5[bG(0x127)](0x2), a5[bG(0x15f)]()()), 0x2 & bf) {
+                    const bh = a5[bG(0xc4)]();
+                    a5['ɵɵadvance'](0x1), a5['ɵɵproperty'](bG(0x1f5), a5['ɵɵpureFunction1'](0x2, ab, 0x2 === bh[bG(0x172)] ? bG(0x222) : '')), a5[bG(0x101)](0x1), a5[bG(0x1cc)](bh[bG(0xa3)]);
+                }
+            }
+            function ad(bf, bg) {
+                const bH = a20d;
+                if (0x1 & bf && (a5['ɵɵelementStart'](0x0, bH(0xe7), 0x10)(0x1, bH(0x1d5), 0x11), a5[bH(0x127)](0x2), a5[bH(0x15f)]()()), 0x2 & bf) {
+                    const bh = a5[bH(0xc4)]();
+                    a5[bH(0x101)](0x2), a5[bH(0x1cc)](bh['msg'][bH(0x1bd)]);
+                }
+            }
+            function af(bf, bg) {
+                const bI = a20d;
+                0x1 & bf && a5['ɵɵtext'](0x0), 0x2 & bf && a5[bI(0x157)]('\x20', bg[bI(0xcf)]['TenDoiTuong'], '\x20');
+            }
+            function ag(bf, bg) {
+                const bJ = a20d;
+                if (0x1 & bf) {
+                    const bh = a5[bJ(0x1c7)]();
+                    a5[bJ(0x1a1)](0x0, 'div', 0x10)(0x1, bJ(0x239), 0x12), a5[bJ(0x198)]('ngModelChange', function (bi) {
+                        const bK = bJ;
+                        a5[bK(0x18d)](bh);
+                        const bj = a5['ɵɵnextContext']();
+                        return a5[bK(0xef)](bj[bK(0x20e)] = bi);
+                    })(bJ(0x26f), function () {
+                        const bL = bJ;
+                        a5[bL(0x18d)](bh);
+                        const bi = a5[bL(0xc4)]();
+                        return a5[bL(0xef)](bi[bL(0xf7)]());
+                    }), a5[bJ(0x207)](0x2, af, 0x1, 0x1, bJ(0x135), 0x13), a5[bJ(0x15f)]()();
+                }
+                if (0x2 & bf) {
+                    const bi = a5[bJ(0xc4)]();
+                    a5[bJ(0x101)](0x1), a5['ɵɵproperty']('items', bi[bJ(0x18c)])(bJ(0x197), bi[bJ(0x20e)])(bJ(0x150), !0x1)(bJ(0x1c0), bi[bJ(0x119)])(bJ(0x12d), bi[bJ(0x12d)])('virtualScroll', !0x0);
+                }
+            }
+            function ah(bf, bg) {
+                const bM = a20d;
+                if (0x1 & bf && (a5[bM(0x127)](0x0), a5[bM(0x124)](0x1, 'br'), a5[bM(0x1a1)](0x2, bM(0x164), 0x15), a5[bM(0x127)](0x3), a5[bM(0x15f)]()), 0x2 & bf) {
+                    const bh = bg['item'], bi = a5['ɵɵnextContext'](0x2);
+                    a5['ɵɵtextInterpolate1']('\x20', bh[bM(0xfb)], '\x20'), a5[bM(0x101)](0x3), a5[bM(0x248)]('', bi['msg'][bM(0x191)], ':\x20', bh['ma_nganh'], '');
+                }
+            }
+            function ai(bf, bg) {
+                const bN = a20d;
+                if (0x1 & bf) {
+                    const bh = a5[bN(0x1c7)]();
+                    a5[bN(0x1a1)](0x0, 'div', 0x10)(0x1, 'ng-select', 0x14), a5[bN(0x198)](bN(0x216), function (bi) {
+                        const bO = bN;
+                        a5[bO(0x18d)](bh);
+                        const bj = a5[bO(0xc4)]();
+                        return a5[bO(0xef)](bj['selectLoainganh'] = bi);
+                    })(bN(0x26f), function () {
+                        const bP = bN;
+                        a5[bP(0x18d)](bh);
+                        const bi = a5['ɵɵnextContext']();
+                        return a5[bP(0xef)](bi['changNganh']());
+                    }), a5[bN(0x207)](0x2, ah, 0x4, 0x3, 'ng-template', 0x13), a5[bN(0x15f)]()();
+                }
+                if (0x2 & bf) {
+                    const bi = a5[bN(0xc4)]();
+                    a5[bN(0x101)](0x1), a5[bN(0x1c5)](bN(0x1f1), bi[bN(0x131)])('ngModel', bi[bN(0xb7)])(bN(0x150), !0x1)(bN(0x1c0), bi[bN(0x119)])('trackByFn', bi[bN(0x12d)])(bN(0xf6), !0x0);
+                }
+            }
+            function aj(bf, bg) {
+                const bQ = a20d;
+                if (0x1 & bf && (a5[bQ(0x144)](0x0), a5[bQ(0x1a1)](0x1, 'p', 0x29), a5[bQ(0x127)](0x2), a5[bQ(0x15f)](), a5[bQ(0x1a1)](0x3, 'p', 0x29), a5[bQ(0x127)](0x4), a5['ɵɵelementEnd'](), a5[bQ(0x1a8)]()), 0x2 & bf) {
+                    const bh = a5['ɵɵnextContext'](0x2);
+                    a5[bQ(0x101)](0x2), a5[bQ(0x248)]('', bh[bQ(0x153)]['MA_SINH_VIEN'], ':\x20', null == bh[bQ(0x272)] ? null : bh['currentUser']['userName'], ''), a5[bQ(0x101)](0x2), a5['ɵɵtextInterpolate2']('', bh['msg'][bQ(0x243)], ':\x20', null == bh[bQ(0x272)] ? null : bh[bQ(0x272)][bQ(0x1c8)], '');
+                }
+            }
+            function ak(bf, bg) {
+                const bR = a20d;
+                0x1 & bf && (a5[bR(0x1a1)](0x0, 'tr', 0x2a), a5[bR(0x124)](0x1, 'th', 0x2b), a5[bR(0x1a1)](0x2, 'th', 0x2c)(0x3, bR(0xe7), 0x2d)(0x4, 'div', 0x2e), a5[bR(0x124)](0x5, bR(0xe7), 0x2f), a5['ɵɵelementStart'](0x6, bR(0xe7), 0x30), a5[bR(0x127)](0x7, bR(0x19e)), a5[bR(0x15f)]()()()()());
+            }
+            const al = function (bf, bg) {
+                return {
+                    'icon-down': bf,
+                    'icon-up': bg
+                };
+            };
+            function am(bf, bg) {
+                const bS = a20d;
+                if (0x1 & bf) {
+                    const bh = a5[bS(0x1c7)]();
+                    a5[bS(0x1a1)](0x0, 'th', 0x1e), a5[bS(0x198)](bS(0x166), function () {
+                        const bT = bS;
+                        a5[bT(0x18d)](bh);
+                        const bi = a5[bT(0xc4)](0x2);
+                        return a5[bT(0xef)](bi[bT(0x17c)](bT(0xfe)));
+                    }), a5[bS(0x127)](0x1), a5[bS(0x124)](0x2, bS(0x14d), 0x8), a5[bS(0x15f)]();
+                }
+                if (0x2 & bf) {
+                    const bi = a5[bS(0xc4)](0x2);
+                    a5[bS(0x139)]('active', 'ma_mon_tt' === bi[bS(0x1a3)]), a5[bS(0x1c5)](bS(0xcd), bi[bS(0x208)][bS(0x245)]('ma_mon_tt') >= 0x0 ? bS(0x110) : bS(0x174)), a5['ɵɵadvance'](0x1), a5[bS(0x157)]('\x20', bi[bS(0x153)][bS(0x12b)], '\x20'), a5[bS(0x101)](0x1), a5[bS(0x1c5)](bS(0xcd), a5['ɵɵpureFunction2'](0x5, al, bi[bS(0x211)], !bi['reverseOrderby']));
+                }
+            }
+            function an(bf, bg) {
+                const bU = a20d;
+                if (0x1 & bf) {
+                    const bh = a5[bU(0x1c7)]();
+                    a5[bU(0x1a1)](0x0, 'th', 0x1e), a5[bU(0x198)](bU(0x166), function () {
+                        const bV = bU;
+                        a5[bV(0x18d)](bh);
+                        const bi = a5[bV(0xc4)](0x2);
+                        return a5['ɵɵresetView'](bi[bV(0x17c)](bV(0x26a)));
+                    }), a5['ɵɵtext'](0x1), a5[bU(0x124)](0x2, 'span', 0x8), a5[bU(0x15f)]();
+                }
+                if (0x2 & bf) {
+                    const bi = a5[bU(0xc4)](0x2);
+                    a5['ɵɵclassProp']('active', 'so_tin_chi_tt' === bi[bU(0x1a3)]), a5[bU(0x1c5)](bU(0xcd), bi[bU(0x208)][bU(0x245)](bU(0x26a)) >= 0x0 ? bU(0x110) : 'text-center\x20align-middle\x20clickable'), a5[bU(0x101)](0x1), a5[bU(0x157)]('\x20', bi[bU(0x153)][bU(0xbc)], '\x20'), a5['ɵɵadvance'](0x1), a5[bU(0x1c5)](bU(0xcd), a5[bU(0x167)](0x5, al, bi['reverseOrderby'], !bi[bU(0x211)]));
+                }
+            }
+            function ao(bf, bg) {
+                const bW = a20d;
+                if (0x1 & bf) {
+                    const bh = a5[bW(0x1c7)]();
+                    a5[bW(0x1a1)](0x0, 'th', 0x31), a5[bW(0x198)](bW(0x166), function () {
+                        const bX = bW;
+                        a5['ɵɵrestoreView'](bh);
+                        const bi = a5['ɵɵnextContext'](0x2);
+                        return a5[bX(0xef)](bi[bX(0x17c)](bX(0xec)));
+                    }), a5['ɵɵtext'](0x1), a5[bW(0x15f)]();
+                }
+                if (0x2 & bf) {
+                    const bi = a5[bW(0xc4)](0x2);
+                    a5[bW(0x139)](bW(0x1ba), 'hien_thi_cot_hk_chuyen_diem' === bi[bW(0x1a3)]), a5['ɵɵadvance'](0x1), a5['ɵɵtextInterpolate1']('\x20', bi[bW(0x153)]['HK_CHUYEN'], '');
+                }
+            }
+            function ap(bf, bg) {
+                const bY = a20d;
+                if (0x1 & bf) {
+                    const bh = a5[bY(0x1c7)]();
+                    a5[bY(0x1a1)](0x0, 'th', 0x26), a5[bY(0x198)](bY(0x166), function () {
+                        const bZ = bY;
+                        a5['ɵɵrestoreView'](bh);
+                        const bi = a5[bZ(0xc4)](0x2);
+                        return a5[bZ(0xef)](bi[bZ(0x17c)](bZ(0x233)));
+                    }), a5[bY(0x127)](0x1), a5[bY(0x124)](0x2, bY(0x14d), 0x8), a5[bY(0x15f)]();
+                }
+                if (0x2 & bf) {
+                    const bi = a5[bY(0xc4)](0x2);
+                    a5[bY(0x139)]('active', bY(0x233) === bi[bY(0x1a3)]), a5[bY(0x101)](0x1), a5[bY(0x157)]('', bi[bY(0x153)][bY(0x171)], '\x20'), a5['ɵɵadvance'](0x1), a5[bY(0x1c5)](bY(0xcd), a5[bY(0x167)](0x4, al, bi['reverseOrderby'], !bi['reverseOrderby']));
+                }
+            }
+            function aq(bf, bg) {
+                const c0 = a20d;
+                if (0x1 & bf && (a5['ɵɵelementStart'](0x0, 'th', 0x33), a5[c0(0x127)](0x1), a5[c0(0x15f)]()), 0x2 & bf) {
+                    const bh = bg[c0(0xcb)];
+                    a5['ɵɵadvance'](0x1), a5[c0(0x157)]('\x20', bh[c0(0xde)], '\x20');
+                }
+            }
+            function ar(bf, bg) {
+                const c1 = a20d;
+                if (0x1 & bf && (a5['ɵɵelementContainerStart'](0x0), a5[c1(0x207)](0x1, aq, 0x2, 0x1, 'th', 0x32), a5[c1(0x1a8)]()), 0x2 & bf) {
+                    const bh = a5[c1(0xc4)](0x2);
+                    a5[c1(0x101)](0x1), a5[c1(0x1c5)]('ngForOf', bh[c1(0x130)])(c1(0x23e), bh[c1(0x12d)]);
+                }
+            }
+            function as(bf, bg) {
+                const c2 = a20d;
+                if (0x1 & bf && (a5[c2(0x1a1)](0x0, 'th', 0x25), a5['ɵɵtext'](0x1), a5['ɵɵelementEnd']()), 0x2 & bf) {
+                    const bh = a5[c2(0xc4)](0x2);
+                    a5[c2(0x1c5)](c2(0xcd), bh[c2(0x208)][c2(0x245)](c2(0x16d)) >= 0x0 ? 'd-none' : 'align-middle'), a5[c2(0x101)](0x1), a5[c2(0x157)]('\x20', bh[c2(0x199)], '');
+                }
+            }
+            function at(bf, bg) {
+                const c3 = a20d;
+                if (0x1 & bf && (a5['ɵɵelementStart'](0x0, 'th', 0x25), a5[c3(0x127)](0x1), a5[c3(0x15f)]()), 0x2 & bf) {
+                    const bh = a5[c3(0xc4)](0x2);
+                    a5[c3(0x1c5)](c3(0xcd), bh[c3(0x208)][c3(0x245)](c3(0x1b3)) >= 0x0 ? c3(0x110) : c3(0x273)), a5[c3(0x101)](0x1), a5[c3(0x157)]('\x20', bh[c3(0x153)]['DIEM_THI'], '');
+                }
+            }
+            function au(bf, bg) {
+                const c4 = a20d;
+                if (0x1 & bf && (a5[c4(0x1a1)](0x0, 'th', 0x25), a5['ɵɵtext'](0x1), a5[c4(0x15f)]()), 0x2 & bf) {
+                    const bh = a5['ɵɵnextContext'](0x2);
+                    a5['ɵɵproperty'](c4(0xcd), bh[c4(0x208)]['indexOf'](c4(0x219)) >= 0x0 ? c4(0x110) : 'align-middle'), a5[c4(0x101)](0x1), a5[c4(0x157)]('\x20', bh[c4(0x268)], '');
+                }
+            }
+            function av(bf, bg) {
+                const c5 = a20d;
+                if (0x1 & bf && (a5[c5(0x1a1)](0x0, 'th', 0x25), a5['ɵɵtext'](0x1), a5['ɵɵelementEnd']()), 0x2 & bf) {
+                    const bh = a5['ɵɵnextContext'](0x2);
+                    a5[c5(0x1c5)](c5(0xcd), bh[c5(0x208)][c5(0x245)](c5(0x13d)) >= 0x0 ? c5(0x110) : c5(0x273)), a5[c5(0x101)](0x1), a5['ɵɵtextInterpolate1']('\x20', bh[c5(0x22d)], '');
+                }
+            }
+            function aw(bf, bg) {
+                const c6 = a20d;
+                if (0x1 & bf && (a5[c6(0x1a1)](0x0, 'th', 0x34), a5[c6(0x127)](0x1), a5[c6(0x15f)]()), 0x2 & bf) {
+                    const bh = a5[c6(0xc4)](0x2);
+                    a5[c6(0x101)](0x1), a5[c6(0x1cc)](bh[c6(0x153)]['KHONG_TINH_TBTL']);
+                }
+            }
+            function ax(bf, bg) {
+                const c7 = a20d;
+                if (0x1 & bf && (a5[c7(0x1a1)](0x0, 'th', 0x35), a5[c7(0x127)](0x1), a5['ɵɵelementEnd']()), 0x2 & bf) {
+                    const bh = a5['ɵɵnextContext'](0x2);
+                    a5[c7(0x101)](0x1), a5['ɵɵtextInterpolate'](bh['msg'][c7(0x10c)]);
+                }
+            }
+            function ay(bf, bg) {
+                const c8 = a20d;
+                if (0x1 & bf && (a5[c8(0x1a1)](0x0, 'tr')(0x1, 'td', 0x36), a5[c8(0x127)](0x2), a5[c8(0x15f)]()()), 0x2 & bf) {
+                    const bh = a5[c8(0xc4)](0x2);
+                    a5[c8(0x101)](0x2), a5['ɵɵtextInterpolate1']('\x20', bh[c8(0x153)][c8(0x11a)], '\x20');
+                }
+            }
+            function az(bf, bg) {
+                const c9 = a20d;
+                if (0x1 & bf && (a5['ɵɵelementStart'](0x0, 'td', 0x3c), a5[c9(0x127)](0x1), a5[c9(0x15f)]()), 0x2 & bf) {
+                    const bh = a5[c9(0xc4)](0x2)[c9(0xcb)];
+                    a5[c9(0x101)](0x1), a5[c9(0x157)]('\x20', bh[c9(0x26b)], '\x20');
+                }
+            }
+            function aA(bf, bg) {
+                const ca = a20d;
+                if (0x1 & bf && (a5[ca(0x1a1)](0x0, 'tr', 0x3a), a5[ca(0x207)](0x1, az, 0x2, 0x1, 'td', 0x3b), a5[ca(0x15f)]()), 0x2 & bf) {
+                    const bh = a5[ca(0xc4)]()['$implicit'];
+                    a5[ca(0x101)](0x1), a5['ɵɵproperty'](ca(0x1f3), bh[ca(0x26b)]);
+                }
+            }
+            function aB(bf, bg) {
+                const cb = a20d;
+                if (0x1 & bf && (a5[cb(0x1a1)](0x0, 'td', 0x8), a5[cb(0x127)](0x1), a5[cb(0x15f)]()), 0x2 & bf) {
+                    const bh = a5[cb(0xc4)]()[cb(0xcb)], bi = a5[cb(0xc4)](0x4);
+                    a5[cb(0x1c5)](cb(0xcd), bi['dsFieldAn'][cb(0x245)]('ma_mon_tt') >= 0x0 ? cb(0x110) : 'text-nowrap\x20align-middle'), a5[cb(0x101)](0x1), a5[cb(0x157)]('\x20', bh[cb(0xfe)], '\x20');
+                }
+            }
+            function aC(bf, bg) {
+                const cc = a20d;
+                if (0x1 & bf && (a5[cc(0x1a1)](0x0, 'td', 0x8), a5['ɵɵtext'](0x1), a5[cc(0x15f)]()), 0x2 & bf) {
+                    const bh = a5[cc(0xc4)]()[cc(0xcb)], bi = a5[cc(0xc4)](0x4);
+                    a5['ɵɵproperty'](cc(0xcd), bi[cc(0x208)][cc(0x245)](cc(0x26a)) >= 0x0 ? cc(0x110) : cc(0x273)), a5['ɵɵadvance'](0x1), a5[cc(0x157)]('\x20', bh[cc(0x26a)], '\x20');
+                }
+            }
+            function aD(bf, bg) {
+                const cd = a20d;
+                if (0x1 & bf) {
+                    const bh = a5[cd(0x1c7)]();
+                    a5[cd(0x1a1)](0x0, 'td', 0x46), a5[cd(0x198)](cd(0x126), function () {
+                        const ce = cd;
+                        a5[ce(0x18d)](bh);
+                        const bi = a5[ce(0xc4)]()[ce(0xcb)], bj = a5[ce(0xc4)](0x4);
+                        return a5[ce(0xef)](bj[ce(0x20d)](bi['chuyen_diem_ve_hoc_ky']));
+                    }), a5[cd(0x1a1)](0x1, 'span', 0x47), a5['ɵɵtext'](0x2), a5[cd(0x15f)]()();
+                }
+                if (0x2 & bf) {
+                    const bi = a5['ɵɵnextContext']()[cd(0xcb)], bj = a5[cd(0xc4)](0x4);
+                    a5['ɵɵadvance'](0x1), a5['ɵɵproperty']('tooltip', bj['popupTooltip']), a5[cd(0x101)](0x1), a5[cd(0x157)]('\x20', bi['chuyen_diem_ve_hoc_ky'], '\x20');
+                }
+            }
+            function aE(bf, bg) {
+                const cf = a20d;
+                0x1 & bf && (a5[cf(0x144)](0x0), a5['ɵɵelement'](0x1, 'i', 0x48), a5['ɵɵelementContainerEnd']());
+            }
+            function aF(bf, bg) {
+                const cg = a20d;
+                if (0x1 & bf && (a5['ɵɵelementStart'](0x0, 'td', 0x3e), a5[cg(0x207)](0x1, aE, 0x2, 0x0, cg(0x152), 0xd), a5[cg(0x15f)]()), 0x2 & bf) {
+                    const bh = a5[cg(0xc4)]()[cg(0xcb)];
+                    a5['ɵɵadvance'](0x1), a5[cg(0x1c5)](cg(0x1f3), bh[cg(0x233)]);
+                }
+            }
+            function aG(bf, bg) {
+                const ch = a20d;
+                if (0x1 & bf && (a5[ch(0x144)](0x0), a5[ch(0x127)](0x1), a5['ɵɵelementContainerEnd']()), 0x2 & bf) {
+                    const bh = a5[ch(0xc4)]()[ch(0xcb)];
+                    a5['ɵɵadvance'](0x1), a5[ch(0x157)]('\x20', bh['diem_thanh_phan'], '\x20');
+                }
+            }
+            function aH(bf, bg) {
+                const ci = a20d;
+                if (0x1 & bf && (a5[ci(0x144)](0x0), a5[ci(0x207)](0x1, aG, 0x2, 0x1, ci(0x152), 0xd), a5[ci(0x1a8)]()), 0x2 & bf) {
+                    const bh = bg[ci(0xcb)], bi = a5[ci(0xc4)]()[ci(0xcb)];
+                    a5[ci(0x101)](0x1), a5[ci(0x1c5)](ci(0x1f3), bi[ci(0x226)] === bh['ky_hieu']);
+                }
+            }
+            function aI(bf, bg) {
+                const cj = a20d;
+                if (0x1 & bf && (a5[cj(0x1a1)](0x0, 'td', 0x4a), a5['ɵɵtemplate'](0x1, aH, 0x2, 0x1, 'ng-container', 0x37), a5[cj(0x15f)]()), 0x2 & bf) {
+                    const bh = a5[cj(0xc4)](0x2)[cj(0xcb)], bi = a5[cj(0xc4)](0x4);
+                    a5['ɵɵadvance'](0x1), a5['ɵɵproperty'](cj(0x1e5), bh['ds_diem_thanh_phan'])(cj(0x23e), bi['trackByFn']);
+                }
+            }
+            function aJ(bf, bg) {
+                const ck = a20d;
+                if (0x1 & bf && (a5[ck(0x144)](0x0), a5[ck(0x207)](0x1, aI, 0x2, 0x2, 'td', 0x49), a5['ɵɵelementContainerEnd']()), 0x2 & bf) {
+                    const bh = a5[ck(0xc4)](0x5);
+                    a5['ɵɵadvance'](0x1), a5['ɵɵproperty'](ck(0x1e5), bh[ck(0x130)])(ck(0x23e), bh[ck(0x12d)]);
+                }
+            }
+            function aK(bf, bg) {
+                const cl = a20d;
+                if (0x1 & bf && (a5['ɵɵelementStart'](0x0, 'td', 0x8), a5[cl(0x127)](0x1), a5[cl(0x15f)]()), 0x2 & bf) {
+                    const bh = a5['ɵɵnextContext']()[cl(0xcb)], bi = a5[cl(0xc4)](0x4);
+                    a5[cl(0x1c5)](cl(0xcd), bi['dsFieldAn']['indexOf'](cl(0x16d)) >= 0x0 ? cl(0x110) : cl(0x273)), a5[cl(0x101)](0x1), a5[cl(0x157)]('\x20', bh[cl(0x16d)], '');
+                }
+            }
+            function aL(bf, bg) {
+                const cm = a20d;
+                if (0x1 & bf && (a5['ɵɵelementStart'](0x0, 'td', 0x43), a5[cm(0x127)](0x1), a5[cm(0x15f)]()), 0x2 & bf) {
+                    const bh = a5['ɵɵnextContext']()[cm(0xcb)], bi = a5[cm(0xc4)](0x4);
+                    a5[cm(0x1c5)](cm(0xcd), bi[cm(0x208)][cm(0x245)](cm(0x1b3)) >= 0x0 ? cm(0x110) : 'align-middle')(cm(0x1f5), a5[cm(0xf2)](0x3, ab, '-' == bh[cm(0x1b3)] ? cm(0x222) : !bh[cm(0x250)] && bi[cm(0x225)] ? cm(0x168) : '')), a5[cm(0x101)](0x1), a5[cm(0x157)]('\x20', bh['diem_thi'], '');
+                }
+            }
+            function aM(bf, bg) {
+                const cn = a20d;
+                if (0x1 & bf && (a5[cn(0x1a1)](0x0, 'td', 0x43), a5[cn(0x127)](0x1), a5[cn(0x15f)]()), 0x2 & bf) {
+                    const bh = a5[cn(0xc4)]()[cn(0xcb)], bi = a5[cn(0xc4)](0x4);
+                    a5[cn(0x1c5)]('ngClass', bi[cn(0x208)][cn(0x245)](cn(0x219)) >= 0x0 ? cn(0x110) : cn(0x273))(cn(0x1f5), a5[cn(0xf2)](0x3, ab, 0x2 == bi[cn(0x172)] && '-' == bh[cn(0x219)] ? cn(0x222) : '')), a5[cn(0x101)](0x1), a5[cn(0x157)]('\x20', bh[cn(0x219)], '');
+                }
+            }
+            function aN(bf, bg) {
+                const co = a20d;
+                if (0x1 & bf && (a5[co(0x1a1)](0x0, 'td', 0x43), a5[co(0x127)](0x1), a5['ɵɵelementEnd']()), 0x2 & bf) {
+                    const bh = a5[co(0xc4)]()[co(0xcb)], bi = a5[co(0xc4)](0x4);
+                    a5[co(0x1c5)](co(0xcd), bi[co(0x208)]['indexOf'](co(0x13d)) >= 0x0 ? co(0x110) : co(0x273))(co(0x1f5), a5['ɵɵpureFunction1'](0x3, ab, '-' == bh[co(0x13d)] ? 'red' : '')), a5[co(0x101)](0x1), a5[co(0x157)]('\x20', bh['diem_tk_so'], '');
+                }
+            }
+            function aO(bf, bg) {
+                0x1 & bf && a5['ɵɵelement'](0x0, 'i', 0x4d);
+            }
+            function aP(bf, bg) {
+                const cp = a20d;
+                0x1 & bf && a5[cp(0x124)](0x0, 'i', 0x48);
+            }
+            function aQ(bf, bg) {
+                const cq = a20d;
+                if (0x1 & bf && (a5[cq(0x144)](0x0), a5[cq(0x207)](0x1, aO, 0x1, 0x0, 'i', 0x4b), a5[cq(0x207)](0x2, aP, 0x1, 0x0, 'i', 0x4c), a5[cq(0x1a8)]()), 0x2 & bf) {
+                    const bh = a5['ɵɵnextContext']()['$implicit'];
+                    a5[cq(0x101)](0x1), a5['ɵɵproperty'](cq(0x1f3), 0x0 === bh[cq(0x213)]), a5[cq(0x101)](0x1), a5['ɵɵproperty']('ngIf', 0x1 === bh['ket_qua']);
+                }
+            }
+            function aR(bf, bg) {
+                const cr = a20d;
+                0x1 & bf && (a5['ɵɵelementStart'](0x0, 'span'), a5[cr(0x127)](0x1, 'X'), a5['ɵɵelementEnd']());
+            }
+            function aS(bf, bg) {
+                const cs = a20d;
+                if (0x1 & bf && (a5[cs(0x1a1)](0x0, 'td', 0x4e), a5[cs(0x207)](0x1, aR, 0x2, 0x0, cs(0x14d), 0xd), a5['ɵɵelementEnd']()), 0x2 & bf) {
+                    const bh = a5[cs(0xc4)]()[cs(0xcb)];
+                    a5[cs(0x101)](0x1), a5[cs(0x1c5)](cs(0x1f3), 0x1 === (null == bh ? null : bh[cs(0x1b5)]));
+                }
+            }
+            function aT(bf, bg) {
+                const ct = a20d;
+                0x1 & bf && a5[ct(0x124)](0x0, 'i', 0x51);
+            }
+            function aU(bf, bg) {
+                const cu = a20d;
+                if (0x1 & bf) {
+                    const bh = a5['ɵɵgetCurrentView']();
+                    a5[cu(0x144)](0x0), a5[cu(0x1a1)](0x1, 'td', 0x4f), a5[cu(0x198)](cu(0x166), function () {
+                        const cv = cu;
+                        a5[cv(0x18d)](bh);
+                        const bi = a5[cv(0xc4)]()['$implicit'], bj = a5[cv(0xc4)](0x4);
+                        return a5['ɵɵresetView'](bj[cv(0x265)](bi));
+                    }), a5[cu(0x207)](0x2, aT, 0x1, 0x0, 'i', 0x50), a5[cu(0x15f)](), a5['ɵɵelementContainerEnd']();
+                }
+                if (0x2 & bf) {
+                    const bi = a5[cu(0xc4)]()[cu(0xcb)];
+                    a5[cu(0x101)](0x2), a5[cu(0x1c5)](cu(0x1f3), bi[cu(0x1f0)] && bi[cu(0x1f0)][cu(0x267)] > 0x0);
+                }
+            }
+            function aV(bf, bg) {
+                const cw = a20d;
+                if (0x1 & bf && (a5[cw(0x1a1)](0x0, 'tr', 0x3d)(0x1, 'td', 0x3e), a5[cw(0x127)](0x2), a5[cw(0x15f)](), a5[cw(0x1a1)](0x3, 'td', 0x8), a5[cw(0x127)](0x4), a5[cw(0x15f)](), a5['ɵɵtemplate'](0x5, aB, 0x2, 0x2, 'td', 0x3f), a5[cw(0x207)](0x6, aC, 0x2, 0x2, 'td', 0x3f), a5[cw(0x1a1)](0x7, 'td', 0x8), a5['ɵɵtext'](0x8), a5[cw(0x15f)](), a5['ɵɵelementStart'](0x9, 'td', 0x8), a5[cw(0x127)](0xa), a5['ɵɵelementEnd'](), a5[cw(0x207)](0xb, aD, 0x3, 0x2, 'td', 0x40), a5[cw(0x207)](0xc, aF, 0x2, 0x1, 'td', 0x41), a5['ɵɵelementStart'](0xd, 'td', 0x8), a5[cw(0x127)](0xe), a5[cw(0x15f)](), a5[cw(0x207)](0xf, aJ, 0x2, 0x2, cw(0x152), 0xd), a5[cw(0x207)](0x10, aK, 0x2, 0x2, 'td', 0x3f), a5[cw(0x207)](0x11, aL, 0x2, 0x5, 'td', 0x42), a5[cw(0x207)](0x12, aM, 0x2, 0x5, 'td', 0x42), a5[cw(0x207)](0x13, aN, 0x2, 0x5, 'td', 0x42), a5[cw(0x1a1)](0x14, 'td', 0x43), a5[cw(0x127)](0x15), a5[cw(0x15f)](), a5['ɵɵelementStart'](0x16, 'td', 0x44), a5['ɵɵtemplate'](0x17, aQ, 0x3, 0x2, 'ng-container', 0xd), a5[cw(0x15f)](), a5['ɵɵtemplate'](0x18, aS, 0x2, 0x1, 'td', 0x45), a5[cw(0x207)](0x19, aU, 0x3, 0x1, cw(0x152), 0xd), a5['ɵɵelementEnd']()), 0x2 & bf) {
+                    const bh = bg[cw(0xcb)], bi = bg[cw(0x1da)], bj = a5[cw(0xc4)](0x4);
+                    a5[cw(0x101)](0x2), a5[cw(0x1cc)](bi + 0x1), a5['ɵɵadvance'](0x1), a5[cw(0x1c5)](cw(0xcd), bj[cw(0x208)][cw(0x245)](cw(0x100)) >= 0x0 ? cw(0x110) : cw(0x16b)), a5[cw(0x101)](0x1), a5[cw(0x157)]('\x20', bh[cw(0x100)], '\x20'), a5[cw(0x101)](0x1), a5[cw(0x1c5)](cw(0x1f3), bj[cw(0x1bb)]), a5[cw(0x101)](0x1), a5[cw(0x1c5)](cw(0x1f3), bj[cw(0x115)]), a5[cw(0x101)](0x1), a5[cw(0x1c5)](cw(0xcd), bj[cw(0x208)][cw(0x245)](cw(0x170)) >= 0x0 ? cw(0x110) : cw(0x235)), a5['ɵɵadvance'](0x1), a5[cw(0x157)]('\x20', bh[cw(0x170)], '\x20'), a5[cw(0x101)](0x1), a5[cw(0x1c5)]('ngClass', bj['dsFieldAn'][cw(0x245)](cw(0xe1)) >= 0x0 ? 'd-none' : cw(0x1f7)), a5[cw(0x101)](0x1), a5['ɵɵtextInterpolate1']('\x20', bj['langUsingVi'] ? bh[cw(0xe1)] : bh[cw(0x259)], '\x20'), a5['ɵɵadvance'](0x1), a5[cw(0x1c5)](cw(0x1f3), bj[cw(0xec)]), a5['ɵɵadvance'](0x1), a5['ɵɵproperty'](cw(0x1f3), bj[cw(0xc6)]), a5[cw(0x101)](0x1), a5[cw(0x1c5)](cw(0xcd), bj[cw(0x208)]['indexOf']('so_tin_chi') >= 0x0 ? 'd-none' : cw(0x273)), a5['ɵɵadvance'](0x1), a5[cw(0x157)]('\x20', bh[cw(0x202)], ''), a5['ɵɵadvance'](0x1), a5[cw(0x1c5)](cw(0x1f3), bj['IsShowdiemtp'] && bj['DsKyHieuDiem']), a5[cw(0x101)](0x1), a5[cw(0x1c5)](cw(0x1f3), bj[cw(0x21f)]), a5[cw(0x101)](0x1), a5[cw(0x1c5)](cw(0x1f3), !bj[cw(0x128)] && bj[cw(0x206)]), a5[cw(0x101)](0x1), a5[cw(0x1c5)]('ngIf', bj[cw(0x1fa)]), a5[cw(0x101)](0x1), a5[cw(0x1c5)](cw(0x1f3), bj[cw(0x260)]), a5[cw(0x101)](0x1), a5[cw(0x1c5)](cw(0xcd), bj['dsFieldAn']['indexOf'](cw(0xc0)) >= 0x0 ? 'd-none' : cw(0x273))(cw(0x1f5), a5[cw(0xf2)](0x18, ab, '-' == bh['diem_tk_chu'] ? cw(0x222) : '')), a5[cw(0x101)](0x1), a5['ɵɵtextInterpolate1']('\x20', bh['diem_tk_chu'], ''), a5[cw(0x101)](0x2), a5['ɵɵproperty'](cw(0x1f3), bh[cw(0x24c)]), a5[cw(0x101)](0x1), a5['ɵɵproperty'](cw(0x1f3), cw(0x1aa) === bj[cw(0x1ad)]), a5[cw(0x101)](0x1), a5['ɵɵproperty'](cw(0x1f3), !bj[cw(0x128)]);
+                }
+            }
+            function aW(bf, bg) {
+                const cx = a20d;
+                if (0x1 & bf && (a5['ɵɵelementStart'](0x0, 'tr')(0x1, 'td', 0x57), a5[cx(0x127)](0x2), a5['ɵɵelementEnd'](), a5[cx(0x1a1)](0x3, 'td', 0x58), a5[cx(0x127)](0x4), a5[cx(0x15f)]()()), 0x2 & bf) {
+                    const bh = a5['ɵɵnextContext'](0x2)[cx(0xcb)], bi = a5[cx(0xc4)](0x3);
+                    a5['ɵɵadvance'](0x2), a5[cx(0x157)](cx(0x134), bi[cx(0x153)][cx(0x122)], ':'), a5[cx(0x101)](0x2), a5[cx(0x157)]('\x20', bh[cx(0xa0)], '');
+                }
+            }
+            function aX(bf, bg) {
+                const cy = a20d;
+                0x1 & bf && (a5[cy(0x1a1)](0x0, cy(0x14d)), a5[cy(0x127)](0x1, cy(0x25c)), a5['ɵɵelementEnd']());
+            }
+            function aY(bf, bg) {
+                const cz = a20d;
+                if (0x1 & bf && (a5[cz(0x1a1)](0x0, 'tr')(0x1, 'td', 0x57), a5[cz(0x127)](0x2), a5[cz(0x207)](0x3, aX, 0x2, 0x0, cz(0x14d), 0xd), a5[cz(0x127)](0x4, ':\x20'), a5[cz(0x15f)](), a5['ɵɵelementStart'](0x5, 'td', 0x58), a5[cz(0x127)](0x6), a5['ɵɵelementEnd']()()), 0x2 & bf) {
+                    const bh = a5[cz(0xc4)](0x2)[cz(0xcb)], bi = a5[cz(0xc4)](0x3);
+                    a5['ɵɵadvance'](0x2), a5[cz(0x157)](cz(0x134), bi[cz(0x153)]['DIEM_TRUNG_BINH_HOC_KY_H10'], ''), a5[cz(0x101)](0x1), a5[cz(0x1c5)](cz(0x1f3), 'DHQT' === bi[cz(0x1ad)]), a5[cz(0x101)](0x3), a5[cz(0x157)]('\x20', bh['dtb_hk_he10'], '');
+                }
+            }
+            function aZ(bf, bg) {
+                const cA = a20d;
+                if (0x1 & bf && (a5[cA(0x1a1)](0x0, 'tr')(0x1, 'td', 0x57), a5[cA(0x127)](0x2), a5[cA(0x15f)](), a5['ɵɵelementStart'](0x3, 'td', 0x58), a5[cA(0x127)](0x4), a5[cA(0x15f)]()()), 0x2 & bf) {
+                    const bh = a5[cA(0xc4)](0x2)['$implicit'], bi = a5[cA(0xc4)](0x3);
+                    a5[cA(0x101)](0x2), a5[cA(0x157)](cA(0x134), bi[cA(0x153)][cA(0x19d)], ':'), a5['ɵɵadvance'](0x2), a5[cA(0x157)]('\x20', bh[cA(0x1e8)], '');
+                }
+            }
+            function b0(bf, bg) {
+                const cB = a20d;
+                if (0x1 & bf && (a5[cB(0x1a1)](0x0, 'tr')(0x1, 'td', 0x57), a5[cB(0x127)](0x2), a5[cB(0x15f)](), a5[cB(0x1a1)](0x3, 'td', 0x58), a5[cB(0x127)](0x4), a5[cB(0x15f)]()()), 0x2 & bf) {
+                    const bh = a5[cB(0xc4)](0x2)[cB(0xcb)], bi = a5[cB(0xc4)](0x3);
+                    a5[cB(0x101)](0x2), a5[cB(0x157)](cB(0x134), bi[cB(0x153)][cB(0x1b1)], ':'), a5[cB(0x101)](0x2), a5[cB(0x157)]('\x20', bh[cB(0x184)], '');
+                }
+            }
+            function b1(bf, bg) {
+                const cC = a20d;
+                0x1 & bf && (a5[cC(0x1a1)](0x0, cC(0x14d)), a5[cC(0x127)](0x1, cC(0x25c)), a5['ɵɵelementEnd']());
+            }
+            function b2(bf, bg) {
+                const cD = a20d;
+                if (0x1 & bf && (a5['ɵɵelementStart'](0x0, 'tr')(0x1, 'td', 0x57), a5[cD(0x127)](0x2), a5[cD(0x207)](0x3, b1, 0x2, 0x0, cD(0x14d), 0xd), a5[cD(0x127)](0x4, ':\x20'), a5[cD(0x15f)](), a5[cD(0x1a1)](0x5, 'td', 0x58), a5[cD(0x127)](0x6), a5[cD(0x15f)]()()), 0x2 & bf) {
+                    const bh = a5['ɵɵnextContext'](0x2)[cD(0xcb)], bi = a5['ɵɵnextContext'](0x3);
+                    a5['ɵɵadvance'](0x2), a5[cD(0x157)]('\x20-\x20', bi[cD(0x153)][cD(0x194)], ''), a5[cD(0x101)](0x1), a5[cD(0x1c5)](cD(0x1f3), 'DHQT' === bi['IsMaTruong']), a5[cD(0x101)](0x3), a5[cD(0x157)]('\x20', bh[cD(0xd1)], '');
+                }
+            }
+            function b3(bf, bg) {
+                const cE = a20d;
+                if (0x1 & bf && (a5[cE(0x1a1)](0x0, 'tr')(0x1, 'td', 0x57), a5[cE(0x127)](0x2), a5['ɵɵelementEnd'](), a5['ɵɵelementStart'](0x3, 'td', 0x58), a5['ɵɵtext'](0x4), a5[cE(0x15f)]()()), 0x2 & bf) {
+                    const bh = a5[cE(0xc4)](0x2)[cE(0xcb)], bi = a5[cE(0xc4)](0x3);
+                    a5[cE(0x101)](0x2), a5[cE(0x157)]('\x20-\x20', bi['msg']['DIEM_REN_LUYEN_TICH_LUY'], ':'), a5['ɵɵadvance'](0x2), a5[cE(0x157)]('\x20', bh[cE(0x14b)], '');
+                }
+            }
+            function b4(bf, bg) {
+                const cF = a20d;
+                if (0x1 & bf && (a5[cF(0x1a1)](0x0, 'tr')(0x1, 'td', 0x57), a5[cF(0x127)](0x2), a5['ɵɵelementEnd'](), a5[cF(0x1a1)](0x3, 'td', 0x58), a5[cF(0x127)](0x4), a5['ɵɵelementEnd']()()), 0x2 & bf) {
+                    const bh = a5[cF(0xc4)](0x2)[cF(0xcb)], bi = a5[cF(0xc4)](0x3);
+                    a5[cF(0x101)](0x2), a5[cF(0x157)](cF(0x134), bi[cF(0x153)]['PHAN_LOAI_DIEM_TRUNG_BINH_HOC_KY'], ':'), a5[cF(0x101)](0x2), a5[cF(0x157)]('\x20', null == bh ? null : bh[cF(0x19f)], '');
+                }
+            }
+            function b5(bf, bg) {
+                const cG = a20d;
+                if (0x1 & bf && (a5[cG(0x144)](0x0), a5[cG(0x1a1)](0x1, 'tr', 0x52)(0x2, 'td', 0x53)(0x3, cG(0xe7), 0x54)(0x4, cG(0xe7), 0x2d)(0x5, cG(0xe7), 0x55)(0x6, cG(0x1b6), 0x56), a5[cG(0x207)](0x7, aW, 0x5, 0x2, 'tr', 0xd), a5['ɵɵtemplate'](0x8, aY, 0x7, 0x3, 'tr', 0xd), a5[cG(0x1a1)](0x9, 'tr')(0xa, 'td', 0x57), a5[cG(0x127)](0xb), a5[cG(0x15f)](), a5[cG(0x1a1)](0xc, 'td', 0x58), a5['ɵɵtext'](0xd), a5[cG(0x15f)]()(), a5['ɵɵtemplate'](0xe, aZ, 0x5, 0x2, 'tr', 0xd), a5['ɵɵelementEnd']()(), a5[cG(0x1a1)](0xf, 'div', 0x55)(0x10, 'table', 0x59), a5[cG(0x207)](0x11, b0, 0x5, 0x2, 'tr', 0xd), a5[cG(0x207)](0x12, b2, 0x7, 0x3, 'tr', 0xd), a5[cG(0x1a1)](0x13, 'tr')(0x14, 'td', 0x57), a5[cG(0x127)](0x15), a5['ɵɵelementEnd'](), a5[cG(0x1a1)](0x16, 'td', 0x58), a5[cG(0x127)](0x17), a5[cG(0x15f)]()(), a5['ɵɵtemplate'](0x18, b3, 0x5, 0x2, 'tr', 0xd), a5['ɵɵelementEnd']()(), a5['ɵɵelementStart'](0x19, 'div', 0x55)(0x1a, cG(0x1b6), 0x56), a5['ɵɵtemplate'](0x1b, b4, 0x5, 0x2, 'tr', 0xd), a5[cG(0x15f)]()()()()()(), a5[cG(0x1a8)]()), 0x2 & bf) {
+                    const bh = a5[cG(0xc4)]()[cG(0xcb)], bi = a5[cG(0xc4)](0x3);
+                    a5['ɵɵadvance'](0x7), a5[cG(0x1c5)](cG(0x1f3), bh[cG(0x129)]), a5['ɵɵadvance'](0x1), a5[cG(0x1c5)]('ngIf', bh[cG(0x247)]), a5[cG(0x101)](0x3), a5[cG(0x157)](cG(0x134), bi[cG(0x153)]['SO_TIN_CHI_DAT_HOC_KY'], ':'), a5['ɵɵadvance'](0x2), a5[cG(0x157)]('\x20', bh['so_tin_chi_dat_hk'], ''), a5[cG(0x101)](0x1), a5[cG(0x1c5)]('ngIf', bh[cG(0x1e8)] || '' == bh['diemrl_hk']), a5[cG(0x101)](0x3), a5[cG(0x1c5)](cG(0x1f3), bh[cG(0x129)]), a5[cG(0x101)](0x1), a5['ɵɵproperty']('ngIf', bh[cG(0x247)]), a5[cG(0x101)](0x3), a5[cG(0x157)](cG(0x134), bi['msg'][cG(0x1ed)], ':\x20'), a5[cG(0x101)](0x2), a5[cG(0x157)]('\x20', bh[cG(0x242)], ''), a5[cG(0x101)](0x1), a5[cG(0x1c5)]('ngIf', bh[cG(0x14b)] || '' == bh['diemrl_hk_tl']), a5[cG(0x101)](0x3), a5[cG(0x1c5)]('ngIf', null == bh ? null : bh[cG(0x19f)]);
+                }
+            }
+            function b6(bf, bg) {
+                const cH = a20d;
+                if (0x1 & bf && (a5['ɵɵelementContainerStart'](0x0), a5[cH(0x207)](0x1, aA, 0x2, 0x1, 'tr', 0x38), a5[cH(0x207)](0x2, aV, 0x1a, 0x1a, 'tr', 0x39), a5[cH(0x1be)](0x3, cH(0xe9)), a5['ɵɵtemplate'](0x4, b5, 0x1c, 0xb, 'ng-container', 0xd), a5[cH(0x1a8)]()), 0x2 & bf) {
+                    const bh = bg[cH(0xcb)], bi = a5['ɵɵnextContext'](0x3);
+                    a5[cH(0x101)](0x1), a5[cH(0x1c5)](cH(0x1f3), bh[cH(0x217)][cH(0x267)] > 0x0), a5[cH(0x101)](0x1), a5[cH(0x1c5)](cH(0x1e5), a5[cH(0xa7)](0x3, 0x4, bh[cH(0x217)], bi[cH(0x1a3)], bi[cH(0x211)], !0x1))('ngForTrackBy', bi[cH(0x12d)]), a5[cH(0x101)](0x2), a5[cH(0x1c5)](cH(0x1f3), bh[cH(0x217)][cH(0x267)] > 0x0 && 0x1 === bi[cH(0x20e)]);
+                }
+            }
+            function b7(bf, bg) {
+                const cI = a20d;
+                if (0x1 & bf && (a5[cI(0x144)](0x0), a5[cI(0x207)](0x1, b6, 0x5, 0x9, cI(0x152), 0x37), a5[cI(0x1a8)]()), 0x2 & bf) {
+                    const bh = a5[cI(0xc4)](0x2);
+                    a5[cI(0x101)](0x1), a5[cI(0x1c5)](cI(0x1e5), bh[cI(0x261)])(cI(0x23e), bh[cI(0x12d)]);
+                }
+            }
+            function b8(bf, bg) {
+                const cJ = a20d;
+                if (0x1 & bf) {
+                    const bh = a5[cJ(0x1c7)]();
+                    a5[cJ(0x144)](0x0), a5['ɵɵelementStart'](0x1, cJ(0xe7), 0x16)(0x2, cJ(0xe7), 0x17)(0x3, cJ(0xe7), 0x18), a5[cJ(0x127)](0x4), a5['ɵɵpipe'](0x5, cJ(0x120)), a5[cJ(0x15f)](), a5[cJ(0x1a1)](0x6, cJ(0xe7), 0x19), a5[cJ(0x127)](0x7), a5[cJ(0x1be)](0x8, 'uppercase'), a5[cJ(0x15f)](), a5[cJ(0x207)](0x9, aj, 0x5, 0x4, cJ(0x152), 0xd), a5[cJ(0x15f)](), a5[cJ(0x1a1)](0xa, cJ(0x1b6), 0x1a)(0xb, cJ(0x22a)), a5[cJ(0x207)](0xc, ak, 0x8, 0x0, 'tr', 0x1b), a5[cJ(0x1a1)](0xd, 'tr', 0x1c)(0xe, 'th', 0x1d), a5[cJ(0x127)](0xf), a5[cJ(0x15f)](), a5['ɵɵelementStart'](0x10, 'th', 0x1e), a5[cJ(0x198)](cJ(0x166), function () {
+                        const cK = cJ;
+                        a5[cK(0x18d)](bh);
+                        const bi = a5[cK(0xc4)]();
+                        return a5[cK(0xef)](bi[cK(0x17c)](cK(0x100)));
+                    }), a5[cJ(0x127)](0x11), a5[cJ(0x124)](0x12, cJ(0x14d), 0x8), a5[cJ(0x15f)](), a5[cJ(0x207)](0x13, am, 0x3, 0x8, 'th', 0x1f), a5[cJ(0x207)](0x14, an, 0x3, 0x8, 'th', 0x1f), a5[cJ(0x1a1)](0x15, 'th', 0x1e), a5['ɵɵlistener']('click', function () {
+                        const cL = cJ;
+                        a5[cL(0x18d)](bh);
+                        const bi = a5['ɵɵnextContext']();
+                        return a5[cL(0xef)](bi['setOrder'](cL(0x170)));
+                    }), a5[cJ(0x127)](0x16), a5[cJ(0x124)](0x17, 'span', 0x8), a5[cJ(0x15f)](), a5['ɵɵelementStart'](0x18, 'th', 0x20), a5['ɵɵlistener']('click', function () {
+                        const cM = cJ;
+                        a5[cM(0x18d)](bh);
+                        const bi = a5[cM(0xc4)]();
+                        return a5['ɵɵresetView'](bi[cM(0x17c)](cM(0xe1)));
+                    }), a5[cJ(0x127)](0x19), a5[cJ(0x124)](0x1a, cJ(0x14d), 0x8), a5[cJ(0x15f)](), a5[cJ(0x207)](0x1b, ao, 0x2, 0x3, 'th', 0x21), a5[cJ(0x207)](0x1c, ap, 0x3, 0x7, 'th', 0x22), a5[cJ(0x1a1)](0x1d, 'th', 0x23), a5[cJ(0x198)](cJ(0x166), function () {
+                        const cN = cJ;
+                        a5[cN(0x18d)](bh);
+                        const bi = a5[cN(0xc4)]();
+                        return a5['ɵɵresetView'](bi[cN(0x17c)]('so_tin_chi'));
+                    }), a5['ɵɵtext'](0x1e), a5['ɵɵelement'](0x1f, cJ(0x14d), 0x8), a5[cJ(0x15f)](), a5[cJ(0x207)](0x20, ar, 0x2, 0x2, cJ(0x152), 0xd), a5['ɵɵtemplate'](0x21, as, 0x2, 0x2, 'th', 0x24), a5[cJ(0x207)](0x22, at, 0x2, 0x2, 'th', 0x24), a5[cJ(0x207)](0x23, au, 0x2, 0x2, 'th', 0x24), a5[cJ(0x207)](0x24, av, 0x2, 0x2, 'th', 0x24), a5[cJ(0x1a1)](0x25, 'th', 0x25), a5[cJ(0x127)](0x26), a5[cJ(0x15f)](), a5['ɵɵelementStart'](0x27, 'th', 0x26), a5[cJ(0x198)](cJ(0x166), function () {
+                        const cO = cJ;
+                        a5[cO(0x18d)](bh);
+                        const bi = a5[cO(0xc4)]();
+                        return a5['ɵɵresetView'](bi[cO(0x17c)](cO(0x213)));
+                    }), a5[cJ(0x127)](0x28), a5[cJ(0x124)](0x29, cJ(0x14d), 0x8), a5[cJ(0x15f)](), a5[cJ(0x207)](0x2a, aw, 0x2, 0x1, 'th', 0x27), a5[cJ(0x207)](0x2b, ax, 0x2, 0x1, 'th', 0x28), a5[cJ(0x15f)]()(), a5['ɵɵelementStart'](0x2c, cJ(0x1c3)), a5[cJ(0x207)](0x2d, ay, 0x3, 0x1, 'tr', 0xd), a5[cJ(0x207)](0x2e, b7, 0x2, 0x2, cJ(0x152), 0xd), a5[cJ(0x15f)]()()(), a5[cJ(0x1a8)]();
+                }
+                if (0x2 & bf) {
+                    const bi = a5['ɵɵnextContext']();
+                    a5[cJ(0x101)](0x4), a5[cJ(0x248)]('', bi['msg'][cJ(0x254)], ':\x20', a5[cJ(0xb6)](0x5, 0x2d, bi[cJ(0xf0)], 'dd/MM/yyyy'), '\x20'), a5[cJ(0x101)](0x3), a5[cJ(0x1cc)](a5[cJ(0xf8)](0x8, 0x30, bi[cJ(0x153)][cJ(0x249)])), a5[cJ(0x101)](0x2), a5['ɵɵproperty']('ngIf', bi[cJ(0x272)]), a5[cJ(0x101)](0x3), a5['ɵɵproperty'](cJ(0x1f3), bi['IsShowKhoaThi']), a5[cJ(0x101)](0x3), a5[cJ(0x1cc)](bi['msg'][cJ(0x186)]), a5[cJ(0x101)](0x1), a5[cJ(0x139)]('active', cJ(0x100) === bi['orderby']), a5[cJ(0x1c5)](cJ(0xcd), bi[cJ(0x208)][cJ(0x245)]('ma_mon') >= 0x0 ? cJ(0x110) : cJ(0x19c)), a5['ɵɵadvance'](0x1), a5[cJ(0x157)]('\x20', bi[cJ(0x153)][cJ(0x1ec)], '\x20'), a5[cJ(0x101)](0x1), a5[cJ(0x1c5)](cJ(0xcd), a5[cJ(0x167)](0x32, al, bi[cJ(0x211)], !bi[cJ(0x211)])), a5[cJ(0x101)](0x1), a5[cJ(0x1c5)](cJ(0x1f3), bi[cJ(0x1bb)]), a5['ɵɵadvance'](0x1), a5['ɵɵproperty'](cJ(0x1f3), bi['IsShowstctt']), a5['ɵɵadvance'](0x1), a5[cJ(0x139)](cJ(0x1ba), 'nhom_to' === bi[cJ(0x1a3)]), a5['ɵɵproperty'](cJ(0xcd), bi['dsFieldAn'][cJ(0x245)]('nhom_to') >= 0x0 ? cJ(0x110) : cJ(0x174)), a5[cJ(0x101)](0x1), a5[cJ(0x157)]('', bi[cJ(0x153)][cJ(0x116)], '\x20'), a5[cJ(0x101)](0x1), a5[cJ(0x1c5)]('ngClass', a5[cJ(0x167)](0x35, al, bi[cJ(0x211)], !bi[cJ(0x211)])), a5['ɵɵadvance'](0x1), a5[cJ(0x139)](cJ(0x1ba), cJ(0xe1) === bi[cJ(0x1a3)]), a5[cJ(0x1c5)](cJ(0xcd), bi[cJ(0x208)]['indexOf'](cJ(0xe1)) >= 0x0 ? 'd-none' : cJ(0x24e)), a5[cJ(0x101)](0x1), a5[cJ(0x157)]('', bi[cJ(0x153)]['TENMH'], '\x20'), a5[cJ(0x101)](0x1), a5['ɵɵproperty'](cJ(0xcd), a5[cJ(0x167)](0x38, al, bi[cJ(0x211)], !bi[cJ(0x211)])), a5['ɵɵadvance'](0x1), a5['ɵɵproperty'](cJ(0x1f3), bi[cJ(0xec)]), a5[cJ(0x101)](0x1), a5[cJ(0x1c5)](cJ(0x1f3), bi['IsShowMHNg']), a5['ɵɵadvance'](0x1), a5[cJ(0x139)]('active', cJ(0x202) === bi[cJ(0x1a3)]), a5['ɵɵproperty']('ngClass', bi[cJ(0x208)][cJ(0x245)](cJ(0x202)) >= 0x0 ? cJ(0x110) : cJ(0x11d)), a5['ɵɵadvance'](0x1), a5[cJ(0x157)]('', bi[cJ(0x153)][cJ(0x106)], '\x20'), a5[cJ(0x101)](0x1), a5[cJ(0x1c5)](cJ(0xcd), a5[cJ(0x167)](0x3b, al, bi[cJ(0x211)], !bi['reverseOrderby'])), a5['ɵɵadvance'](0x1), a5['ɵɵproperty'](cJ(0x1f3), bi[cJ(0x130)] && bi['IsShowdiemtp']), a5['ɵɵadvance'](0x1), a5['ɵɵproperty'](cJ(0x1f3), bi[cJ(0x21f)]), a5[cJ(0x101)](0x1), a5[cJ(0x1c5)](cJ(0x1f3), !bi[cJ(0x128)] && bi[cJ(0x206)]), a5[cJ(0x101)](0x1), a5['ɵɵproperty'](cJ(0x1f3), bi['IsShowDiemTK10']), a5[cJ(0x101)](0x1), a5[cJ(0x1c5)](cJ(0x1f3), bi[cJ(0x260)]), a5[cJ(0x101)](0x1), a5[cJ(0x1c5)](cJ(0xcd), bi[cJ(0x208)][cJ(0x245)]('diem_tk_chu') >= 0x0 ? cJ(0x110) : 'align-middle'), a5[cJ(0x101)](0x1), a5[cJ(0x157)]('\x20', bi[cJ(0xb4)], '\x20'), a5[cJ(0x101)](0x1), a5[cJ(0x139)](cJ(0x1ba), cJ(0x213) === bi['orderby']), a5[cJ(0x101)](0x1), a5[cJ(0x157)]('', bi[cJ(0x153)][cJ(0x1a7)], '\x20'), a5[cJ(0x101)](0x1), a5[cJ(0x1c5)](cJ(0xcd), a5['ɵɵpureFunction2'](0x3e, al, bi[cJ(0x211)], !bi[cJ(0x211)])), a5[cJ(0x101)](0x1), a5['ɵɵproperty']('ngIf', cJ(0x1aa) === bi['IsMaTruong']), a5[cJ(0x101)](0x1), a5['ɵɵproperty'](cJ(0x1f3), !bi['IsShowdiemtp']), a5[cJ(0x101)](0x2), a5[cJ(0x1c5)](cJ(0x1f3), bi[cJ(0x261)][cJ(0x267)] <= 0x0), a5[cJ(0x101)](0x1), a5[cJ(0x1c5)]('ngIf', bi[cJ(0x261)][cJ(0x267)] > 0x0);
+                }
+            }
+            const b9 = function (bf, bg) {
+                    return {
+                        'col-auto': bf,
+                        'col-12\x20text-right': bg
+                    };
+                }, ba = [{
+                        'path': '',
+                        'pathMatch': cP(0x18f),
+                        'component': ((() => {
+                            const cV = cP;
+                            class bf {
+                                constructor(bg, bh, bi, bj, bk, bl, bm) {
+                                    const cQ = a20d;
+                                    this[cQ(0xd5)] = bg, this[cQ(0xf4)] = bh, this['modalService'] = bi, this[cQ(0x258)] = bj, this[cQ(0x185)] = bk, this[cQ(0x153)] = bl, this['langservice'] = bm, this[cQ(0xa3)] = '', this[cQ(0x151)] = '', this[cQ(0xe4)] = !0x1, this[cQ(0x1a3)] = cQ(0x100), this[cQ(0x211)] = !0x1, this[cQ(0x208)] = [] = [], this[cQ(0x96)] = !0x1, this[cQ(0x225)] = !0x1, this[cQ(0x128)] = !0x1, this[cQ(0x1fa)] = !0x0, this[cQ(0x206)] = !0x0, this['strDiemTK4'] = this['msg'][cQ(0x25d)], this['strDiemTKC'] = this[cQ(0x153)][cQ(0x252)], this['IsShowDiemTK4'] = !0x0, this[cQ(0x268)] = this['msg'][cQ(0x1e3)], this[cQ(0x1bb)] = !0x1, this[cQ(0x115)] = !0x1, this[cQ(0x21f)] = !0x1, this[cQ(0xc6)] = !0x1, this['cbLoaiThongKe'] = [], this[cQ(0x1ad)] = '', this[cQ(0xd4)] = !0x1, this[cQ(0x199)] = '', this[cQ(0xec)] = !0x1, this[cQ(0x193)] = '', this[cQ(0x159)] = !0x0, this[cQ(0x18c)][cQ(0x266)]({
+                                        'Stt': 0x1,
+                                        'TenDoiTuong': 'Theo\x20chương\x20trình\x20đào\x20tạo'
+                                    }), this[cQ(0x18c)]['push']({
+                                        'Stt': 0x2,
+                                        'TenDoiTuong': 'Theo\x20đăng\x20ký\x20môn\x20học'
+                                    }), this['selectLoaiThongKe'] = this[cQ(0x18c)][0x0]?.['Stt'];
+                                }
+                                ['ngOnInit']() {
+                                    const cR = a20d;
+                                    this[cR(0x272)] = JSON[cR(0x1c2)](sessionStorage[cR(0x137)](cR(0x25a))), this[cR(0xa3)] = '', this[cR(0xf0)] = new Date(), this[cR(0x96)] = !0x1, this[cR(0xf4)]['show']('spinner-diem'), this[cR(0x185)][cR(0x12e)](!0x0)[cR(0x155)](bg => {
+                                        const cS = cR;
+                                        bg && bg[cS(0x267)] > 0x0 && this[cS(0x185)][cS(0xb1)](bg)[cS(0x155)](bh => {
+                                            const cT = cS;
+                                            !bh && bh['length'] <= 0x0 && this[cT(0x118)]();
+                                        });
+                                    }), this[cR(0xb8)][cR(0xd2)][cR(0x155)](bg => {
+                                        const cU = cR;
+                                        this[cU(0x159)] = 'vi' === bg;
+                                    });
+                                }
+                                [cV(0x118)]() {
+                                    const cW = cV;
+                                    sessionStorage['getItem'](cW(0x246)) ? (this[cW(0x1ad)] = sessionStorage[cW(0x137)](cW(0x246)), cW(0x173) === this[cW(0x1ad)] ? (this['spinner'][cW(0x1e4)](cW(0x232)), this[cW(0x125)]()) : (this[cW(0xe0)](), this['LoadHocKyDanhGiaRenLuyen']())) : this[cW(0x185)][cW(0x24b)]()[cW(0x155)](bg => {
+                                        const cX = cW;
+                                        sessionStorage[cX(0x137)](cX(0x246)) && (this[cX(0x1ad)] = sessionStorage[cX(0x137)](cX(0x246)), cX(0x173) === this[cX(0x1ad)] ? (this[cX(0xf4)][cX(0x1e4)](cX(0x232)), this[cX(0x125)]()) : (this[cX(0xe0)](), this[cX(0xf7)]()));
+                                    });
+                                }
+                                [cV(0x125)]() {
+                                    const cY = cV;
+                                    this['spinner'][cY(0x1e4)]('spinner-diem'), this[cY(0xd5)]['post'](a4['L1'][cY(0x231)], '')[cY(0x155)](bg => {
+                                        const cZ = cY;
+                                        bg && bg[cZ(0x267)] > 0x0 ? (this[cZ(0xf4)][cZ(0x132)]('spinner-diem'), window['location'][cZ(0x21e)] = bg) : (this['loadNganhSinhVien'](), this[cZ(0xf7)]());
+                                    }, bg => {
+                                        const d0 = cY;
+                                        this['spinner'][d0(0x132)](d0(0x232));
+                                    });
+                                }
+                                ['loadComboxKyHieuDiem']() {
+                                    const d1 = cV;
+                                    this[d1(0xf4)][d1(0x1e4)](d1(0x232)), this[d1(0xd5)][d1(0xf9)](a4['L1'][d1(0x163)], '')[d1(0x155)](bg => {
+                                        const d2 = d1;
+                                        bg && 0xc8 === bg[d2(0x102)] && bg[d2(0x175)] && bg['data'][d2(0x25f)][d2(0x267)] > 0x0 ? (this[d2(0x130)] = bg[d2(0x175)][d2(0x25f)], this['spinner'][d2(0x132)](d2(0x232))) : this[d2(0xf4)][d2(0x132)](d2(0x232));
+                                    }, bg => {
+                                        const d3 = d1;
+                                        this[d3(0xf4)]['hide'](d3(0x232));
+                                    });
+                                }
+                                [cV(0xe0)]() {
+                                    const d4 = cV;
+                                    this['spinner'][d4(0x1e4)](d4(0x232)), this[d4(0xd5)]['post'](a4['L1'][d4(0xdd)], '')[d4(0x155)](bg => {
+                                        const d5 = d4;
+                                        bg && 0xc8 === bg[d5(0x102)] && bg[d5(0x175)] ? (this[d5(0xe4)] = bg[d5(0x175)]['is_truong_su_dung_2_nganh'], bg['data'][d5(0xb9)] && (this['dataNganh'] = bg['data'][d5(0xb9)], this[d5(0xb7)] = this[d5(0x131)][0x0]?.[d5(0x145)]), this['spinner']['hide'](d5(0x232))) : this[d5(0xf4)][d5(0x132)]('spinner-diem');
+                                    }, bg => {
+                                        const d6 = d4;
+                                        this[d6(0xf4)]['hide'](d6(0x232)), this[d6(0xa3)] = this[d6(0x153)][d6(0x11a)];
+                                    });
+                                }
+                                [cV(0xf7)]() {
+                                    const d7 = cV;
+                                    this[d7(0xf4)][d7(0x1e4)](d7(0x232)), this[d7(0xd5)]['post'](a4['L1'][d7(0x1a0)], '')[d7(0x155)](bg => {
+                                        const d8 = d7;
+                                        bg && 0xc8 === bg[d8(0x102)] && (bg[d8(0x175)] && bg[d8(0x175)][d8(0x1a4)] ? (this['SelectHocKy'] = bg['data'][d8(0x1a4)][d8(0xa6)][d8(0x165)]() ?? '', this[d8(0xce)]()) : (this[d8(0xf4)][d8(0x132)](d8(0x232)), this[d8(0xa3)] = this[d8(0x153)][d8(0x11a)]));
+                                    }, bg => {
+                                        const d9 = d7;
+                                        this[d9(0xf4)][d9(0x132)](d9(0x232)), this['messError'] = this['msg']['KHONG_TIM_THAY_DU_LIEU'];
+                                    });
+                                }
+                                [cV(0xce)]() {
+                                    const da = cV;
+                                    this[da(0xf4)]['show'](da(0x232)), this[da(0xa3)] = '', this[da(0xbf)] = this['DsDiemHocKy_filter'] = null, this[da(0xd5)][da(0xf9)](a4['L1']['Loc_Setting_XemDiem'], '')[da(0x155)](bg => {
+                                        const db = da;
+                                        bg && 0xc8 === bg['code'] && bg[db(0x175)][db(0x262)] ? (this[db(0x172)] = bg['data'][db(0x262)][db(0x1d8)], 0x0 === this[db(0x172)] && this[db(0x123)](0x0, ''), (0x1 === this[db(0x172)] || 0x2 === this[db(0x172)] || 0x3 === this[db(0x172)]) && this['KiemTraSVHoanThanhDG'](this['LoaiSettingXemDiem'])) : (this[db(0xf4)]['hide'](db(0x232)), this[db(0xa3)] = this['msg'][db(0x11a)]);
+                                    }, bg => {
+                                        const dc = da;
+                                        this[dc(0xf4)][dc(0x132)](dc(0x232)), this[dc(0xa3)] = this['msg']['KHONG_TIM_THAY_DU_LIEU'];
+                                    });
+                                }
+                                [cV(0x228)](bg) {
+                                    const dd = cV;
+                                    this[dd(0xf4)]['show']('spinner-diem'), this[dd(0xa3)] = '', this[dd(0xd5)]['post'](a4['L1']['KiemTra_SV_HoanThanh_DG'], { 'ma_sinh_vien': this['currentUser']?.[dd(0x10e)] })['subscribe'](bh => {
+                                        const de = dd;
+                                        bh && 0xc8 === bh[de(0x102)] ? '' !== bh[de(0x1b9)] ? (0x1 === bg && (this[de(0xa3)] = this[de(0x153)][de(0x14f)]), 0x2 === bg && (this['messError'] = this[de(0x153)][de(0x1ae)], this['LoadDiemSinhVien'](bg, this['SelectHocKy'])), 0x3 === bg && (this[de(0xa3)] = this[de(0x153)][de(0x104)], this['loadMonHocChuaDG'](bg, this['SelectHocKy']))) : this[de(0x123)](0x0, '') : (this[de(0xf4)]['hide'](de(0x232)), this[de(0xa3)] = this[de(0x153)]['KHONG_TIM_THAY_DU_LIEU']);
+                                    }, bh => {
+                                        const df = dd;
+                                        this[df(0xf4)][df(0x132)](df(0x232)), this[df(0xa3)] = this[df(0x153)][df(0x11a)];
+                                    });
+                                }
+                                [cV(0x1ea)](bg, bh) {
+                                    const dg = cV;
+                                    this['spinner']['show'](dg(0x232)), this[dg(0xd5)][dg(0xf9)](a4['L1']['Loc_MonHoc_Chua_DG'], { 'ma_sinh_vien': this[dg(0x272)]?.[dg(0x10e)] })[dg(0x155)](bi => {
+                                        const dh = dg;
+                                        bi && 0xc8 === bi[dh(0x102)] && bi[dh(0x175)]['ds_mon_hoc_chua_dgrl'] ? (this[dh(0x1af)] = bi[dh(0x175)]['ds_mon_hoc_chua_dgrl'], this[dh(0x123)](bg, bh, this[dh(0x1af)])) : (this[dh(0xf4)]['hide']('spinner-diem'), this[dh(0xa3)] = this['msg'][dh(0x11a)]);
+                                    }, bi => {
+                                        const di = dg;
+                                        this[di(0xf4)][di(0x132)](di(0x232)), this[di(0xa3)] = this[di(0x153)]['KHONG_TIM_THAY_DU_LIEU'];
+                                    });
+                                }
+                                [cV(0x123)](bg, bh, bi = null) {
+                                    const dj = cV;
+                                    this['spinner'][dj(0x1e4)](dj(0x232)), this[dj(0xbf)] = this[dj(0x261)] = null, this[dj(0xd5)]['post'](a4['L1'][dj(0x143)] + '?hien_thi_mon_theo_hkdk=' + (0x1 !== this['selectLoaiThongKe']), '')['subscribe'](bj => {
+                                        const dk = dj;
+                                        bj && 0xc8 === bj[dk(0x102)] ? (this['IsShowKhoaThi'] = bj['data'][dk(0x257)], this['IsShowdiemtp'] = bj['data'][dk(0x1cd)], this[dk(0x1fa)] = bj[dk(0x175)][dk(0x117)], this[dk(0x206)] = bj['data'][dk(0x105)], this[dk(0x1bb)] = bj['data'][dk(0x22b)], this[dk(0x115)] = bj[dk(0x175)][dk(0x25b)], this[dk(0x21f)] = bj[dk(0x175)][dk(0x15b)], this[dk(0x199)] = bj[dk(0x175)][dk(0x138)], this[dk(0xc6)] = bj[dk(0x175)][dk(0x16c)], this[dk(0x22d)] = bj[dk(0x175)][dk(0xed)], this[dk(0xb4)] = bj['data'][dk(0x19a)], this['isKKBD'] = bj[dk(0x175)][dk(0x11b)], this[dk(0x260)] = bj[dk(0x175)]['hien_thi_cot_diemtk4'], this[dk(0x268)] = bj[dk(0x175)][dk(0xb0)], this[dk(0xec)] = bj[dk(0x175)]['hien_thi_cot_hk_chuyen_diem'], this[dk(0x128)] && this[dk(0x270)](), bj['data']['ds_field_an_cot_diem'] && (this[dk(0x208)] = bj[dk(0x175)]['ds_field_an_cot_diem']['map'](bk => bk['enable'] ? '' : bk['ten_field'])[dk(0x15d)](bk => bk)), bj['data'][dk(0xe2)] ? (this[dk(0xe4)] && this['dataNganh']['length'] > 0x1 ? (this[dk(0xbf)] = bj[dk(0x175)][dk(0xe2)], this['DsDiemHocKy_filter'] = this['DsDiemHocKy'][dk(0x24a)](bk => ({
+                                            ...bk,
+                                            'ds_diem_mon_hoc': bk['ds_diem_mon_hoc'][dk(0x15d)](bl => bl['loai_nganh'] === this['selectLoainganh'])
+                                        }))) : this['DsDiemHocKy'] = this['DsDiemHocKy_filter'] = bj[dk(0x175)][dk(0xe2)], 0x2 === bg && this[dk(0x261)]['forEach'](bk => {
+                                            const dl = dk;
+                                            bk[dl(0xa6)] === bh && bk['ds_diem_mon_hoc'][dl(0x1e2)](bl => {
+                                                const dm = dl;
+                                                bl[dm(0x1b3)] = '-', bl[dm(0x219)] = '-', bl[dm(0x13d)] = '-', bl[dm(0xc0)] = '-';
+                                            });
+                                        }), 0x3 === bg && this[dk(0x261)][dk(0x1e2)](bk => {
+                                            const dn = dk;
+                                            bk[dn(0x217)][dn(0x1e2)](bl => {
+                                                const dp = dn;
+                                                bi[dp(0xae)](bm => bm?.[dp(0x263)]?.['toLowerCase']() === bl?.[dp(0x100)]?.[dp(0x187)]()) && (bl['diem_thi'] = '-', bl[dp(0x219)] = '-', bl[dp(0x13d)] = '-', bl[dp(0xc0)] = '-');
+                                            });
+                                        }), this[dk(0xf4)]['hide'](dk(0x232))) : (this[dk(0xf4)][dk(0x132)]('spinner-diem'), this[dk(0xa3)] = this[dk(0x153)][dk(0x11a)])) : (this['spinner'][dk(0x132)](dk(0x232)), this[dk(0xa3)] = this[dk(0x153)][dk(0x11a)]);
+                                    }, bj => {
+                                        const dq = dj;
+                                        this[dq(0xf4)][dq(0x132)](dq(0x232)), this['messError'] = this[dq(0x153)]['KHONG_TIM_THAY_DU_LIEU'];
+                                    });
+                                }
+                                [cV(0x11e)]() {
+                                    const dr = cV;
+                                    this[dr(0x261)] = this[dr(0xbf)][dr(0x24a)](bg => ({
+                                        ...bg,
+                                        'ds_diem_mon_hoc': bg[dr(0x217)][dr(0x15d)](bh => bh[dr(0x145)] === this[dr(0xb7)])
+                                    })), 0x2 === this[dr(0x172)] && this[dr(0x261)][dr(0x1e2)](bg => {
+                                        const ds = dr;
+                                        bg[ds(0xa6)] === this[ds(0x151)] && bg[ds(0x217)][ds(0x1e2)](bh => {
+                                            const dt = ds;
+                                            bh[dt(0x1b3)] = '-', bh['diem_tk'] = '-', bh[dt(0x13d)] = '-', bh['diem_tk_chu'] = '-';
+                                        });
+                                    }), 0x3 === this[dr(0x172)] && this[dr(0x261)]['forEach'](bg => {
+                                        bg['ds_diem_mon_hoc']['forEach'](bh => {
+                                            const du = a20d;
+                                            this[du(0x1af)][du(0xae)](bi => bi?.[du(0x263)]?.[du(0x187)]() === bh?.['ma_mon']?.[du(0x187)]()) && (bh['diem_thi'] = '-', bh['diem_tk'] = '-', bh[du(0x13d)] = '-', bh[du(0xc0)] = '-');
+                                        });
+                                    });
+                                }
+                                [cV(0x265)](bg = {}) {
+                                    const dv = cV;
+                                    bg && bg[dv(0x1f0)] && bg[dv(0x1f0)]['length'] > 0x0 && this['modalService'][dv(0x1e4)](a1['o'], {
+                                        'initialState': { 'DiemMonHoc': bg },
+                                        'backdrop': dv(0x192),
+                                        'keyboard': !0x1,
+                                        'ignoreBackdropClick': !0x0,
+                                        'animated': !0x1,
+                                        'class': dv(0xc3)
+                                    });
+                                }
+                                [cV(0x1c9)]() {
+                                    const dw = cV;
+                                    return this[dw(0xbf)];
+                                }
+                                [cV(0x119)](bg, bh) {
+                                    const dx = cV;
+                                    return bg = bg?.[dx(0x187)](), bh?.[dx(0x9e)]?.[dx(0x187)]()[dx(0x245)](bg) > -0x1 || bh?.[dx(0xfb)]?.[dx(0x187)]()[dx(0x245)](bg) > -0x1 || bh?.[dx(0xfb)]?.[dx(0x187)]() === bg;
+                                }
+                                [cV(0x17c)](bg) {
+                                    const dy = cV;
+                                    this[dy(0x1a3)] === bg && (this[dy(0x211)] = !this[dy(0x211)]), this[dy(0x1a3)] = bg;
+                                }
+                                [cV(0xad)]() {
+                                    const dz = cV;
+                                    const bg = document[dz(0xf5)](dz(0x133)), bh = a2['P6'][dz(0x97)](bg), bi = a2['P6'][dz(0xdc)]();
+                                    a2['P6']['book_append_sheet'](bi, bh, 'Sheet1'), a2['NC'](bi, 'Diem.xlsx');
+                                }
+                                [cV(0x1a2)]() {
+                                    const dA = cV;
+                                    this[dA(0x272)] && (this[dA(0x96)] = dA(0x142) === this['IsMaTruong'][dA(0x187)]()), this[dA(0x96)] ? (this[dA(0xf4)][dA(0x1e4)](dA(0x232)), this[dA(0xd5)]['post'](a4['L1'][dA(0x121)], { 'NHHK': 0x0 })[dA(0x155)](bg => {
+                                        const dB = dA;
+                                        bg && 0xc8 === bg['code'] && bg[dB(0x175)] ? (this[dB(0xf4)][dB(0x132)](dB(0x232)), this[dB(0x1f4)][dB(0x1e4)](a3['W'], {
+                                            'initialState': { 'NoiDungFile': bg[dB(0x175)] },
+                                            'backdrop': 'static',
+                                            'keyboard': !0x1,
+                                            'ignoreBackdropClick': !0x0,
+                                            'class': dB(0x1e9),
+                                            'animated': !0x1
+                                        })) : (this[dB(0xf4)][dB(0x132)](dB(0x232)), this['messError'] = this['msg'][dB(0x11a)]);
+                                    }, bg => {
+                                        const dC = dA;
+                                        this[dC(0xf4)][dC(0x132)](dC(0x232)), this[dC(0xa3)] = this[dC(0x153)][dC(0x11a)];
+                                    })) : this[dA(0x258)][dA(0x1de)](dA(0x136));
+                                }
+                                [cV(0x20d)](bg) {
+                                    const dD = cV;
+                                    bg ? this[dD(0x193)] = this[dD(0x153)][dD(0xff)] : (this[dD(0x193)] = '', bg = null);
+                                }
+                                [cV(0x12d)](bg) {
+                                    return bg;
+                                }
+                            }
+                            return bf[cV(0xc1)] = function (bg) {
+                                const dE = cV;
+                                return new (bg || bf)(a5[dE(0x113)](a4['Nq']), a5['ɵɵdirectiveInject'](t['t2']), a5[dE(0x113)](a6['tT']), a5[dE(0x113)](a7['Al']), a5[dE(0x113)](a8['Or']), a5[dE(0x113)](a4['q2']), a5[dE(0x113)](a9['H']));
+                            }, bf[cV(0x25e)] = a5['ɵɵdefineComponent']({
+                                'type': bf,
+                                'selectors': [[cV(0x181)]],
+                                'decls': 0x14,
+                                'vars': 0x11,
+                                'consts': [
+                                    [
+                                        0x1,
+                                        cV(0x195),
+                                        'shadow-lg',
+                                        'mb-2'
+                                    ],
+                                    [
+                                        cV(0x1c8),
+                                        cV(0x232),
+                                        'type',
+                                        cV(0x16a),
+                                        cV(0x15e),
+                                        'medium',
+                                        0x3,
+                                        cV(0x1ac)
+                                    ],
+                                    [
+                                        0x1,
+                                        'card-header',
+                                        'text-white',
+                                        cV(0x1bc)
+                                    ],
+                                    [
+                                        0x1,
+                                        cV(0x9a),
+                                        cV(0x1c1),
+                                        cV(0x1cf)
+                                    ],
+                                    [
+                                        0x1,
+                                        cV(0x18e),
+                                        cV(0x1b8)
+                                    ],
+                                    [
+                                        'class',
+                                        cV(0xea),
+                                        cV(0x1bf),
+                                        cV(0x244),
+                                        0x4,
+                                        'ngIf'
+                                    ],
+                                    [
+                                        0x1,
+                                        cV(0x12c),
+                                        'text-nowrap',
+                                        'd-flex',
+                                        cV(0x12a),
+                                        cV(0x1d1)
+                                    ],
+                                    [
+                                        cV(0xe3),
+                                        cV(0x178),
+                                        0x4,
+                                        cV(0x1f3)
+                                    ],
+                                    [
+                                        0x3,
+                                        'ngClass'
+                                    ],
+                                    [
+                                        0x1,
+                                        cV(0x1dd),
+                                        cV(0x1a9),
+                                        cV(0x269),
+                                        'btnprintxem',
+                                        0x3,
+                                        cV(0xba),
+                                        cV(0x166)
+                                    ],
+                                    [
+                                        0x1,
+                                        'fa',
+                                        cV(0x24f),
+                                        cV(0x22f)
+                                    ],
+                                    [
+                                        0x1,
+                                        cV(0x1dd),
+                                        cV(0x1a9),
+                                        cV(0x269),
+                                        cV(0x23f),
+                                        cV(0xda),
+                                        0x3,
+                                        cV(0xba),
+                                        'click'
+                                    ],
+                                    [
+                                        0x1,
+                                        cV(0x236),
+                                        'fa-file-excel',
+                                        cV(0x22f)
+                                    ],
+                                    [
+                                        0x4,
+                                        cV(0x1f3)
+                                    ],
+                                    [
+                                        cV(0x1bf),
+                                        cV(0x244),
+                                        0x1,
+                                        cV(0x244),
+                                        cV(0x1d9),
+                                        cV(0x1d1)
+                                    ],
+                                    [
+                                        0x3,
+                                        cV(0x1f5)
+                                    ],
+                                    [
+                                        0x1,
+                                        'col-auto'
+                                    ],
+                                    [
+                                        0x1,
+                                        cV(0x221)
+                                    ],
+                                    [
+                                        cV(0x224),
+                                        cV(0x1ef),
+                                        'bindValue',
+                                        cV(0x1cb),
+                                        0x1,
+                                        cV(0x149),
+                                        0x3,
+                                        cV(0x1f1),
+                                        cV(0x197),
+                                        cV(0x150),
+                                        cV(0x1c0),
+                                        cV(0x12d),
+                                        cV(0xf6),
+                                        cV(0x216),
+                                        'change'
+                                    ],
+                                    [
+                                        cV(0x17e),
+                                        ''
+                                    ],
+                                    [
+                                        'bindLabel',
+                                        cV(0xfb),
+                                        cV(0xcc),
+                                        'loai_nganh',
+                                        0x1,
+                                        cV(0x149),
+                                        0x3,
+                                        cV(0x1f1),
+                                        cV(0x197),
+                                        cV(0x150),
+                                        cV(0x1c0),
+                                        cV(0x12d),
+                                        cV(0xf6),
+                                        cV(0x216),
+                                        cV(0x26f)
+                                    ],
+                                    [
+                                        0x2,
+                                        'font-weight',
+                                        cV(0x1d2)
+                                    ],
+                                    [
+                                        'id',
+                                        cV(0x136)
+                                    ],
+                                    [
+                                        0x1,
+                                        cV(0x110),
+                                        'd-print-block',
+                                        cV(0xfd),
+                                        cV(0x234)
+                                    ],
+                                    [
+                                        0x1,
+                                        cV(0x251),
+                                        0x2,
+                                        cV(0xc7),
+                                        cV(0x10f)
+                                    ],
+                                    [
+                                        0x1,
+                                        cV(0xfd),
+                                        cV(0x1b7),
+                                        cV(0x1df),
+                                        0x2,
+                                        cV(0xc7),
+                                        '1px'
+                                    ],
+                                    [
+                                        'id',
+                                        cV(0x133),
+                                        0x1,
+                                        'table',
+                                        'table-sm',
+                                        cV(0x148),
+                                        'table-hover',
+                                        cV(0x17b),
+                                        cV(0x15a),
+                                        cV(0x1e7)
+                                    ],
+                                    [
+                                        cV(0xe3),
+                                        cV(0x196),
+                                        0x4,
+                                        cV(0x1f3)
+                                    ],
+                                    [
+                                        0x1,
+                                        cV(0x1bc),
+                                        cV(0xfd)
+                                    ],
+                                    [
+                                        0x1,
+                                        cV(0x273),
+                                        0x2,
+                                        cV(0x1a6),
+                                        '3%'
+                                    ],
+                                    [
+                                        0x2,
+                                        cV(0x1a6),
+                                        '7%',
+                                        0x3,
+                                        'ngClass',
+                                        cV(0x166)
+                                    ],
+                                    [
+                                        cV(0x1ab),
+                                        'width:\x207%;',
+                                        0x3,
+                                        cV(0x1ba),
+                                        'ngClass',
+                                        cV(0x166),
+                                        0x4,
+                                        cV(0x1f3)
+                                    ],
+                                    [
+                                        0x3,
+                                        cV(0xcd),
+                                        'click'
+                                    ],
+                                    [
+                                        cV(0x1ab),
+                                        cV(0xac),
+                                        'class',
+                                        'align-middle\x20clickable',
+                                        0x3,
+                                        cV(0x1ba),
+                                        'click',
+                                        0x4,
+                                        cV(0x1f3)
+                                    ],
+                                    [
+                                        cV(0x1ab),
+                                        'width:\x204%;',
+                                        cV(0xe3),
+                                        cV(0x174),
+                                        0x3,
+                                        cV(0x1ba),
+                                        cV(0x166),
+                                        0x4,
+                                        cV(0x1f3)
+                                    ],
+                                    [
+                                        0x2,
+                                        cV(0x1a6),
+                                        '5%',
+                                        0x3,
+                                        cV(0xcd),
+                                        cV(0x166)
+                                    ],
+                                    [
+                                        cV(0x1ab),
+                                        'width:\x206%;',
+                                        0x3,
+                                        cV(0xcd),
+                                        0x4,
+                                        cV(0x1f3)
+                                    ],
+                                    [
+                                        0x2,
+                                        cV(0x1a6),
+                                        '6%',
+                                        0x3,
+                                        cV(0xcd)
+                                    ],
+                                    [
+                                        0x1,
+                                        cV(0xfd),
+                                        cV(0x273),
+                                        'clickable',
+                                        0x2,
+                                        cV(0x1a6),
+                                        '4%',
+                                        0x3,
+                                        cV(0x166)
+                                    ],
+                                    [
+                                        'style',
+                                        cV(0xac),
+                                        cV(0xe3),
+                                        cV(0x273),
+                                        0x4,
+                                        cV(0x1f3)
+                                    ],
+                                    [
+                                        cV(0x1ab),
+                                        'width:\x205%;',
+                                        cV(0xe3),
+                                        cV(0x273),
+                                        0x4,
+                                        cV(0x1f3)
+                                    ],
+                                    [
+                                        0x1,
+                                        cV(0x1b7),
+                                        0x2,
+                                        cV(0xc7),
+                                        cV(0x1d0)
+                                    ],
+                                    [
+                                        0x1,
+                                        cV(0x196)
+                                    ],
+                                    [
+                                        'colspan',
+                                        '5'
+                                    ],
+                                    [
+                                        cV(0xee),
+                                        '100',
+                                        0x1,
+                                        cV(0x273)
+                                    ],
+                                    [
+                                        0x1,
+                                        cV(0x12c)
+                                    ],
+                                    [
+                                        0x1,
+                                        cV(0x230),
+                                        cV(0x273),
+                                        cV(0x269),
+                                        cV(0xeb)
+                                    ],
+                                    [
+                                        0x1,
+                                        cV(0x230),
+                                        cV(0x273),
+                                        0x2,
+                                        cV(0x1a6),
+                                        cV(0x177),
+                                        cV(0x210),
+                                        cV(0x177),
+                                        cV(0x109),
+                                        cV(0x12f),
+                                        cV(0x17d),
+                                        '#FFD700'
+                                    ],
+                                    [
+                                        0x1,
+                                        cV(0x230),
+                                        'align-middle',
+                                        cV(0x23f),
+                                        cV(0xd7)
+                                    ],
+                                    [
+                                        0x1,
+                                        cV(0x273),
+                                        cV(0x20f),
+                                        0x2,
+                                        'width',
+                                        '6%',
+                                        0x3,
+                                        'click'
+                                    ],
+                                    [
+                                        cV(0x1ab),
+                                        cV(0xac),
+                                        cV(0xe3),
+                                        cV(0x161),
+                                        0x4,
+                                        cV(0x11f),
+                                        cV(0x1e5),
+                                        cV(0x23e)
+                                    ],
+                                    [
+                                        0x1,
+                                        cV(0x273),
+                                        cV(0xfd),
+                                        0x2,
+                                        cV(0x1a6),
+                                        '6%'
+                                    ],
+                                    [
+                                        0x1,
+                                        cV(0x273),
+                                        0x2,
+                                        cV(0x1a6),
+                                        '6%'
+                                    ],
+                                    [
+                                        0x1,
+                                        cV(0x273),
+                                        0x2,
+                                        cV(0x1a6),
+                                        '5%'
+                                    ],
+                                    [
+                                        cV(0xee),
+                                        '100',
+                                        0x1,
+                                        cV(0x196),
+                                        cV(0x271),
+                                        cV(0x209),
+                                        cV(0xfd),
+                                        cV(0x273),
+                                        cV(0x14e)
+                                    ],
+                                    [
+                                        0x4,
+                                        cV(0x11f),
+                                        cV(0x1e5),
+                                        'ngForTrackBy'
+                                    ],
+                                    [
+                                        cV(0xe3),
+                                        cV(0xfc),
+                                        0x4,
+                                        cV(0x1f3)
+                                    ],
+                                    [
+                                        cV(0xe3),
+                                        cV(0xfd),
+                                        0x4,
+                                        cV(0x11f),
+                                        'ngForOf',
+                                        'ngForTrackBy'
+                                    ],
+                                    [
+                                        0x1,
+                                        cV(0xfc)
+                                    ],
+                                    [
+                                        'colspan',
+                                        cV(0x1e1),
+                                        'style',
+                                        cV(0x189),
+                                        0x4,
+                                        cV(0x1f3)
+                                    ],
+                                    [
+                                        'colspan',
+                                        cV(0x1e1),
+                                        0x2,
+                                        cV(0x1b2),
+                                        cV(0x1d2)
+                                    ],
+                                    [
+                                        0x1,
+                                        cV(0xfd)
+                                    ],
+                                    [
+                                        0x1,
+                                        cV(0x273)
+                                    ],
+                                    [
+                                        0x3,
+                                        'ngClass',
+                                        0x4,
+                                        'ngIf'
+                                    ],
+                                    [
+                                        cV(0xe3),
+                                        cV(0x273),
+                                        0x3,
+                                        cV(0x126),
+                                        0x4,
+                                        cV(0x1f3)
+                                    ],
+                                    [
+                                        cV(0xe3),
+                                        cV(0x273),
+                                        0x4,
+                                        cV(0x1f3)
+                                    ],
+                                    [
+                                        0x3,
+                                        'ngClass',
+                                        cV(0x1f5),
+                                        0x4,
+                                        cV(0x1f3)
+                                    ],
+                                    [
+                                        0x3,
+                                        cV(0xcd),
+                                        'ngStyle'
+                                    ],
+                                    [
+                                        0x1,
+                                        cV(0x273),
+                                        cV(0x20f)
+                                    ],
+                                    [
+                                        cV(0xe3),
+                                        cV(0x99),
+                                        0x4,
+                                        'ngIf'
+                                    ],
+                                    [
+                                        0x1,
+                                        'align-middle',
+                                        0x3,
+                                        cV(0x126)
+                                    ],
+                                    [
+                                        cV(0x108),
+                                        cV(0x26e),
+                                        0x3,
+                                        'tooltip'
+                                    ],
+                                    [
+                                        0x1,
+                                        cV(0x9a),
+                                        cV(0x114),
+                                        cV(0x22c)
+                                    ],
+                                    [
+                                        cV(0xe3),
+                                        'align-middle\x20m-0\x20p-0',
+                                        0x4,
+                                        cV(0x11f),
+                                        cV(0x1e5),
+                                        cV(0x23e)
+                                    ],
+                                    [
+                                        0x1,
+                                        cV(0x273),
+                                        cV(0x1e7),
+                                        cV(0xb3)
+                                    ],
+                                    [
+                                        'class',
+                                        'fas\x20fa-times\x20text-primary',
+                                        0x4,
+                                        cV(0x1f3)
+                                    ],
+                                    [
+                                        'class',
+                                        cV(0x10a),
+                                        0x4,
+                                        cV(0x1f3)
+                                    ],
+                                    [
+                                        0x1,
+                                        cV(0x9a),
+                                        cV(0x19b),
+                                        'text-primary'
+                                    ],
+                                    [
+                                        0x1,
+                                        cV(0x22c),
+                                        cV(0x273)
+                                    ],
+                                    [
+                                        0x1,
+                                        'text-primary',
+                                        cV(0x273),
+                                        cV(0x20f),
+                                        0x3,
+                                        cV(0x166)
+                                    ],
+                                    [
+                                        cV(0xe3),
+                                        cV(0x20b),
+                                        0x4,
+                                        cV(0x1f3)
+                                    ],
+                                    [
+                                        0x1,
+                                        cV(0x9a),
+                                        'fa-list-ul'
+                                    ],
+                                    [
+                                        0x1,
+                                        cV(0x1e7),
+                                        0x2,
+                                        cV(0x17d),
+                                        cV(0x1fb)
+                                    ],
+                                    [
+                                        cV(0xee),
+                                        cV(0x1e1)
+                                    ],
+                                    [
+                                        0x1,
+                                        'container-fluid'
+                                    ],
+                                    [
+                                        0x1,
+                                        'cust_tong',
+                                        cV(0x200)
+                                    ],
+                                    [
+                                        0x1,
+                                        'tabletong',
+                                        cV(0x14e),
+                                        cV(0x26c),
+                                        0x2,
+                                        cV(0x179),
+                                        cV(0x14c),
+                                        cV(0x17d),
+                                        '#E3E3E3',
+                                        cV(0x23c),
+                                        '1em'
+                                    ],
+                                    [
+                                        0x1,
+                                        cV(0x22c),
+                                        cV(0x269),
+                                        'td-cus',
+                                        cV(0xd8)
+                                    ],
+                                    [
+                                        0x1,
+                                        'text-primary',
+                                        'align-middle',
+                                        cV(0xd8),
+                                        0x2,
+                                        cV(0x1b2),
+                                        '600'
+                                    ],
+                                    [
+                                        0x1,
+                                        cV(0x227),
+                                        cV(0x14e),
+                                        cV(0x26c),
+                                        0x2,
+                                        cV(0x17d),
+                                        cV(0x1fb),
+                                        cV(0x23c),
+                                        '1em'
+                                    ]
+                                ],
+                                'template': function (bg, bh) {
+                                    const dF = cV;
+                                    0x1 & bg && (a5[dF(0x1a1)](0x0, dF(0xe7), 0x0), a5[dF(0x124)](0x1, 'ngx-spinner', 0x1), a5[dF(0x1a1)](0x2, dF(0xe7), 0x2), a5[dF(0x124)](0x3, 'i', 0x3), a5[dF(0x127)](0x4), a5[dF(0x1be)](0x5, dF(0x240)), a5[dF(0x15f)](), a5['ɵɵelementStart'](0x6, dF(0xe7), 0x4), a5['ɵɵtemplate'](0x7, ac, 0x3, 0x4, 'div', 0x5), a5[dF(0x1a1)](0x8, 'div', 0x6), a5[dF(0x207)](0x9, ad, 0x3, 0x1, dF(0xe7), 0x7), a5[dF(0x207)](0xa, ag, 0x3, 0x6, dF(0xe7), 0x7), a5[dF(0x207)](0xb, ai, 0x3, 0x6, 'div', 0x7), a5[dF(0x1a1)](0xc, dF(0xe7), 0x8)(0xd, dF(0x1ff), 0x9), a5['ɵɵlistener']('click', function () {
+                                        return bh['Print']();
+                                    }), a5[dF(0x124)](0xe, 'i', 0xa), a5['ɵɵtext'](0xf), a5[dF(0x15f)](), a5[dF(0x1a1)](0x10, 'button', 0xb), a5[dF(0x198)](dF(0x166), function () {
+                                        const dG = dF;
+                                        return bh[dG(0xad)]();
+                                    }), a5[dF(0x124)](0x11, 'i', 0xc), a5[dF(0x127)](0x12), a5[dF(0x15f)]()()(), a5[dF(0x207)](0x13, b8, 0x2f, 0x41, dF(0x152), 0xd), a5[dF(0x15f)]()()), 0x2 & bg && (a5[dF(0x101)](0x1), a5[dF(0x1c5)](dF(0x1ac), !0x1), a5[dF(0x101)](0x3), a5[dF(0x157)]('', a5[dF(0xf8)](0x5, 0xc, bh[dF(0x153)][dF(0x1bd)]), '\x20'), a5[dF(0x101)](0x3), a5[dF(0x1c5)](dF(0x1f3), bh[dF(0xa3)]), a5[dF(0x101)](0x2), a5[dF(0x1c5)](dF(0x1f3), bh[dF(0xd4)]), a5[dF(0x101)](0x1), a5[dF(0x1c5)](dF(0x1f3), bh[dF(0xd4)]), a5[dF(0x101)](0x1), a5[dF(0x1c5)]('ngIf', bh[dF(0xe4)] && bh['dataNganh'][dF(0x267)] > 0x1), a5['ɵɵadvance'](0x1), a5['ɵɵproperty'](dF(0xcd), a5[dF(0x167)](0xe, b9, bh[dF(0xe4)] && bh[dF(0x131)][dF(0x267)] > 0x1 || bh[dF(0xd4)], (!bh[dF(0xe4)] || bh[dF(0x131)][dF(0x267)] <= 0x1) && !bh[dF(0xd4)])), a5[dF(0x101)](0x1), a5[dF(0x1c5)](dF(0xba), !bh[dF(0x1c9)]()), a5[dF(0x101)](0x2), a5[dF(0x1cc)](bh['msg']['IN']), a5['ɵɵadvance'](0x1), a5['ɵɵproperty'](dF(0xba), !bh[dF(0x1c9)]()), a5[dF(0x101)](0x2), a5['ɵɵtextInterpolate'](bh[dF(0x153)][dF(0xf1)]), a5[dF(0x101)](0x1), a5['ɵɵproperty']('ngIf', bh[dF(0x261)]));
+                                },
+                                'dependencies': [
+                                    o['JJ'],
+                                    o['On'],
+                                    n[cV(0xfa)],
+                                    n['NgForOf'],
+                                    n[cV(0x214)],
+                                    n['NgStyle'],
+                                    t['Ro'],
+                                    D['w9'],
+                                    D['ir'],
+                                    aa['i9'],
+                                    n[cV(0x1db)],
+                                    n[cV(0x21c)],
+                                    I['T']
+                                ],
+                                'styles': [cV(0x169)]
+                            }), bf;
+                        })())
+                    }];
+            let bb = ((() => {
+                const dH = cP;
+                class bf {
+                }
+                return bf[dH(0xc1)] = function (bg) {
+                    return new (bg || bf)();
+                }, bf[dH(0x156)] = a5[dH(0x20c)]({ 'type': bf }), bf[dH(0x9f)] = a5[dH(0x180)]({
+                    'imports': [
+                        a0['Bz'][dH(0x1d6)](ba),
+                        o['u5'],
+                        a0['Bz']
+                    ]
+                }), bf;
+            })());
+            var bc = i(0x8b94);
+            let bd = ((() => {
+                const dI = cP;
+                class bf {
+                }
+                return bf[dI(0xc1)] = function (bg) {
+                    return new (bg || bf)();
+                }, bf[dI(0x156)] = a5[dI(0x20c)]({ 'type': bf }), bf[dI(0x9f)] = a5[dI(0x180)]({
+                    'providers': [
+                        {
+                            'provide': bc['TP'],
+                            'useClass': a4['zu'],
+                            'multi': !0x0
+                        },
+                        {
+                            'provide': n[dI(0x26d)],
+                            'useClass': n[dI(0x205)]
+                        }
+                    ],
+                    'imports': [
+                        o['u5'],
+                        n['CommonModule'],
+                        r['m'],
+                        t['ef'],
+                        D['A0'],
+                        I['l'],
+                        aa['z8'][dI(0x1a5)](),
+                        bb
+                    ]
+                }), bf;
+            })());
+        },
+        0x11e2e: (b, c, e) => {
+            e['d'](c, { 'W': () => v });
+            var f = e(0x145a5), i = e(0x6b48), j = e(0x162ce), k = e(0xbca4), l = e(0x127d0), n = e(0x15a74), o = e(0x1474a);
+            function q(y, z) {
+                const dJ = a20d;
+                if (0x1 & y && (i[dJ(0x1a1)](0x0, 'div', 0x6), i['ɵɵtext'](0x1), i[dJ(0x15f)]()), 0x2 & y) {
+                    const A = i[dJ(0xc4)]();
+                    i[dJ(0x101)](0x1), i[dJ(0x1cc)](A[dJ(0xa3)]);
+                }
+            }
+            function r(y, z) {
+                const dK = a20d;
+                if (0x1 & y && (i[dK(0x144)](0x0), i[dK(0x1a1)](0x1, dK(0x112), 0x7), i['ɵɵlistener'](dK(0xbe), function () {
+                        return 0x1;
+                    }), i[dK(0x15f)](), i[dK(0x1a8)]()), 0x2 & y) {
+                    const A = i[dK(0xc4)]();
+                    i[dK(0x101)](0x1), i[dK(0x1c5)](dK(0x220), A[dK(0xa5)])(dK(0x210), dK(0x147))('contextMenuAllowed', !0x0)(dK(0xbd), dK(0x18a))(dK(0x255), !0x0)(dK(0x188), !0x0)(dK(0xb2), !0x0)(dK(0x21a), !0x0);
+                }
+            }
+            function t(y, z) {
+                const dL = a20d;
+                if (0x1 & y && (i[dL(0x144)](0x0), i[dL(0x1a1)](0x1, 'ngx-extended-pdf-viewer', 0x8), i[dL(0x198)]('pagesLoaded', function () {
+                        return 0x1;
+                    }), i['ɵɵelementEnd'](), i['ɵɵelementContainerEnd']()), 0x2 & y) {
+                    const A = i[dL(0xc4)]();
+                    i[dL(0x101)](0x1), i[dL(0x1c5)](dL(0x9c), A[dL(0xc8)])(dL(0x210), dL(0x147))(dL(0x182), !0x0)(dL(0xbd), '100%')(dL(0x255), !0x0)(dL(0x188), !0x0)(dL(0xb2), !0x0)(dL(0x21a), !0x0);
+                }
+            }
+            let v = ((() => {
+                const dN = a20d;
+                class y {
+                    constructor(z, A, B, D, E) {
+                        const dM = a20d;
+                        this[dM(0xd5)] = z, this['spinner'] = A, this[dM(0x140)] = B, this['bsModalRefEditor'] = D, this[dM(0x153)] = E, this[dM(0xa3)] = '', this[dM(0x176)] = '', this['DangkyXetTuyen'] = !0x1, this[dM(0x272)] = JSON['parse'](sessionStorage['getItem'](dM(0x25a)));
+                    }
+                    [dN(0x13b)]() {
+                        const dO = dN;
+                        this['messError'] = this['filePDF'] = this[dO(0xe8)] = '', this[dO(0x1f8)] ? this[dO(0x22e)]() : this[dO(0x9d)] ? this[dO(0x1d4)]() : this[dO(0x1f2)] ? this[dO(0x98)]() : this[dO(0xbb)] ? this[dO(0x1e6)]() : this[dO(0x176)] ? this[dO(0xa8)]() : this['NoiDungFile'] ? this[dO(0xa5)] = this[dO(0x264)] : this[dO(0x256)] && (this[dO(0xc8)] = this[dO(0x256)]), this[dO(0xf4)][dO(0x132)]();
+                    }
+                    ['ViewDeTai']() {
+                        const dP = dN;
+                        this[dP(0xf4)][dP(0x1e4)]();
+                        const z = {
+                            'filter': {
+                                'ma_nv': this[dP(0x272)][dP(0x10e)],
+                                'id_de_tai': this[dP(0x1f8)]
+                            },
+                            'additional': {
+                                'paging': {
+                                    'limit': 0x64,
+                                    'page': 0x1
+                                },
+                                'ordering': [{
+                                        'name': null,
+                                        'order_type': null
+                                    }]
+                            }
+                        };
+                        0x1 === this[dP(0x17a)] ? this['APIName'] = f['L1'][dP(0x1f9)] : 0x2 === this[dP(0x17a)] ? this['APIName'] = f['L1']['View_File_PDF_NT_Giua_Ky'] : 0x3 === this['loai'] && (this[dP(0xe8)] = f['L1'][dP(0x158)]), this[dP(0xd5)][dP(0xf9)](this[dP(0xe8)], z)['subscribe'](A => {
+                            const dQ = dP;
+                            A && 0xc8 === A[dQ(0x102)] && A[dQ(0x175)] ? 0x1 === this['loai'] && A[dQ(0x175)][dQ(0xc2)] ? (this[dQ(0xa5)] = A[dQ(0x175)][dQ(0xc2)], this['spinner']['hide']()) : 0x2 === this['loai'] && A[dQ(0x175)]['file_pdf_nghiem_thu_giua_ky'] ? (this[dQ(0xa5)] = A[dQ(0x175)]['file_pdf_nghiem_thu_giua_ky'], this[dQ(0xf4)]['hide']()) : 0x3 === this[dQ(0x17a)] && A[dQ(0x175)][dQ(0xe5)] ? (this[dQ(0xa5)] = A[dQ(0x175)][dQ(0xe5)], this['spinner'][dQ(0x132)]()) : (this['toastr'][dQ(0x20a)](this[dQ(0x153)][dQ(0x237)]), this[dQ(0xf4)]['hide']()) : (this[dQ(0xa3)] = this['msg'][dQ(0x1eb)], this[dQ(0xf4)][dQ(0x132)]());
+                        }, A => {
+                            const dR = dP;
+                            this['spinner']['hide'](), this[dR(0xa3)] = this[dR(0x153)]['THONG_BAO_KHONG_THE_TAI_DUOC_DL'];
+                        });
+                    }
+                    ['ViewSachLyLich']() {
+                        const dS = dN;
+                        this[dS(0xf4)]['show']();
+                        const z = {
+                            'filter': {
+                                'ma_nv': this[dS(0x272)][dS(0x10e)],
+                                'id_sach': this[dS(0x9d)]
+                            },
+                            'additional': {
+                                'paging': {
+                                    'limit': 0x64,
+                                    'page': 0x1
+                                },
+                                'ordering': [{
+                                        'name': null,
+                                        'order_type': null
+                                    }]
+                            }
+                        };
+                        0x1 === this[dS(0x17a)] && (this['APIName'] = f['L1'][dS(0x215)]), 0x2 === this[dS(0x17a)] && (this[dS(0xe8)] = f['L1'][dS(0xaf)]), 0x3 === this[dS(0x17a)] && (this[dS(0xe8)] = f['L1'][dS(0xa4)]), this[dS(0xd5)]['post'](this[dS(0xe8)], z)[dS(0x155)](A => {
+                            const dT = dS;
+                            if (!A || 0xc8 !== A[dT(0x102)] || !A['data'])
+                                return this[dT(0xa3)] = this[dT(0x153)]['THONG_BAO_KHONG_THE_TAI_DUOC_DL'], void this[dT(0xf4)][dT(0x132)]();
+                            0x1 === this[dT(0x17a)] && A[dT(0x175)][dT(0x13f)] ? (this[dT(0xa5)] = A[dT(0x175)][dT(0x13f)], this[dT(0xf4)]['hide']()) : 0x2 === this[dT(0x17a)] && A[dT(0x175)][dT(0x95)] ? (this['filePDF'] = A[dT(0x175)][dT(0x95)], this[dT(0xf4)][dT(0x132)]()) : 0x3 === this['loai'] && A[dT(0x175)][dT(0x204)] ? (this[dT(0xa5)] = A[dT(0x175)][dT(0x204)], this[dT(0xf4)][dT(0x132)]()) : (this[dT(0xa3)] = this[dT(0x153)][dT(0x237)], this['spinner'][dT(0x132)]());
+                        }, A => {
+                            const dU = dS;
+                            this['spinner'][dU(0x132)](), this[dU(0xa3)] = this['msg']['ATU_PHIEN_BAN_NOT_FOUND'];
+                        });
+                    }
+                    ['ViewTapChi']() {
+                        const dV = dN;
+                        this['spinner']['show']();
+                        const z = {
+                            'filter': {
+                                'ma_nv': this[dV(0x272)][dV(0x10e)],
+                                'id_tap_chi': this['idtapchi']
+                            },
+                            'additional': {
+                                'paging': {
+                                    'limit': 0x64,
+                                    'page': 0x1
+                                },
+                                'ordering': [{
+                                        'name': null,
+                                        'order_type': null
+                                    }]
+                            }
+                        };
+                        0x1 === this['loai'] ? this[dV(0xe8)] = f['L1'][dV(0x162)] : 0x2 === this[dV(0x17a)] && (this[dV(0xe8)] = f['L1'][dV(0x17f)]), this[dV(0xd5)][dV(0xf9)](this[dV(0xe8)], z)[dV(0x155)](A => {
+                            const dW = dV;
+                            if (!A || 0xc8 !== A['code'] || !A[dW(0x175)])
+                                return this['messError'] = this['msg']['THONG_BAO_KHONG_THE_TAI_DUOC_DL'], void this[dW(0xf4)][dW(0x132)]();
+                            0x1 === this[dW(0x17a)] && A[dW(0x175)][dW(0x1fe)] ? (this[dW(0xa5)] = A[dW(0x175)]['file_pdf_giay_chap_nhan_dang'], this['spinner'][dW(0x132)]()) : 0x2 === this['loai'] && A['data'][dW(0x13e)] ? (this[dW(0xa5)] = A[dW(0x175)][dW(0x13e)], this[dW(0xf4)][dW(0x132)]()) : 0x3 === this[dW(0x17a)] && A[dW(0x175)][dW(0x241)] ? (this[dW(0xa5)] = A['data'][dW(0x241)], this[dW(0xf4)][dW(0x132)]()) : (this[dW(0xa3)] = this[dW(0x153)]['ATU_PHIEN_BAN_NOT_FOUND'], this['spinner'][dW(0x132)]());
+                        }, A => {
+                            const dX = dV;
+                            this[dX(0xf4)][dX(0x132)](), this[dX(0xa3)] = this[dX(0x153)][dX(0x237)];
+                        });
+                    }
+                    [dN(0x1e6)]() {
+                        const dY = dN;
+                        this[dY(0xf4)]['show'](), this[dY(0xd5)][dY(0xf9)](f['L1'][dY(0x1b4)] + dY(0x13a) + this[dY(0xbb)], '')[dY(0x155)](z => {
+                            const dZ = dY;
+                            if (!z || 0xc8 !== z['code'] || !z['data'])
+                                return this['messError'] = this[dZ(0x153)][dZ(0x237)], void this['spinner'][dZ(0x132)]();
+                            z[dZ(0x175)][dZ(0xa9)] && (this[dZ(0xa5)] = z[dZ(0x175)][dZ(0xa9)], this['spinner'][dZ(0x132)]());
+                        }, z => {
+                            const e0 = dY;
+                            this[e0(0xf4)]['hide'](), this[e0(0xa3)] = this[e0(0x153)][e0(0x237)];
+                        });
+                    }
+                    [dN(0xa8)]() {
+                        const e1 = dN;
+                        this[e1(0xf4)][e1(0x1e4)](), this['http'][e1(0xf9)](f['L1']['In_BangDiemSV'], this[e1(0x176)])['subscribe'](z => {
+                            const e2 = e1;
+                            if (!z || 0xc8 !== z[e2(0x102)] || !z['data'])
+                                return this[e2(0xa3)] = this[e2(0x153)][e2(0x11a)], void this['spinner'][e2(0x132)]();
+                            this[e2(0xa5)] = z[e2(0x175)], this[e2(0xf4)][e2(0x132)]();
+                        }, z => {
+                            const e3 = e1;
+                            this['spinner'][e3(0x132)](), this[e3(0xa3)] = this['msg'][e3(0x11a)];
+                        });
+                    }
+                    [dN(0x160)]() {
+                        const e4 = dN;
+                        this[e4(0xf4)]['hide'](), this[e4(0xa5)] = this['filePDF_URL'] = this[e4(0x264)] = this['NoiDungFile_URL'] = this[e4(0xe8)] = this[e4(0xa3)] = '', this[e4(0x17a)] = 0x0;
+                    }
+                }
+                return y['ɵfac'] = function (z) {
+                    const e5 = dN;
+                    return new (z || y)(i['ɵɵdirectiveInject'](f['Nq']), i[e5(0x113)](j['t2']), i['ɵɵdirectiveInject'](k['_W']), i[e5(0x113)](l['UZ']), i[e5(0x113)](f['q2']));
+                }, y[dN(0x25e)] = i[dN(0xd3)]({
+                    'type': y,
+                    'selectors': [[dN(0x23b)]],
+                    'decls': 0x8,
+                    'vars': 0x3,
+                    'consts': [
+                        [
+                            0x1,
+                            'modal-header'
+                        ],
+                        [
+                            0x1,
+                            dN(0x1ee),
+                            'pull-left'
+                        ],
+                        [
+                            dN(0xd9),
+                            'button',
+                            dN(0x1c6),
+                            'Close',
+                            0x1,
+                            dN(0x21b),
+                            'pull-right',
+                            dN(0x146),
+                            0x2,
+                            'outline',
+                            dN(0xc5),
+                            0x3,
+                            dN(0x166)
+                        ],
+                        [
+                            0x1,
+                            'modal-body',
+                            dN(0xb3)
+                        ],
+                        [
+                            dN(0xe3),
+                            dN(0xea),
+                            dN(0x1bf),
+                            'alert',
+                            0x4,
+                            dN(0x1f3)
+                        ],
+                        [
+                            0x4,
+                            dN(0x1f3)
+                        ],
+                        [
+                            dN(0x1bf),
+                            'alert',
+                            0x1,
+                            dN(0x244),
+                            dN(0x1d9),
+                            'my-1'
+                        ],
+                        [
+                            0x3,
+                            dN(0x220),
+                            'height',
+                            dN(0x182),
+                            dN(0xbd),
+                            dN(0x255),
+                            dN(0x188),
+                            dN(0xb2),
+                            dN(0x21a),
+                            dN(0xbe)
+                        ],
+                        [
+                            0x3,
+                            dN(0x9c),
+                            dN(0x210),
+                            dN(0x182),
+                            dN(0xbd),
+                            dN(0x255),
+                            dN(0x188),
+                            dN(0xb2),
+                            dN(0x21a),
+                            'pagesLoaded'
+                        ]
+                    ],
+                    'template': function (z, A) {
+                        const e6 = dN;
+                        0x1 & z && (i[e6(0x1a1)](0x0, e6(0xe7), 0x0)(0x1, 'h6', 0x1), i[e6(0x127)](0x2, e6(0xc9)), i[e6(0x15f)](), i[e6(0x1a1)](0x3, e6(0x1ff), 0x2), i[e6(0x198)](e6(0x166), function () {
+                            const e7 = e6;
+                            return A[e7(0xe6)][e7(0x132)]();
+                        }), i[e6(0x15f)]()(), i[e6(0x1a1)](0x4, e6(0xe7), 0x3), i[e6(0x207)](0x5, q, 0x2, 0x1, e6(0xe7), 0x4), i[e6(0x207)](0x6, r, 0x2, 0x8, e6(0x152), 0x5), i[e6(0x207)](0x7, t, 0x2, 0x8, e6(0x152), 0x5), i[e6(0x15f)]()), 0x2 & z && (i[e6(0x101)](0x5), i[e6(0x1c5)](e6(0x1f3), A[e6(0xa3)]), i[e6(0x101)](0x1), i[e6(0x1c5)](e6(0x1f3), A[e6(0xa5)]), i['ɵɵadvance'](0x1), i[e6(0x1c5)](e6(0x1f3), A[e6(0xc8)]));
+                    },
+                    'dependencies': [
+                        n[dN(0x214)],
+                        o['S3']
+                    ]
+                }), y;
+            })());
+        }
+    }
+]);
+function a20a(a) {
+    function b(c) {
+        const e8 = a20d;
+        if (typeof c === e8(0x10b)) {
+            return function (d) {
+            }[e8(0x1d7)](e8(0x14a))[e8(0x238)](e8(0x9b));
+        } else {
+            if (('' + c / c)['length'] !== 0x1 || c % 0x14 === 0x0) {
+                (function () {
+                    return !![];
+                }[e8(0x1d7)](e8(0x1c4) + 'gger')[e8(0x24d)](e8(0x103)));
+            } else {
+                (function () {
+                    return ![];
+                }['constructor'](e8(0x1c4) + e8(0xf3))[e8(0x238)](e8(0x1fd)));
+            }
+        }
+        b(++c);
+    }
+    try {
+        if (a) {
+            return b;
+        } else {
+            b(0x0);
+        }
+    } catch (c) {
+    }
+}
