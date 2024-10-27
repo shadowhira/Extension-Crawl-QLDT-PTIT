@@ -16,7 +16,7 @@ const crawlXemHocPhi = require("./src/modules/crawlXemHocPhi");
     // await crawlDKMH();
     // await crawlCTDT();
     // await crawlAllCTDT();
-    await crawlXemHocPhi();
+    // await crawlXemHocPhi();
   } catch (error) {
     console.error("Có lỗi xảy ra:", error);
   }

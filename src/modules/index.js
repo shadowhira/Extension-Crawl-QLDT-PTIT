@@ -8,14 +8,14 @@ const { login } = require('./loginModule'); // Import hàm đăng nhập
 const crawlCTDT = require("./crawlCTDT");  // Import hàm lấy chương trình đào tạo
 const crawlMTQuyet = require("./crawlMTQuyet");  // Import hàm lấy môn tiên quyết
 const crawlDKMH = require("./crawlDKMH"); // Import hàm lấy danh sách môn học dang ký
-const crawlXemHocPhi = require("./crawlXemHocPhi");
+const {crawlXemHocPhi} = require("./crawlXemHocPhi");
 const crawlHoaDon = require("./crawlHoaDon");
 const { extractAllTimetable } = require('./crawlTKBTuan'); // Import hàm lấy thời khóa biểu
 const { extractTKBHK } = require('./crawlTKBHK'); // Import hàm lấy thời khóa biểu học kỳ
 const { extractLichThi } = require('./crawlLichThi'); // Import hàm lấy lịch thi
 const { getGrades } = require('./crawlDiem'); // Import hàm lấy điểm
 
-const crawlAllCTDT = require("./crawlAllCTDT");
+// const crawlAllCTDT = require("./crawlAllCTDT");
 
 
 // Khởi tạo browser
@@ -65,7 +65,7 @@ pt.launch({
 
   // await extractLichThi(page);  // Gọi hàm từ module lấy lịch thi
 
-  await getGrades(page); // Gọi hàm từ module lấy điểm
+  // await getGrades(page); // Gọi hàm từ module lấy điểm
 
 
   // Close the browser

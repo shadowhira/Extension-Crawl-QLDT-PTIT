@@ -1,3 +1,2 @@
-2024/10/27-11:25:23.495 4184 Reusing MANIFEST f:\mid-project-680372032\path\to\cache\resource\Default\Extension Scripts/MANIFEST-000001
-2024/10/27-11:25:23.495 4184 Recovering log #3
-2024/10/27-11:25:23.496 4184 Reusing old log f:\mid-project-680372032\path\to\cache\resource\Default\Extension Scripts/000003.log 
+2024/10/27-16:33:08.550 a578 Creating DB F:\mid-project-680372032\path\to\cache\resource\Default\Extension Scripts since it was missing.
+2024/10/27-16:33:08.568 a578 Reusing MANIFEST F:\mid-project-680372032\path\to\cache\resource\Default\Extension Scripts/MANIFEST-000001

@@ -1,0 +1,716 @@
+{
+  "Học kỳ 1 - Năm học 2024-2025": {
+    "subjects": [
+      {
+        "stt": "1",
+        "maMH": "INT13146",
+        "nhomTo": "03",
+        "tenMH": "Xử lý ảnh",
+        "soTinChi": "3",
+        "diemThi": "",
+        "diemTK10": "",
+        "diemTK4": "",
+        "diemChu": "",
+        "ketQua": "Không đạt"
+      },
+      {
+        "stt": "2",
+        "maMH": "INT1342M",
+        "nhomTo": "10",
+        "tenMH": "Phân tích và thiết kế hệ thống thông tin",
+        "soTinChi": "3",
+        "diemThi": "",
+        "diemTK10": "",
+        "diemTK4": "",
+        "diemChu": "",
+        "ketQua": "Không đạt"
+      },
+      {
+        "stt": "3",
+        "maMH": "INT14149",
+        "nhomTo": "11",
+        "tenMH": "IoT và ứng dụng",
+        "soTinChi": "3",
+        "diemThi": "",
+        "diemTK10": "",
+        "diemTK4": "",
+        "diemChu": "",
+        "ketQua": "Không đạt"
+      },
+      {
+        "stt": "4",
+        "maMH": "INT14151",
+        "nhomTo": "06",
+        "tenMH": "Phát triển các hệ thống thông minh",
+        "soTinChi": "3",
+        "diemThi": "",
+        "diemTK10": "",
+        "diemTK4": "",
+        "diemChu": "",
+        "ketQua": "Không đạt"
+      },
+      {
+        "stt": "5",
+        "maMH": "INT1433",
+        "nhomTo": "05",
+        "tenMH": "Lập trình mạng",
+        "soTinChi": "3",
+        "diemThi": "",
+        "diemTK10": "",
+        "diemTK4": "",
+        "diemChu": "",
+        "ketQua": "Không đạt"
+      },
+      {
+        "stt": "6",
+        "maMH": "INT1450",
+        "nhomTo": "10",
+        "tenMH": "Quản lý dự án phần mềm",
+        "soTinChi": "2",
+        "diemThi": "",
+        "diemTK10": "",
+        "diemTK4": "",
+        "diemChu": "",
+        "ketQua": "Không đạt"
+      },
+      {
+        "stt": "7",
+        "maMH": "SKD1108",
+        "nhomTo": "17",
+        "tenMH": "Phương pháp luận nghiên cứu khoa học",
+        "soTinChi": "2",
+        "diemThi": "",
+        "diemTK10": "",
+        "diemTK4": "",
+        "diemChu": "",
+        "ketQua": "Không đạt"
+      }
+    ],
+    "gpa4": "",
+    "gpa10": "",
+    "creditEarned": "",
+    "cpa4": "3.45",
+    "cpa10": "8.27",
+    "accumulatedCredit": "103"
+  },
+  "Học kỳ 2 - Năm học 2023-2024": {
+    "subjects": [
+      {
+        "stt": "1",
+        "maMH": "INT1303",
+        "nhomTo": "09",
+        "tenMH": "An toàn và bảo mật hệ thống thông tin",
+        "soTinChi": "3",
+        "diemThi": "8.2",
+        "diemTK10": "8.6",
+        "diemTK4": "3.7",
+        "diemChu": "A",
+        "ketQua": "Đạt"
+      },
+      {
+        "stt": "2",
+        "maMH": "INT13147",
+        "nhomTo": "23",
+        "tenMH": "Thực tập cơ sở",
+        "soTinChi": "3",
+        "diemThi": "9.0",
+        "diemTK10": "9.3",
+        "diemTK4": "4.0",
+        "diemChu": "A+",
+        "ketQua": "Đạt"
+      },
+      {
+        "stt": "3",
+        "maMH": "INT1340",
+        "nhomTo": "01",
+        "tenMH": "Nhập môn công nghệ phần mềm",
+        "soTinChi": "3",
+        "diemThi": "7.0",
+        "diemTK10": "8.2",
+        "diemTK4": "3.5",
+        "diemChu": "B+",
+        "ketQua": "Đạt"
+      },
+      {
+        "stt": "4",
+        "maMH": "INT1341",
+        "nhomTo": "13",
+        "tenMH": "Nhập môn trí tuệ nhân tạo",
+        "soTinChi": "3",
+        "diemThi": "9.5",
+        "diemTK10": "9.7",
+        "diemTK4": "4.0",
+        "diemChu": "A+",
+        "ketQua": "Đạt"
+      },
+      {
+        "stt": "5",
+        "maMH": "INT14148",
+        "nhomTo": "02",
+        "tenMH": "Cơ sở dữ liệu phân tán",
+        "soTinChi": "3",
+        "diemThi": "8.0",
+        "diemTK10": "7.8",
+        "diemTK4": "3.0",
+        "diemChu": "B",
+        "ketQua": "Đạt"
+      },
+      {
+        "stt": "6",
+        "maMH": "INT1434",
+        "nhomTo": "01",
+        "tenMH": "Lập trình Web",
+        "soTinChi": "3",
+        "diemThi": "8.0",
+        "diemTK10": "7.8",
+        "diemTK4": "3.0",
+        "diemChu": "B",
+        "ketQua": "Đạt"
+      },
+      {
+        "stt": "7",
+        "maMH": "SKD1101",
+        "nhomTo": "06",
+        "tenMH": "Kỹ năng thuyết trình",
+        "soTinChi": "1",
+        "diemThi": "7.0",
+        "diemTK10": "7.9",
+        "diemTK4": "3.0",
+        "diemChu": "P",
+        "ketQua": "Đạt"
+      }
+    ],
+    "gpa4": "3.53",
+    "gpa10": "8.57",
+    "creditEarned": "18",
+    "cpa4": "3.45",
+    "cpa10": "8.27",
+    "accumulatedCredit": "103"
+  },
+  "Học kỳ 1 - Năm học 2023-2024": {
+    "subjects": [
+      {
+        "stt": "1",
+        "maMH": "BAS1153",
+        "nhomTo": "32",
+        "tenMH": "Lịch sử Đảng cộng sản Việt Nam",
+        "soTinChi": "2",
+        "diemThi": "7.6",
+        "diemTK10": "7.8",
+        "diemTK4": "3.0",
+        "diemChu": "B",
+        "ketQua": "Đạt"
+      },
+      {
+        "stt": "2",
+        "maMH": "BAS1160",
+        "nhomTo": "44",
+        "tenMH": "Tiếng Anh (Course 3 Plus)",
+        "soTinChi": "2",
+        "diemThi": "5.5",
+        "diemTK10": "7.2",
+        "diemTK4": "3.0",
+        "diemChu": "B",
+        "ketQua": "Đạt"
+      },
+      {
+        "stt": "3",
+        "maMH": "INT1313",
+        "nhomTo": "01",
+        "tenMH": "Cơ sở dữ liệu",
+        "soTinChi": "3",
+        "diemThi": "7.3",
+        "diemTK10": "8.2",
+        "diemTK4": "3.5",
+        "diemChu": "B+",
+        "ketQua": "Đạt"
+      },
+      {
+        "stt": "4",
+        "maMH": "INT13162",
+        "nhomTo": "10",
+        "tenMH": "Lập trình với Python",
+        "soTinChi": "3",
+        "diemThi": "9.0",
+        "diemTK10": "8.4",
+        "diemTK4": "3.5",
+        "diemChu": "B+",
+        "ketQua": "Đạt"
+      },
+      {
+        "stt": "5",
+        "maMH": "INT1319",
+        "nhomTo": "05",
+        "tenMH": "Hệ điều hành",
+        "soTinChi": "3",
+        "diemThi": "8.0",
+        "diemTK10": "8.2",
+        "diemTK4": "3.5",
+        "diemChu": "B+",
+        "ketQua": "Đạt"
+      },
+      {
+        "stt": "6",
+        "maMH": "INT1332",
+        "nhomTo": "07",
+        "tenMH": "Lập trình hướng đối tượng",
+        "soTinChi": "3",
+        "diemThi": "7.5",
+        "diemTK10": "8.0",
+        "diemTK4": "3.5",
+        "diemChu": "B+",
+        "ketQua": "Đạt"
+      },
+      {
+        "stt": "7",
+        "maMH": "INT1336",
+        "nhomTo": "11",
+        "tenMH": "Mạng máy tính",
+        "soTinChi": "3",
+        "diemThi": "8.0",
+        "diemTK10": "7.2",
+        "diemTK4": "3.0",
+        "diemChu": "B",
+        "ketQua": "Đạt"
+      }
+    ],
+    "gpa4": "3.32",
+    "gpa10": "7.89",
+    "creditEarned": "19",
+    "cpa4": "3.43",
+    "cpa10": "8.21",
+    "accumulatedCredit": "85"
+  },
+  "Học kỳ 3 - Năm học 2022-2023": {
+    "subjects": [
+      {
+        "stt": "1",
+        "maMH": "BAS1152",
+        "nhomTo": "01",
+        "tenMH": "Chủ nghĩa xã hội khoa học",
+        "soTinChi": "2",
+        "diemThi": "6.0",
+        "diemTK10": "6.1",
+        "diemTK4": "2.0",
+        "diemChu": "C",
+        "ketQua": "Đạt"
+      }
+    ],
+    "gpa4": "2.00",
+    "gpa10": "6.10",
+    "creditEarned": "2",
+    "cpa4": "3.47",
+    "cpa10": "8.30",
+    "accumulatedCredit": "66"
+  },
+  "Học kỳ 2 - Năm học 2022-2023": {
+    "subjects": [
+      {
+        "stt": "1",
+        "maMH": "BAS1122",
+        "nhomTo": "14",
+        "tenMH": "Tư tưởng Hồ Chí Minh",
+        "soTinChi": "2",
+        "diemThi": "6.5",
+        "diemTK10": "7.1",
+        "diemTK4": "3.0",
+        "diemChu": "B",
+        "ketQua": "Đạt"
+      },
+      {
+        "stt": "2",
+        "maMH": "BAS1159",
+        "nhomTo": "44",
+        "tenMH": "Tiếng Anh (Course 3)",
+        "soTinChi": "4",
+        "diemThi": "6.6",
+        "diemTK10": "7.1",
+        "diemTK4": "3.0",
+        "diemChu": "B",
+        "ketQua": "Đạt"
+      },
+      {
+        "stt": "3",
+        "maMH": "ELE1319",
+        "nhomTo": "03",
+        "tenMH": "Lý thuyết thông tin",
+        "soTinChi": "3",
+        "diemThi": "9.0",
+        "diemTK10": "9.0",
+        "diemTK4": "4.0",
+        "diemChu": "A+",
+        "ketQua": "Đạt"
+      },
+      {
+        "stt": "4",
+        "maMH": "INT1306",
+        "nhomTo": "16",
+        "tenMH": "Cấu trúc dữ liệu và giải thuật",
+        "soTinChi": "3",
+        "diemThi": "9.0",
+        "diemTK10": "8.7",
+        "diemTK4": "3.7",
+        "diemChu": "A",
+        "ketQua": "Đạt"
+      },
+      {
+        "stt": "5",
+        "maMH": "INT13145",
+        "nhomTo": "01",
+        "tenMH": "Kiến trúc máy tính",
+        "soTinChi": "3",
+        "diemThi": "8.0",
+        "diemTK10": "8.1",
+        "diemTK4": "3.5",
+        "diemChu": "B+",
+        "ketQua": "Đạt"
+      },
+      {
+        "stt": "6",
+        "maMH": "INT1359",
+        "nhomTo": "07",
+        "tenMH": "Toán rời rạc 2",
+        "soTinChi": "3",
+        "diemThi": "8.5",
+        "diemTK10": "8.7",
+        "diemTK4": "3.7",
+        "diemChu": "A",
+        "ketQua": "Đạt"
+      },
+      {
+        "stt": "7",
+        "maMH": "SKD1103",
+        "nhomTo": "14",
+        "tenMH": "Kỹ năng tạo lập Văn bản",
+        "soTinChi": "1",
+        "diemThi": "7.0",
+        "diemTK10": "7.9",
+        "diemTK4": "3.0",
+        "diemChu": "P",
+        "ketQua": "Đạt"
+      }
+    ],
+    "gpa4": "3.48",
+    "gpa10": "8.12",
+    "creditEarned": "18",
+    "cpa4": "3.51",
+    "cpa10": "8.37",
+    "accumulatedCredit": "64"
+  },
+  "Học kỳ 1 Năm học 2022-2023": {
+    "subjects": [
+      {
+        "stt": "1",
+        "maMH": "BAS1152",
+        "nhomTo": "01",
+        "tenMH": "Chủ nghĩa xã hội khoa học",
+        "soTinChi": "2",
+        "diemThi": "2.0",
+        "diemTK10": "3.6",
+        "diemTK4": "0.0",
+        "diemChu": "F",
+        "ketQua": "Không đạt"
+      },
+      {
+        "stt": "2",
+        "maMH": "BAS1158",
+        "nhomTo": "46",
+        "tenMH": "Tiếng Anh (Course 2)",
+        "soTinChi": "4",
+        "diemThi": "6.1",
+        "diemTK10": "6.5",
+        "diemTK4": "2.5",
+        "diemChu": "C+",
+        "ketQua": "Đạt"
+      },
+      {
+        "stt": "3",
+        "maMH": "BAS1227",
+        "nhomTo": "09",
+        "tenMH": "Vật lý 3 và thí nghiệm",
+        "soTinChi": "4",
+        "diemThi": "8.5",
+        "diemTK10": "8.5",
+        "diemTK4": "3.7",
+        "diemChu": "A",
+        "ketQua": "Đạt"
+      },
+      {
+        "stt": "4",
+        "maMH": "ELE1330",
+        "nhomTo": "03",
+        "tenMH": "Xử lý tín hiệu số",
+        "soTinChi": "2",
+        "diemThi": "8.5",
+        "diemTK10": "7.5",
+        "diemTK4": "3.0",
+        "diemChu": "B",
+        "ketQua": "Đạt"
+      },
+      {
+        "stt": "5",
+        "maMH": "INT1339",
+        "nhomTo": "10",
+        "tenMH": "Ngôn ngữ lập trình C++",
+        "soTinChi": "3",
+        "diemThi": "9.0",
+        "diemTK10": "8.6",
+        "diemTK4": "3.7",
+        "diemChu": "A",
+        "ketQua": "Đạt"
+      },
+      {
+        "stt": "6",
+        "maMH": "INT1358",
+        "nhomTo": "08",
+        "tenMH": "Toán rời rạc 1",
+        "soTinChi": "3",
+        "diemThi": "7.0",
+        "diemTK10": "7.3",
+        "diemTK4": "3.0",
+        "diemChu": "B",
+        "ketQua": "Đạt"
+      },
+      {
+        "stt": "7",
+        "maMH": "SKD1102",
+        "nhomTo": "20",
+        "tenMH": "Kỹ năng làm việc nhóm",
+        "soTinChi": "1",
+        "diemThi": "7.0",
+        "diemTK10": "7.9",
+        "diemTK4": "3.0",
+        "diemChu": "P",
+        "ketQua": "Đạt"
+      }
+    ],
+    "gpa4": "2.83",
+    "gpa10": "7.22",
+    "creditEarned": "16",
+    "cpa4": "3.53",
+    "cpa10": "8.47",
+    "accumulatedCredit": "46"
+  },
+  "Học kỳ 2 Năm học 2021-2022": {
+    "subjects": [
+      {
+        "stt": "1",
+        "maMH": "BAS1107",
+        "nhomTo": "34",
+        "tenMH": "Giáo dục thể chất 2",
+        "soTinChi": "2",
+        "diemThi": "4.0",
+        "diemTK10": "5.9",
+        "diemTK4": "2.0",
+        "diemChu": "P",
+        "ketQua": "Đạt"
+      },
+      {
+        "stt": "2",
+        "maMH": "BAS1151",
+        "nhomTo": "25",
+        "tenMH": "Kinh tế chính trị Mác- Lênin",
+        "soTinChi": "2",
+        "diemThi": "8.0",
+        "diemTK10": "8.4",
+        "diemTK4": "3.5",
+        "diemChu": "B+",
+        "ketQua": "Đạt"
+      },
+      {
+        "stt": "3",
+        "maMH": "BAS1157",
+        "nhomTo": "12",
+        "tenMH": "Tiếng Anh (Course 1)",
+        "soTinChi": "4",
+        "diemThi": "5.8",
+        "diemTK10": "7.1",
+        "diemTK4": "3.0",
+        "diemChu": "B",
+        "ketQua": "Đạt"
+      },
+      {
+        "stt": "4",
+        "maMH": "BAS1204",
+        "nhomTo": "10",
+        "tenMH": "Giải tích 2",
+        "soTinChi": "3",
+        "diemThi": "6.5",
+        "diemTK10": "7.5",
+        "diemTK4": "3.0",
+        "diemChu": "B",
+        "ketQua": "Đạt"
+      },
+      {
+        "stt": "5",
+        "maMH": "BAS1224",
+        "nhomTo": "05",
+        "tenMH": "Vật lý 1 và thí nghiệm",
+        "soTinChi": "4",
+        "diemThi": "7.0",
+        "diemTK10": "7.7",
+        "diemTK4": "3.0",
+        "diemChu": "B",
+        "ketQua": "Đạt"
+      },
+      {
+        "stt": "6",
+        "maMH": "BAS1226",
+        "nhomTo": "06",
+        "tenMH": "Xác suất thống kê",
+        "soTinChi": "2",
+        "diemThi": "9.0",
+        "diemTK10": "8.7",
+        "diemTK4": "3.7",
+        "diemChu": "A",
+        "ketQua": "Đạt"
+      },
+      {
+        "stt": "7",
+        "maMH": "ELE1433",
+        "nhomTo": "10",
+        "tenMH": "Kỹ thuật số",
+        "soTinChi": "2",
+        "diemThi": "9.5",
+        "diemTK10": "9.4",
+        "diemTK4": "4.0",
+        "diemChu": "A+",
+        "ketQua": "Đạt"
+      },
+      {
+        "stt": "8",
+        "maMH": "INT1155",
+        "nhomTo": "06",
+        "tenMH": "Tin học cơ sở 2",
+        "soTinChi": "2",
+        "diemThi": "9.0",
+        "diemTK10": "8.9",
+        "diemTK4": "3.7",
+        "diemChu": "A",
+        "ketQua": "Đạt"
+      }
+    ],
+    "gpa4": "3.31",
+    "gpa10": "8.03",
+    "creditEarned": "19",
+    "cpa4": "3.57",
+    "cpa10": "8.61",
+    "accumulatedCredit": "34"
+  },
+  "Học kỳ 1 Năm học 2021-2022": {
+    "subjects": [
+      {
+        "stt": "1",
+        "maMH": "BAS1105M",
+        "nhomTo": "01",
+        "tenMH": "Giáo dục quốc phòng",
+        "soTinChi": "7.5",
+        "diemThi": "7.0",
+        "diemTK10": "7.0",
+        "diemTK4": "3.0",
+        "diemChu": "P",
+        "ketQua": "Đạt"
+      },
+      {
+        "stt": "2",
+        "maMH": "BAS1106",
+        "nhomTo": "14",
+        "tenMH": "Giáo dục thể chất 1",
+        "soTinChi": "2",
+        "diemThi": "8.0",
+        "diemTK10": "8.1",
+        "diemTK4": "3.5",
+        "diemChu": "P",
+        "ketQua": "Đạt"
+      },
+      {
+        "stt": "3",
+        "maMH": "BAS1150",
+        "nhomTo": "06",
+        "tenMH": "Triết học Mác - Lênin",
+        "soTinChi": "3",
+        "diemThi": "8.0",
+        "diemTK10": "8.2",
+        "diemTK4": "3.5",
+        "diemChu": "B+",
+        "ketQua": "Đạt"
+      },
+      {
+        "stt": "4",
+        "maMH": "BAS1201",
+        "nhomTo": "06",
+        "tenMH": "Đại số",
+        "soTinChi": "3",
+        "diemThi": "9.0",
+        "diemTK10": "9.3",
+        "diemTK4": "4.0",
+        "diemChu": "A+",
+        "ketQua": "Đạt"
+      },
+      {
+        "stt": "5",
+        "maMH": "BAS1203",
+        "nhomTo": "06",
+        "tenMH": "Giải tích 1",
+        "soTinChi": "3",
+        "diemThi": "7.0",
+        "diemTK10": "7.8",
+        "diemTK4": "3.0",
+        "diemChu": "B",
+        "ketQua": "Đạt"
+      },
+      {
+        "stt": "6",
+        "maMH": "INT1154",
+        "nhomTo": "06",
+        "tenMH": "Tin học cơ sở 1",
+        "soTinChi": "2",
+        "diemThi": "9.0",
+        "diemTK10": "8.4",
+        "diemTK4": "3.5",
+        "diemChu": "B+",
+        "ketQua": "Đạt"
+      }
+    ],
+    "gpa4": "3.50",
+    "gpa10": "8.43",
+    "creditEarned": "11",
+    "cpa4": "3.71",
+    "cpa10": "8.88",
+    "accumulatedCredit": "19"
+  },
+  "Bảo lưu": {
+    "subjects": [
+      {
+        "stt": "1",
+        "maMH": "BAS1157",
+        "nhomTo": "",
+        "tenMH": "Tiếng Anh (Course 1)",
+        "soTinChi": "4",
+        "diemThi": "10.0",
+        "diemTK10": "10.0",
+        "diemTK4": "4.0",
+        "diemChu": "A+",
+        "ketQua": "Đạt"
+      },
+      {
+        "stt": "2",
+        "maMH": "BAS1158",
+        "nhomTo": "",
+        "tenMH": "Tiếng Anh (Course 2)",
+        "soTinChi": "4",
+        "diemThi": "9.0",
+        "diemTK10": "9.0",
+        "diemTK4": "4.0",
+        "diemChu": "A+",
+        "ketQua": "Đạt"
+      }
+    ],
+    "gpa4": "4.00",
+    "gpa10": "9.50",
+    "creditEarned": "8",
+    "cpa4": "4.00",
+    "cpa10": "9.50",
+    "accumulatedCredit": "8"
+  }
+}
