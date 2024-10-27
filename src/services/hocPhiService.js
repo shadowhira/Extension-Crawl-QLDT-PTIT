@@ -5,10 +5,10 @@ require('dotenv').config();
 
 // Import các module cần thiết
 const { login } = require('../modules/loginModule'); // Import hàm đăng nhập
-const { getGrades } = require('../modules/crawlDiem'); // Import hàm lấy điểm
+const {crawlXemHocPhi} = require('../modules/crawlXemHocPhi'); // Import hàm lấy điểm
 
 // Khởi tạo browser và thực hiện các thao tác
-async function runPuppeteer() {
+async function crawlHocPhi() {
   const browser = await pt.launch({
     headless: false,
     args: minimal_args,
@@ -16,7 +16,7 @@ async function runPuppeteer() {
   });
 
   const page = await browser.newPage();
-  await page.setViewport({ width: 1000, height: 500 });
+  await page.setViewport({ width: 1500, height: 800 });
 
   // Chặn các tài nguyên không cần thiết như ảnh, font, media, stylesheet
   await page.setRequestInterception(true);
@@ -36,7 +36,7 @@ async function runPuppeteer() {
   await login(page);
 
   // Gọi hàm để lấy điểm
-  await getGrades(page); // Gọi hàm từ module lấy điểm
+  await crawlXemHocPhi(page); // Gọi hàm từ module lấy điểm
 
   // Close the browser
   await browser.close();
@@ -44,5 +44,5 @@ async function runPuppeteer() {
 
 // Xuất hàm để sử dụng ở nơi khác
 module.exports = {
-  runPuppeteer,
+  crawlHocPhi,
 };

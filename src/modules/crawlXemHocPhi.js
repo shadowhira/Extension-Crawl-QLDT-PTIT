@@ -167,4 +167,4 @@ const crawlXemHocPhi = async (page) => {
 
 };
 
-module.exports = crawlXemHocPhi;
+module.exports = {crawlXemHocPhi};
