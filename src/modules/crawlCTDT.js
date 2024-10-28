@@ -1,6 +1,7 @@
 const puppeteer = require("puppeteer");
 const { selectAndClickUl } = require('./selectFeature'); // Import hàm chọn thẻ ul
 const minimal_args = require("../constant/minimalArgs");
+
 require('dotenv').config(); 
 const fs = require("fs");
 
@@ -112,17 +113,14 @@ const crawlCTDT = async (page) => {
   // Ghi dữ liệu thành tệp JSON
   fs.writeFileSync('dataCrawl/CTDT.json', JSON.stringify(tableData, null, 2), 'utf-8');
   console.log('Dữ liệu thời khóa biểu đã được lưu vào timetableData.json');
-  console.log("Dữ liệu bảng chính:", JSON.stringify(tableData, null, 2));
+  
 
   // Khi bạn muốn crawl thông tin tiết thành phần cho một môn cụ thể
   const index = 0; // Ví dụ crawl thông tin tiết thành phần cho hàng đầu tiên (index = 0)
   if (tableData[index].tietThanhPhanIcon) {
     const tietThanhPhan = await crawlTietThanhPhan(page, index);
-    console.log(
-      `Tiết thành phần của môn ${tableData[index].tenMH}:`,
-      tietThanhPhan
-    );
   }
+  return tableData;
 };
 
 module.exports = {crawlCTDT};

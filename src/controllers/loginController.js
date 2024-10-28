@@ -1,14 +1,22 @@
-// puppeteerController.js
-const pt = require('puppeteer');
+// loginController.js
+const fs = require('fs');
+const path = require('path');
+const dotenv = require('dotenv');
+const pt = require("puppeteer");
 const minimal_args = require("../constant/minimalArgs");
-require('dotenv').config();
 
-// Import các module cần thiết
-const { login } = require('../modules/loginModule'); // Import hàm đăng nhập
-const {extractLichThi} = require('../modules/crawlLichThi'); // Import hàm lấy điểm
+// Load environment variables from .env
+dotenv.config();
+const { login } = require("../modules/loginModule"); // Import login function
 
-// Khởi tạo browser và thực hiện các thao tác
-async function crawlLichThi() {
+// Login controller function
+const loginController = async (req, res) => {
+  const { username, password } = req.body;
+
+  // Validate input
+  if (!username || !password) {
+    return res.status(400).json({ success: false, message: 'Username and password are required' });
+  }
   let broswer;
   try{
     broswer = await pt.launch({
@@ -41,27 +49,23 @@ async function crawlLichThi() {
     await Promise.race([navigationPromise, timeoutPromise]);
   
     console.log("Page loaded. Attempting to log in...");
-  
-    const isLogin = await login(page, username, password);
-    if(isLogin) {
+
+    const isLogin = await login(page, username, password); // Ensure to pass the correct parameters
+    if (isLogin) {
       console.log("Login access!");
-      const data = await extractLichThi(page); // Proceed to crawl if login succeeds
-      return data;
-    } else{
+      return res.status(200).json({ success: true, message: "Login successful!" });
+    } else {
       console.log("Login failed!");
-      
-      return null;
+      return res.status(401).json({ success: false, message: "Login failed!" });
     }
-  }catch (error) {
-      console.error("Error during Puppeteer execution:", error);
-    } finally {
+  } catch (error) {
+    console.error("Error during login:", error);
+    return res.status(500).json({ success: false, message: "Internal server error" });
+  }finally {
       if (broswer) {
         await broswer.close();
       }
     }
-}
-
-// Xuất hàm để sử dụng ở nơi khác
-module.exports = {
-  crawlLichThi,
 };
+
+module.exports = { loginController };

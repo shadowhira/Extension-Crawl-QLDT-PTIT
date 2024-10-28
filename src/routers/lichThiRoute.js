@@ -4,6 +4,6 @@ const lichThiController = require('../controllers/lichThiController');
 const router = express.Router();
 
 // Định nghĩa route để crawl dữ liệu
-router.get('/', lichThiController.crawlData);
+router.post('/', lichThiController.crawlData);
 
 module.exports = router;

@@ -3,6 +3,6 @@ const router = express.Router();
 const xemMonTienQuyetController = require('../controllers/xemMonTienQuyetController');
 
 // Sử dụng router.get để định nghĩa route
-router.get('/', xemMonTienQuyetController.crawlData);
+router.post('/', xemMonTienQuyetController.crawlData);
 
 module.exports = router; 

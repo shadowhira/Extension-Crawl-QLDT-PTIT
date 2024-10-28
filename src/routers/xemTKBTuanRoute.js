@@ -3,6 +3,6 @@ const router = express.Router();
 const xemTKBTuanController = require('../controllers/xemTKBTuanController');
 
 // Sử dụng router.get để định nghĩa route
-router.get('/', xemTKBTuanController.crawlData);
+router.post('/', xemTKBTuanController.crawlData);
 
 module.exports = router; 
