@@ -8,7 +8,7 @@ const { login } = require('../modules/loginModule'); // Import hàm đăng nhậ
 const {extractAllTimetable} = require('../modules/crawlTKBTuan'); // Import hàm lấy điểm
 
 // Khởi tạo browser và thực hiện các thao tác
-async function crawlTKBTuan() {
+async function crawlTKBTuan(username,password) {
   let broswer;
   try{
     broswer = await pt.launch({

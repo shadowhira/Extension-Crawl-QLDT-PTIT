@@ -8,7 +8,7 @@ const { login } = require('../modules/loginModule'); // Import hàm đăng nhậ
 const {extractTKBHK} = require('../modules/crawlTKBHK'); // Import hàm lấy điểm
 
 // Khởi tạo browser và thực hiện các thao tác
-async function crawlTKBHocKy() {
+async function crawlTKBHocKy(username, password) {
   let broswer;
   try{
     broswer = await pt.launch({

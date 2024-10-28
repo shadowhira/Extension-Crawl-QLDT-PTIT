@@ -8,7 +8,7 @@ const { login } = require('../modules/loginModule'); // Import hàm đăng nhậ
 const {extractLichThi} = require('../modules/crawlLichThi'); // Import hàm lấy điểm
 
 // Khởi tạo browser và thực hiện các thao tác
-async function crawlLichThi() {
+async function crawlLichThi(username, password) {
   let broswer;
   try{
     broswer = await pt.launch({

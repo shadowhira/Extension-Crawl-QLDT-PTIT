@@ -8,7 +8,7 @@ const { login } = require('../modules/loginModule'); // Import hàm đăng nhậ
 const {crawlMTQuyet} = require('../modules/crawlMTQuyet'); // Import hàm lấy điểm
 
 // Khởi tạo browser và thực hiện các thao tác
-async function crawlMonTienQuyet() {
+async function crawlMonTienQuyet(username, password) {
   let broswer;
   try{
     broswer = await pt.launch({
