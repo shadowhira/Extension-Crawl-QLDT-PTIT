@@ -78,7 +78,7 @@ async function extractLichThi(page) {
   // Ghi dữ liệu thành file JSON
   fs.writeFileSync('dataCrawl/lichthi.json', JSON.stringify(allTimetables, null, 2), 'utf-8');
   console.log('Dữ liệu thời khóa biểu đã được lưu vào lichthi.json');
-
+  return allTimetables;
 }
 
 module.exports = { extractLichThi };

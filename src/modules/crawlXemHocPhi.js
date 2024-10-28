@@ -164,7 +164,7 @@ const crawlXemHocPhi = async (page) => {
   console.log('Dữ liệu thời khóa biểu đã được lưu vào timetableData.json');
   // Hiển thị hoặc lưu toàn bộ dữ liệu đã crawl từ tất cả các kỳ học
   console.log(JSON.stringify(allTableData, null, 2));
-
+  return allTableData;
 };
 
 module.exports = {crawlXemHocPhi};

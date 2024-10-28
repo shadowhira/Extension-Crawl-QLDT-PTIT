@@ -37,6 +37,7 @@ const crawlHoaDon = async (page) => {
   fs.writeFileSync('dataCrawl/HoaDon.json', JSON.stringify(data, null, 2), 'utf-8');
   console.log('Dữ liệu thời khóa biểu đã được lưu vào timetableData.json');
   console.log(data); // In dữ liệu đã crawl được
+  return data;
 };
 
 module.exports = {crawlHoaDon};

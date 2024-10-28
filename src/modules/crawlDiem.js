@@ -104,6 +104,7 @@ async function getGrades(page) {
 
   fs.writeFileSync('dataCrawl/grades.json', JSON.stringify(semesterData, null, 2), 'utf8');
   console.log('Dữ liệu đã được lưu vào file grades.json');
+  return semesterData;
 }
 
 // Hàm crawl thông tin tiết thành phần

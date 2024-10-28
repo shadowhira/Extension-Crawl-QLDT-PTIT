@@ -77,7 +77,7 @@ const crawlMTQuyet = async (page) => {
   // Ghi dữ liệu thành tệp JSON
   fs.writeFileSync('dataCrawl/MonTienQuyet.json', JSON.stringify(allTableData, null, 2), 'utf-8');
   console.log('Dữ liệu thời khóa biểu đã được lưu vào timetableData.json');
-
+  return allTableData;
 };
 
 module.exports = {crawlMTQuyet};

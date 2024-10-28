@@ -103,7 +103,7 @@ async function extractTKBHK(page) {
   // Ghi dữ liệu thành file JSON
   fs.writeFileSync('dataCrawl/TKBHK.json', JSON.stringify(allTimetables, null, 2), 'utf-8');
   console.log('Dữ liệu thời khóa biểu đã được lưu vào timetable_hocky.json');
-
+  return allTimetables;
 }
 
 module.exports = { extractTKBHK };
