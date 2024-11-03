@@ -54,6 +54,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Xử lý đăng xuất
   logoutButton.addEventListener('click', () => {
+    chrome.storage.local.clear(() => {
+      console.log("Tất cả dữ liệu đã được xóa.");
+  });
       chrome.storage.local.set({ isLoggedIn: false, username: null, password: null }, () => {
           showLoginSection();
       });
@@ -83,13 +86,26 @@ document.addEventListener('DOMContentLoaded', () => {
     const apiMap = {
         'Feature 1': 'http://localhost:3000/api/lich-thi',
         'Feature 2': 'http://localhost:3000/api/xem-diem',
-        'Feature 3': 'http://localhost:3000/api/tkb-tuan'
+        'Feature 3': 'http://localhost:3000/api/tkb-tuan',
+        'Feature 4': 'http://localhost:3000/api/hoc-phi',
     };
 
     chrome.storage.local.get([`${feature}Data`], (result) => {
         if (result[`${feature}Data`]) {
             // Nếu dữ liệu đã có trong storage, hiển thị dữ liệu
-            displayData(result[`${feature}Data`], feature);
+            // displayData(result[`${feature}Data`], feature);
+            if(feature == 'Feature 3'){
+              window.location.href = 'TKB.html';
+            }
+            if(feature == 'Feature 1'){
+              window.location.href = 'lichThi.html';
+            }
+            if(feature == 'Feature 2'){
+              window.location.href = 'xemDiem.html';
+            }
+            if(feature == 'Feature 4'){
+              window.location.href = 'hocphi.html';
+            }
         } else {
             // Nếu không có dữ liệu, gọi API để lấy dữ liệu
             chrome.storage.local.get(['username', 'password'], (authResult) => {
@@ -105,16 +121,26 @@ document.addEventListener('DOMContentLoaded', () => {
                 })
                 .then(response => response.json())
                 .then(data => {
-                    loadingDiv.style.display = 'none';
                     // Lưu dữ liệu vào chrome.storage
                     chrome.storage.local.set({ [`${feature}Data`]: data }, () => {
                         displayData(data, feature);
+                        if(feature == 'Feature 3'){
+                          window.location.href = 'TKB.html';
+                        }
+                        if(feature == 'Feature 1'){
+                          window.location.href = 'lichThi.html';
+                        }
+                        if(feature == 'Feature 2'){
+                          window.location.href = 'xemDiem.html';
+                        }
+                        if(feature == 'Feature 4'){
+                          window.location.href = 'hocphi.html';
+                        }
                     });
                 })
                 .catch(error => {
                     console.error("Lỗi khi gọi API:", error);
                     alert("Không thể lấy dữ liệu từ server.");
-                    loadingDiv.style.display = 'none';
                 });
             });
         }
@@ -132,12 +158,7 @@ document.addEventListener('DOMContentLoaded', () => {
       button.addEventListener('click', (e) => {
           const feature = e.target.getAttribute('data-feature');
           fetchData(feature);
-          if(feature == 'Feature 3'){
-            window.location.href = 'TKB.html';
-          }
-          if(feature == 'Feature 1'){
-            window.location.href = 'lichThi.html';
-          }
+
       });
   });
 });

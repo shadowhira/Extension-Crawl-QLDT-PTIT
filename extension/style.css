@@ -8,7 +8,8 @@ body {
   padding: 10px;
   background-color: #f4f4f9;
   margin: 0;
-  width: 300px;
+  width: 600px;
+  max-width: 1200px;
   overflow: scroll;
 }
 
@@ -60,3 +61,85 @@ button:hover {
   text-align: center;
 }
 
+
+/* css for hocphi.html */
+h2 {
+  color: #333;
+  text-align: center;
+}
+
+h3 {
+  color: #007acc;
+  margin-top: 20px;
+}
+
+label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+#option-select {
+  padding: 8px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border: 1px solid #007acc;
+  border-radius: 4px;
+}
+
+#data-container {
+  margin-top: 20px;
+  max-height: 400px; /* Đặt chiều cao tối đa cho container */
+  overflow-x: auto; /* Thêm cuộn ngang khi nội dung vượt quá chiều rộng */
+  overflow-y: auto; /* Thêm cuộn dọc khi nội dung vượt quá chiều cao */
+  padding-right: 10px; /* Tạo không gian cho thanh cuộn */
+  width: 100%;
+}
+
+table {
+  /* width: 100%; */
+  min-width: 600px;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #007acc;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+td {
+  color: #333;
+}
+
+.table-title {
+  text-align: left;
+  color: #007acc;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.alert {
+  color: red;
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: center;
+}
+
+
+/* end css for hocphi.html */

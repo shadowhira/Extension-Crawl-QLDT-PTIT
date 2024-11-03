@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Xem Điểm</title>
+    <link rel="stylesheet" type="text/css" href="./xemDiem.css" />
+  </head>
+
+  <body>
+    <div id="grades-section" style="display: none">
+      <button id="back-button">Back</button>
+      <div>
+        <h2>Chọn Kỳ Học</h2>
+        <div class="dropdown">
+          <select id="semester-dropdown">
+            <option value="" selected>Chọn kỳ học...</option>
+            <!-- Các tùy chọn kỳ học sẽ được thêm từ `popup.js` -->
+          </select>
+        </div>
+
+        <h3>Bảng Điểm</h3>
+        <div class="table-container">
+          <table id="grades-table">
+            <thead>
+              <tr>
+                <th>STT</th>
+                <th>Tên Môn Học</th>
+                <th>Điểm</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- Dữ liệu điểm sẽ được thêm từ `popup.js` -->
+            </tbody>
+          </table>
+        </div>
+
+        <div><strong>GPA Kỳ Học:</strong> <span id="gpa"></span></div>
+      </div>
+    </div>
+
+    <script src="xemDiem.js"></script>
+  </body>
+</html>
