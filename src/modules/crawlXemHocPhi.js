@@ -10,7 +10,7 @@ const crawlXemHocPhi = async (page) => {
   await selectAndClickUl(page, ulIndexFromBottom);
 
   // Mở combobox và lấy tất cả các lựa chọn
-  console.log("Mở combobox...");
+  // console.log("Mở combobox...");
   // Chờ đợi combobox xuất hiện
   await new Promise((resolve) => setTimeout(resolve, 1000));
   await page.waitForSelector(".ng-select-container");
@@ -28,7 +28,7 @@ const crawlXemHocPhi = async (page) => {
     const optionElements = document.querySelectorAll(
       ".ng-dropdown-panel .ng-option"
     );
-    console.log("optionElements: ", optionElements);
+    // console.log("optionElements: ", optionElements);
     const optionsData = [];
     optionElements.forEach((option) => {
       optionsData.push(option.innerText.trim());
@@ -36,7 +36,7 @@ const crawlXemHocPhi = async (page) => {
     return optionsData;
   });
 
-  console.log("Tất cả các tùy chọn trong combobox:", options);
+  // console.log("Tất cả các tùy chọn trong combobox:", options);
 
   if (options.length === 0) {
     console.error("Không có lựa chọn nào trong combobox!");
@@ -49,7 +49,7 @@ const crawlXemHocPhi = async (page) => {
   // Lặp qua từng lựa chọn trong combobox
   for (let i = 0; i < options.length; i++) {
     const option = options[i];
-    console.log(`Chọn tùy chọn: ${option}`);
+    // console.log(`Chọn tùy chọn: ${option}`);
 
     // Mở lại combobox
     await page.click(".ng-select");
@@ -73,7 +73,7 @@ const crawlXemHocPhi = async (page) => {
     let tablesData = [];
 
     // Crawl dữ liệu từ bảng mới cập nhật
-    console.log("Chờ bảng dữ liệu xuất hiện...");
+    // console.log("Chờ bảng dữ liệu xuất hiện...");
     if (i === 0) {
       await page.waitForSelector("#excel-table tbody tr", { visible: true });
       await new Promise((resolve) => setTimeout(resolve, 2000)); // Chờ trang cập nhật bảng
@@ -149,10 +149,10 @@ const crawlXemHocPhi = async (page) => {
     }
 
     // Đẩy dữ liệu vào allTableData theo tùy chọn
-    console.log(
-      `Dữ liệu cho tùy chọn: ${option}`,
-      i === 0 ? tableData : tablesData
-    );
+    // console.log(
+    //   `Dữ liệu cho tùy chọn: ${option}`,
+    //   i === 0 ? tableData : tablesData
+    // );
     allTableData.push({
       option: option,
       data: i === 0 ? tableData : tablesData,
@@ -163,7 +163,7 @@ const crawlXemHocPhi = async (page) => {
   fs.writeFileSync('dataCrawl/HocPhi.json', JSON.stringify(allTableData, null, 2), 'utf-8');
   console.log('Dữ liệu thời khóa biểu đã được lưu vào timetableData.json');
   // Hiển thị hoặc lưu toàn bộ dữ liệu đã crawl từ tất cả các kỳ học
-  console.log(JSON.stringify(allTableData, null, 2));
+  // console.log(JSON.stringify(allTableData, null, 2));
   return allTableData;
 };
 

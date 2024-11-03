@@ -55,73 +55,99 @@ document.addEventListener("DOMContentLoaded", () => {
 
       // Lọc dữ liệu: chỉ giữ lại các dòng có `stt` là số hoặc chuỗi "Tổng"
       const filteredData = selectedOption.data.filter((row) => {
-        return !isNaN(row.stt) || row.stt === "Tổng";
+        return !isNaN(row.stt) || ["Tổng", "Thu Học Phí", "Thu Học Lại"].includes(row.stt);
       });
 
       // Tạo hàng cho từng đối tượng trong dữ liệu của option đầu tiên
       filteredData.forEach((row) => {
         const tr = document.createElement("tr");
 
-        // Các giá trị sẽ được thêm vào hàng, nếu không tồn tại giá trị thì hiển thị chuỗi rỗng
-        tr.innerHTML = `
-          <td>${row.stt || ""}</td>
-          <td>${row.niên_học_học_kỳ || ""}</td>
-          <td>${row.hp_chua_giam || ""}</td>
-          <td>${row.mien_giam || ""}</td>
-          <td>${row.phai_thu || ""}</td>
-          <td>${row.da_thu || ""}</td>
-          <td>${row.con_no || ""}</td>
-        `;
+        if (row.stt === "Tổng") {
+          // Nếu là dòng "Tổng", gộp hai cột đầu thành một ô
+          tr.innerHTML = `
+            <td colspan="2">${row.stt}</td>
+            <td>${row.niên_học_học_kỳ || ''}</td>
+            <td>${row.hp_chua_giam || ''}</td>
+            <td>${row.mien_giam || ''}</td>
+            <td>${row.phai_thu || ''}</td>
+            <td>${row.da_thu || ''}</td>
+            <td>${row.con_no || ''}</td>
+          `;
+        } else if (row.stt === "Thu Học Phí" || row.stt === "Thu Học Lại") {
+          // Nếu là "Thu Học Phí" hoặc "Thu Học Lại", chỉ hiển thị một ô duy nhất
+          tr.innerHTML = `<td colspan="7">${row.stt}</td>`;
+        } else {
+          // Hiển thị bình thường với các dòng khác
+          tr.innerHTML = `
+            <td>${row.stt || ''}</td>
+            <td>${row.niên_học_học_kỳ || ''}</td>
+            <td>${row.hp_chua_giam || ''}</td>
+            <td>${row.mien_giam || ''}</td>
+            <td>${row.phai_thu || ''}</td>
+            <td>${row.da_thu || ''}</td>
+            <td>${row.con_no || ''}</td>
+          `;
+        }
         tbody.appendChild(tr);
       });
-
-      table.appendChild(thead);
-      table.appendChild(tbody);
-      dataContainer.appendChild(table);
-    } else {
-      // Xử lý cho các option khác
-      selectedOption.data.forEach((table, tableIndex) => {
-        const tableElement = document.createElement("table");
-        const thead = document.createElement("thead");
-        const tbody = document.createElement("tbody");
-
-        // Kiểm tra nếu `rows` có chứa dữ liệu
-        if (table.rows && table.rows.length > 0) {
-          // Tạo header dựa vào các trường của đối tượng đầu tiên trong `rows`
-          const headers = Object.keys(table.rows[0]);
-          thead.innerHTML = `<tr>${headers
-            .map((header) => `<th>${header}</th>`)
-            .join("")}</tr>`;
-
-          // Tạo các hàng trong bảng
-          table.rows.forEach((row) => {
-            const tr = document.createElement("tr");
-            headers.forEach((header) => {
-              const td = document.createElement("td");
-              td.textContent = row[header] || "";
-              tr.appendChild(td);
-            });
-            tbody.appendChild(tr);
-          });
-        } else {
-          tbody.innerHTML = '<tr><td colspan="100%">Không có dữ liệu</td></tr>';
-        }
-
-        tableElement.appendChild(thead);
-        tableElement.appendChild(tbody);
-
-        const tableTitle = document.createElement("h3");
-        if (tableIndex === 0) {
-          tableTitle.textContent = "Danh sách phải thu";
-        } else if (tableIndex === 1) {
-          tableTitle.textContent = "Danh sách đã thu";
-        } else {
-          tableTitle.textContent = `Còn nợ`;
-        }
-        // tableTitle.textContent = `Bảng ${tableIndex + 1}`;
-        dataContainer.appendChild(tableTitle);
-        dataContainer.appendChild(tableElement);
-      });
-    }
+    
+        table.appendChild(thead);
+        table.appendChild(tbody);
+        dataContainer.appendChild(table);
+    
+      } else {
+        // Lọc để chỉ giữ lại `tableIndex` 1 và 2 cho các option khác
+        const filteredTables = selectedOption.data.filter(table => 
+          table.tableIndex === 1 || table.tableIndex === 2
+        );
+    
+        filteredTables.forEach((table, tableIndex) => {
+          const tableElement = document.createElement('table');
+          const thead = document.createElement('thead');
+          const tbody = document.createElement('tbody');
+    
+          if (table.rows && table.rows.length > 0) {
+            const headers = Object.keys(table.rows[0]);
+            thead.innerHTML = `<tr>${headers.map(header => `<th>${header}</th>`).join('')}</tr>`;
+    
+            // Kiểm tra `tableIndex`
+            if (table.tableIndex === 1) {
+              // Với `tableIndex` 1, hiển thị tất cả các hàng
+              table.rows.forEach(row => {
+                const tr = document.createElement('tr');
+                headers.forEach(header => {
+                  const td = document.createElement('td');
+                  td.textContent = row[header] || '';
+                  tr.appendChild(td);
+                });
+                tbody.appendChild(tr);
+              });
+            } else if (table.tableIndex === 2) {
+              // Với `tableIndex` 2, chỉ hiển thị hàng đầu tiên
+              const firstRow = table.rows[0];
+              if (firstRow) {
+                const tr = document.createElement('tr');
+                headers.forEach(header => {
+                  const td = document.createElement('td');
+                  td.textContent = firstRow[header] || '';
+                  tr.appendChild(td);
+                });
+                tbody.appendChild(tr);
+              }
+            }
+          } else {
+            tbody.innerHTML = '<tr><td colspan="100%">Không có dữ liệu</td></tr>';
+          }
+    
+          tableElement.appendChild(thead);
+          tableElement.appendChild(tbody);
+    
+          // Đặt tiêu đề dựa trên `tableIndex`
+          const tableTitle = document.createElement('h3');
+          tableTitle.textContent = table.tableIndex === 1 ? "Danh sách Phải Thu" : "Danh sách Đã Thu";
+          dataContainer.appendChild(tableTitle);
+          dataContainer.appendChild(tableElement);
+        }); 
+      }
   }
 });
