@@ -10,11 +10,9 @@ async function login(page, username, password) {
     // Wait for and enter username
     await page.waitForSelector("input[name='username']", { visible: true, timeout: 60000 });
     await page.type("input[name='username']", username);
-    console.log(username);
     // Wait for and enter password
     await page.waitForSelector("input[name='password']", { visible: true, timeout: 60000 });
     await page.type("input[name='password']", password);
-    console.log(password);
     // Click the login <button></button>
     await page.click("button[class='btn btn-primary mb-1 ng-star-inserted']");
 

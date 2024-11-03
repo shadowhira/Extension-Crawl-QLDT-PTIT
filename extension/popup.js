@@ -1,165 +1,143 @@
-document.addEventListener('DOMContentLoaded', () => {
-  const loginSection = document.getElementById('login-section');
-  const featureSection = document.getElementById('feature-section');
-  const loginButton = document.getElementById('login-button');
-  const usernameInput = document.getElementById('username');
-  const passwordInput = document.getElementById('password');
-  const loginError = document.getElementById('login-error');
-  const logoutButton = document.getElementById('logout-button');
-  const loadingDiv = document.getElementById('loading');
-  const dataDiv = document.getElementById('data');
+document.addEventListener("DOMContentLoaded", () => {
+  const elements = {
+    loginSection: document.getElementById("login-section"),
+    featureSection: document.getElementById("feature-section"),
+    loginButton: document.getElementById("login-button"),
+    usernameInput: document.getElementById("username"),
+    passwordInput: document.getElementById("password"),
+    loginError: document.getElementById("login-error"),
+    logoutButton: document.getElementById("logout-button"),
+    loadingDiv: document.getElementById("loading"),
+    dataDiv: document.getElementById("data"),
+    loginLoading: document.getElementById("login-loading"),
+    usernameDisplay: document.getElementById("username-display"),
+    featureLoading: {
+      "Feature 1": document.getElementById("feature1-loading"),
+      "Feature 2": document.getElementById("feature2-loading"),
+      "Feature 3": document.getElementById("feature3-loading"),
+      "Feature 4": document.getElementById("feature4-loading"),
+    },
+  };
 
-  // Kiểm tra trạng thái đăng nhập
-  chrome.storage.local.get(['isLoggedIn', 'username', 'password'], (result) => {
-      if (result.isLoggedIn) {
-          showFeatureSection();
-      } else {
-          showLoginSection();
+  const apiMap = {
+    "Feature 1": "http://localhost:3000/api/hoc-phi",
+    "Feature 2": "http://localhost:3000/api/lich-thi",
+    "Feature 3": "http://localhost:3000/api/tkb-tuan",
+    "Feature 4": "http://localhost:3000/api/xem-diem",
+  };
+
+  chrome.storage.local.get(["isLoggedIn", "username", "password"], (result) => {
+    result.isLoggedIn ? showFeatureSection(result.username) : showLoginSection();
+  });
+
+  elements.loginButton.addEventListener("click", async () => {
+    const { usernameInput, passwordInput, loginLoading } = elements;
+    const username = usernameInput.value;
+    const password = passwordInput.value;
+
+    if (username && password) {
+      loginLoading.style.display = "inline-block";
+      try {
+        const response = await fetch("http://localhost:3000/api/login", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ username, password }),
+        });
+
+        const data = await response.json();
+        if (response.ok && data.success) {
+          chrome.storage.local.set({ isLoggedIn: true, username, password }, () => showFeatureSection(username));
+        } else {
+          showError(data.message || "Sai tên đăng nhập hoặc mật khẩu");
+        }
+      } catch {
+        showError("Lỗi mạng hoặc máy chủ. Vui lòng thử lại sau.");
+      } finally {
+        loginLoading.style.display = "none";
       }
+    } else {
+      showError("Tên đăng nhập và mật khẩu không được để trống");
+    }
   });
 
-  // Xử lý đăng nhập
-  loginButton.addEventListener("click", async () => {
-      const username = usernameInput.value;
-      const password = passwordInput.value;
-
-      if (username && password) {
-          try {
-              const response = await fetch("http://localhost:3000/api/login", {
-                  method: "POST",
-                  headers: { "Content-Type": "application/json" },
-                  body: JSON.stringify({ username, password }),
-              });
-
-              if (response.ok) {
-                  const data = await response.json();
-                  if (data.success) {
-                      chrome.storage.local.set({ isLoggedIn: true, username, password }, () => {
-                          showFeatureSection();
-                      });
-                  } else {
-                      showError(data.message || "Sai tên đăng nhập hoặc mật khẩu");
-                  }
-              } else {
-                  const errorData = await response.json();
-                  showError(errorData.message || "Đã xảy ra lỗi khi đăng nhập");
-              }
-          } catch (error) {
-              showError("Lỗi mạng hoặc máy chủ. Vui lòng thử lại sau.");
-          }
-      } else {
-          showError("Tên đăng nhập và mật khẩu không được để trống");
-      }
+  elements.logoutButton.addEventListener("click", () => {
+    chrome.storage.local.clear(() => console.log("Tất cả dữ liệu đã được xóa."));
+    chrome.storage.local.set({ isLoggedIn: false, username: null, password: null }, showLoginSection);
   });
 
-  // Xử lý đăng xuất
-  logoutButton.addEventListener('click', () => {
-    chrome.storage.local.clear(() => {
-      console.log("Tất cả dữ liệu đã được xóa.");
-  });
-      chrome.storage.local.set({ isLoggedIn: false, username: null, password: null }, () => {
-          showLoginSection();
-      });
-  });
-
-  // Hiển thị phần chọn tính năng sau khi đăng nhập thành công
-  function showFeatureSection() {
-      loginSection.style.display = 'none';
-      featureSection.style.display = 'block';
-      loginError.style.display = 'none';
+  function showFeatureSection(username) {
+    elements.loginSection.style.display = "none";
+    elements.featureSection.style.display = "block";
+    elements.loginError.style.display = "none";
+    elements.usernameDisplay.textContent = `Welcome, ${username}`;
   }
 
-  // Hiển thị form đăng nhập
   function showLoginSection() {
-      loginSection.style.display = 'block';
-      featureSection.style.display = 'none';
+    elements.loginSection.style.display = "block";
+    elements.featureSection.style.display = "none";
   }
 
-  // Hiển thị thông báo lỗi
   function showError(message) {
-      loginError.style.display = "block";
-      loginError.textContent = message;
+    elements.loginError.style.display = "block";
+    elements.loginError.textContent = message;
   }
 
-  // Hàm gọi API và hiển thị dữ liệu
   function fetchData(feature) {
-    const apiMap = {
-        'Feature 1': 'http://localhost:3000/api/lich-thi',
-        'Feature 2': 'http://localhost:3000/api/xem-diem',
-        'Feature 3': 'http://localhost:3000/api/tkb-tuan',
-        'Feature 4': 'http://localhost:3000/api/hoc-phi',
-    };
+    const { featureLoading } = elements;
+    featureLoading[feature].style.display = "inline-block";
 
     chrome.storage.local.get([`${feature}Data`], (result) => {
-        if (result[`${feature}Data`]) {
-            // Nếu dữ liệu đã có trong storage, hiển thị dữ liệu
-            // displayData(result[`${feature}Data`], feature);
-            if(feature == 'Feature 3'){
-              window.location.href = 'TKB.html';
-            }
-            if(feature == 'Feature 1'){
-              window.location.href = 'lichThi.html';
-            }
-            if(feature == 'Feature 2'){
-              window.location.href = 'xemDiem.html';
-            }
-            if(feature == 'Feature 4'){
-              window.location.href = 'hocphi.html';
-            }
-        } else {
-            // Nếu không có dữ liệu, gọi API để lấy dữ liệu
-            chrome.storage.local.get(['username', 'password'], (authResult) => {
-                if (!authResult.username || !authResult.password) {
-                    alert("Bạn cần đăng nhập lại.");
-                    showLoginSection();
-                    return;
-                }
-                fetch(apiMap[feature], {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({ username: authResult.username, password: authResult.password })
-                })
-                .then(response => response.json())
-                .then(data => {
-                    // Lưu dữ liệu vào chrome.storage
-                    chrome.storage.local.set({ [`${feature}Data`]: data }, () => {
-                        displayData(data, feature);
-                        if(feature == 'Feature 3'){
-                          window.location.href = 'TKB.html';
-                        }
-                        if(feature == 'Feature 1'){
-                          window.location.href = 'lichThi.html';
-                        }
-                        if(feature == 'Feature 2'){
-                          window.location.href = 'xemDiem.html';
-                        }
-                        if(feature == 'Feature 4'){
-                          window.location.href = 'hocphi.html';
-                        }
-                    });
-                })
-                .catch(error => {
-                    console.error("Lỗi khi gọi API:", error);
-                    alert("Không thể lấy dữ liệu từ server.");
-                });
+      if (result[`${feature}Data`]) {
+        navigateToFeaturePage(feature);
+      } else {
+        chrome.storage.local.get(["username", "password"], (authResult) => {
+          if (!authResult.username || !authResult.password) {
+            alert("Bạn cần đăng nhập lại.");
+            showLoginSection();
+            return;
+          }
+          fetch(apiMap[feature], {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(authResult),
+          })
+            .then((response) => response.json())
+            .then((data) => {
+              chrome.storage.local.set({ [`${feature}Data`]: data }, () => {
+                displayData(data, feature);
+                navigateToFeaturePage(feature);
+              });
+            })
+            .catch(() => {
+              console.error("Lỗi khi gọi API");
+              alert("Không thể lấy dữ liệu từ server.");
+            })
+            .finally(() => {
+              featureLoading[feature].style.display = "none";
             });
-        }
+        });
+      }
     });
-}
-
-  // Hàm hiển thị dữ liệu
-  function displayData(data, feature) {
-      dataDiv.innerHTML = `<h3>${feature} Data:</h3><pre>${JSON.stringify(data, null, 2)}</pre>`;
-      dataDiv.style.display = 'block';
   }
 
-  // Xử lý chọn tính năng
-  document.querySelectorAll('.feature-button').forEach(button => {
-      button.addEventListener('click', (e) => {
-          const feature = e.target.getAttribute('data-feature');
-          fetchData(feature);
+  function displayData(data, feature) {
+    elements.dataDiv.innerHTML = `<h3>${feature} Data:</h3><pre>${JSON.stringify(data, null, 2)}</pre>`;
+    elements.dataDiv.style.display = "block";
+  }
 
-      });
+  function navigateToFeaturePage(feature) {
+    const featurePages = {
+      "Feature 1": "./html/hocphi.html",
+      "Feature 2": "./html/lichThi.html",
+      "Feature 3": "./html/TKB.html",
+      "Feature 4": "./html/xemDiem.html",
+    };
+    window.location.href = featurePages[feature];
+  }
+
+  document.querySelectorAll(".feature-button").forEach((button) => {
+    button.addEventListener("click", (e) => {
+      fetchData(e.target.getAttribute("data-feature"));
+    });
   });
 });
-

@@ -1,22 +1,21 @@
 document.addEventListener("DOMContentLoaded", async () => {
   // Lấy các phần tử DOM cần thiết
   const xemDiemSection = document.getElementById("grades-section");
-  const backButton = document.getElementById("back-button");
   const semesterDropdown = document.getElementById("semester-dropdown");
   const gradesTableBody = document.getElementById("grades-table").querySelector("tbody");
   const gpaElement = document.getElementById("gpa");
-  const dataContainer = document.getElementById('data-container');
+  const backButton = document.getElementById("back-button");
+
+  // Thêm sự kiện click cho nút quay lại
+  backButton.addEventListener("click", () => {
+    window.location.href = "../popup.html";
+  });
 
   // Hiển thị phần xem điểm
   xemDiemSection.style.display = "block";
 
-  // Thêm sự kiện click cho nút quay lại
-  backButton.addEventListener("click", () => {
-    window.location.href = "popup.html";
-  });
-
   // Kiểm tra xem dữ liệu điểm đã có trong storage chưa
-  const feature = "Feature 2";
+  const feature = "Feature 4";
   chrome.storage.local.get([`${feature}Data`], (result) => {
     const gradesData =  result[`${feature}Data`].data;
 

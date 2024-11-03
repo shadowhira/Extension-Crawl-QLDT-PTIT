@@ -1,37 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shit</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <style>
-    </style>
-    <!-- <script src="popup.js"></script> -->
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crawler</title>
+    <link rel="stylesheet" type="text/css" href="popup.css" />
+  </head>
 
-<body>
+  <body>
     <div id="login-section">
-        <h2>Login</h2>
-        <input type="text" id="username" placeholder="Username">
-        <input type="password" id="password" placeholder="Password">
-        <button id="login-button">Login</button>
-        <p id="login-error" style="color: red; display: none;">Incorrect username or password</p>
-      </div>    
-    
-      <div id="feature-section" style="display: none;">
-        <h2>Select Feature</h2>
-        <button class="feature-button" data-feature="Feature 1">Xem lịch thi</button>
-        <button class="feature-button" data-feature="Feature 2">Xem điểm</button>
-        <button class="feature-button" data-feature="Feature 3">Xem thời khóa biểu tuần</button>
-        <button class="feature-button" data-feature="Feature 4">Xem học phí</button>
-        <button id="logout-button" style="margin-top: 10px; background-color: #f44336; color: white;">Logout</button>
-      </div>
-      <div id="data"></div>
-    
-      <script src="popup.js"></script>    
-</body>
-<!-- <script src="script.js"></script> -->
+      <h2>Login</h2>
+      <input type="text" id="username" placeholder="Username" />
+      <input type="password" id="password" placeholder="Password" />
+      <button id="login-button">
+        <span>Login </span>
+        <div
+          id="login-loading"
+          class="loading-spinner"
+          style="display: none"
+        ></div>
+      </button>
+      <p id="login-error" style="color: red; display: none">
+        Incorrect username or password
+      </p>
+    </div>
 
+    <div id="feature-section" style="display: none">
+      <p id="username-display" style="font-weight: bold"></p>
+      <br />
+      <h2>Select Feature</h2>
+      <button class="feature-button" data-feature="Feature 1">
+        <span>Xem học phí </span>
+        <div
+          id="feature1-loading"
+          class="loading-spinner"
+          style="display: none"
+        ></div>
+      </button>
+      <button class="feature-button" data-feature="Feature 2">
+        <span>Xem lịch thi </span>
+        <div
+          id="feature2-loading"
+          class="loading-spinner"
+          style="display: none"
+        ></div>
+      </button>
+      <button class="feature-button" data-feature="Feature 3">
+        <span>Xem thời khóa biểu tuần </span>
+        <div
+          id="feature3-loading"
+          class="loading-spinner"
+          style="display: none"
+        ></div>
+      </button>
+      <button class="feature-button" data-feature="Feature 4">
+        <span>Xem điểm </span>
+        <div
+          id="feature4-loading"
+          class="loading-spinner"
+          style="display: none"
+        ></div>
+      </button>
+
+      <button
+        id="logout-button"
+        style="margin-top: 10px; background-color: #f44336; color: white"
+      >
+        Logout
+      </button>
+      <div
+        id="feature-loading"
+        class="loading-spinner"
+        style="display: none"
+      ></div>
+    </div>
+    <div id="data"></div>
+
+    <script src="popup.js"></script>
+  </body>
 </html>
-

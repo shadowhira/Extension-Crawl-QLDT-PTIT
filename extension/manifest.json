@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "My Extension",
+    "name": "Crawl QLDT",
     "version": "1.0",
-    "description": "An example Chrome/Edge extension",
+    "description": "An extension crawl data.",
     "permissions": ["activeTab", "storage"],
     "action": {
       "default_popup": "popup.html"

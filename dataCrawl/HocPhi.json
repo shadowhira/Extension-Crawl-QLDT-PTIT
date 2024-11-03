@@ -3,44 +3,24 @@
     "option": "Tổng hợp học phí tất cả học kỳ",
     "data": [
       {
-        "stt": "Thu Học Lại"
-      },
-      {
-        "stt": "1",
-        "niên_học_học_kỳ": "Học kỳ 3 năm học 2022 - 2023",
-        "hp_chua_giam": "1,572,000",
-        "mien_giam": "0",
-        "phai_thu": "1,572,000",
-        "da_thu": "1,572,000",
-        "con_no": "0"
-      },
-      {
-        "stt": "Tổng",
-        "niên_học_học_kỳ": "1,572,000",
-        "hp_chua_giam": "0",
-        "mien_giam": "1,572,000",
-        "phai_thu": "1,572,000",
-        "da_thu": "0"
-      },
-      {
         "stt": "Thu Học Phí"
       },
       {
         "stt": "1",
         "niên_học_học_kỳ": "Học kỳ 1 năm học 2021 - 2022",
         "hp_chua_giam": "9,840,000",
-        "mien_giam": "9,840,000",
-        "phai_thu": "0",
-        "da_thu": "0",
+        "mien_giam": "4,920,000",
+        "phai_thu": "4,920,000",
+        "da_thu": "4,920,000",
         "con_no": "0"
       },
       {
         "stt": "2",
         "niên_học_học_kỳ": "Học kỳ 2 năm học 2021 - 2022",
         "hp_chua_giam": "10,080,000",
-        "mien_giam": "10,080,000",
-        "phai_thu": "0",
-        "da_thu": "0",
+        "mien_giam": "5,040,000",
+        "phai_thu": "5,040,000",
+        "da_thu": "5,040,000",
         "con_no": "0"
       },
       {
@@ -85,16 +65,16 @@
         "hp_chua_giam": "11,970,000",
         "mien_giam": "0",
         "phai_thu": "11,970,000",
-        "da_thu": "11,970,000",
-        "con_no": "0"
+        "da_thu": "0",
+        "con_no": "11,970,000"
       },
       {
         "stt": "Tổng",
         "niên_học_học_kỳ": "77,680,000",
-        "hp_chua_giam": "19,920,000",
-        "mien_giam": "57,760,000",
-        "phai_thu": "57,760,000",
-        "da_thu": "0"
+        "hp_chua_giam": "9,960,000",
+        "mien_giam": "67,720,000",
+        "phai_thu": "55,750,000",
+        "da_thu": "11,970,000"
       }
     ]
   },
@@ -111,8 +91,8 @@
             "hocLai": "",
             "soTCHP": "7.5",
             "soTien": "3,600,000",
-            "mienGiam": "3,600,000",
-            "phaiThu": "0"
+            "mienGiam": "1,800,000",
+            "phaiThu": "1,800,000"
           },
           {
             "stt": "2",
@@ -121,8 +101,8 @@
             "hocLai": "",
             "soTCHP": "2",
             "soTien": "960,000",
-            "mienGiam": "960,000",
-            "phaiThu": "0"
+            "mienGiam": "480,000",
+            "phaiThu": "480,000"
           },
           {
             "stt": "3",
@@ -131,8 +111,8 @@
             "hocLai": "",
             "soTCHP": "3",
             "soTien": "1,440,000",
-            "mienGiam": "1,440,000",
-            "phaiThu": "0"
+            "mienGiam": "720,000",
+            "phaiThu": "720,000"
           },
           {
             "stt": "4",
@@ -141,8 +121,8 @@
             "hocLai": "",
             "soTCHP": "3",
             "soTien": "1,440,000",
-            "mienGiam": "1,440,000",
-            "phaiThu": "0"
+            "mienGiam": "720,000",
+            "phaiThu": "720,000"
           },
           {
             "stt": "5",
@@ -151,8 +131,8 @@
             "hocLai": "",
             "soTCHP": "3",
             "soTien": "1,440,000",
-            "mienGiam": "1,440,000",
-            "phaiThu": "0"
+            "mienGiam": "720,000",
+            "phaiThu": "720,000"
           },
           {
             "stt": "6",
@@ -161,8 +141,8 @@
             "hocLai": "",
             "soTCHP": "2",
             "soTien": "960,000",
-            "mienGiam": "960,000",
-            "phaiThu": "0"
+            "mienGiam": "480,000",
+            "phaiThu": "480,000"
           }
         ]
       },
@@ -170,7 +150,13 @@
         "tableIndex": 2,
         "rows": [
           {
-            "stt": "Không tìm thấy dữ liệu"
+            "stt": "Số phiếu: 0052603 - Ngày: 10/4/2021 12:00:00 AM - Số tiền: 4920000"
+          },
+          {
+            "stt": "1",
+            "maMonHoc": "",
+            "dienGiai": "Chưa phân bổ",
+            "daThu": "4,920,000"
           }
         ]
       },
@@ -193,8 +179,8 @@
             "hocLai": "",
             "soTCHP": "2",
             "soTien": "960,000",
-            "mienGiam": "960,000",
-            "phaiThu": "0"
+            "mienGiam": "480,000",
+            "phaiThu": "480,000"
           },
           {
             "stt": "2",
@@ -203,8 +189,8 @@
             "hocLai": "",
             "soTCHP": "2",
             "soTien": "960,000",
-            "mienGiam": "960,000",
-            "phaiThu": "0"
+            "mienGiam": "480,000",
+            "phaiThu": "480,000"
           },
           {
             "stt": "3",
@@ -213,8 +199,8 @@
             "hocLai": "",
             "soTCHP": "4",
             "soTien": "1,920,000",
-            "mienGiam": "1,920,000",
-            "phaiThu": "0"
+            "mienGiam": "960,000",
+            "phaiThu": "960,000"
           },
           {
             "stt": "4",
@@ -223,8 +209,8 @@
             "hocLai": "",
             "soTCHP": "3",
             "soTien": "1,440,000",
-            "mienGiam": "1,440,000",
-            "phaiThu": "0"
+            "mienGiam": "720,000",
+            "phaiThu": "720,000"
           },
           {
             "stt": "5",
@@ -233,8 +219,8 @@
             "hocLai": "",
             "soTCHP": "4",
             "soTien": "1,920,000",
-            "mienGiam": "1,920,000",
-            "phaiThu": "0"
+            "mienGiam": "960,000",
+            "phaiThu": "960,000"
           },
           {
             "stt": "6",
@@ -243,8 +229,8 @@
             "hocLai": "",
             "soTCHP": "2",
             "soTien": "960,000",
-            "mienGiam": "960,000",
-            "phaiThu": "0"
+            "mienGiam": "480,000",
+            "phaiThu": "480,000"
           },
           {
             "stt": "7",
@@ -253,8 +239,8 @@
             "hocLai": "",
             "soTCHP": "2",
             "soTien": "960,000",
-            "mienGiam": "960,000",
-            "phaiThu": "0"
+            "mienGiam": "480,000",
+            "phaiThu": "480,000"
           },
           {
             "stt": "8",
@@ -263,8 +249,8 @@
             "hocLai": "",
             "soTCHP": "2",
             "soTien": "960,000",
-            "mienGiam": "960,000",
-            "phaiThu": "0"
+            "mienGiam": "480,000",
+            "phaiThu": "480,000"
           }
         ]
       },
@@ -272,7 +258,49 @@
         "tableIndex": 2,
         "rows": [
           {
-            "stt": "Không tìm thấy dữ liệu"
+            "stt": "Số phiếu: - Ngày: 4/18/2022 12:00:00 AM - Số tiền: 5040000"
+          },
+          {
+            "stt": "1",
+            "maMonHoc": "BAS1105M",
+            "dienGiai": "Giáo dục quốc phòng",
+            "daThu": "1,800,000"
+          },
+          {
+            "stt": "2",
+            "maMonHoc": "BAS1106",
+            "dienGiai": "Giáo dục thể chất 1",
+            "daThu": "480,000"
+          },
+          {
+            "stt": "3",
+            "maMonHoc": "BAS1107",
+            "dienGiai": "Giáo dục thể chất 2",
+            "daThu": "120,000"
+          },
+          {
+            "stt": "4",
+            "maMonHoc": "BAS1150",
+            "dienGiai": "Triết học Mác - Lênin",
+            "daThu": "720,000"
+          },
+          {
+            "stt": "5",
+            "maMonHoc": "BAS1201",
+            "dienGiai": "Đại số",
+            "daThu": "720,000"
+          },
+          {
+            "stt": "6",
+            "maMonHoc": "BAS1203",
+            "dienGiai": "Giải tích 1",
+            "daThu": "720,000"
+          },
+          {
+            "stt": "7",
+            "maMonHoc": "INT1154",
+            "dienGiai": "Tin học cơ sở 1",
+            "daThu": "480,000"
           }
         ]
       },
@@ -364,49 +392,79 @@
         "tableIndex": 2,
         "rows": [
           {
-            "stt": "Số phiếu: - Ngày: 10/5/2022 12:00:00 AM - Số tiền: 10450000"
+            "stt": "Số phiếu: - Ngày: 10/14/2022 12:00:00 AM - Số tiền: 10450000"
           },
           {
             "stt": "1",
-            "maMonHoc": "BAS1152",
-            "dienGiai": "Chủ nghĩa xã hội khoa học",
-            "daThu": "1,100,000"
+            "maMonHoc": "BAS1107",
+            "dienGiai": "Giáo dục thể chất 2",
+            "daThu": "360,000"
           },
           {
             "stt": "2",
+            "maMonHoc": "BAS1151",
+            "dienGiai": "Kinh tế chính trị Mác- Lênin",
+            "daThu": "480,000"
+          },
+          {
+            "stt": "3",
+            "maMonHoc": "BAS1152",
+            "dienGiai": "Chủ nghĩa xã hội khoa học",
+            "daThu": "580,000"
+          },
+          {
+            "stt": "4",
+            "maMonHoc": "BAS1157",
+            "dienGiai": "Tiếng Anh (Course 1)",
+            "daThu": "960,000"
+          },
+          {
+            "stt": "5",
             "maMonHoc": "BAS1158",
             "dienGiai": "Tiếng Anh (Course 2)",
             "daThu": "2,200,000"
           },
           {
-            "stt": "3",
-            "maMonHoc": "BAS1227",
-            "dienGiai": "Vật lý 3 và thí nghiệm",
-            "daThu": "2,200,000"
+            "stt": "6",
+            "maMonHoc": "BAS1204",
+            "dienGiai": "Giải tích 2",
+            "daThu": "720,000"
           },
           {
-            "stt": "4",
+            "stt": "7",
+            "maMonHoc": "BAS1224",
+            "dienGiai": "Vật lý 1 và thí nghiệm",
+            "daThu": "960,000"
+          },
+          {
+            "stt": "8",
+            "maMonHoc": "BAS1226",
+            "dienGiai": "Xác suất thống kê",
+            "daThu": "480,000"
+          },
+          {
+            "stt": "9",
             "maMonHoc": "ELE1330",
             "dienGiai": "Xử lý tín hiệu số",
             "daThu": "1,100,000"
           },
           {
-            "stt": "5",
+            "stt": "10",
+            "maMonHoc": "ELE1433",
+            "dienGiai": "Kỹ thuật số",
+            "daThu": "480,000"
+          },
+          {
+            "stt": "11",
+            "maMonHoc": "INT1155",
+            "dienGiai": "Tin học cơ sở 2",
+            "daThu": "480,000"
+          },
+          {
+            "stt": "12",
             "maMonHoc": "INT1339",
             "dienGiai": "Ngôn ngữ lập trình C++",
             "daThu": "1,650,000"
-          },
-          {
-            "stt": "6",
-            "maMonHoc": "INT1358",
-            "dienGiai": "Toán rời rạc 1",
-            "daThu": "1,650,000"
-          },
-          {
-            "stt": "7",
-            "maMonHoc": "SKD1102",
-            "dienGiai": "Kỹ năng làm việc nhóm",
-            "daThu": "550,000"
           }
         ]
       },
@@ -512,33 +570,33 @@
           },
           {
             "stt": "1",
-            "maMonHoc": "",
-            "dienGiai": "Thu bổ sung mức học phí kỳ 1 năm học 2022-2023",
-            "daThu": "475,000"
+            "maMonHoc": "BAS1152",
+            "dienGiai": "Chủ nghĩa xã hội khoa học",
+            "daThu": "45,000"
           },
           {
             "stt": "2",
-            "maMonHoc": "BAS1122",
-            "dienGiai": "Tư tưởng Hồ Chí Minh",
-            "daThu": "1,100,000"
+            "maMonHoc": "BAS1159",
+            "dienGiai": "Tiếng Anh (Course 3)",
+            "daThu": "2,200,000"
           },
           {
             "stt": "3",
-            "maMonHoc": "BAS1159",
-            "dienGiai": "Tiếng Anh (Course 3)",
+            "maMonHoc": "BAS1227",
+            "dienGiai": "Vật lý 3 và thí nghiệm",
             "daThu": "2,200,000"
           },
           {
             "stt": "4",
             "maMonHoc": "ELE1319",
             "dienGiai": "Lý thuyết thông tin",
-            "daThu": "1,175,000"
+            "daThu": "1,650,000"
           },
           {
             "stt": "5",
             "maMonHoc": "INT1306",
             "dienGiai": "Cấu trúc dữ liệu và giải thuật",
-            "daThu": "1,650,000"
+            "daThu": "505,000"
           },
           {
             "stt": "6",
@@ -548,14 +606,14 @@
           },
           {
             "stt": "7",
-            "maMonHoc": "INT1359",
-            "dienGiai": "Toán rời rạc 2",
+            "maMonHoc": "INT1358",
+            "dienGiai": "Toán rời rạc 1",
             "daThu": "1,650,000"
           },
           {
             "stt": "8",
-            "maMonHoc": "SKD1103",
-            "dienGiai": "Kỹ năng tạo lập Văn bản",
+            "maMonHoc": "SKD1102",
+            "dienGiai": "Kỹ năng làm việc nhóm",
             "daThu": "550,000"
           },
           {
@@ -563,8 +621,8 @@
           },
           {
             "stt": "1",
-            "maMonHoc": "",
-            "dienGiai": "Chưa phân bổ",
+            "maMonHoc": "INT1306",
+            "dienGiai": "Cấu trúc dữ liệu và giải thuật",
             "daThu": "475,000"
           },
           {
@@ -572,47 +630,9 @@
           },
           {
             "stt": "1",
-            "maMonHoc": "ELE1319",
-            "dienGiai": "Lý thuyết thông tin",
+            "maMonHoc": "BAS1152",
+            "dienGiai": "Chủ nghĩa xã hội khoa học",
             "daThu": "475,000"
-          }
-        ]
-      },
-      {
-        "tableIndex": 3,
-        "rows": []
-      }
-    ]
-  },
-  {
-    "option": "Học kỳ 3 Năm học 2022-2023",
-    "data": [
-      {
-        "tableIndex": 1,
-        "rows": [
-          {
-            "stt": "1",
-            "maMonHoc": "BAS1152",
-            "dienGiai": "Chủ nghĩa xã hội khoa học",
-            "hocLai": "",
-            "soTCHP": "2",
-            "soTien": "1,572,000",
-            "mienGiam": "0",
-            "phaiThu": "1,572,000"
-          }
-        ]
-      },
-      {
-        "tableIndex": 2,
-        "rows": [
-          {
-            "stt": "Số phiếu: - Ngày: 7/25/2023 12:00:00 AM - Số tiền: 1572000"
-          },
-          {
-            "stt": "1",
-            "maMonHoc": "BAS1152",
-            "dienGiai": "Chủ nghĩa xã hội khoa học",
-            "daThu": "1,572,000"
           }
         ]
       },
@@ -704,67 +724,67 @@
         "tableIndex": 2,
         "rows": [
           {
-            "stt": "Số phiếu: - Ngày: 10/6/2023 12:00:00 AM - Số tiền: 11970000"
+            "stt": "Số phiếu: - Ngày: 10/13/2023 12:00:00 AM - Số tiền: 11970000"
           },
           {
             "stt": "1",
-            "maMonHoc": "BAS1122",
-            "dienGiai": "Tư tưởng Hồ Chí Minh",
-            "daThu": "50,000"
+            "maMonHoc": "",
+            "dienGiai": "Thu bổ sung mức học phí kỳ 1 năm học 2022-2023",
+            "daThu": "475,000"
           },
           {
             "stt": "2",
+            "maMonHoc": "BAS1122",
+            "dienGiai": "Tư tưởng Hồ Chí Minh",
+            "daThu": "1,150,000"
+          },
+          {
+            "stt": "3",
             "maMonHoc": "BAS1153",
             "dienGiai": "Lịch sử Đảng cộng sản Việt Nam",
             "daThu": "1,260,000"
           },
           {
-            "stt": "3",
+            "stt": "4",
             "maMonHoc": "BAS1159",
             "dienGiai": "Tiếng Anh (Course 3)",
             "daThu": "100,000"
           },
           {
-            "stt": "4",
+            "stt": "5",
             "maMonHoc": "BAS1160",
             "dienGiai": "Tiếng Anh (Course 3 Plus)",
-            "daThu": "785,000"
+            "daThu": "1,260,000"
           },
           {
-            "stt": "5",
+            "stt": "6",
             "maMonHoc": "ELE1319",
             "dienGiai": "Lý thuyết thông tin",
             "daThu": "75,000"
           },
           {
-            "stt": "6",
+            "stt": "7",
             "maMonHoc": "INT1306",
             "dienGiai": "Cấu trúc dữ liệu và giải thuật",
-            "daThu": "75,000"
+            "daThu": "745,000"
           },
           {
-            "stt": "7",
+            "stt": "8",
             "maMonHoc": "INT1313",
             "dienGiai": "Cơ sở dữ liệu",
             "daThu": "1,890,000"
           },
           {
-            "stt": "8",
+            "stt": "9",
             "maMonHoc": "INT13145",
             "dienGiai": "Kiến trúc máy tính",
             "daThu": "75,000"
           },
           {
-            "stt": "9",
+            "stt": "10",
             "maMonHoc": "INT13162",
             "dienGiai": "Lập trình với Python",
-            "daThu": "1,890,000"
-          },
-          {
-            "stt": "10",
-            "maMonHoc": "INT1319",
-            "dienGiai": "Hệ điều hành",
-            "daThu": "1,890,000"
+            "daThu": "750,000"
           },
           {
             "stt": "11",
@@ -774,21 +794,15 @@
           },
           {
             "stt": "12",
-            "maMonHoc": "INT1336",
-            "dienGiai": "Mạng máy tính",
-            "daThu": "1,890,000"
+            "maMonHoc": "INT1359",
+            "dienGiai": "Toán rời rạc 2",
+            "daThu": "1,725,000"
           },
           {
             "stt": "13",
-            "maMonHoc": "INT1359",
-            "dienGiai": "Toán rời rạc 2",
-            "daThu": "75,000"
-          },
-          {
-            "stt": "14",
             "maMonHoc": "SKD1103",
             "dienGiai": "Kỹ năng tạo lập Văn bản",
-            "daThu": "25,000"
+            "daThu": "575,000"
           }
         ]
       },
@@ -884,38 +898,38 @@
           },
           {
             "stt": "1",
-            "maMonHoc": "BAS1160",
-            "dienGiai": "Tiếng Anh (Course 3 Plus)",
-            "daThu": "475,000"
-          },
-          {
-            "stt": "2",
             "maMonHoc": "INT1303",
             "dienGiai": "An toàn và bảo mật hệ thống thông tin",
             "daThu": "1,890,000"
           },
           {
+            "stt": "2",
+            "maMonHoc": "INT13162",
+            "dienGiai": "Lập trình với Python",
+            "daThu": "1,140,000"
+          },
+          {
             "stt": "3",
-            "maMonHoc": "INT13147",
-            "dienGiai": "Thực tập cơ sở",
-            "daThu": "1,415,000"
+            "maMonHoc": "INT1319",
+            "dienGiai": "Hệ điều hành",
+            "daThu": "1,890,000"
           },
           {
             "stt": "4",
-            "maMonHoc": "INT1340",
-            "dienGiai": "Nhập môn công nghệ phần mềm",
+            "maMonHoc": "INT1336",
+            "dienGiai": "Mạng máy tính",
             "daThu": "1,890,000"
           },
           {
             "stt": "5",
-            "maMonHoc": "INT1341",
-            "dienGiai": "Nhập môn trí tuệ nhân tạo",
-            "daThu": "1,890,000"
+            "maMonHoc": "INT1340",
+            "dienGiai": "Nhập môn công nghệ phần mềm",
+            "daThu": "750,000"
           },
           {
             "stt": "6",
-            "maMonHoc": "INT14148",
-            "dienGiai": "Cơ sở dữ liệu phân tán",
+            "maMonHoc": "INT1341",
+            "dienGiai": "Nhập môn trí tuệ nhân tạo",
             "daThu": "1,890,000"
           },
           {
@@ -1020,55 +1034,7 @@
         "tableIndex": 2,
         "rows": [
           {
-            "stt": "Số phiếu: - Ngày: 10/23/2024 12:00:00 AM - Số tiền: 11970000"
-          },
-          {
-            "stt": "1",
-            "maMonHoc": "INT13146",
-            "dienGiai": "Xử lý ảnh",
-            "daThu": "1,890,000"
-          },
-          {
-            "stt": "2",
-            "maMonHoc": "INT13147",
-            "dienGiai": "Thực tập cơ sở",
-            "daThu": "475,000"
-          },
-          {
-            "stt": "3",
-            "maMonHoc": "INT1342M",
-            "dienGiai": "Phân tích và thiết kế hệ thống thông tin",
-            "daThu": "1,890,000"
-          },
-          {
-            "stt": "4",
-            "maMonHoc": "INT14149",
-            "dienGiai": "IoT và ứng dụng",
-            "daThu": "1,890,000"
-          },
-          {
-            "stt": "5",
-            "maMonHoc": "INT14151",
-            "dienGiai": "Phát triển các hệ thống thông minh",
-            "daThu": "1,890,000"
-          },
-          {
-            "stt": "6",
-            "maMonHoc": "INT1433",
-            "dienGiai": "Lập trình mạng",
-            "daThu": "1,890,000"
-          },
-          {
-            "stt": "7",
-            "maMonHoc": "INT1450",
-            "dienGiai": "Quản lý dự án phần mềm",
-            "daThu": "1,260,000"
-          },
-          {
-            "stt": "8",
-            "maMonHoc": "SKD1108",
-            "dienGiai": "Phương pháp luận nghiên cứu khoa học",
-            "daThu": "785,000"
+            "stt": "Không tìm thấy dữ liệu"
           }
         ]
       },

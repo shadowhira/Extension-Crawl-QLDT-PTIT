@@ -1,9 +1,17 @@
-document.addEventListener('DOMContentLoaded', () => {
-  const feature = "Feature 1";
-  
+document.addEventListener("DOMContentLoaded", () => {
+  const backButton = document.getElementById("back-button");
+
+  // Thêm sự kiện click cho nút quay lại
+  backButton.addEventListener("click", () => {
+    window.location.href = "../popup.html";
+  });
+  const feature = "Feature 2";
+
   // Retrieve schedule data from Chrome storage
   chrome.storage.local.get([`${feature}Data`], (result) => {
-    const scheduleData = result[`${feature}Data`] ? result[`${feature}Data`].data : null;
+    const scheduleData = result[`${feature}Data`]
+      ? result[`${feature}Data`].data
+      : null;
     console.log(scheduleData ? "Data loaded" : "No data available"); // Log for debugging
 
     if (scheduleData) {
@@ -17,9 +25,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
       // Sort terms by academic year (descending) and semester number (ascending)
       const sortedTerms = Object.keys(scheduleData).sort((a, b) => {
-        const [hocKyA, namHocA] = a.match(/Học kỳ (\d) Năm học (\d{4})-(\d{4})/).slice(1, 4);
-        const [hocKyB, namHocB] = b.match(/Học kỳ (\d) Năm học (\d{4})-(\d{4})/).slice(1, 4);
-        
+        const [hocKyA, namHocA] = a
+          .match(/Học kỳ (\d) Năm học (\d{4})-(\d{4})/)
+          .slice(1, 4);
+        const [hocKyB, namHocB] = b
+          .match(/Học kỳ (\d) Năm học (\d{4})-(\d{4})/)
+          .slice(1, 4);
+
         // Convert extracted values to integers
         const yearA = parseInt(namHocA);
         const yearB = parseInt(namHocB);
@@ -35,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
       });
 
       // Populate term select dropdown with sorted terms
-      sortedTerms.forEach(term => {
+      sortedTerms.forEach((term) => {
         const option = document.createElement("option");
         option.value = term;
         option.textContent = term;
@@ -43,8 +55,10 @@ document.addEventListener('DOMContentLoaded', () => {
       });
 
       // Display schedule based on selected term
-      termSelect.addEventListener("change", () => displaySchedule(scheduleData, termSelect.value));
-      
+      termSelect.addEventListener("change", () =>
+        displaySchedule(scheduleData, termSelect.value)
+      );
+
       // Initial display for the first term if available
       const initialTerm = termSelect.options[0]?.value;
       if (initialTerm) {
@@ -65,7 +79,7 @@ document.addEventListener('DOMContentLoaded', () => {
       row.innerHTML = `<td class="no-data" colspan="10">No data available</td>`;
       scheduleTableBody.appendChild(row);
     } else {
-      schedule.forEach(item => {
+      schedule.forEach((item) => {
         const row = document.createElement("tr");
         row.innerHTML = `
           <td>${item.stt}</td>
