@@ -19,7 +19,7 @@ async function login(page, username, password) {
     await page.click("button[class='btn btn-primary mb-1 ng-star-inserted']");
 
     // Wait for a brief moment to allow for the error message to appear, if any
-    await page.waitForTimeout(2000); // Wait for 2 seconds, adjust as necessary
+    await new Promise((resolve) => setTimeout(resolve, 2000)); // Wait for 2 seconds, adjust as necessary
 
     // Check for the error message indicating login failure
     const errorSelector = ".alert.alert-danger.p-1.mb-1.ng-star-inserted"; // Replace with actual selector

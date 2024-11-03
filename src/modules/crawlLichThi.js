@@ -9,7 +9,7 @@ async function extractLichThi(page) {
     // Chờ cho bảng thời khóa biểu xuất hiện
   await page.waitForSelector('table.table.table-sm.table-hover.table-bordered');
 
-  await new Promise(resolve => setTimeout(resolve, 1000));
+  await new Promise(resolve => setTimeout(resolve, 3000));
 
   // Chờ đợi cho trang tải và drop-down hiện ra
   await page.waitForSelector('ng-select[bindlabel="ten_hoc_ky"]');  // Dropdown của học kỳ
@@ -29,7 +29,7 @@ async function extractLichThi(page) {
     console.log(`Đang xử lý học kỳ: ${semester.text}`);
     await page.click(`#${semester.value}`);
     await page.waitForSelector('table.table.table-sm.table-hover.table-bordered');
-    await new Promise(resolve => setTimeout(resolve, 1000));
+    await new Promise(resolve => setTimeout(resolve, 3000));
 
     // Lấy dữ liệu từ bảng thời khóa biểu
   const timetableData = await page.evaluate(() => {

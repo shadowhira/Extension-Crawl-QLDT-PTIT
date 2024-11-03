@@ -943,6 +943,137 @@
     "data": [
       {
         "tableIndex": 1,
+        "rows": [
+          {
+            "stt": "1",
+            "maMonHoc": "INT13146",
+            "dienGiai": "Xử lý ảnh",
+            "hocLai": "",
+            "soTCHP": "3",
+            "soTien": "1,890,000",
+            "mienGiam": "0",
+            "phaiThu": "1,890,000"
+          },
+          {
+            "stt": "2",
+            "maMonHoc": "INT1342M",
+            "dienGiai": "Phân tích và thiết kế hệ thống thông tin",
+            "hocLai": "",
+            "soTCHP": "3",
+            "soTien": "1,890,000",
+            "mienGiam": "0",
+            "phaiThu": "1,890,000"
+          },
+          {
+            "stt": "3",
+            "maMonHoc": "INT14149",
+            "dienGiai": "IoT và ứng dụng",
+            "hocLai": "",
+            "soTCHP": "3",
+            "soTien": "1,890,000",
+            "mienGiam": "0",
+            "phaiThu": "1,890,000"
+          },
+          {
+            "stt": "4",
+            "maMonHoc": "INT14151",
+            "dienGiai": "Phát triển các hệ thống thông minh",
+            "hocLai": "",
+            "soTCHP": "3",
+            "soTien": "1,890,000",
+            "mienGiam": "0",
+            "phaiThu": "1,890,000"
+          },
+          {
+            "stt": "5",
+            "maMonHoc": "INT1433",
+            "dienGiai": "Lập trình mạng",
+            "hocLai": "",
+            "soTCHP": "3",
+            "soTien": "1,890,000",
+            "mienGiam": "0",
+            "phaiThu": "1,890,000"
+          },
+          {
+            "stt": "6",
+            "maMonHoc": "INT1450",
+            "dienGiai": "Quản lý dự án phần mềm",
+            "hocLai": "",
+            "soTCHP": "2",
+            "soTien": "1,260,000",
+            "mienGiam": "0",
+            "phaiThu": "1,260,000"
+          },
+          {
+            "stt": "7",
+            "maMonHoc": "SKD1108",
+            "dienGiai": "Phương pháp luận nghiên cứu khoa học",
+            "hocLai": "",
+            "soTCHP": "2",
+            "soTien": "1,260,000",
+            "mienGiam": "0",
+            "phaiThu": "1,260,000"
+          }
+        ]
+      },
+      {
+        "tableIndex": 2,
+        "rows": [
+          {
+            "stt": "Số phiếu: - Ngày: 10/23/2024 12:00:00 AM - Số tiền: 11970000"
+          },
+          {
+            "stt": "1",
+            "maMonHoc": "INT13146",
+            "dienGiai": "Xử lý ảnh",
+            "daThu": "1,890,000"
+          },
+          {
+            "stt": "2",
+            "maMonHoc": "INT13147",
+            "dienGiai": "Thực tập cơ sở",
+            "daThu": "475,000"
+          },
+          {
+            "stt": "3",
+            "maMonHoc": "INT1342M",
+            "dienGiai": "Phân tích và thiết kế hệ thống thông tin",
+            "daThu": "1,890,000"
+          },
+          {
+            "stt": "4",
+            "maMonHoc": "INT14149",
+            "dienGiai": "IoT và ứng dụng",
+            "daThu": "1,890,000"
+          },
+          {
+            "stt": "5",
+            "maMonHoc": "INT14151",
+            "dienGiai": "Phát triển các hệ thống thông minh",
+            "daThu": "1,890,000"
+          },
+          {
+            "stt": "6",
+            "maMonHoc": "INT1433",
+            "dienGiai": "Lập trình mạng",
+            "daThu": "1,890,000"
+          },
+          {
+            "stt": "7",
+            "maMonHoc": "INT1450",
+            "dienGiai": "Quản lý dự án phần mềm",
+            "daThu": "1,260,000"
+          },
+          {
+            "stt": "8",
+            "maMonHoc": "SKD1108",
+            "dienGiai": "Phương pháp luận nghiên cứu khoa học",
+            "daThu": "785,000"
+          }
+        ]
+      },
+      {
+        "tableIndex": 3,
         "rows": []
       }
     ]

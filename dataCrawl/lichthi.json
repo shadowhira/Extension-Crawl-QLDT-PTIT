@@ -1,5 +1,90 @@
 {
-  "Học kỳ 1 Năm học 2024-2025": [],
+  "Học kỳ 1 Năm học 2024-2025": [
+    {
+      "stt": "1",
+      "maMH": "SKD1108",
+      "tenMH": "Phương pháp luận nghiên cứu khoa học",
+      "siSo": "76",
+      "ngay": "07/12/2024",
+      "gio": "15:30",
+      "phut": "120",
+      "phong": "",
+      "coSo": "",
+      "hinhThuc": "Bài tập lớn"
+    },
+    {
+      "stt": "2",
+      "maMH": "INT1450",
+      "tenMH": "Quản lý dự án phần mềm",
+      "siSo": "39",
+      "ngay": "10/12/2024",
+      "gio": "15:30",
+      "phut": "120",
+      "phong": "611-A3",
+      "coSo": "",
+      "hinhThuc": "Thực hành (Phòng máy)"
+    },
+    {
+      "stt": "3",
+      "maMH": "INT14151",
+      "tenMH": "Phát triển các hệ thống thông minh",
+      "siSo": "32",
+      "ngay": "14/12/2024",
+      "gio": "08:00",
+      "phut": "120",
+      "phong": "611-A3",
+      "coSo": "",
+      "hinhThuc": "Thực hành (Phòng máy)"
+    },
+    {
+      "stt": "4",
+      "maMH": "INT1433",
+      "tenMH": "Lập trình mạng",
+      "siSo": "37",
+      "ngay": "19/12/2024",
+      "gio": "15:30",
+      "phut": "60",
+      "phong": "609-A3",
+      "coSo": "",
+      "hinhThuc": "Thực hành (Phòng máy)"
+    },
+    {
+      "stt": "5",
+      "maMH": "INT13146",
+      "tenMH": "Xử lý ảnh",
+      "siSo": "35",
+      "ngay": "24/12/2024",
+      "gio": "13:30",
+      "phut": "120",
+      "phong": "402-A2",
+      "coSo": "",
+      "hinhThuc": "Tự luận"
+    },
+    {
+      "stt": "6",
+      "maMH": "INT14149",
+      "tenMH": "IoT và ứng dụng",
+      "siSo": "77",
+      "ngay": "27/12/2024",
+      "gio": "08:00",
+      "phut": "120",
+      "phong": "",
+      "coSo": "",
+      "hinhThuc": "Bài tập lớn"
+    },
+    {
+      "stt": "7",
+      "maMH": "INT1342M",
+      "tenMH": "Phân tích và thiết kế hệ thống thông tin",
+      "siSo": "40",
+      "ngay": "02/01/2025",
+      "gio": "08:00",
+      "phut": "120",
+      "phong": "603B-A3",
+      "coSo": "",
+      "hinhThuc": "Thực hành (Phòng máy)"
+    }
+  ],
   "Học kỳ 3 Năm học 2023-2024": [],
   "Học kỳ 2 Năm học 2023-2024": [
     {
